@@ -56,10 +56,16 @@ An enhancer given around ineffective or threat-confirming exposure cannot simply
 
 ## Evidence grading
 
-A = replicated human clinical evidence
-B = human experimental evidence
-C = mixed/indirect human evidence
-D = preclinical/mechanistic evidence
-E = speculative mechanistic hypothesis
+Canonical definitions: [Evidence rules](../01_EVIDENCE_RULES.md).
+
+A = human clinical outcome evidence
+B = human experimental fear-learning evidence
+C = translational/preclinical evidence
+D = mechanistic evidence without direct extinction outcomes
+E = FearPrime hypothesis
+
+These categories describe evidence type. Record study quality, replication and direction of effect separately. “Primary” in the table means project priority, not proven efficacy.
+
+See the [core synthesis](CORE_SYNTHESIS.md) for current positive findings, counterevidence and combination uncertainties.
 
 Each candidate gets an individual dossier as the literature ledger is verified.

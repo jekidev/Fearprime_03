@@ -15,7 +15,7 @@ Exposure is not defined as simply remaining anxious until anxiety decreases. The
 7. Explicitly compare prediction vs outcome.
 8. Repeat/ vary exposure to prevent learning from becoming too context-specific.
 9. Record immediate learning.
-10. Test later without the biological adjunct to determine whether memory persists independently.
+10. Test later and record the treatment state. Research tests without an experimental adjunct require an appropriate design; do not skip prescribed medication to perform a retrieval test.
 
 ## Previously discussed FearPrime baseline
 
@@ -29,7 +29,7 @@ A working sequence previously used in the project:
 - interoceptive exposure treated as a separate module when bodily sensations themselves are feared
 - next-day retrieval testing
 - approximately 7-day retrieval testing
-- retrieval testing without relying on the original primer/adjunct
+- retrieval testing with treatment state documented; independence from an adjunct is a separate research question
 
 ## What counts as success?
 

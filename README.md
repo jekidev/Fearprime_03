@@ -56,3 +56,13 @@ Optimize for learning that survives:
 Every intervention must be labeled as direct human evidence, preclinical evidence, mechanistic evidence or FearPrime hypothesis. Receptor plausibility is never silently promoted to clinical efficacy.
 
 This repository is a research/evidence framework, not a clinical guideline.
+
+## Arbejd videre — version 0.2
+
+- [Fem konkrete arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
+- [Hovedkandidater: evidens og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
+- [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
+- [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
+- [Status og næste forskningsopgaver](09_DEBUG/STATUS_2026-09-15.md)
+
+Modellerne er projektets arbejdsredskaber, ikke validerede behandlingspakker. “0–100” er en vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; udfyldte personlige logs opbevares privat.
