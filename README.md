@@ -80,3 +80,11 @@ Modellerne er projektets arbejdsredskaber, ikke validerede behandlingspakker. �
 - [Kildeindeks, nye studiekort og kontrolniveauer](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
 
 Kortet skelner mellem målte forbindelser og uprøvet translation til kombinationen.
+
+## Hukommelsesprocesser — version 0.5
+
+- [Extinction, reconsolidation og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
+- [Tomt observationsskema ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
+- [Søgelog og kildebegrænsninger](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md)
+
+Gennemgangen indeholder både det positive retrieval–extinction-fund og den registrerede replikation uden ekstra effekt. Bedre funktion og en bestemt hukommelsesmekanisme er separate påstande.

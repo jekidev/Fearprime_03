@@ -67,3 +67,9 @@ FearPrime keeps **extinction** and **reconsolidation updating** conceptually sep
 After every session ask:
 
 > What new information did the nervous system actually have evidence to learn?
+
+## Detailed distinction — version 0.5
+- [Extinction, reconsolidation and return of fear](EXTINCTION_RECONSOLIDATION_RETURN.md)
+- [Return-of-fear observation template](RETURN_OF_FEAR_TEMPLATE.md)
+
+Retrieval is not proof of destabilization. A return of symptoms is not by itself a laboratory diagnosis of renewal or reinstatement. Track the observation separately from the proposed mechanism.
