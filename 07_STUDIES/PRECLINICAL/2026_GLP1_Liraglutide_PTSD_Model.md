@@ -1,52 +1,17 @@
-# GLP-1 receptor agonism in a PTSD-like mouse model
+# Liraglutid i en PTSD-lignende musemodel
+**Evidenstype C/D.** Akillioglu 2026 anvendte en model med langvarig samlet belastning (SPS), kemogenetisk påvirkning af glutamatneuroner i basolateral amygdala og GLP-1-receptoragonisten liraglutid.
 
-**Status:** VERIFIED PRECLINICAL PRIMARY STUDY  
-**Evidence grade:** C/D  
-**Track:** GLP-1 / insulin-metabolic signaling / glutamate / CREB
+Der sås forbedring af nogle angstlignende adfærdsmål og ændringer i hippocampale NR2B-, CREB- og GLP-1R-markører. Nogle c-Fos-fund overlevede ikke korrektion for falsk opdagelsesrate og er udforskende.
 
-## Citation
+De centrale adfærdsmål var angstlignende reaktioner, ikke et rent forsøg med konsolidering og senere genkaldelse af udslukning. Ingen human PTSD-effekt eller udslukningsforstærkning er dokumenteret af dette forsøg. Metabolisk tilstand, glutamat, inflammation og energifunktion er relevante hypoteser.
+
+## Kilder og originale titler
 Akillioglu K, Kose Korkmaz S, Donmez Kutlu M, et al. *GLP-1 receptor agonism reduces PTSD-like anxiety and alters amygdala-hippocampal activity patterns in a Chemogenetic mouse model.* Progress in Neuro-Psychopharmacology & Biological Psychiatry. 2026;148:111804.
 
-- PMID: 42342196
+- PMID: [42342196](https://pubmed.ncbi.nlm.nih.gov/42342196/)
 - DOI: 10.1016/j.pnpbp.2026.111804
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/42342196/
 
-## Model
-- Single prolonged stress (SPS) mouse model.
-- Chemogenetic manipulation of basolateral-amygdala glutamatergic neurons.
-- GLP-1 receptor agonist: liraglutide.
 
-## Main result
-Liraglutide was associated with improved anxiety-like behavioral measures and altered hippocampal molecular markers involving:
-- NR2B,
-- CREB,
-- GLP-1 receptor expression.
-
-Some c-Fos findings did not survive false-discovery-rate correction and were appropriately described as exploratory.
-
-## Critical FearPrime limitation
-This study did **not** demonstrate human fear-extinction enhancement.
-
-The main behavioral endpoints were anxiety-like tests in an SPS model rather than a clean extinction-consolidation/retrieval paradigm.
-
-## FearPrime interpretation
-
-GLP-1 signaling is biologically interesting because it intersects with:
-- metabolic state,
-- glutamatergic signaling,
-- CREB,
-- hippocampal/amygdala circuitry,
-- inflammation and mitochondrial metabolism.
-
-But at present:
-
-GLP-1RA → PTSD-like symptom changes in mice
-
-is supported more directly than:
-
-GLP-1RA → enhanced extinction.
-
-## FearPrime weight
-**Exploratory preclinical metabolic track.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

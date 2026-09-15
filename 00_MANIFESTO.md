@@ -1,66 +1,35 @@
-# FearPrime Manifesto
+# FearPrimes manifest
 
-## Starting point
+## Udgangspunkt
+FearPrime afviser, at alle PTSD-symptomer kan forklares som en simpel defekt eller en generel »neurokemisk ubalance«. Arbejdsmodellen er funktionel: forsvarssystemer løser problemer; traumer kan lære dem at overvurdere sandsynligheden for fare eller dens omkostninger. En reaktion kan være nyttig i en bestemt situation og samtidig meget belastende samlet set.
 
-FearPrime rejects the overly simple assumption that every PTSD symptom is merely a defect or a generic "neurochemical imbalance."
+Forskningen skal undersøge, hvad systemet gør hensigtsmæssigt, hvor det er fejlkalibreret, og hvordan personen kan få større kontrol.
 
-The working model is functional:
+## Funktionel fortolkning
+- Hyperårvågenhed: intensiv indsamling af tegn på trusler.
+- Undgåelse: en strategi til at mindske umiddelbar forventet skade.
+- Påtrængende minder: prioriteret genkaldelse af information markeret som vigtig for overlevelse.
+- Autonom aktivering: forberedelse til handling.
+- Overgeneralisering: for bred klassifikation af situationer som farlige.
 
-- defensive systems exist because they solve problems;
-- trauma can teach those systems to assign excessive probability or cost to danger;
-- a response can be locally adaptive while globally expensive;
-- treatment research should ask what the system is doing correctly, where it is miscalibrated, and how control can be returned to the person.
+Dette er forklaringshypoteser, ikke en påstand om, at alle symptomer er gavnlige.
 
-## Core reframing
+## Mål
+1. Opdage reel fare og reel sikkerhed præcist.
+2. Mindske falske farealarmer.
+3. Komme sig hurtigere efter aktivering.
+4. Kunne handle, selv når frygt er til stede.
+5. Genkalde sikkerhedslæring i flere sammenhænge.
+6. Bevare læring over tid, ved kontekstskift og efter belastning.
+7. Vælge forsvarsstrategier mere bevidst.
 
-Hypervigilance can be understood as aggressive threat sampling.
-Avoidance can be understood as a strategy that minimizes immediate expected harm.
-Intrusive memories can be understood as high-priority retrieval of information tagged as survival-relevant.
-Autonomic arousal can be understood as preparation for action.
-Generalization can be understood as a classifier that has become too broad.
+»0 → 100« beskriver projektets retning mod større handlefrihed; det er ikke en valideret klinisk skala.
 
-The project does not assume that fear itself is the enemy.
+## Frygtudslukning er ikke nødvendigvis sletning
+Arbejdsmodellen er, at frygtudslukning især skaber ny læring, som hæmmer eller konkurrerer med den oprindelige frygtassociation. Derfor kan frygt vende tilbage efter tid, kontekstskift eller uvarslede ubehagelige hændelser. En god session vurderes også på senere fastholdelse og overførsel.
 
-## Target state
+## Übermensch og selvbeherskelse
+Det filosofiske lag behandler frygtsystemer som systemer, der kan trænes. Målet er større valgfrihed: frygt, når den er nyttig; sikkerhed, når den er begrundet; bevidst møde med usikkerhed; læring fra forudsigelsesfejl; kontrol uden tab af forsvarsevne. Dette er en forskningsfilosofi, ikke en biologisk eller diagnostisk konklusion.
 
-FearPrime's target is:
-
-1. accurate detection of real threat;
-2. accurate detection of safety;
-3. low false-positive threat classification;
-4. rapid recovery after activation;
-5. ability to act while fear is present;
-6. ability to retrieve safety learning in multiple contexts;
-7. resistance to spontaneous recovery, renewal and reinstatement;
-8. deliberate rather than automatic recruitment of defensive strategies.
-
-This is the project's "0 -> 100" direction: from externally controlled threat responding toward highly calibrated internal control.
-
-## Extinction is not erasure
-
-The working model is that extinction predominantly creates new learning that inhibits or competes with the original fear association. This explains why fear can return after time, context change, stress or unsignaled aversive events.
-
-Therefore a successful session is not defined only by reduced fear at the end of that session. Retention and transfer matter more.
-
-## Ubermensch / transhumanist interpretation
-
-The Ubermensch layer of FearPrime treats biological fear systems as trainable control systems rather than identity-defining pathology.
-
-The objective is not emotional numbness. The objective is greater optionality:
-- fear when fear is useful;
-- safety when safety is justified;
-- deliberate exposure to uncertainty;
-- learning from prediction error;
-- increasing control without losing defensive capacity.
-
-This is a research philosophy, not a claim that every PTSD symptom is beneficial in every context.
-
-## Falsifiability
-
-Every FearPrime claim should be expressible as:
-- mechanism;
-- prediction;
-- measurable endpoint;
-- disconfirming result.
-
-A model that cannot fail is not a useful model.
+## Mulighed for modbevisning
+Hver påstand skal angive mekanisme, forudsigelse, målbart udfald og et resultat, som ville tale imod den. En model, som aldrig kan tage fejl, er ikke nyttig.

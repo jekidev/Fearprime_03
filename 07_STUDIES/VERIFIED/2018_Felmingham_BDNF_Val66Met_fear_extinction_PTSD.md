@@ -1,39 +1,19 @@
-# Felmingham et al. 2018 — BDNF Val66Met moderates fear extinction in PTSD
+# Felmingham 2018: BDNF-genotype og eksperimentel PTSD-læring
+**Status:** human laboratorieundersøgelse med klinisk gruppe og observationsbaseret genotype.
 
-**Status:** VERIFIED HUMAN EXPERIMENTAL STUDY  
-**Evidence grade:** B  
-**Track:** BDNF / TrkB
+106 deltagere: 22 med PTSD, 46 traumeeksponerede uden PTSD og 38 uden traumeeksponering. Hudledning blev målt under betingning/udslukning; genotype fra spyt.
 
-## Citation
+PTSD-gruppen havde langsommere tidlig udslukning. Sammenhængen mellem PTSD og dårligere læring var især tydelig hos Met-bærere, ikke påvist på samme måde hos Val/Val.
+
+Genotype er ikke direkte måling af BDNF eller TrkB i hjernen. Resultatet støtter en rolle for plasticitet, men ikke en generel angstdæmpende BDNF-effekt eller sikker individuel prognose.
+
+## Kilder og originale titler
 *The BDNF Val66Met polymorphism moderates the relationship between Posttraumatic Stress Disorder and fear extinction learning.*
 
-- PMID: 29550677
+- PMID: [29550677](https://pubmed.ncbi.nlm.nih.gov/29550677/)
 - DOI: 10.1016/j.psyneuen.2018.03.002
-- Primary: https://pubmed.ncbi.nlm.nih.gov/29550677/
 
-## Design
-- N = 106 total.
-- PTSD: n = 22.
-- Trauma-exposed controls: n = 46.
-- Non-trauma-exposed controls: n = 38.
-- Fear conditioning and extinction with skin-conductance measurement.
-- BDNF Val66Met genotyping from saliva.
 
-## Main result
-The PTSD group showed slower early extinction. The association between PTSD severity/diagnostic status and poorer extinction was especially evident among carriers of the lower-expression Met allele, while the same relationship was not demonstrated in Val/Val participants.
 
-## FearPrime interpretation
-This strengthens the clinical Felmingham 2013 finding by connecting BDNF genotype directly to an experimental extinction phenotype.
-
-### Working model
-BDNF/TrkB should be treated as a **plasticity gate**, not an anxiolytic pathway.
-
-Potentially:
-- strong fear-learning signal + high plasticity → stronger fear memory;
-- successful corrective/extinction signal + high plasticity → stronger inhibitory/safety memory.
-
-## Debug
-Genotype is a proxy affecting activity-dependent BDNF secretion; it is not equivalent to measuring brain BDNF or TrkB activation during extinction.
-
-## FearPrime weight
-**Core human BDNF evidence.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

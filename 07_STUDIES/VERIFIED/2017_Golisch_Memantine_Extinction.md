@@ -1,43 +1,23 @@
-# Golisch et al. 2017 — Memantine and human extinction/renewal learning
+# Memantin og associativ udslukningslæring
+**Status:** humant laboratorieforsøg uden ubehagelige udfald; ikke direkte frygtudslukning.
 
-**Status:** VERIFIED HUMAN EXPERIMENTAL STUDY  
-**Evidence grade:** B/C for FearPrime  
-**Track:** NMDA / memantine
+Golisch 2017: 64 inkluderet, 48 analyseret, 24 pr. gruppe. Todages fMRI-opgave; 30 mg memantin dag 2, 2,5–3 timer før udslukning/genkaldelse.
 
-## Citation
+Nogle læringsdele blev hurtigere eller bedre, men kontekstafhængig tilbagekomst faldt ikke. Præfrontal aktivitet var lavere, hippocampal højere; BMI påvirkede visse sammenhænge.
+
+Opgaven handlede om forudsigelser uden aversive udfald. Et åbent PTSD-studie (33680346) manglede placebo; et lille dobbeltblindet tillægsforsøg (37575607) viste ændringer inden for gruppe og et interventionssignal, men ikke robuste CAPS-forskelle mellem grupper ved de enkelte tidspunkter.
+
+NMDA-effekter afhænger af region, dosis og opgave. Ingen etableret forbedring af PTSD-eksponering her. Doser er metadata.
+
+## Kilder og originale titler
 Golisch A, Heba S, Glaubitz B, Tegenthoff M, Lissek S. *Enhancing Effects of NMDA-Receptor Blockade on Extinction Learning and Related Brain Activation Are Modulated by BMI.* Frontiers in Behavioral Neuroscience. 2017;11:34.
 
-- PMID: 28326025
-- PMCID: PMC5339306
+- PMID: [28326025](https://pubmed.ncbi.nlm.nih.gov/28326025/)
+- PMID: [33680346](https://pubmed.ncbi.nlm.nih.gov/33680346/)
+- PMID: [37575607](https://pubmed.ncbi.nlm.nih.gov/37575607/)
 - DOI: 10.3389/fnbeh.2017.00034
-- Primary: https://pubmed.ncbi.nlm.nih.gov/28326025/
-- Full text: https://www.frontiersin.org/articles/10.3389/fnbeh.2017.00034/full
+- PMCID: PMC5339306
+- Kildelink: https://www.frontiersin.org/articles/10.3389/fnbeh.2017.00034/full
 
-## Design
-- 64 healthy participants enrolled.
-- Final analyzed sample: N = 48, 24 memantine and 24 placebo.
-- Two-day fMRI associative predictive-learning paradigm.
-- This was **not an aversive fear-conditioning task**.
-
-## Intervention as studied
-- Single oral 30 mg memantine dose on day 2.
-- Given 2.5–3 h before extinction/recall testing.
-
-Study dose is literature metadata only.
-
-## Main result
-Memantine was associated with better/faster extinction learning in parts of the task but did not reduce the renewal effect. Neural effects included lower prefrontal and higher hippocampal activation, with BMI moderating some performance relationships.
-
-## Critical FearPrime limitation
-The paradigm involved context-dependent stimulus–outcome prediction **without aversive outcomes**.
-
-Therefore this study is evidence about human extinction-like associative learning, not direct evidence that memantine enhances fear extinction or PTSD exposure therapy.
-
-## PTSD symptom evidence
-A 2021 open-label civilian PTSD study (PMID 33680346) reported large symptom reductions but lacked placebo control. A small 2023 double-blind add-on combat-PTSD pilot (PMID 37575607) reported within-group improvement and a statistical intervention signal, but between-group CAPS differences at individual timepoints were not robust.
-
-## FearPrime interpretation
-NMDA pharmacology is not a simple “more activation = better extinction” system. Dose, brain region and task matter.
-
-## FearPrime weight
-**Interesting mechanistic candidate, not established exposure augmenter.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

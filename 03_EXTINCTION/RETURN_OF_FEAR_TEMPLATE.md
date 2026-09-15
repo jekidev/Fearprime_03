@@ -38,7 +38,7 @@ Disse er beskrivelser. Brug ikke automatisk laboratoriebegreberne som konstatere
 - Er opgaven passende nu, eller skal belastningen først reduceres?
 - Hvornår gennemgås observationerne igen?
 
-## Debug
+## Kritisk kontrol
 - Har jeg forvekslet mere ubehag med tab af al funktion?
 - Har jeg overset konkret ny fare?
 - Har jeg gjort én dårlig dag til en konklusion om hele forløbet?

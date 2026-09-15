@@ -14,7 +14,7 @@ Modellerne omsætter projektets adaptive forståelse til spørgsmål, observatio
 
 **Eksempel:** “Hvis jeg stiller et neutralt spørgsmål i butikken, bliver jeg afvist.” Afgræns på forhånd, hvad “afvist” betyder; en kort besvarelse er ikke nødvendigvis afvisning.
 **Mål:** Mere præcise forudsigelser og større handlefrihed.
-**Debug:** Mere selvsikkerhed er ikke i sig selv bedre trusselsvurdering. Reel fare kræver beskyttelse, ikke eksponering.
+**Kritisk kontrol:** Mere selvsikkerhed er ikke i sig selv bedre trusselsvurdering. Reel fare kræver beskyttelse, ikke eksponering.
 **Beslutning:** Ved konkret fare ændres situationen. Ved usikkerhed indsamles information. Ved en afprøvbar, sikker situation kan model 2 bruges.
 
 ## 2. Ny læring: Fra forudsigelse til observation
@@ -28,7 +28,7 @@ Modellerne omsætter projektets adaptive forståelse til spørgsmål, observatio
 6. Formulér en specifik opdatering: “Denne situation gik sådan”, frem for “Intet farligt kan nogensinde ske”.
 
 **Mål:** Handling, forventningsændring og senere genkaldelse måles hver for sig.
-**Debug:** Angsten behøver ikke nå nul. En ubesvaret forudsigelse er et uklart forsøg, ikke et mislykket menneske.
+**Kritisk kontrol:** Angsten behøver ikke nå nul. En ubesvaret forudsigelse er et uklart forsøg, ikke et mislykket menneske.
 **Beslutning:** Gentag eller justér en uklar opgave. Øg ikke automatisk intensiteten.
 **Afgrænsning:** Hverdagsskemaet er ikke en fuld protokol til bearbejdning af traumeminder. Ved tab af orientering/dissociation eller markant vedvarende forværring afbrydes opgaven og designet revurderes.
 
@@ -45,7 +45,7 @@ Traumefokuserede terapier som PE, CPT og EMDR har klinisk støtte; det validerer
 
 Tidspunkterne er praktiske projektvalg, ikke en valideret optimal træningsplan.
 **Mål:** Vedvarende funktion og opdaterede forventninger.
-**Debug:** En gentest er også ny læring. Derfor er flere gentests ikke rene målinger af samme hukommelsesspor.
+**Kritisk kontrol:** En gentest er også ny læring. Derfor er flere gentests ikke rene målinger af samme hukommelsesspor.
 **Beslutning:** Hvis effekten kun ses umiddelbart, beskriv den som akut. Undlad at slutte, at konsolidering er forbedret.
 **Biologisk spor:** Butyrat er en forskningskandidat; overførsel fra raske forsøgspersoner til PTSD er et separat spørgsmål. Se [kandidatsyntesen](../04_CANDIDATES/CORE_SYNTHESIS.md).
 
@@ -59,21 +59,21 @@ Tidspunkterne er praktiske projektvalg, ikke en valideret optimal træningsplan.
 5. Gentag i en anden sikker sammenhæng, når det er passende.
 
 **Mål:** Funktion på tværs af mindst to konkret beskrevne kontekster; antallet er et projektmål, ikke klinisk tærskel.
-**Debug:** Mere angst i en ny kontekst viser ikke nødvendigvis tab af al tidligere læring.
+**Kritisk kontrol:** Mere angst i en ny kontekst viser ikke nødvendigvis tab af al tidligere læring.
 **Beslutning:** Hvis forbedringen er kontekstspecifik, tilføjes læring i flere sammenhænge frem for at konkludere total fiasko.
-**Grænse:** Forsøg ikke at fremkalde traumatisering, søvnmangel eller farlige hændelser for at “teste reinstatement”. Naturligt forekommende belastning kan registreres.
+**Grænse:** Forsøg ikke at fremkalde traumatisering, søvnmangel eller farlige hændelser for at “teste genaktivering efter uvarslet ubehag”. Naturligt forekommende belastning kan registreres.
 
 ## 5. Biologisk augmentation: Hvad skal være dokumenteret?
 **Formål:** Afgøre om en kandidat har evidens for den ønskede effekt.
 **Arbejdsgang:**
 1. Definér effektmålet: akut ro, næste-dags læring, funktion eller kliniske symptomer.
 2. Find både positive, negative og replikerende studier.
-3. Registrér population, formulering, timing, comparator og faktisk målt endpoint.
+3. Registrér population, formulering, timing, kontrolbetingelse og faktisk målt udfaldsmål.
 4. Spørg om kombinationen selv er undersøgt.
 5. Skriv, hvad der ville sænke tilliden til hypotesen.
 
 **Mål:** En begrundet evidensbeslutning — ikke antallet af tilføjede stoffer.
-**Debug:** Ét stofs positive resultat dokumenterer ikke en stack. Mere plasticitet er ikke ensbetydende med mere hensigtsmæssig læring.
+**Kritisk kontrol:** Ét stofs positive resultat dokumenterer ikke en stofkombination. Mere plasticitet er ikke ensbetydende med mere hensigtsmæssig læring.
 **Beslutning:** Markér “klinisk støtte”, “blandet human eksperimentel evidens”, “præklinisk” eller “hypotese” efter kilderne.
 **Konkret prioritet:** Butyrat, L-DOPA og oxytocin vurderes med direkte humane studier; Latuda og amisulprid kræver tydelig adskillelse mellem receptorhypotese og klinisk effekt.
 

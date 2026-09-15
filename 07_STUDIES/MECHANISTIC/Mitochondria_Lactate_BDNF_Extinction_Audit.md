@@ -1,73 +1,21 @@
-# Mitochondria / lactate / BDNF — FearPrime evidence audit
+# Mitokondrier, laktat og BDNF: kritisk vurdering
+**Evidenstype D/E** for målrettet forbedring af human frygtudslukning.
 
-**Status:** MECHANISTIC AUDIT  
-**Evidence grade:** D/E for direct extinction augmentation  
-**Track:** energy metabolism / lactate / BDNF / mitochondrial function
+Læring kræver synaptisk ombygning, proteinsyntese, genopretning af iongradienter, glutamat/GABA, CREB-transkription og BDNF/TrkB. Motion påvirker samtidig energiomsætning, laktat, katekolaminer og endocannabinoider.
 
-## Why this track matters
+Laktat kan fungere som brændstof, redoxsignal og transporteret substrat mellem astrocytter og neuroner. Sammenhænge med plasticitet i andre paradigmer dokumenterer ikke en replikeret human effekt af tilført laktat på frygtudslukning.
 
-Fear learning and extinction require:
-- synaptic remodeling,
-- protein synthesis,
-- ion-gradient restoration,
-- glutamatergic/GABAergic signaling,
-- CREB-dependent transcription,
-- BDNF/TrkB signaling,
-- and substantial energetic support.
+Mitokondriel funktion kan påvirke signalering, plasticitet, stressrespons og konsolidering. At øge ATP eller mitokondriel nydannelse er dog ikke her vist at forbedre human udslukning.
 
-Exercise — one of FearPrime's better-supported augmentation tracks — changes lactate, catecholamines, endocannabinoids, BDNF and mitochondrial demand simultaneously.
+Stærkere forskningsspor omfatter motion, BDNF/anandamid, BDNF Val66Met, metabolisk tilstand og søvn. Søg videre efter laktatinfusion, MCT1/MCT2-manipulation, respiration i vmPFC/amygdala og kausale mediationsforsøg med senere genkaldelse og kontekstskift. Samvariation er utilstrækkelig til at udpege laktat som årsag.
 
-## Lactate hypothesis
+## Kilder og originale titler
 
-Lactate is not merely metabolic waste. It can act as:
-- neuronal/glial fuel,
-- a redox/metabolic signal,
-- a substrate shuttled between astrocytes and neurons,
-- and a signaling molecule linked in other learning/depression paradigms to BDNF-related pathways.
 
-However, the current FearPrime audit did **not** identify a strong replicated human study showing that exogenous lactate administration specifically improves conditioned-fear extinction or PTSD exposure outcome.
 
-## Mitochondrial hypothesis
 
-Mitochondrial function plausibly constrains:
-- neuronal firing,
-- plasticity,
-- stress adaptation,
-- ROS/redox signaling,
-- memory consolidation.
 
-But evidence that deliberately increasing mitochondrial biogenesis or ATP production directly improves human fear extinction remains indirect.
 
-## Key rule
 
-Do not infer:
-
-exercise improves extinction + exercise raises lactate → lactate causes the extinction benefit
-
-without intervention-level mediation evidence.
-
-Likewise:
-
-better mitochondrial function → better cognition
-
-does not establish:
-
-mitochondrial enhancer → better fear extinction.
-
-## Connections already supported elsewhere in FearPrime
-The stronger human evidence currently runs through:
-- exercise → BDNF/anandamide changes → altered reinstatement outcomes,
-- BDNF Val66Met → extinction/exposure-response differences,
-- fasting/metabolic state → extinction retention,
-- sleep → extinction-memory consolidation.
-
-## Research priority
-Search specifically for:
-1. lactate infusion + fear conditioning/extinction,
-2. MCT1/MCT2 manipulation and extinction memory,
-3. mitochondrial respiration in vmPFC/amygdala during extinction,
-4. lactate × BDNF/TrkB causal mediation,
-5. metabolic interventions with delayed retrieval and renewal testing.
-
-## FearPrime weight
-**Mechanistically attractive, currently low direct translational certainty.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

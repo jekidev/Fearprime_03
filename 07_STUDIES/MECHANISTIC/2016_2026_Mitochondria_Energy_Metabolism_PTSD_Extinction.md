@@ -1,106 +1,34 @@
-# Mitochondria and energy metabolism in PTSD/fear extinction
+# Mitokondrier og energistofskifte
+**Evidens:** humane sammenhænge og prækliniske mekanismer; lav direkte sikkerhed for intervention.
 
-**Status:** VERIFIED HUMAN CORRELATIONAL + PRECLINICAL MECHANISTIC EVIDENCE  
-**Evidence grade:** C/D for extinction augmentation  
-**Track:** mitochondria / OXPHOS / TCA / bioenergetics
+- Human PET/fMRI (26917165): PTSD n=24, traumeeksponerede uden PTSD n=20, raske n=21. Hvilestofskifte blev målt fire dage før læringsundersøgelsen og var forbundet med senere kredsløbsaktivitet og kliniske mål.
+- Oversigt (29628193): PTSD, metabolitter, inflammation og mitokondriel funktion.
+- 5-HTT-knockoutrotter (36386781): svækket senere genkaldelse ledsaget af ændret deling/sammenføjning af mitokondrier, oxidativ fosforylering, nydannelse og antioxidantsystemer i amygdala/PFC.
+- Paroxetin og rotters udslukning (41839375): forskelle i respons knyttet til pentosefosfat-, purin- og citronsyrecyklus samt synaptiske og mitokondrielle profiler.
+- Belastningsmodeller (42568809): regions- og fænotypespecifikke tilpasninger i oxidativ fosforylering.
 
-## Human fear-network metabolism
+Fundene forbinder energitilstand med frygtkredsløb, men dokumenterer ikke, at et mitokondrietilskud forbedrer human PTSD-udslukning. Forandringer kan være sårbarhed, tilpasning, følge af belastning eller en kombination.
 
-**Title:** Association of Resting Metabolism in the Fear Neural Network With Extinction Recall Activations and Clinical Measures in Trauma-Exposed Individuals
+## Kilder og originale titler
+**Originaltitel:** Association of Resting Metabolism in the Fear Neural Network With Extinction Recall Activations and Clinical Measures in Trauma-Exposed Individuals
 
-- PMID: 26917165
-- PTSD n = 24.
-- Trauma-exposed no-PTSD n = 20.
-- Healthy controls n = 21.
-- Resting PET followed four days later by fMRI fear conditioning/extinction.
+**Originaltitel:** Metabolism, Metabolomics, and Inflammation in Posttraumatic Stress Disorder
 
-### Main relevance
-Resting metabolic properties of amygdala/hippocampal fear circuitry related to clinical function and later extinction-recall activation patterns.
+**Originaltitel:** Alterations of mitochondrial dynamics in serotonin transporter knockout rats: A possible role in the fear extinction recall mechanisms
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/26917165/
+**Originaltitel:** Hippocampal energy metabolism reprogramming underlies individual differences in paroxetine-facilitated contextual fear extinction
 
-This demonstrates a relationship between regional metabolism and extinction circuitry but not that mitochondrial enhancement improves extinction.
+**Originaltitel:** Prelimbic cortex-associated stress sensitisation and region-specific mitochondrial adaptations across preclinical approaches relevant to PTSD and depression
 
----
-
-## PTSD metabolomics/inflammation review
-
-**Title:** Metabolism, Metabolomics, and Inflammation in Posttraumatic Stress Disorder
-
-- PMID: 29628193
+- PMID: [26917165](https://pubmed.ncbi.nlm.nih.gov/26917165/)
+- PMID: [29628193](https://pubmed.ncbi.nlm.nih.gov/29628193/)
+- PMID: [36386781](https://pubmed.ncbi.nlm.nih.gov/36386781/)
+- PMID: [41839375](https://pubmed.ncbi.nlm.nih.gov/41839375/)
+- PMID: [42568809](https://pubmed.ncbi.nlm.nih.gov/42568809/)
 - DOI: 10.1016/j.biopsych.2018.02.007
-
-Review integrates PTSD evidence for altered metabolism, circulating metabolites, inflammation and mitochondrial dysfunction.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/29628193/
-
----
-
-## 5-HTT knockout rat extinction-recall study
-
-**Title:** Alterations of mitochondrial dynamics in serotonin transporter knockout rats: A possible role in the fear extinction recall mechanisms
-
-- PMID: 36386781
 - DOI: 10.3389/fnbeh.2022.957702
 
-### Main result
-Rats with impaired extinction recall also showed abnormalities in:
-- mitochondrial fission/fusion,
-- oxidative phosphorylation,
-- mitochondrial biogenesis,
-- antioxidant systems,
-in amygdala and prefrontal cortex.
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/36386781/
 
----
-
-## 2026 energy-metabolism extinction paper
-
-**Title:** Hippocampal energy metabolism reprogramming underlies individual differences in paroxetine-facilitated contextual fear extinction
-
-- PMID: 41839375
-- Rat study.
-- Proteomic/metabolite profiles linked extinction-response heterogeneity to:
-  - pentose phosphate pathway,
-  - purine metabolism,
-  - TCA-cycle metabolism,
-  - synaptic and mitochondrial pathways.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/41839375/
-
----
-
-## 2026 stress-model mitochondrial study
-
-**Title:** Prelimbic cortex-associated stress sensitisation and region-specific mitochondrial adaptations across preclinical approaches relevant to PTSD and depression
-
-- PMID: 42568809
-- Preclinical stress-enhanced fear learning / chronic stress work.
-- Region- and phenotype-specific OXPHOS adaptations.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/42568809/
-
-## FearPrime interpretation
-
-The data support:
-
-`bioenergetic state ↔ fear-network function / resilience / extinction phenotype`
-
-They do **not yet support**:
-
-`mitochondrial supplement/drug X → improved human PTSD extinction`.
-
-Mitochondrial abnormalities may be:
-- causal vulnerability factors,
-- adaptive responses to energetic demand,
-- consequences of stress,
-- or all three depending on circuit/state.
-
-## FearPrime weight
-**Important systems-biology layer; low direct intervention certainty.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

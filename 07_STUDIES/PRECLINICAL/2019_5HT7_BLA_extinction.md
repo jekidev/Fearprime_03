@@ -1,41 +1,17 @@
-# de Assis Brasil et al. 2019 — 5-HT7 blockade in basolateral amygdala and extinction
+# de Assis Brasil 2019: lokal 5-HT7-blokade og udslukning
+**Evidenstype C.** Hanrotter fik selektiv antagonist SB-269970, 5 µg pr. side, lokalt i basolateral amygdala eller hippocampus CA1 umiddelbart eller tre timer efter træning.
 
-**Status:** VERIFIED PRECLINICAL PRIMARY STUDY  
-**Evidence grade:** C  
-**Role:** mechanistic support for the lurasidone / 5-HT7 hypothesis
+5-HT7-blokade i amygdala lettede senere udtryk af udslukningshukommelsen ved begge tidspunkter; den tilsvarende effekt blev ikke set i CA1.
 
-## Citation
+Resultatet støtter en regional konsolideringshypotese. Det beviser hverken, at lurasidons virkning skyldes 5-HT7, eller at systemisk behandling hos mennesker svarer til lokal infusion hos rotter. Studiedosen er ikke en anvendelsesvejledning.
+
+## Kilder og originale titler
 Silva de Assis Brasil E, Guerino Furini CR, da Silva Rodrigues F, et al. *The blockade of the serotoninergic receptors 5-HT5A, 5-HT6 and 5-HT7 in the basolateral amygdala, but not in the hippocampus facilitate the extinction of fear memory.* Behavioural Brain Research. 2019;372:112055.
 
-- PMID: 31233821
+- PMID: [31233821](https://pubmed.ncbi.nlm.nih.gov/31233821/)
 - DOI: 10.1016/j.bbr.2019.112055
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/31233821/
 
-## Design
-Male rats received region-specific infusions into either:
-- basolateral amygdala (BLA), or
-- CA1 hippocampus,
 
-immediately or three hours after extinction training.
 
-The selective 5-HT7 antagonist used was SB-269970, 5 µg/side.
-
-## Main result
-5-HT7 antagonism in the BLA:
-- facilitated later extinction-memory expression when given immediately after extinction;
-- also showed facilitation when given 3 h after extinction.
-
-The corresponding effect was not observed in CA1.
-
-## FearPrime interpretation
-This supports a **regional 5-HT7-dependent consolidation hypothesis** in fear extinction and is relevant because lurasidone is a potent 5-HT7 antagonist.
-
-But this does not prove that lurasidone's preclinical extinction effects are caused by 5-HT7 blockade, nor that systemic human lurasidone will reproduce local rat BLA pharmacology.
-
-## Debug
-- Rat study with intracranial infusion.
-- Selective research antagonist, not lurasidone.
-- Local receptor manipulation is very different from systemic multi-receptor drug exposure.
-
-## FearPrime weight
-**Mechanistic support only.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

@@ -1,74 +1,20 @@
-# Fear Extinction Model
+# Model for frygtudslukning
 
-## Core model
+## Betingning og ny læring
+Ved betingning forbindes et signal (CS) med et ubehageligt udfald (US). Ved udslukning præsenteres signalet, mens det forventede ubehag udebliver. Forskellen mellem forventning og udfald kan understøtte ny hæmmende læring og sikkerhedslæring. Den oprindelige association kan stadig være tilgængelig.
 
-Acquisition:
-```text
-CS -> expected threat -> US / aversive outcome
-```
+## Hvorfor frygt vender tilbage
+- **Spontan tilbagekomst:** frygt vender tilbage med tiden.
+- **Kontekstafhængig tilbagekomst:** et skift i omgivelser favoriserer trusselsminder.
+- **Genaktivering efter uvarslet ubehag:** et ubehageligt udfald uden signal kan genoprette reaktionen.
+- **Hurtig genindlæring:** tidligere associationer kan læres igen hurtigere.
 
-Extinction:
-```text
-CS -> expected threat
-CS -> no expected aversive outcome
-=> prediction error
-=> new inhibitory/safety association
-```
+## Forskningsmål
+Undersøg både indlæring, konsolidering, genkaldelse, overførsel, skelneevne og modstandskraft mod tilbagekomst.
 
-The original association can remain available. Extinction retrieval must win the competition later.
+Mulige påvirkninger er brud på forventninger, antallet og kvaliteten af afprøvninger uden ubehageligt udfald, opmærksomhed, kontekstvariation, genkaldelsessignaler, søvn, neuromodulation, belastning og tidspunkt for biologiske tillæg.
 
-## Why fear returns
+Spørgsmålet ved eksponering er: Hvad forventede jeg, hvad skete, og holder ændringen senere?
 
-### Spontaneous recovery
-Time weakens retrieval dominance of extinction learning.
-
-### Renewal
-A context change favors the original threat memory.
-
-### Reinstatement
-An unsignaled aversive event can restore threat responding.
-
-### Rapid reacquisition
-Previously learned threat associations can return faster than they were first acquired.
-
-## FearPrime implication
-
-The project should optimize not only extinction acquisition but:
-- consolidation;
-- retrieval;
-- contextual generalization;
-- discrimination;
-- resistance to relapse.
-
-## Learning variables
-
-Potentially important:
-- expectancy violation;
-- number/quality of nonreinforced trials;
-- attention to the feared prediction;
-- variability of context;
-- retrieval cues;
-- sleep and consolidation;
-- neuromodulatory state;
-- stress/arousal level;
-- timing of plasticity modifiers.
-
-## Exposure principle
-
-A useful exposure trial is not simply "stay until calm."
-
-A stronger learning question is:
-
-**What did I predict would happen, what actually happened, and does that update survive later?**
-
-## Mechanistic nodes tracked by FearPrime
-
-- amygdala threat expression;
-- vmPFC extinction retrieval/inhibition;
-- hippocampal context;
-- NMDA-dependent plasticity;
-- dopamine-dependent salience/consolidation;
-- BDNF/TrkB signaling;
-- epigenetic regulation including histone acetylation;
-- oxytocin/social-context modulation;
-- autonomic arousal systems.
+## Mekanismer
+Projektet følger amygdalas trusselsreaktioner, vmPFC, hippocampus, NMDA, dopamin, BDNF/TrkB, epigenetik, oxytocin og autonom regulering. Disse er forskningsområder, ikke bevis for én samlet behandlingsmodel.

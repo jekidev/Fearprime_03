@@ -1,38 +1,17 @@
-# 2026 review — Pharmacological enhancement of fear extinction
+# Farmakologisk forbedring af frygtudslukning: oversigt fra 2026
+**Status:** metodisk og faglig litteraturoversigt.
 
-**Status:** VERIFIED CURRENT REVIEW  
-**Evidence grade:** review / field-level synthesis
+Oversigten i Trends in Cognitive Sciences, 30(2):162–174, gennemgår blandt andet D-cycloserin, glukokortikoider og L-DOPA. Præklinisk støtte har ikke givet ensartede humane resultater, og mange design isolerer ikke indlæring, konsolidering og genkaldelse.
 
-## Citation
-*Pharmacological enhancement of fear extinction.* Trends in Cognitive Sciences. 2026;30(2):162-174.
+Et stof bør derfor kun beskrives som forbedrende for en nærmere angivet fase og et bestemt udfald. Senere genkaldelse, kontekstskift, uvarslet ubehag og tid skal undersøges særskilt.
 
-- PMID: 40634208
-- DOI: 10.1016/j.tics.2025.06.011
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/40634208/
-
-## Scope
-The review focuses on human/preclinical work involving:
-- D-cycloserine,
-- glucocorticoids,
-- L-DOPA,
-
-and evaluates whether study methodology actually isolates extinction acquisition, consolidation and retrieval.
-
-## Main message
+## Kilder og originale titler
 Despite promising rodent support, human results are mixed and many experiments are not designed strongly enough to determine *which extinction process* an intervention alters.
 
-## FearPrime implication
-This directly supports the repository architecture:
-- acquisition,
-- consolidation,
-- retrieval,
-- renewal,
-- reinstatement,
-- spontaneous recovery
+- PMID: [40634208](https://pubmed.ncbi.nlm.nih.gov/40634208/)
+- DOI: 10.1016/j.tics.2025.06.011
 
-must be separate endpoints.
 
-A compound should not be called an “extinction enhancer” unless the specific phase and return-of-fear test are identified.
 
-## FearPrime weight
-**High methodological priority.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

@@ -29,7 +29,7 @@ Brug privat kopi. Se [måleplan](MEASUREMENT_PLAN.md).
 - Vedvarende gevinst / akut effekt / uklart:
 - Eventuel forværring og ændring af planen:
 
-## Debug
+## Kritisk kontrol
 - Var forudsigelsen reelt testet?
 - Har jeg forvekslet ro med læring?
 - Hvad mangler jeg at vide?

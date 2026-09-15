@@ -1,52 +1,19 @@
-# Gerlicher et al. 2019 — L-DOPA works after successful extinction
+# Gerlicher 2019: L-DOPA og vellykket udslukning
+**Evidenstype B.** To dobbeltblindede randomiserede placebokontrollerede forsøg med raske mænd: n=79 med ti udslukningspræsentationer og n=32 med 25.
 
-**Status:** VERIFIED PRIMARY HUMAN STUDY  
-**Evidence grade:** B  
-**Population:** healthy male adults
+Betingning dag 1, udslukning dag 2 og genkaldelse dag 3; 150 mg levodopa/37,5 mg benserazid efter udslukning. Differentiel hudledning var udfaldet.
 
-## Citation
+Fordelen afhang af reaktionen ved sessionens slutning: efter vellykket reduktion sås bedre genkaldelse, mens fordelen forsvandt ved ufuldstændig udslukning. Nogle analyser pegede på mere senere frygt i sidstnævnte gruppe. Blandt vellykkede deltagere i første forsøg var den rapporterede forskel cirka d=0,80.
+
+Dette er et betinget resultat, ikke en universel effekt eller et klinisk succeskriterium. Andet forsøg var lille; senere registreret replikation fandt ikke en samlet L-DOPA-fordel. Doser er metadata.
+
+## Kilder og originale titler
 Gerlicher AMV, Tüscher O, Kalisch R. *L-DOPA improves extinction memory retrieval after successful fear extinction.* Psychopharmacology. 2019;236:3401-3412.
 
-- PMID: 31243481
-- PMCID: PMC6892771
+- PMID: [31243481](https://pubmed.ncbi.nlm.nih.gov/31243481/)
 - DOI: 10.1007/s00213-019-05301-4
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/31243481/
+- PMCID: PMC6892771
 
-## Design
-Two double-blind randomized placebo-controlled experiments:
-- Experiment 1: N = 79, short extinction, 10 trials.
-- Experiment 2: N = 32, long extinction, 25 trials.
-- Day 1: fear conditioning.
-- Day 2: extinction, followed by L-DOPA or placebo.
-- Day 3: extinction-memory retrieval test.
-- Outcome: differential skin conductance responses.
 
-## Intervention as studied
-- 150 mg levodopa + 37.5 mg benserazide after extinction.
-- Placebo comparator.
-
-Study dose is literature metadata, not a personal dosing instruction.
-
-## Main result
-Across both experiments, the effect depended on the conditioned response remaining at the end of extinction:
-- after complete/successful fear reduction, L-DOPA improved next-day extinction retrieval;
-- after incomplete/non-successful extinction, benefit disappeared;
-- in some analyses, the direction suggested **greater later fear** after L-DOPA when extinction was unsuccessful.
-
-In experiment 1, successful extinguishers showed a substantial group difference favoring L-DOPA (reported Cohen d ≈ 0.80 for differential SCR at test).
-
-## FearPrime interpretation
-This is one of the strongest studies supporting the FearPrime rule:
-
-> A consolidation enhancer may amplify the memory trace produced by the session; it does not know whether the session was therapeutically useful.
-
-Therefore, learning quality must be treated as an interaction variable, not a footnote.
-
-## Debug / limitations
-- Healthy men only.
-- Small second experiment.
-- “Successful extinction” was operationalized through laboratory conditioned responses, not clinical functioning.
-- Later preregistered replication work did not reproduce a simple overall L-DOPA enhancement effect.
-
-## FearPrime weight
-**Core boundary-condition study.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

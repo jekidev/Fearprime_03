@@ -1,50 +1,25 @@
-# 2022 propranolol reconsolidation meta-analyses — conflicting conclusions
+# Propranolol: modstridende metaanalyser fra 2022
+**Status:** sammenfatninger med forskellige populationer, udfald og analysevalg.
 
-**Status:** VERIFIED REVIEW CONFLICT  
-**Evidence grade:** A synthesis, but heterogeneous
+- **Pigeon (35361699):** 14 studier med 478 raske og 12 kliniske studier med 446 deltagere. Rapporterede samlet fordel i raske og en mindre klinisk fordel på tværs af PTSD, afhængighed og fobi.
+- **Raut (35405409):** syv studier bidrog PTSD-symptommål. Ingen signifikant samlet fordel for symptomer, hudledning eller EMG over placebo; pulsreaktionen var reduceret.
+- **Steenen (36130812):** kommentar og korrigeret/opdateret analyse argumenterede for manglende propranolol–placebo-effekt på traumatisk rekonsolidering. Dette er ikke et nyt klinisk forsøg.
 
-## Meta-analysis 1 — Pigeon et al. 2022
+Sammenfatningerne må ikke bruges som dokumentation for valideret sletning af minder. Population, genaktivering, forudsigelsesfejl, timing, udfald og analysevalg er afgørende. Se [klinisk gennemgang](../../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md).
+
+## Kilder og originale titler
 *Impairing memory reconsolidation with propranolol in healthy and clinical samples: a meta-analysis.*
 
-- PMID: 35361699
-- PMCID: PMC8979654
-- DOI: 10.1503/jpn.210057
-- Healthy samples: 14 studies, n = 478.
-- Clinical samples: 12 studies, n = 446.
-- Reported pooled benefit for aversive/cue-reactivity outcomes in healthy samples and a smaller pooled clinical benefit across PTSD, addiction and phobia.
-
-Primary: https://pubmed.ncbi.nlm.nih.gov/35361699/
-
-## Meta-analysis 2 — Raut et al. 2022
 *Effects of propranolol on the modification of trauma memory reconsolidation in PTSD patients: A systematic review and meta-analysis.*
 
-- PMID: 35405409
+- PMID: [35361699](https://pubmed.ncbi.nlm.nih.gov/35361699/)
+- PMID: [35405409](https://pubmed.ncbi.nlm.nih.gov/35405409/)
+- PMID: [36130812](https://pubmed.ncbi.nlm.nih.gov/36130812/)
 - DOI: 10.1016/j.jpsychires.2022.03.045
-- Seven studies contributed PTSD symptom outcomes.
-- Found no significant overall benefit for PTSD symptoms, skin conductance or EMG relative to placebo; heart-rate reactivity was reduced.
-
-Primary: https://pubmed.ncbi.nlm.nih.gov/35405409/
-
-## Rectification/comment
-Steenen et al. 2022 argued that an updated/rectified analysis showed no propranolol-vs-placebo effect on traumatic-memory reconsolidation disruption.
-
-- PMID: 36130812
+- DOI: 10.1503/jpn.210057
 - DOI: 10.1503/jpn.220072-l
-- https://pubmed.ncbi.nlm.nih.gov/36130812/
+- PMCID: PMC8979654
 
-## FearPrime interpretation
-Do not code propranolol as “validated memory erasure.”
 
-Instead:
-`reactivation + beta-adrenergic modulation → possible reduction in later emotional/physiological expression`
-
-with major dependence on:
-- retrieval conditions,
-- prediction error / destabilization,
-- protocol timing,
-- outcome type,
-- population,
-- analytic choices.
-
-## FearPrime weight
-**Mandatory contradictory-evidence module.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

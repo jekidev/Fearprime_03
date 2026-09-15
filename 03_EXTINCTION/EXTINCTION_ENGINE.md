@@ -1,75 +1,40 @@
-# FearPrime extinction engine
+# FearPrimes model for eksponering og frygtudslukning
 
-## Working model
+## Arbejdsmodel
+Eksponering skal skabe ny læring; ro ved sessionens afslutning er ikke det eneste mål.
 
-Exposure is not defined as simply remaining anxious until anxiety decreases. The central target is **new learning**.
+1. Identificér den frygtede situation.
+2. Beskriv det forventede udfald på forhånd.
+3. Angiv sikkerheden på forudsigelsen.
+4. Afprøv den gennem gradueret, men meningsfuld eksponering.
+5. Vurdér, om unødvendig sikkerhedsadfærd forhindrer afprøvningen.
+6. Observer det faktiske udfald.
+7. Sammenhold forventning og observation.
+8. Gentag eller variér, så læringen ikke kun gælder én sammenhæng.
+9. Registrér den umiddelbare læring.
+10. Undersøg senere genkaldelse og registrér behandlingsforholdene. Spring ikke ordineret medicin over for at foretage en gentest.
 
-### Session loop
+## Tidligere arbejdsrækkefølge
+Projektet har arbejdet med en stabil observationsperiode, undersøgelse af butyrat som muligt tillæg, gradueret eksponering og bevidst afprøvning af forventninger. Et aktiveringsniveau omkring 3–5/10 har været en praktisk tommelfingerregel, ikke et universelt krav eller en valideret protokol.
 
-1. Identify feared stimulus/context.
-2. Write the predicted outcome before exposure.
-3. Estimate confidence in that prediction.
-4. Enter a graded but meaningful exposure.
-5. Avoid unnecessary safety behaviors that prevent testing the prediction.
-6. Observe what actually occurs.
-7. Explicitly compare prediction vs outcome.
-8. Repeat/ vary exposure to prevent learning from becoming too context-specific.
-9. Record immediate learning.
-10. Test later and record the treatment state. Research tests without an experimental adjunct require an appropriate design; do not skip prescribed medication to perform a retrieval test.
+Gentagelse af relevante situationer, separat arbejde med frygt for kropslige fornemmelser samt observation næste dag og omkring syv dage senere indgår. Uafhængighed af et forsøgsstof kræver et særskilt forskningsdesign.
 
-## Previously discussed FearPrime baseline
+## Udfald
+Hold ændring i forventninger, tilnærmelsesadfærd, tolerance for ubehag, overførsel til nye sammenhænge, fastholdelse næste dag og senere samt forskellige former for tilbagevendende frygt adskilt.
 
-A working sequence previously used in the project:
+## Rekonsolidering
+Genkaldelse efterfulgt af ny information kan indgå i både udslukning og rekonsolidering. Påstanden om ændring eller sletning af det oprindelige minde kræver mere end symptomlettelse.
 
-- stable medication/experimental baseline
-- butyrate investigated as a plasticity/consolidation adjunct
-- graded exposure around a moderate activation target (~3–5/10 as a starting heuristic, not a universal requirement)
-- deliberate prediction error
-- repeated encounters with the same feared stimulus when useful
-- interoceptive exposure treated as a separate module when bodily sensations themselves are feared
-- next-day retrieval testing
-- approximately 7-day retrieval testing
-- retrieval testing with treatment state documented; independence from an adjunct is a separate research question
+## Fejlkilder
+- Forudsigelsen bliver aldrig reelt afprøvet.
+- Overvældende eksponering bekræfter hjælpeløshed.
+- Sikkerhedsadfærd forhindrer læring.
+- Akut angstdæmpning forveksles med varig læring.
+- Øget plasticitet styrker uønsket læring.
+- Læringen knyttes kun til ét rum, én person eller én tilstand.
+- Senere genkaldelse bliver ikke undersøgt.
+- Mekanismen antages ud fra symptomændring.
 
-## What counts as success?
+Spørg: Hvilken ny information var der faktisk grundlag for at lære?
 
-Not only lower anxiety during the session.
-
-Measure separately:
-
-- expectancy change
-- approach behavior
-- distress tolerance
-- context generalization
-- next-day retention
-- delayed retention
-- spontaneous recovery
-- renewal
-- reinstatement
-
-## Reconsolidation distinction
-
-FearPrime keeps **extinction** and **reconsolidation updating** conceptually separate. Both can involve retrieval followed by new information, but claims that an original fear memory has been erased require substantially stronger evidence than claims of successful inhibitory learning.
-
-## Failure modes
-
-- exposure is too weak to test the feared prediction
-- exposure is overwhelming and confirms helplessness
-- safety behaviors prevent prediction testing
-- acute anxiolysis is mistaken for learning
-- biological augmentation strengthens an unsuccessful session
-- learning occurs only in one room/person/state
-- no delayed retrieval test is performed
-- symptom change is measured but mechanism is assumed rather than tested
-
-## FearPrime debug question
-
-After every session ask:
-
-> What new information did the nervous system actually have evidence to learn?
-
-## Detailed distinction — version 0.5
-- [Extinction, reconsolidation and return of fear](EXTINCTION_RECONSOLIDATION_RETURN.md)
-- [Return-of-fear observation template](RETURN_OF_FEAR_TEMPLATE.md)
-
-Retrieval is not proof of destabilization. A return of symptoms is not by itself a laboratory diagnosis of renewal or reinstatement. Track the observation separately from the proposed mechanism.
+Se [begrebsafklaring](EXTINCTION_RECONSOLIDATION_RETURN.md) og [observationsskabelon](RETURN_OF_FEAR_TEMPLATE.md). Genkaldelse beviser ikke destabilisering; symptomtilbagekomst identificerer ikke alene en bestemt laboratoriemekanisme.

@@ -1,75 +1,35 @@
-# Evidence Rules
+# Evidensregler
 
-FearPrime must distinguish mechanism, evidence and hypothesis.
+FearPrime skelner mellem mekanisme, observation og hypotese.
 
-## Evidence ladder
+## Evidenstyper
+- **A — Kliniske udfald hos mennesker:** randomiserede forsøg eller solide sammenfatninger i PTSD/CPTSD eller nært beslægtede kliniske populationer.
+- **B — Eksperimentel frygtlæring hos mennesker:** betingning, udslukning eller rekonsolidering hos raske deltagere.
+- **C — Prækliniske forsøg:** dyreforsøg med adfærdsmål.
+- **D — Mekanistisk evidens:** receptorfarmakologi, celler, signalering, billeddannelse, genudtryk eller biokemi uden direkte dokumentation for forbedret frygtudslukning.
+- **E — FearPrime-hypotese:** en model eller kombination, der ikke er direkte afprøvet.
 
-**A — Human clinical outcome evidence**
-Randomized trials or high-quality syntheses in people with PTSD/CPTSD or closely related clinical populations.
+Bogstaverne angiver evidenstype, ikke en rangliste over kvalitet eller bevis for effekt. Kliniske pilotforsøg og observationsstudier beskrives som netop dette. Flere populationer i samme oversigt skal adskilles.
 
-**B — Human experimental fear-learning evidence**
-Conditioning/extinction/reconsolidation studies in healthy humans.
+## Krav til kandidatkort
+Angiv direkte og indirekte støtte, modstridende fund, ukendte forhold og resultater, som ville tale imod hypotesen. Angiv også kontrolniveau: fuldtekst, resumé, bibliografisk spor eller tidligere registrering.
 
-**C — Translational/preclinical evidence**
-Rodent or other animal fear-learning studies with a plausible human mechanism.
+## Regler mod selvbedrag
+1. Akut angstdæmpning er ikke automatisk bedre frygtudslukning.
+2. Lavere hudledning er ikke automatisk mindre bevidst frygt.
+3. Bedring under sessionen er ikke automatisk langtidshukommelse.
+4. Dyredoser og dyreeffekter må ikke direkte blive humane protokoller.
+5. Receptoraffinitet er ikke klinisk effekt.
+6. Ændret BDNF er ikke bevis for terapeutisk plasticitet.
+7. Statistisk signifikans i et indirekte mål er ikke automatisk klinisk betydning.
+8. Nyhedsværdi er ikke evidensstyrke.
+9. Negative og modstridende studier bevares.
+10. Hypoteser versionsstyres; de omskrives ikke efterfølgende, som om resultatet var forudsagt.
 
-**D — Mechanistic evidence**
-Receptor pharmacology, cellular signaling, imaging, gene-expression or biochemical findings without direct extinction outcome evidence.
+## Udfald
+Prioritér senere genkaldelse, spontan tilbagekomst, kontekstafhængig tilbagekomst, genaktivering efter uvarslet ubehag, genindlæring, tilnærmelsesadfærd, funktion og validerede kliniske symptommål.
 
-**E — FearPrime hypothesis**
-A mechanistically plausible combination or model that has not been directly tested.
+Forventningsvurderinger, hudledning, forskrækkelsesrefleks, puls, fMRI og molekylære markører holdes adskilt. Et laboratorieforsøgs primære mål kan godt være et af disse; det gør det ikke til et klinisk mål.
 
-## Required labels
-
-Every intervention file should state:
-- direct evidence;
-- indirect evidence;
-- contradictory evidence;
-- what is unknown;
-- what result would falsify the hypothesis.
-
-## Anti-self-deception rules
-
-1. Acute anxiolysis is not automatically extinction enhancement.
-2. Reduced skin conductance is not automatically reduced conscious fear.
-3. Within-session extinction is not automatically long-term retention.
-4. A rodent dose or effect must not be translated directly to a human protocol.
-5. Receptor affinity is not clinical efficacy.
-6. A downstream BDNF change is not proof of therapeutic plasticity.
-7. A statistically significant surrogate endpoint is not automatically clinically meaningful.
-8. Publication novelty is not evidence strength.
-9. Negative and contradictory studies remain in the bibliography.
-10. FearPrime hypotheses must be versioned rather than rewritten after the fact.
-
-## Primary endpoints
-
-Prefer:
-- delayed extinction recall;
-- spontaneous recovery;
-- renewal across context;
-- reinstatement;
-- reacquisition;
-- behavioral approach;
-- functional impairment;
-- validated PTSD symptom measures in clinical research.
-
-Secondary:
-- expectancy ratings;
-- skin conductance;
-- startle;
-- heart rate;
-- fMRI circuit activity;
-- molecular markers.
-
-## Status language
-
-Use:
-- **established**
-- **supported**
-- **promising**
-- **mixed**
-- **preclinical**
-- **mechanistic only**
-- **speculative**
-
-Never silently promote a hypothesis to a fact.
+## Statusord
+Brug: veletableret, understøttet, lovende, blandet, præklinisk, kun mekanistisk eller spekulativt. Hypoteser må aldrig stiltiende blive fakta. Mappenavnet VERIFIED er historisk og erstatter ikke kildekontrol i det enkelte kort.

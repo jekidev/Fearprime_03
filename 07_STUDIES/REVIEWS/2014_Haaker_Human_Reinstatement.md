@@ -1,36 +1,19 @@
-# Haaker et al. 2014 — human fear reinstatement and return of fear
+# Haaker 2014: genaktivering og tilbagevendende frygt
+**Status:** metodisk litteraturoversigt.
 
-**Status:** VERIFIED REVIEW  
-**Evidence grade:** methodological synthesis  
-**Track:** relapse / reinstatement
+Efter udslukning kan et uvarslet ubehageligt stimulus genoprette en tidligere betinget reaktion. Det adskilles fra tilbagekomst ved kontekstskift, spontan tilbagekomst over tid og hurtig genindlæring ved nye signal–udfald-parringer.
 
-## Citation
+Humane effekter varierer med forsøgsdesign, kontekst, mål og individuelle forskelle. Ét laboratoriemål repræsenterer ikke alle kliniske tilbagefald.
+
+FearPrime skal undersøge senere genkaldelse og flere former for tilbagekomst separat. Butyratfundet med bedre genkaldelse uden beskyttelse mod genaktivering er derfor ikke selvmodsigende.
+
+## Kilder og originale titler
 Haaker J, Golkar A, Hermans D, Lonsdorf TB. *A review on human reinstatement studies: an overview and methodological challenges.* Learning & Memory. 2014.
 
-- PMID: 25128533
-- Primary: https://pubmed.ncbi.nlm.nih.gov/25128533/
+- PMID: [25128533](https://pubmed.ncbi.nlm.nih.gov/25128533/)
 
-## Reinstatement definition
-After successful extinction, unsignaled exposure to an aversive/unconditioned stimulus can cause a previously extinguished conditioned response to return.
 
-This differs from:
-- **renewal:** return after context change;
-- **spontaneous recovery:** return with passage of time;
-- **reacquisition:** rapid relearning when CS-US pairing resumes.
 
-## Main methodological message
-Human reinstatement effects are variable and strongly influenced by design, context, measurement and individual differences. A single laboratory “return of fear” endpoint should not be assumed to represent all clinical relapse processes.
 
-## FearPrime implication
-Every proposed extinction enhancer should ideally be tested against multiple relapse channels:
-
-1. delayed retrieval,
-2. spontaneous recovery,
-3. context renewal,
-4. reinstatement,
-5. reacquisition.
-
-This is why the 2026 sodium-butyrate finding — improved delayed retrieval without blocking reinstatement — is mechanistically informative rather than contradictory.
-
-## FearPrime weight
-**Core methodological reference.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

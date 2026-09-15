@@ -1,71 +1,40 @@
-# FearPrime candidate research matrix
+# Kandidater, præparater og forskningsspørgsmål
 
-This file records hypotheses discussed in the FearPrime project. Inclusion means **research candidate**, not established treatment.
+Optagelse betyder forskningsrelevans, ikke dokumenteret behandling. Prioritet er projektets interesse; evidenstype, kvalitet og effekt vurderes særskilt.
 
-| Candidate | Working mechanism | Learning domain | Status |
-|---|---|---|---|
-| Sodium butyrate | HDAC inhibition / plasticity / consolidation | extinction consolidation and later retrieval | primary |
-| L-DOPA | dopamine-dependent learning and consolidation | extinction-memory persistence | primary |
-| Oxytocin | social safety, salience, amygdala/PFC context effects | safety learning / exposure context | primary |
-| Lurasidone (Latuda) | 5-HT7 antagonism + 5-HT1A partial agonism + D2/5-HT2A pharmacology; downstream plasticity hypothesis | fear circuitry / plasticity | hypothesis |
-| Low-dose amisulpride | presynaptic D2/D3 autoreceptor hypothesis at low exposure | dopaminergic comparison | hypothesis |
-| Guanfacine | α2A signaling / PFC control | hyperarousal and top-down regulation | candidate |
-| Dexmedetomidine | α2 agonism | arousal-state manipulation | mechanistic candidate |
-| Memantine | NMDA modulation | plasticity / extinction learning | candidate |
-| D-cycloserine | NMDA glycine-site partial agonism | exposure augmentation | literature comparator |
-| Bromantane | dopaminergic/energetic hypotheses | learning readiness | exploratory |
-| L-tyrosine | catecholamine precursor | stress-dependent cognition | exploratory |
-| Lithium | GSK-3 and plasticity-related signaling | consolidation/plasticity | exploratory |
-| 7,8-DHF | TrkB agonism in preclinical literature | BDNF/TrkB stage | reserved/later |
-| NAC | redox/glutamate-related support | systemic/supportive | not primary extinction agent |
-| Diosmin / hesperidin / horse chestnut | vascular/systemic support | supportive | not primary extinction agents |
+| Kandidat | Arbejdshypotese | Område og status |
+|---|---|---|
+| Natriumbutyrat | HDAC, plasticitet og konsolidering | Senere genkaldelse; human laboratoriestøtte, replikation og klinisk afprøvning mangler |
+| L-DOPA | Dopaminafhængig læring og konsolidering | Betinget og blandet human evidens |
+| Oxytocin | Social sikkerhed, betydning og kontekst | Blandede humane fund, også forværring |
+| Lurasidon/Latuda | 5-HT7-antagonisme, delvis 5-HT1A-agonisme samt D2/5-HT2A | Modelspecifikke dyrefund; human hypotese |
+| Amisulprid ved lav dosis | Præsynaptisk D2/D3-autoreceptorblokade | Mekanistisk sammenligning; ikke bevist rent dopaminfremmende |
+| Guanfacin | Alfa-2A og præfrontal regulering | Negative kliniske PTSD-forsøg |
+| Dexmedetomidin | Alfa-2-agonisme | Aktivering og sedation; mekanistisk spor |
+| Memantin | NMDA-modulation | Begrænset symptom- og indirekte læringsevidens |
+| D-cycloserin | Delvis agonisme ved NMDA-glycinstedet | Klinisk sammenligningsstof; lille/blandet tillægseffekt |
+| Propranolol | Betareceptorblokade omkring genaktivering | Blandede kliniske rekonsolideringsforsøg |
+| Mifepriston | Glukokortikoidreceptorblokade | Negative rekonsolideringsforsøg |
+| Hydrokortison | HPA-akse, genkaldelse og konsolidering | Timingafhængige og blandede fund |
+| Ketamin | NMDA og plasticitet | Kliniske symptomfund; specifik læringsmekanisme usikker |
+| CBD | Endocannabinoidrelateret modulation | Blandede laboratoriefund og negativt klinisk eksponeringstillæg |
+| FAAH-hæmmer PF-04457845 | Forhøjet anandamid | Humant laboratorieforsøg; forsøgsstof |
+| MDMA | Flere monoaminsystemer og social kontekst | Humant udslukningsforsøg med blandede udfald |
+| Psilocybin | 5-HT2A og kontekstafhængig plasticitet | Præklinisk udslukningsstøtte |
+| Liraglutid/GLP-1 | Metabolisk og neural signalering | Præklinisk; direkte udslukningseffekt ikke vist her |
+| Østradiol/progesteron | Hormonel tilstand og plasticitet | Naturligt niveau og akut tilførsel giver ikke samme svar |
+| Testosteron | Trusselsbearbejdning | Akut frygtmodulation, ikke dokumenteret varig udslukning |
+| Bromantan | Dopamin og energi | Udforskende hypotese; kildehul |
+| L-tyrosin | Forstadie til katekolaminer | Belastningsafhængig kognition; kildehul |
+| Lithium | GSK-3 og plasticitet | Udforskende hypotese; kildehul |
+| 7,8-DHF | TrkB-relateret præklinisk hypotese | Afventer særskilt kildekontrol |
+| NAC | Redox og glutamat | Støttende hypotese; ingen kerneeffekt fastslået |
+| Diosmin, hesperidin og hestekastanje | Vaskulære/systemiske hypoteser | Ingen dokumenteret primær udslukningseffekt her |
 
-## Critical interaction rule
+## Samspil
+Projektets begrebsmodel er: effekt afhænger af intervention, læringskvalitet, tidspunkt, kontekst og senere genkaldelse. Dette er ikke en valideret matematisk ligning. Øget plasticitet kan understøtte både sikkerheds- og trusselslæring.
 
-Plasticity enhancement is potentially **bidirectional**. The project therefore models:
+## Centrale spørgsmål
+Butyrat: hvilken timing og læringsstyrke er nødvendig, hvilke mål ændres, og kan effekten replikeres ved PTSD? L-DOPA: afhænger senere fordel af en vellykket session og præfrontale signaler? Oxytocin: skyldes udfaldet angstdæmpning, social betydning eller varig læring? Lurasidon: er 5-HT7/5-HT1A og BDNF relevante, eller ses blot symptomdæmpning? Amisulprid: hvad viser receptorbelægning, plasmaniveau og prolaktin om den forenklede lavdosishypotese?
 
-`effect = intervention × quality_of_learning × timing × context × retrieval_conditions`
-
-An enhancer given around ineffective or threat-confirming exposure cannot simply be assumed to improve outcome.
-
-## Candidate-specific questions
-
-### Sodium butyrate
-- Does HDAC inhibition preferentially strengthen successfully acquired extinction memory?
-- Which timing window matters most: before learning, immediately after, or consolidation period?
-- Does it affect extinction retrieval but not stress reinstatement?
-- Are human effects reproducible across paradigms and clinical PTSD populations?
-
-### L-DOPA
-- Does post-extinction dopamine enhancement improve long-term extinction retrieval?
-- Does session success moderate direction of effect?
-- What is the role of vmPFC/striatal prediction-error signaling?
-
-### Oxytocin
-- Is the effect anxiolytic, salience-enhancing, socially contextual, or genuinely extinction-enhancing?
-- Can context/person effects reverse the expected direction?
-
-### Lurasidone
-- Could 5-HT7 antagonism and 5-HT1A partial agonism alter plasticity or fear-network regulation in a way useful to extinction?
-- Is any benefit merely symptom suppression rather than durable learning?
-- Human extinction-specific evidence must be separated from receptor-level plausibility.
-
-### Low-dose amisulpride
-- Does low-dose presynaptic autoreceptor pharmacology produce a meaningfully pro-dopaminergic state in humans at the exposures considered?
-- Does prolactin/D2 occupancy undermine the simplified presynaptic narrative?
-
-## Evidence grading
-
-Canonical definitions: [Evidence rules](../01_EVIDENCE_RULES.md).
-
-A = human clinical outcome evidence
-B = human experimental fear-learning evidence
-C = translational/preclinical evidence
-D = mechanistic evidence without direct extinction outcomes
-E = FearPrime hypothesis
-
-These categories describe evidence type. Record study quality, replication and direction of effect separately. “Primary” in the table means project priority, not proven efficacy.
-
-See the [core synthesis](CORE_SYNTHESIS.md) for current positive findings, counterevidence and combination uncertainties.
-
-Each candidate gets an individual dossier as the literature ledger is verified.
+Se [evidensregler](../01_EVIDENCE_RULES.md), [samlet kandidatvurdering](CORE_SYNTHESIS.md), [klinisk rekonsolidering](../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md) og [studieoversigt](../07_STUDIES/STUDY_LEDGER.md).

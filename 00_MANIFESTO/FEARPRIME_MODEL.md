@@ -1,52 +1,30 @@
-# FearPrime adaptive PTSD model
+# FearPrimes funktionelle PTSD-model
 
-## Premise
+## Antagelse
+PTSD/CPTSD undersøges her som indlærte systemer for vurdering og håndtering af trusler. En forsvarsreaktion kan tidligere have været nyttig og undertiden stadig være det. Spørgsmålet er, hvornår den er præcis, hvornår den overgeneraliserer, og hvordan frivillig og kontekstafhængig kontrol kan øges.
 
-FearPrime studies PTSD/CPTSD as learned threat-control systems rather than assuming every symptom is intrinsically pathological.
+## Funktionelle fortolkninger
+- Hyperårvågenhed: følsom registrering af fare.
+- Undgåelse: kortsigtet risikoreduktion.
+- Påtrængende trusselsminder: prioriteret genkaldelse af fareinformation.
+- Autonom aktivering: hurtig mobilisering.
+- Mistænksom fortolkning: forsigtig vurdering under usikkerhed.
 
-A defensive response may have had—and may sometimes retain—a useful function. The research question becomes:
+Målet er bedre kalibrering.
 
-> What is this system trying to accomplish, when is it accurate, when is it overgeneralized, and how can voluntary/contextual control be increased?
+## Projektets 0 → 100
+Ved 0 dominerer frygt og undgåelse på tværs af sammenhænge; forventninger er stive, og restitution er langsom. Ved 100 er frygt tilgængelig, når den er nyttig, men personen kan handle ud fra tegn på sikkerhed, opdatere forventninger og bruge læring i nye sammenhænge. Tallene er en vision, ikke målinger.
 
-## Functional translations
+## Læring
+Frygtudslukning modelleres som konkurrerende hæmmende læring og sikkerhedslæring. Derfor undersøges spontan tilbagekomst over tid, tilbagekomst ved kontekstskift, genaktivering efter uvarslet ubehag og hurtig genindlæring separat. Midlertidig ro beviser ikke varig læring.
 
-- Hypervigilance → sensitive threat detection.
-- Avoidance → short-term risk reduction.
-- Intrusive threat memories → prioritized retrieval of danger information.
-- Autonomic activation → rapid mobilization.
-- Suspicious threat interpretation → conservative inference under uncertainty.
+## Forskningsrækkefølge
+1. Læringens indhold.
+2. Forudsigelsesfejl og brud på forventninger.
+3. Tilstrækkelig aktivering til at kunne afprøve forudsigelsen.
+4. Konsolidering.
+5. Senere genkaldelse.
+6. Overførsel til andre sammenhænge.
+7. Modstandskraft mod tilbagevendende frygt.
 
-The target is not indiscriminate suppression. It is **calibration**.
-
-## FearPrime 0 → 100
-
-0 = fear controls behavior across contexts, predictions are rigid, avoidance dominates, recovery is slow.
-
-100 = fear is available when useful but can be voluntarily overridden when evidence indicates safety; context discrimination is strong; obsolete predictions update; recovery is fast; safety learning transfers across contexts.
-
-## Core learning model
-
-Fear extinction is usually modeled as formation of competing inhibitory/safety learning rather than literal deletion of the original association. Therefore relapse mechanisms matter:
-
-- spontaneous recovery
-- renewal after context change
-- reinstatement after stress/aversive events
-- rapid reacquisition
-
-A session that merely produces temporary calm is not sufficient evidence of durable extinction.
-
-## FearPrime principle
-
-**Do not maximize calm. Maximize accurate learning and control.**
-
-This leads to a practical research hierarchy:
-
-1. learning content
-2. prediction error / expectancy violation
-3. sufficient activation to make the prediction testable
-4. consolidation
-5. later retrieval
-6. contextual generalization
-7. resistance to return of fear
-
-Biochemical augmentation belongs downstream of good experimental design.
+Biologisk understøttelse skal vurderes på baggrund af et godt forsøgsdesign. Modellen er FearPrimes hypotese og dækker ikke alene alle aspekter af PTSD eller CPTSD.

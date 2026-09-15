@@ -1,42 +1,19 @@
-# Psilocybin / 5-HT2A — fear extinction
+# Psilocybin, 5-HT2A og frygtudslukning
+**Evidenstype C:** museforsøg fra 2024.
 
-**Status:** VERIFIED PRECLINICAL PRIMARY STUDY  
-**Evidence grade:** C/D  
-**Track:** psychedelics / 5-HT2A / plasticity
+Psilocybin før udslukning lettede indlæringen, forbedrede senere fastholdelse ved nogle doser og mindskede kontekstafhængig tilbagekomst under nogle betingelser. Administration før den oprindelige frygtindlæring eller umiddelbart efter udslukning gav ikke tilsvarende resultater.
 
-## 2024 mouse study
+En 5-HT2A-antagonist blokerede hovedvirkningerne; 5-HT1A-antagonisme påvirkede især konteksttilbagekomsten. Samtidig korrigerende erfaring var dermed vigtig i dette paradigme.
 
-**Title:** Psilocybin Facilitates Fear Extinction: Importance of Dose, Context, and Serotonin Receptors
+Direkte humane psilocybinforsøg med tilsvarende betingning/udslukning er ikke etableret i denne oversigt. Kliniske psykedeliske effekter må ikke automatisk kaldes forbedret frygtudslukning.
 
-- PMID: 39087917
-- Species: mice
-- Fear-conditioning/extinction paradigm
+## Kilder og originale titler
+**Originaltitel:** Psilocybin Facilitates Fear Extinction: Importance of Dose, Context, and Serotonin Receptors
 
-## Main result
-Psilocybin:
-- facilitated extinction when administered before extinction testing;
-- improved later extinction retention at some doses;
-- reduced fear renewal in a novel context under some conditions;
-- had no comparable effect when administered before original fear learning or immediately after extinction.
+- PMID: [39087917](https://pubmed.ncbi.nlm.nih.gov/39087917/)
 
-A 5-HT2A antagonist blocked the extinction, retention and renewal effects. 5-HT1A antagonism affected the renewal component more selectively.
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/39087917/
 
-## FearPrime interpretation
 
-This is strong preclinical evidence for a **state-dependent 5-HT2A × extinction-experience interaction**.
-
-The critical finding is that drug exposure alone was insufficient: concurrent extinction experience was required.
-
-This aligns closely with the FearPrime principle:
-`plasticity state × corrective learning signal`
-
-## Human evidence status
-As of this evidence batch, no verified human psilocybin fear-conditioning/extinction RCT comparable to the MDMA studies has been established in the ledger.
-
-Clinical psychedelic effects should therefore not be described as proven fear-extinction enhancement.
-
-## FearPrime weight
-**Mechanistically interesting; human translation open.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

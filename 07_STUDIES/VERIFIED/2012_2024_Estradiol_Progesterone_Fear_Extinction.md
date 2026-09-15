@@ -1,69 +1,22 @@
-# Estradiol / progesterone and fear extinction
+# Naturlige hormonniveauer og akut hormontilførsel
+Glover 2012 (22502987) undersøgte 81 traumeeksponerede kvinder. Betingningen var omtrent ens, men PTSD-relateret udslukningssvigt i forskrækkelsesrefleksen sås især ved lavt østradiol. Hormonniveauet var observeret, ikke randomiseret.
 
-**Status:** VERIFIED HUMAN EVIDENCE  
-**Evidence grade:** B  
-**Track:** gonadal hormones / sex differences / extinction
+Kaczmarczyk 2024 (39448569) randomiserede 116 raske præmenopausale kvinder i et tredages forsøg til placebo, 2 mg østradiol, 400 mg progesteron eller kombinationen cirka to timer før udslukning. Østradiol var efterfulgt af større hudledningsreaktion ved senere frygttest. Progesteron gav ingen klar hovedeffekt på hudledning; forskrækkelsesrefleksen viste heller ingen klar fordel.
 
-## Glover et al. 2012 — endogenous estradiol in traumatized women
+Naturligt høje niveauer kan ikke sidestilles med akut tilførsel. Blod/spyt måler ikke direkte receptorsignalering i hjernen. Et nulresultat for progesteron udelukker ikke andre tidspunkter eller betingelser. Doser er studiemetadata; forsøget var ikke i PTSD.
 
-**Title:** Estrogen levels are associated with extinction deficits in women with posttraumatic stress disorder
+## Kilder og originale titler
+**Originaltitel:** Estrogen levels are associated with extinction deficits in women with posttraumatic stress disorder
 
-- PMID: 22502987
-- PMCID: PMC3675159
+**Originaltitel:** Effects of separate and combined estradiol and progesterone administration on fear extinction in healthy pre-menopausal women
+
+- PMID: [22502987](https://pubmed.ncbi.nlm.nih.gov/22502987/)
+- PMID: [39448569](https://pubmed.ncbi.nlm.nih.gov/39448569/)
 - DOI: 10.1016/j.biopsych.2012.02.031
-- N = 81 highly trauma-exposed women
-- Fear-potentiated startle conditioning/extinction
-- Serum estradiol measured; sample divided into high- vs low-E2 groups
-
-### Main result
-Fear acquisition was similar across groups. Among women with **low estradiol**, PTSD was associated with higher fear-potentiated startle during extinction than in trauma-exposed controls. This PTSD-related extinction deficit was absent in the high-estradiol group.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/22502987/
-
-## Kaczmarczyk et al. 2024 — randomized hormone administration
-
-**Title:** Effects of separate and combined estradiol and progesterone administration on fear extinction in healthy pre-menopausal women
-
-- PMID: 39448569
-- PMCID: PMC11502897
 - DOI: 10.1038/s41398-024-03079-4
-- N = 116 healthy pre-menopausal women
-- Randomized placebo-controlled 3-day conditioning/extinction/return-of-fear study
-- Study arms before extinction:
-  - placebo
-  - estradiol 2 mg
-  - progesterone 400 mg
-  - estradiol + progesterone
-- Administration: ~2 h before extinction
+- PMCID: PMC3675159
+- PMCID: PMC11502897
 
-Study dosing is literature metadata only.
 
-### Main result
-Estradiol administration altered early extinction and was followed by **heightened SCR to the extinguished cue at return-of-fear testing**, consistent with impaired extinction recall in that paradigm.
-
-Progesterone did not significantly affect SCR outcomes. No clear effects appeared on fear-potentiated startle.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/39448569/
-
-## FearPrime interpretation
-
-These two findings are not safely collapsed into:
-
-more estradiol = better extinction
-
-A better model is:
-
-estradiol effect = endogenous hormonal state × acute pharmacology × timing × sex × learning phase × endpoint
-
-Natural high-E2 status can correlate with better extinction capacity, while acute exogenous estradiol immediately around extinction can produce a different result.
-
-## Debug
-- Glover 2012 is observational with respect to estradiol.
-- Kaczmarczyk 2024 was in healthy women rather than PTSD.
-- Serum/saliva hormone levels are not direct measures of receptor signaling in vmPFC/amygdala.
-- Progesterone can be metabolized to neuroactive steroids; the null acute result does not exclude effects under other timing/dose conditions.
-
-## FearPrime weight
-**High relevance for precision/timing, not a generic augmentation recommendation.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

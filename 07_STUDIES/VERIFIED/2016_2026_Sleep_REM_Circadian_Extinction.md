@@ -1,99 +1,30 @@
-# Sleep, REM and circadian regulation of extinction memory
+# Søvn, REM og hukommelse for udslukning
+**Status:** humane forsøgs- og PTSD-data.
 
-**Status:** VERIFIED HUMAN EXPERIMENTAL + PTSD EVIDENCE  
-**Evidence grade:** A/B  
-**Track:** sleep / consolidation / context
+- 2016 (26888926): 80 raske mænd, opdelt nat. REM-rig sen søvn hang sammen med bedre fare/sikkerheds-skelnen og mindre tilbagekomst end vågenhed i samme tidsrum.
+- 2017 (28758152): 71 raske; søvnmangel forringede senere genkaldelse.
+- Vanuk 2022 (36172467): 82 med PTSD, randomiseret til blåt morgenlys eller ravfarvet kontrol, 30 minutter dagligt i seks uger. Bedre søvnrelaterede klager, symptomer og fastholdelse samt mindre respons i ny kontekst. REM som mediator blev ikke direkte bevist.
+- Schenker 2026 (42659753): 70 traumeeksponerede, 32,86% med sandsynlig PTSD; tidlig, sen eller normal søvn. I sandsynlig PTSD gav sen søvn bedre fysiologisk genkaldelse end normal søvn. Begge begrænsede søvngrupper havde også lavere hudledning, muligvis påvirket af efterfølgende kompensationssøvn. Forventningsmålet viste ikke samme effekt.
 
-## 2016 split-night experiment
+Søvn er et konsolideringsmiljø, men »mere REM er altid bedre« er for enkelt. Registrér varighed, tidspunkt, opvågninger, interval efter træning og senere genkaldelse; REM/dyb søvn kræver et egnet valideret mål. Forsøget er ikke en anbefaling om søvnbegrænsning.
 
-**Title:** REM Sleep Is Causal to Successful Consolidation of Dangerous and Safety Stimuli and Reduces Return of Fear after Extinction
+## Kilder og originale titler
+**Originaltitel:** REM Sleep Is Causal to Successful Consolidation of Dangerous and Safety Stimuli and Reduces Return of Fear after Extinction
 
-- PMID: 26888926
-- N = 80 healthy men
-- Split-night manipulation after conditioning/extinction
+**Originaltitel:** Sleep Deprivation Disrupts Recall of Conditioned Fear Extinction
 
-### Result
-Sleep rich in late-night REM was associated with better discrimination of danger vs safety and less return of fear than wakefulness during the corresponding period.
+**Originaltitel:** Morning blue light treatment improves sleep complaints, symptom severity, and retention of fear extinction memory in post-traumatic stress disorder
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/26888926/
+**Originaltitel:** Late sleep enhances fear extinction recall in posttraumatic stress disorder
 
----
-
-## 2017 total sleep deprivation experiment
-
-**Title:** Sleep Deprivation Disrupts Recall of Conditioned Fear Extinction
-
-- PMID: 28758152
-- N = 71 healthy controls
-- Fear conditioning → extinction → sleep-deprivation manipulation → extinction recall
-
-### Result
-Sleep deprivation impaired later extinction recall.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/28758152/
-
----
-
-## Vanuk et al. 2022 — PTSD + morning blue light
-
-**Title:** Morning blue light treatment improves sleep complaints, symptom severity, and retention of fear extinction memory in post-traumatic stress disorder
-
-- PMID: 36172467
-- DOI: 10.3389/fnbeh.2022.886816
-- N = 82 PTSD
-- Random assignment to morning blue vs amber placebo light
-- 30 min every morning for 6 weeks
-
-### Result
-Blue-light treatment was associated with:
-- improved sleep-related complaints/PTSD symptoms,
-- better retention of previously extinguished fear,
-- less reactivity to extinguished stimuli in a novel context than amber placebo.
-
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/36172467/
-
-The authors proposed improved sleep/circadian stabilization as a mechanism; the trial did not directly prove REM mediation.
-
----
-
-## Schenker et al. 2026 — late sleep in trauma-exposed adults
-
-**Title:** Late sleep enhances fear extinction recall in posttraumatic stress disorder
-
-- PMID: 42659753
+- PMID: [26888926](https://pubmed.ncbi.nlm.nih.gov/26888926/)
+- PMID: [28758152](https://pubmed.ncbi.nlm.nih.gov/28758152/)
+- PMID: [36172467](https://pubmed.ncbi.nlm.nih.gov/36172467/)
+- PMID: [42659753](https://pubmed.ncbi.nlm.nih.gov/42659753/)
 - DOI: 10.1016/j.psychres.2026.117393
-- N = 70 trauma-exposed adults
-- 32.86% met probable-PTSD criteria
-- Early-sleep, late-sleep or normal-sleep conditions after extinction
+- DOI: 10.3389/fnbeh.2022.886816
 
-### Result
-In probable PTSD, late sleep — relatively REM-rich — was associated with improved physiological extinction recall compared with normal sleep. Both restricted-sleep groups also showed lower threat-signal SCR at recall, an unexpected finding that may have reflected rebound sleep during the recovery night.
 
-Threat expectancy did not show the same recall effect.
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/42659753/
-
-## FearPrime interpretation
-
-Sleep should be treated as a **consolidation environment**, not merely recovery time.
-
-Working model:
-`extinction session → sleep architecture / circadian state → systems consolidation → next-day/contextual retrieval`
-
-But “more REM = always better” is too simple. Recent PTSD data show complex split-night and rebound effects.
-
-## FearPrime practical research rule
-Every FearPrime experiment should log:
-- sleep duration,
-- sleep timing,
-- awakenings,
-- intervention-to-sleep interval,
-- next-day retrieval,
-- and ideally REM/SWS estimates when a validated measurement is available.
-
-## FearPrime weight
-**Core consolidation variable.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.

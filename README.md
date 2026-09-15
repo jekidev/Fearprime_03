@@ -1,90 +1,54 @@
 # FearPrime_03
 
-A living research framework for PTSD/CPTSD, fear learning, fear extinction, reconsolidation and adaptive threat control.
+Et levende forskningsrammeværk om PTSD/CPTSD, frygtlæring, udslukning, rekonsolidering og fleksibel håndtering af trusler.
 
-## Core thesis
+FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneraliserede, og hvordan mere præcis læring og større handlefrihed kan udvikles. Det er en arbejdsmodel, ikke en samlet valideret behandling.
 
-FearPrime uses a functional/adaptive model rather than a simple defect model.
+## Start her
+- [Manifest og formål](00_MANIFESTO.md)
+- [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
+- [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
+- [Evidensregler](01_EVIDENCE_RULES.md)
+- [Samlet studieregister](07_STUDIES/STUDY_LEDGER.md)
+- [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
+- [Dækningsplan for studier, præparater og teorier](09_DEBUG/COVERAGE_PLAN.md)
+- [Danske fagbegreber](DANSK_ORDBOG.md)
 
-The target is not deletion of fear. It is better calibration, discrimination, contextual control, recovery and voluntary use of defensive systems.
+## Læring og klinisk PTSD
+- [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
+- [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
+- [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
+- [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
+- [Frygt og selvbeherskelse](10_UBERMENSCH/FEAR_MASTERY.md)
 
-Fear extinction is treated primarily as new inhibitory/safety learning that competes with older fear learning. Exposure is the behavioral engine; biological candidates are investigated as modifiers of learning, consolidation, retrieval and return-of-fear.
+## Præparater og mekanismer
+- [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
+- [Hovedkandidater og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
+- [Butyratdossier](04_CANDIDATES/BUTYRATE_DOSSIER.md)
+- [Lurasidon/Latuda-dossier](04_CANDIDATES/LURASIDONE_DOSSIER.md)
+- [Kombinationshypotese](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
+- [Mekanismeoversigt](02_MECHANISMS/MECHANISM_MAP.md)
+- [HDAC, BDNF/TrkB, 5-HT7 og dopamin](02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
+- [Mekanismekilder](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
 
-## Framework
-
-- [FearPrime adaptive model](00_MANIFESTO/FEARPRIME_MODEL.md)
-- [Evidence rules](01_EVIDENCE_RULES.md)
-- [Mechanism map](02_MECHANISMS/MECHANISM_MAP.md)
-- [Extinction engine](03_EXTINCTION/EXTINCTION_ENGINE.md)
-- [Candidate matrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
-- [Verified study ledger](07_STUDIES/STUDY_LEDGER.md)
-- [Research/debug rules](09_DEBUG/RESEARCH_RULES.md)
-- [Übermensch / fear mastery](10_UBERMENSCH/FEAR_MASTERY.md)
-- [Additional extinction model](models/FEAR_EXTINCTION_MODEL.md)
-
-## Primary research tracks
-
-1. Exposure / inhibitory learning
-2. Sodium butyrate / HDAC biology
-3. Dopamine / L-DOPA
-4. Oxytocin
-5. Lurasidone / Latuda: preclinical extinction evidence and human translation hypothesis
-6. Low-dose amisulpride as a dopaminergic comparison hypothesis
-7. BDNF / TrkB
-8. NMDA / D-cycloserine
-9. Reconsolidation
-10. Alpha-2A / autonomic regulation
-
-## Current evidence headline
-
-The 2026 randomized triple-blind human sodium-butyrate study is now VERIFIED in the study ledger (PMID 42557391; DOI 10.1038/s41380-026-03802-1). It reported improved delayed extinction-memory retrieval under robust extinction learning, but no prevention of reinstatement.
-
-## Project rule
-
-Do not optimize only for immediate calm.
-
-Optimize for learning that survives:
-- time;
-- context change;
-- spontaneous recovery;
-- renewal;
-- reinstatement;
-- reacquisition.
-
-## Evidence discipline
-
-Every intervention must be labeled as direct human evidence, preclinical evidence, mechanistic evidence or FearPrime hypothesis. Receptor plausibility is never silently promoted to clinical efficacy.
-
-This repository is a research/evidence framework, not a clinical guideline.
-
-## Arbejd videre — version 0.2
-
-- [Fem konkrete arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
-- [Hovedkandidater: evidens og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
+## Måling
 - [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
 - [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
-- [Status og næste forskningsopgaver](09_DEBUG/STATUS_2026-09-15.md)
+- [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 
-Modellerne er projektets arbejdsredskaber, ikke validerede behandlingspakker. “0–100” er en vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; udfyldte personlige logs opbevares privat.
+Målet er læring og funktion, som holder over tid og i flere sammenhænge. Akut ro, forventning, fysiologi og symptomer måles separat. »0–100« er projektets vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; personlige helbredsregistreringer opbevares privat.
 
-## Butyrat og Latuda — version 0.3
+## Version 0.6: dansk dokumentation og klinisk evidens
+Dokumentationen er redigeret på dansk. Originale studietitler, identifikatorer og søgestrenge er bevaret, så kilderne kan findes. Filstierne er bevaret for stabile links.
 
-- [Butyrat: humane fund, effektstørrelser og formulering](04_CANDIDATES/BUTYRATE_DOSSIER.md)
-- [Latuda: præklinisk støtte, farmakologi og modfund](04_CANDIDATES/LURASIDONE_DOSSIER.md)
-- [Kombinationshypotese og kriterier for synergi](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
-- [Søgelog, kildekontrol og udeståender](09_DEBUG/BUTYRATE_LATUDA_SEARCH_LOG.md)
+Brunet 2008, Wood 2015 og Roullet 2021 er tilføjet som kliniske studiekort. Positive fund står sammen med nulresultater og metodeforbehold. [Søgeloggen](09_DEBUG/CLINICAL_RECONSOLIDATION_SEARCH_LOG.md) skelner mellem kontrollerede resultater og litteraturspor.
 
-## Mekanismer — version 0.4
+Alle hidtil registrerede kilder bevares i det samlede register. Dækning af alle relevante studier er et løbende forskningsmål; denne revision er ikke en udtømmende systematisk oversigt.
 
-- [HDAC, BDNF/TrkB, 5-HT7 og dopamin](02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
-- [Kildeindeks, nye studiekort og kontrolniveauer](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
+## Tidligere søgninger og historik
+- [Butyrat og Latuda](09_DEBUG/BUTYRATE_LATUDA_SEARCH_LOG.md)
+- [Laboratoriestudier om rekonsolidering](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md)
+- [Forskningsregler](09_DEBUG/RESEARCH_RULES.md)
+- [Tidligere status](09_DEBUG/STATUS_2026-09-15.md)
 
-Kortet skelner mellem målte forbindelser og uprøvet translation til kombinationen.
-
-## Hukommelsesprocesser — version 0.5
-
-- [Extinction, reconsolidation og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
-- [Tomt observationsskema ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
-- [Søgelog og kildebegrænsninger](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md)
-
-Gennemgangen indeholder både det positive retrieval–extinction-fund og den registrerede replikation uden ekstra effekt. Bedre funktion og en bestemt hukommelsesmekanisme er separate påstande.
+Rammeværket skelner mellem kliniske resultater, laboratoriefund, dyreforsøg, mekanismer og hypoteser. Receptorplausibilitet bliver ikke automatisk klinisk effekt.

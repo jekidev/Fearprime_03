@@ -1,48 +1,18 @@
-# FearPrime mechanism map
+# FearPrimes mekanismekort
 
-## Core circuit abstraction
+## Kredsløb
+Et faresignal eller en kontekst kan udløse trusselsforudsigelse og autonomt forsvar gennem blandt andet amygdala. Korrigerende erfaring kan skabe forudsigelsesfejl og kontekstafhængig sikkerhedslæring, hvor vmPFC og hippocampus indgår. Efter konsolidering konkurrerer trussels- og udslukningshukommelse ved senere genkaldelse. Dette er en forenklet arbejdsmodel.
 
-Threat cue/context
-→ amygdala-centered threat prediction/expression
-→ autonomic defensive response
+## Molekylære forbindelser
+| System | Rolle i projektet | Begrænsning |
+|---|---|---|
+| NMDA | Synaptisk plasticitet; D-cycloserin som sammenligningsstof ved eksponering | Effekt afhænger af forsøgsdesign og læringsfase |
+| Dopamin | Betydning, motivation, forudsigelsesfejl og konsolidering; humane L-DOPA-forsøg | Ingen universel fordel |
+| BDNF/TrkB | Plasticitet ved både frygt og sikkerhedslæring | Plasticitet bestemmer ikke selv læringens retning |
+| HDAC/histonacetylering | Natriumbutyrat og senere genkaldelse | Humane udfald dokumenterer ikke i sig selv central HDAC-hæmning |
+| Oxytocin | Social kontekst, betydning og amygdala/PFC | Blandede fund; retningen kan ikke antages |
+| 5-HT7, 5-HT1A, D2 og 5-HT2A | Lurasidons farmakologi og prækliniske resultater | Lokal selektiv blokade er ikke systemisk lurasidon |
+| D2/D3-autoreceptorer | Hypotese om lavdosis amisulprid | Direkte effekt på human frygtudslukning er ikke etableret |
+| Alfa-2A og aktivering | Guanfacin og dexmedetomidin | Bedre regulering skal adskilles fra sedation og tab af læringssignal |
 
-Corrective experience
-→ prediction error
-→ vmPFC / hippocampal context-dependent safety learning
-→ consolidation
-→ later retrieval competition between threat and extinction memory.
-
-## Molecular / neuromodulatory nodes
-
-### NMDA
-Supports synaptic plasticity during learning. D-cycloserine is the major exposure-augmentation comparator in the project.
-
-### Dopamine
-Tracked for salience, prediction error, motivation and post-extinction consolidation. L-DOPA has direct human experimental extinction literature.
-
-### BDNF / TrkB
-Plasticity pathway relevant to both fear and extinction. FearPrime explicitly treats plasticity as valence-neutral.
-
-### HDAC / histone acetylation
-Sodium butyrate is the main translational candidate. 2026 human data support enhanced delayed extinction-memory retrieval under robust learning.
-
-### Oxytocin
-Context/social-salience modulator with mixed human extinction findings. Direction of effect cannot be assumed.
-
-### 5-HT7 / 5-HT1A / D2
-Relevant to the lurasidone hypothesis. There is direct preclinical extinction evidence for chronic lurasidone in a specific rat model, alongside receptor-level hypotheses. This is not direct human PTSD efficacy. Local selective 5-HT7 experiments and systemic lurasidone must be distinguished.
-
-### Presynaptic D2/D3 autoreceptors
-Relevant to low-dose amisulpride as a dopaminergic comparison hypothesis. Direct extinction efficacy is not established.
-
-### Alpha-2A / arousal
-Guanfacine and dexmedetomidine were previously discussed as state-regulation candidates. The question is whether top-down control can improve learning without removing the prediction-error signal.
-
-## FearPrime rule
-
-A mechanism matters only if it changes a meaningful learning endpoint.
-
-Receptor binding → pathway change → circuit change → behavior → durable learning are separate evidentiary steps.
-
-## Detailed synthesis — version 0.4
-See [HDAC, BDNF/TrkB, 5-HT7 and dopamine](HDAC_BDNF_5HT7_DOPAMINE.md), including competing mechanisms and source-level limits.
+Receptorbinding, signalvej, kredsløb, adfærd og varig læring er forskellige dokumentationsled. Se [detaljeret mekanismekort](HDAC_BDNF_5HT7_DOPAMINE.md).

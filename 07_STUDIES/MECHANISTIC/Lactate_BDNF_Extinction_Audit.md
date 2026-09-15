@@ -1,57 +1,25 @@
-# Lactate, exercise metabolism and extinction
+# Laktat, motion og frygtudslukning
+**Evidens:** mekanistisk/præklinisk; direkte human intervention med laktat er ikke etableret her.
 
-**Status:** MECHANISTIC/PRECLINICAL; DIRECT HUMAN FEAR-EXTINCTION EVIDENCE NOT ESTABLISHED  
-**Evidence grade:** D for lactate itself  
-**Track:** lactate / HCAR1 / MCT / BDNF / exercise
+L-laktat øgede voksen hippocampal neurogenese gennem MCT2-afhængig biologi i dyreforsøg (31178678), men forbedrede ikke læring/hukommelse i de rapporterede prøver. Regelmæssig let motion accelererede præklinisk udslukning med mulig BDNF/TrkB-involvering (38214538).
 
-## Lactate and neuroplasticity
+Motion har stærkere direkte støtte: 34280820, 36436532 og 30967530 forbinder motion med kliniske eller eksperimentelle udfald. Det dokumenterer ikke kæden »motion → laktat → BDNF → human udslukning« som eneste eller nødvendig mekanisme.
 
-**Title:** L-Lactate Promotes Adult Hippocampal Neurogenesis
+Andre mulige forbindelsesled er anandamid, katekolaminer, glukokortikoider, kredsløb, stofskifte, søvn og forventninger. Laktat forbliver en udforskende mediator.
 
-- PMID: 31178678
+## Kilder og originale titler
+**Originaltitel:** L-Lactate Promotes Adult Hippocampal Neurogenesis
 
-### Main result
-In animal experiments, prolonged L-lactate exposure promoted adult hippocampal neurogenesis through an MCT2-dependent mechanism, but this did not translate into improved cognitive learning/memory in the reported testing.
+**Originaltitel:** Accelerated Fear Extinction by Regular Light-Intensity Exercise: A Possible Role of Hippocampal BDNF-TrkB Signaling
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/31178678/
-
-## Exercise–BDNF evidence
-Exercise has much stronger direct fear-extinction evidence than lactate itself.
-
-Relevant FearPrime cards already include:
-- PMID 34280820: exercise-induced anandamide + BDNF changes in women with PTSD after extinction;
-- PMID 36436532: clinical PTSD exposure + aerobic-exercise RCT;
-- PMID 30967530: BDNF Val66Met moderates exercise-related fear-inhibition effects.
-
-## 2024 regular light-exercise preclinical work
-
-**Title:** Accelerated Fear Extinction by Regular Light-Intensity Exercise: A Possible Role of Hippocampal BDNF-TrkB Signaling
-
-- PMID: 38214538
+- PMID: [30967530](https://pubmed.ncbi.nlm.nih.gov/30967530/)
+- PMID: [31178678](https://pubmed.ncbi.nlm.nih.gov/31178678/)
+- PMID: [34280820](https://pubmed.ncbi.nlm.nih.gov/34280820/)
+- PMID: [36436532](https://pubmed.ncbi.nlm.nih.gov/36436532/)
+- PMID: [38214538](https://pubmed.ncbi.nlm.nih.gov/38214538/)
 - DOI: 10.1249/MSS.0000000000003312
-- Preclinical fear-extinction study.
 
-Primary:
-https://pubmed.ncbi.nlm.nih.gov/38214538/
 
-## FearPrime interpretation
 
-It is tempting to infer:
-
-`exercise → lactate → BDNF → extinction`
-
-but current evidence does not justify assigning the demonstrated human exercise augmentation effect specifically to lactate.
-
-Known candidate mediators of exercise include:
-- BDNF,
-- anandamide,
-- catecholamines,
-- glucocorticoids,
-- lactate,
-- vascular/metabolic changes,
-- sleep effects,
-- expectancy/behavioral activation.
-
-## FearPrime weight
-**Lactate: exploratory mediator. Exercise itself: much stronger evidence.**
+## Kontrolniveau
+Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.
