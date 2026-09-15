@@ -52,3 +52,9 @@ Alle hidtil registrerede kilder bevares i det samlede register. Dækning af alle
 - [Tidligere status](09_DEBUG/STATUS_2026-09-15.md)
 
 Rammeværket skelner mellem kliniske resultater, laboratoriefund, dyreforsøg, mekanismer og hypoteser. Receptorplausibilitet bliver ikke automatisk klinisk effekt.
+
+## Version 0.7: teorigrundlag
+- [PTSD-teorier og kobling til arbejdsmodellerne](05_MODELS/PTSD_THEORIES.md)
+- [Teorisøgning og åbne kildeopgaver](09_DEBUG/THEORY_SEARCH_LOG.md)
+
+Fire teoriartikler er tilføjet med egne kildekort. De registreres særskilt fra effektforsøg.

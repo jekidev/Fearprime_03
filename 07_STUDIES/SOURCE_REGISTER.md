@@ -235,3 +235,11 @@ Disse identifikatorer er bevaret ved den danske redaktion. Placeringen i denne l
 
 ## Brug
 Læs [studieregistret](STUDY_LEDGER.md) for fortolkning og [dækningsplanen](../09_DEBUG/COVERAGE_PLAN.md) for åbne opgaver. Dubletter på tværs af kort er bevaret som henvisninger, ikke talt som uafhængige forsøg.
+
+## Tilføjede teorikilder — version 0.7
+- [Foa og Kozak 1986: følelsesmæssig bearbejdning](THEORY/1986_Foa_Kozak.md): PMID 2871574; DOI 10.1037/0033-2909.99.1.20.
+- [Brewin, Dalgleish og Joseph 1996: dobbeltrepræsentation](THEORY/1996_Brewin_Dual_Representation.md): PMID 8888651; DOI 10.1037/0033-295X.103.4.670.
+- [Ehlers og Clark 2000: oplevelsen af aktuel trussel](THEORY/2000_Ehlers_Clark.md): PMID 10761279; DOI 10.1016/S0005-7967(99)00123-0.
+- [Craske 2014: hæmmende læring ved eksponering](THEORY/2014_Craske_Inhibitory_Learning.md): PMID 24864005; DOI 10.1016/j.brat.2014.04.006.
+
+Litteraturspor uden sikkert resultatudtræk: [PMID 18999355](https://pubmed.ncbi.nlm.nih.gov/18999355/), DOI 10.1037/a0013165, samt [PMID 24041427](https://pubmed.ncbi.nlm.nih.gov/24041427/). Se [kontrolstatus](../09_DEBUG/THEORY_SEARCH_LOG.md).

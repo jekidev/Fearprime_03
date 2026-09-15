@@ -79,3 +79,6 @@ Tidspunkterne er praktiske projektvalg, ikke en valideret optimal træningsplan.
 
 ## 0–100 som retning, ikke medicinsk score
 Projektets “100” beskriver fleksibilitet, funktion og restitution. Det er ikke en valideret skala eller et løfte om fuld kontrol over frygt. Brug de separate målinger i [måleplanen](../06_MEASUREMENT/MEASUREMENT_PLAN.md).
+
+## Teorigrundlag — version 0.7
+Se [sammenligningen af PTSD-teorier](PTSD_THEORIES.md). Den kobler modellerne til følelsesmæssig bearbejdning, dobbeltrepræsentation, kognitiv trusselsvurdering og hæmmende læring. Koblingen er projektets egen syntese og ændrer ikke arbejdsmodellernes status som projektdesign.

@@ -23,7 +23,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Bromantan/tyrosin/lithium/7,8-DHF/NAC | Kandidatmatrix | Dedikeret primærkildesøgning og kort mangler |
 | Diosmin/hesperidin/hestekastanje | Systemiske kandidathypoteser | Relevans for læring skal dokumenteres før opgradering |
 | Hæmmende læring/rekonsolidering/kontekst | Begrebskort og centrale positive/negative forsøg | Bredere teori- og metodebibliografi |
-| Kognitiv PTSD-model/dobbeltrepræsentation/følelsesbearbejdning | Ikke selvstændigt kildekontrolleret her | Primærtekster og sammenligning med FearPrime |
+| Kognitiv PTSD-model/dobbeltrepræsentation/følelsesbearbejdning | Fire [teorikort og sammenligning](../05_MODELS/PTSD_THEORIES.md), version 0.7 | Senere revisioner, empiriske modfund og samlet vurdering af støtte |
 | CPTSD/dissociation/selvorganisering | Projektets afgrænsning | Særskilt klinisk/teoretisk evidens og måling |
 | RTM/TIMBER/sirolimus | Identificerede spor i søgelog | Primærkontrol; ingen automatisk mekanismevalidering |
 

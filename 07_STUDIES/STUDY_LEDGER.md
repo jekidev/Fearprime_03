@@ -110,3 +110,12 @@ Originale titler og identifikatorer findes i [kilderegistret](SOURCE_REGISTER.md
 Registrér citation, DOI/PMID, art, population, antal randomiserede/analyserede, design, intervention/formulering, forsøgsdosis, timing, kontrol, primært udfald, akutte/senere resultater, tilbagekomstformer, bivirkninger, frafald, effektstørrelse med usikkerhed, forfatternes konklusion, projektets fortolkning, alternative forklaringer og replikationsstatus.
 
 Forsøgsdoser er litteraturmetadata. Negative studier, protokoller og ukontrollerede forsøg slettes ikke; deres status skal fremgå.
+
+## Teorikilder — version 0.7
+Disse er teori-/oversigtsartikler og tælles ikke som nye effektforsøg:
+- [Foa og Kozak 1986: følelsesmæssig bearbejdning](THEORY/1986_Foa_Kozak.md) — PMID 2871574.
+- [Brewin, Dalgleish og Joseph 1996: dobbeltrepræsentation](THEORY/1996_Brewin_Dual_Representation.md) — PMID 8888651.
+- [Ehlers og Clark 2000: oplevelsen af aktuel trussel](THEORY/2000_Ehlers_Clark.md) — PMID 10761279.
+- [Craske 2014: hæmmende læring ved eksponering](THEORY/2014_Craske_Inhibitory_Learning.md) — PMID 24864005.
+
+[Samlet teorisammenligning](../05_MODELS/PTSD_THEORIES.md) · [Søgelog og yderligere spor](../09_DEBUG/THEORY_SEARCH_LOG.md).
