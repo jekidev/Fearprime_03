@@ -914,3 +914,129 @@ corrective learning
 ### Batch 04 rule
 
 A biomarker that correlates with PTSD is not automatically a treatment target, and a pathway that correlates with better natural extinction is not automatically improved by acute pharmacological activation of that pathway.
+
+
+---
+
+# Evidence batch 04 — sex hormones, inflammation, epigenetics and metabolic biology
+
+## Estradiol / progesterone
+
+Verified human evidence now includes:
+- PMID 22502987 — N=81 women; lower estradiol associated with poorer fear extinction/fear inhibition, especially in PTSD.
+- PMID 26866677 — N=32 female trauma survivors studied across cycle phases; PTSD showed impaired extinction retention in the midluteal phase relative to trauma-exposed controls.
+- PMID 25080403 — stress before conditioning interacted with natural estradiol state to alter 24-h extinction recall.
+- PMID 32563699 — N=42 women with PTSD; estradiol moderated neural and autonomic habituation during fear learning/extinction.
+- PMID 27544848 — lower estradiol predicted greater physiological fear recovery, while expectancy/valence measures dissociated.
+- PMID 29945741 — systematic review of 23 studies; higher estradiol was fairly consistently associated with better laboratory extinction recall, while clinical PTSD symptom associations were less consistent.
+
+Detailed card: `VERIFIED/2012_2023_Estradiol_Progesterone_PTSD_Extinction.md`
+
+**FearPrime update:** estradiol is promoted to a high-priority **moderator** of extinction/retention, but not to an established hormone-augmentation treatment. Progesterone remains harder to isolate because cycle phase changes multiple steroid and neurosteroid systems simultaneously.
+
+## Testosterone
+
+Human administration studies show acute fear-state effects:
+- PMID 15939408 — single testosterone administration reduced automatic fear processing in healthy women without reducing conscious anxiety.
+- PMID 16458259, DOI 10.1016/j.biopsych.2005.11.015 — N=20 crossover study; testosterone reduced fear-potentiated startle without lowering baseline startle.
+- PMID 29902666 — testosterone altered orbitofrontal processing during threat/escape anticipation.
+
+Detailed card: `VERIFIED/2005_2018_Testosterone_Human_Fear_Audit.md`
+
+**FearPrime update:** testosterone changes fear expression/threat processing, but there is no verified evidence in this batch that it improves extinction acquisition, delayed extinction recall, renewal, reinstatement or exposure-therapy outcome.
+
+## Inflammation / interoceptive threat
+
+### Pawlik et al. 2023
+- PMID 36535608
+- DOI 10.1016/j.bbi.2022.12.010
+- N=95 healthy volunteers across two randomized double-blind placebo-controlled fMRI experiments.
+- Intravenous LPS 0.4 ng/kg vs placebo before acquisition or extinction.
+- Acute inflammation did not create a simple behavioral extinction deficit on CS valence ratings.
+- When inflammation occurred during acquisition, later extinction showed stronger neural responses to interoceptive threat predictors and greater negative responses to unexpected interoceptive-US re-exposure.
+
+Detailed card: `VERIFIED/2023_Inflammation_Endotoxin_Interoceptive_Extinction.md`
+
+**FearPrime update:** inflammation may increase persistence/salience of **internal bodily threat representations** without necessarily altering every overt extinction endpoint.
+
+## Epigenetics — COMT / FKBP5 / histone regulation
+
+Human/moderator evidence:
+- COMT genotype + promoter methylation and impaired fear inhibition in PTSD — PMID 23596403.
+- FKBP5 variation/expression and heterogeneous extinction phenotypes — PMID 28025095, DOI 10.1016/j.neuropharm.2016.12.023.
+- GR-FKBP51 complex elevated in PTSD and fear-conditioned mice — PMID 31929189.
+
+Preclinical histone mechanism:
+- histone acetylation and extinction circuitry — PMID 28097489.
+- H3K9 methylation/BDNF-promoter regulation in impaired extinction — PMID 38940908.
+
+Direct human intervention anchor remains:
+- sodium butyrate/HDAC — PMID 42557391.
+
+Detailed card: `MECHANISTIC/2012_2026_Epigenetics_FKBP5_COMT_HDAC_Extinction.md`
+
+**FearPrime update:** epigenetics is now split into histone acetylation, histone methylation, DNA methylation and stress/catecholamine gene-regulation tracks instead of being treated as one mechanism.
+
+## Mitochondria / energy metabolism
+
+Verified evidence now includes:
+- human fear-network resting metabolism and later extinction-recall activation — PMID 26917165;
+- PTSD metabolism/metabolomics/inflammation review — PMID 29628193, DOI 10.1016/j.biopsych.2018.02.007;
+- impaired extinction recall plus altered fission/fusion/OXPHOS/biogenesis in 5-HTT knockout rats — PMID 36386781, DOI 10.3389/fnbeh.2022.957702;
+- 2026 hippocampal metabolic reprogramming associated with paroxetine-facilitated extinction — PMID 41839375;
+- 2026 region-specific mitochondrial adaptation in stress-enhanced fear learning — PMID 42568809.
+
+Detailed card: `MECHANISTIC/2016_2026_Mitochondria_Energy_Metabolism_PTSD_Extinction.md`
+
+**FearPrime update:** mitochondrial state is a plausible systems-level moderator of fear-network function and plasticity, but there is no direct human evidence here that a “mitochondrial enhancer” improves PTSD extinction.
+
+## Lactate / BDNF
+
+- L-lactate promoted adult hippocampal neurogenesis preclinically via MCT2-dependent biology but did not improve tested learning/memory — PMID 31178678.
+- Regular light-intensity exercise accelerated fear extinction preclinically with hippocampal BDNF-TrkB involvement — PMID 38214538, DOI 10.1249/MSS.0000000000003312.
+
+Detailed card: `MECHANISTIC/Lactate_BDNF_Extinction_Audit.md`
+
+**FearPrime update:** lactate remains an exploratory mediator of the much stronger exercise→extinction evidence. The human exercise benefit should not be attributed specifically to lactate without causal human data.
+
+## GLP-1 receptor agonism
+
+### Akillioglu et al. 2026
+- PMID 42342196
+- DOI 10.1016/j.pnpbp.2026.111804
+- Single-prolonged-stress mouse model + chemogenetic BLA manipulation.
+- Liraglutide improved some PTSD-like anxiety measures and altered hippocampal NR2B/CREB/GLP-1R signaling.
+- This did not test human PTSD or direct extinction augmentation.
+
+Detailed card: `PRECLINICAL/2026_GLP1_Liraglutide_PTSD_Audit.md`
+
+**FearPrime update:** GLP-1 is an emerging preclinical neuro-metabolic candidate, not a current core extinction intervention.
+
+---
+
+## Evidence status after Batch 04
+
+### High-priority moderators / mechanisms with direct human extinction relevance
+- estradiol state / menstrual-hormone context,
+- inflammatory state during interoceptive fear learning,
+- BDNF/TrkB biology,
+- endocannabinoid/FAAH biology,
+- HDAC/histone-acetylation biology,
+- sleep/circadian consolidation.
+
+### Direct human fear modulation but not established extinction augmentation
+- testosterone.
+
+### Systems-biology tracks with indirect or mainly preclinical extinction evidence
+- mitochondrial/OXPHOS state,
+- lactate/HCAR1/MCT biology,
+- GLP-1 signaling,
+- microglial/inflammatory mechanisms beyond acute endotoxemia.
+
+## Updated FearPrime systems equation
+
+`durable control = corrective learning × neuromodulation × endocrine state × immune/interoceptive state × epigenetic permissiveness × bioenergetic capacity × consolidation/sleep × retrieval context − relapse processes`
+
+### Critical Batch-04 rule
+
+> A biomarker associated with PTSD or fear circuitry is not automatically a therapeutic target, and changing a biomarker is not evidence that extinction memory improved.
