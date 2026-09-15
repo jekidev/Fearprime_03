@@ -318,3 +318,140 @@ https://pubmed.ncbi.nlm.nih.gov/24254958/
 - Alternative explanation / debug
 - Evidence grade
 - Replication status
+
+
+---
+
+# Verified addendum — learning-quality, replication, Latuda and receptor-mechanism studies
+
+The following primary studies have now also been promoted into individual study cards.
+
+## L-DOPA — Haaker et al. 2013
+
+**Title:** Single dose of L-dopa makes extinction memories context-independent and prevents the return of fear  
+**PMID:** 23754384  
+**DOI:** 10.1073/pnas.1303061110  
+**Human sample:** 40 randomized healthy men; 39 analyzed  
+**Study intervention:** 150 mg L-DOPA + 37.5 mg benserazide immediately after extinction  
+**Main result:** reduced contextual renewal/return of fear, with lower amygdala and greater vmPFC activity.
+
+**Evidence:** B  
+Detailed card: `VERIFIED/2013_Haaker_LDOPA.md`  
+https://pubmed.ncbi.nlm.nih.gov/23754384/
+
+## L-DOPA — Gerlicher et al. 2019
+
+**Title:** L-DOPA improves extinction memory retrieval after successful fear extinction  
+**PMID:** 31243481  
+**DOI:** 10.1007/s00213-019-05301-4  
+**Design:** two double-blind randomized placebo-controlled experiments; N=79 and N=32 healthy men  
+**Study intervention:** 150/37.5 mg levodopa/benserazide after extinction  
+**Main result:** L-DOPA improved next-day extinction retrieval only when conditioned fear had been successfully reduced by the end of extinction. After incomplete extinction, benefit disappeared and some analyses suggested a detrimental direction.
+
+**FearPrime significance:** core evidence for the learning-quality × consolidation-enhancer interaction.
+
+**Evidence:** B  
+Detailed card: `VERIFIED/2019_Gerlicher_LDOPA.md`  
+https://pubmed.ncbi.nlm.nih.gov/31243481/
+
+## L-DOPA — Andres et al. 2024 preregistered replication
+
+**Title:** Replication study on the role of dopamine-dependent prefrontal reactivations in human extinction memory retrieval  
+**PMID:** 38538636  
+**DOI:** 10.1038/s41467-024-46936-y  
+**Main result:** replicated the predictive relationship between post-extinction vmPFC reactivation and later retrieval, but did **not** replicate a significant overall L-DOPA enhancement of extinction retrieval or renewal in preregistered analyses.
+
+**FearPrime significance:** prevents overclaiming. The dopamine mechanism remains plausible, but a universal L-DOPA benefit is not established.
+
+**Evidence:** B  
+Detailed card: `VERIFIED/2024_Andres_LDOPA_replication.md`  
+https://pubmed.ncbi.nlm.nih.gov/38538636/
+
+## D-cycloserine — Smits et al. 2013 session-quality analysis
+
+**Title:** D-cycloserine enhancement of fear extinction is specific to successful exposure sessions: evidence from the treatment of height phobia  
+**PMID:** 23332511  
+**DOI:** 10.1016/j.biopsych.2012.12.009  
+**N:** 29 adults with acrophobia  
+**Study intervention:** 50 mg DCS immediately after each of two VR exposure sessions  
+**Main result:** DCS predicted better outcomes after low end-fear sessions and worse relative outcomes after high end-fear sessions.
+
+**FearPrime significance:** clinical precedent that a plasticity/consolidation enhancer may amplify the learning state produced by the session rather than automatically encode safety.
+
+**Evidence:** A/B  
+Detailed card: `VERIFIED/2013_Smits_DCS_session_quality.md`  
+https://pubmed.ncbi.nlm.nih.gov/23332511/
+
+## D-cycloserine — Mataix-Cols et al. 2017 IPD meta-analysis
+
+**Title:** D-Cycloserine Augmentation of Exposure-Based Cognitive Behavior Therapy for Anxiety, Obsessive-Compulsive, and Posttraumatic Stress Disorders  
+**PMID:** 28122091  
+**DOI:** 10.1001/jamapsychiatry.2016.3955  
+**Dataset:** 21 trials; 1,047 participants  
+**Main result:** small mean augmentation effect at post-treatment, with heterogeneous effects and no evidence for a large universal clinical advantage.
+
+**Evidence:** A  
+Detailed card: `VERIFIED/2017_MataixCols_DCS_IPD_meta.md`  
+https://pubmed.ncbi.nlm.nih.gov/28122091/
+
+## Lurasidone — Luoni et al. 2013 direct preclinical extinction evidence
+
+**Title:** Behavioural and neuroplastic properties of chronic lurasidone treatment in serotonin transporter knockout rats  
+**PMID:** 23164505  
+**DOI:** 10.1017/S1461145712001332  
+**Design:** 64 female rats; SERT+/+ and SERT-/- groups  
+**Study intervention:** lurasidone 10 mg/kg/day orally for 21 days  
+**Main result:** lurasidone improved fear extinction in SERT-knockout rats but not wild-type rats, while normalizing reduced PFC BDNF and altered GABAergic markers.
+
+**FearPrime significance:** upgrades Latuda from receptor-profile-only speculation to a track with genuine preclinical extinction evidence. It remains **non-human, chronic and model-specific** and therefore is not direct evidence for human PTSD exposure augmentation.
+
+**Evidence:** C  
+Detailed card: `PRECLINICAL/2013_Luoni_Lurasidone.md`  
+https://pubmed.ncbi.nlm.nih.gov/23164505/
+
+## 5-HT7 — de Assis Brasil et al. 2019
+
+**Title:** The blockade of the serotoninergic receptors 5-HT5A, 5-HT6 and 5-HT7 in the basolateral amygdala, but not in the hippocampus facilitate the extinction of fear memory  
+**PMID:** 31233821  
+**DOI:** 10.1016/j.bbr.2019.112055  
+**Main result:** local post-extinction 5-HT7 antagonism in rat basolateral amygdala facilitated later extinction expression; corresponding CA1 manipulation did not.
+
+**FearPrime significance:** mechanistic support for 5-HT7 antagonism as one possible component of the lurasidone hypothesis, but not proof that systemic lurasidone works through 5-HT7 in humans.
+
+**Evidence:** C/D  
+Detailed card: `PRECLINICAL/2019_5HT7_BLA_extinction.md`  
+https://pubmed.ncbi.nlm.nih.gov/31233821/
+
+## Amisulpride — human receptor occupancy audit
+
+Verified imaging papers now retained in a dedicated card include:
+- Martinot et al. 1996 — PMID 8935811 — DOI 10.1007/BF02245616
+- Xiberas et al. 2001 — PMID 11270918 — DOI 10.1097/00004714-200104000-00013
+- low/high-dose D2 SPECT — PMID 15937316
+- Vernaleken et al. — PMID 15683553 — DOI 10.1017/S1461145704004353
+
+**FearPrime conclusion:** low-dose amisulpride can show lower striatal and relatively greater extrastriatal occupancy, supporting a biphasic pharmacology concept, but the available human imaging evidence does not justify treating 25–50 mg as a purely presynaptic or guaranteed pro-dopaminergic state.
+
+**Evidence:** D  
+Detailed card: `MECHANISTIC/AMISULPRIDE_D2D3_OCCUPANCY.md`
+
+## Current methodological review
+
+**Pharmacological enhancement of fear extinction**  
+Trends in Cognitive Sciences. 2026;30(2):162-174.  
+PMID: 40634208  
+DOI: 10.1016/j.tics.2025.06.011
+
+The review reinforces the FearPrime rule that acquisition, consolidation, retrieval and return-of-fear tests must be analyzed as distinct mechanistic targets.
+
+Detailed card: `REVIEWS/2026_Pharmacological_Enhancement_of_Fear_Extinction.md`
+
+---
+
+## Updated cross-study rule
+
+The evidence now supports a stronger version of the central FearPrime model:
+
+`observed augmentation = learning quality × intervention × timing × individual state × retrieval context`
+
+This is supported independently by the sodium-butyrate study, L-DOPA boundary-condition work and DCS clinical analyses, while the L-DOPA replication and conflicting oxytocin data demonstrate why negative/contradictory studies must remain first-class evidence rather than being discarded.
