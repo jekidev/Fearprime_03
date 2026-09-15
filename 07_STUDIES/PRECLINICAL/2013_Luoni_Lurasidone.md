@@ -1,7 +1,7 @@
 # Luoni et al. 2013 — Chronic lurasidone in a SERT-knockout fear-extinction model
 
 **Status:** VERIFIED PRECLINICAL PRIMARY STUDY  
-**Evidence grade:** D  
+**Evidence grade:** C  
 **Species:** rat  
 **Important:** this is not direct human PTSD evidence.
 
@@ -45,3 +45,6 @@ Possible mechanistic paths include:
 
 ## FearPrime weight
 **Meaningful preclinical evidence, low direct clinical certainty.**
+
+## Source audit — 2026-09-15
+The discussion also reports increased conditioned freezing during acquisition irrespective of genotype, and no significant genotype difference in extinction deficit in this experiment. Avoid describing the finding as a demonstrated rescue of a significant baseline extinction deficit. See the [updated dossier](../../04_CANDIDATES/LURASIDONE_DOSSIER.md).

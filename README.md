@@ -66,3 +66,10 @@ This repository is a research/evidence framework, not a clinical guideline.
 - [Status og næste forskningsopgaver](09_DEBUG/STATUS_2026-09-15.md)
 
 Modellerne er projektets arbejdsredskaber, ikke validerede behandlingspakker. “0–100” er en vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; udfyldte personlige logs opbevares privat.
+
+## Butyrat og Latuda — version 0.3
+
+- [Butyrat: humane fund, effektstørrelser og formulering](04_CANDIDATES/BUTYRATE_DOSSIER.md)
+- [Latuda: præklinisk støtte, farmakologi og modfund](04_CANDIDATES/LURASIDONE_DOSSIER.md)
+- [Kombinationshypotese og kriterier for synergi](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
+- [Søgelog, kildekontrol og udeståender](09_DEBUG/BUTYRATE_LATUDA_SEARCH_LOG.md)

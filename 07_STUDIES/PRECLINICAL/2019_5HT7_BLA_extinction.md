@@ -1,7 +1,7 @@
 # de Assis Brasil et al. 2019 — 5-HT7 blockade in basolateral amygdala and extinction
 
 **Status:** VERIFIED PRECLINICAL PRIMARY STUDY  
-**Evidence grade:** D  
+**Evidence grade:** C  
 **Role:** mechanistic support for the lurasidone / 5-HT7 hypothesis
 
 ## Citation
