@@ -30,7 +30,7 @@ Sodium butyrate is the main translational candidate. 2026 human data support enh
 Context/social-salience modulator with mixed human extinction findings. Direction of effect cannot be assumed.
 
 ### 5-HT7 / 5-HT1A / D2
-Relevant to the lurasidone hypothesis. This remains receptor-level plausibility, not direct extinction evidence.
+Relevant to the lurasidone hypothesis. There is direct preclinical extinction evidence for chronic lurasidone in a specific rat model, alongside receptor-level hypotheses. This is not direct human PTSD efficacy. Local selective 5-HT7 experiments and systemic lurasidone must be distinguished.
 
 ### Presynaptic D2/D3 autoreceptors
 Relevant to low-dose amisulpride as a dopaminergic comparison hypothesis. Direct extinction efficacy is not established.
@@ -43,3 +43,6 @@ Guanfacine and dexmedetomidine were previously discussed as state-regulation can
 A mechanism matters only if it changes a meaningful learning endpoint.
 
 Receptor binding → pathway change → circuit change → behavior → durable learning are separate evidentiary steps.
+
+## Detailed synthesis — version 0.4
+See [HDAC, BDNF/TrkB, 5-HT7 and dopamine](HDAC_BDNF_5HT7_DOPAMINE.md), including competing mechanisms and source-level limits.

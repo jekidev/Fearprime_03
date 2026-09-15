@@ -1,5 +1,5 @@
 # Butyrat + Latuda + exposure
-Hypotese FP-BL-01 · version 0.1 · 2026-09-15 · evidenstype E
+Hypotese FP-BL-01 · version 0.2 · 2026-09-15 · evidenstype E
 
 ## Spørgsmålet
 Kan butyrat give ekstra varig læringsgevinst under en stabil lurasidonbehandling, når eksponeringens indhold og kvalitet er sammenlignelige?
@@ -36,3 +36,6 @@ Der blev ikke identificeret direkte kliniske interaktionsdata for denne kombinat
 Opgradér kun kombinationshypotesen, når direkte data viser en relevant ekstra gevinst med tilstrækkelig præcision og tolerabilitet. Nedgradér ved reproducerbar manglende gevinst eller forværring. En p-værdi over 0,05 uden præcisionsvurdering er ikke bevis på ækvivalens.
 
 **Status:** Forskningsværdig hypotese; dokumenteret synergi og en klinisk kombinationsprotokol foreligger ikke i det gennemgåede materiale.
+
+## Mekanistisk opdatering
+Det [uddybede mekanismekort](../02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md) skelner mellem kromatin, receptoraktivering, synaptiske virkninger og læring. FP-BL-01 forbliver E: nettopåvirkningen kan ikke beregnes fra receptorprofilen. Prioritér forsinkede mål og direkte sammenligning, før en molekylær forklaring accepteres.

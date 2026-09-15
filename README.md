@@ -28,7 +28,7 @@ Fear extinction is treated primarily as new inhibitory/safety learning that comp
 2. Sodium butyrate / HDAC biology
 3. Dopamine / L-DOPA
 4. Oxytocin
-5. Lurasidone / Latuda as a receptor-level hypothesis
+5. Lurasidone / Latuda: preclinical extinction evidence and human translation hypothesis
 6. Low-dose amisulpride as a dopaminergic comparison hypothesis
 7. BDNF / TrkB
 8. NMDA / D-cycloserine
@@ -73,3 +73,10 @@ Modellerne er projektets arbejdsredskaber, ikke validerede behandlingspakker. �
 - [Latuda: præklinisk støtte, farmakologi og modfund](04_CANDIDATES/LURASIDONE_DOSSIER.md)
 - [Kombinationshypotese og kriterier for synergi](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
 - [Søgelog, kildekontrol og udeståender](09_DEBUG/BUTYRATE_LATUDA_SEARCH_LOG.md)
+
+## Mekanismer — version 0.4
+
+- [HDAC, BDNF/TrkB, 5-HT7 og dopamin](02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
+- [Kildeindeks, nye studiekort og kontrolniveauer](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
+
+Kortet skelner mellem målte forbindelser og uprøvet translation til kombinationen.
