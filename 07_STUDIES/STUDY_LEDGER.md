@@ -455,3 +455,129 @@ The evidence now supports a stronger version of the central FearPrime model:
 `observed augmentation = learning quality × intervention × timing × individual state × retrieval context`
 
 This is supported independently by the sodium-butyrate study, L-DOPA boundary-condition work and DCS clinical analyses, while the L-DOPA replication and conflicting oxytocin data demonstrate why negative/contradictory studies must remain first-class evidence rather than being discarded.
+
+
+---
+
+# Evidence batch 02 — BDNF/TrkB, reconsolidation, glucocorticoids, NMDA, α2A and interoception
+
+## BDNF / TrkB
+
+### Felmingham et al. 2013 — PTSD exposure therapy
+- PMID: 23312562
+- DOI: 10.1016/j.biopsych.2012.10.033
+- N = 55 PTSD patients in 8-week exposure-based CBT.
+- Met-66 carriers showed poorer exposure-treatment response than Val/Val participants.
+- Detailed card: `VERIFIED/2013_Felmingham_BDNF_Val66Met_PTSD_exposure.md`
+
+### Felmingham et al. 2018 — experimental extinction in PTSD
+- PMID: 29550677
+- DOI: 10.1016/j.psyneuen.2018.03.002
+- N = 106 total; PTSD n=22, trauma controls n=46, non-trauma controls n=38.
+- PTSD-related extinction impairment was especially evident among BDNF Met carriers.
+- Detailed card: `VERIFIED/2018_Felmingham_BDNF_Val66Met_fear_extinction_PTSD.md`
+
+**FearPrime update:** BDNF/TrkB is best modeled as a bidirectional plasticity gate rather than an intrinsically anti-fear pathway.
+
+## Reconsolidation / propranolol
+
+### Brunet et al. 2018 RCT
+- PMID: 29325446
+- DOI: 10.1176/appi.ajp.2017.17050481
+- N = 60 chronic PTSD.
+- Six weekly trauma-memory reactivation sessions.
+- Study regimen: 0.67 mg/kg short-acting + 1.0 mg/kg long-acting propranolol around reactivation.
+- Greater post-treatment CAPS/PCL-S reduction than placebo-reactivation.
+- Detailed card: `VERIFIED/2018_Brunet_Propranolol_Reactivation_RCT.md`
+
+### 2022 meta-analytic conflict
+- Pigeon et al.: PMID 35361699, DOI 10.1503/jpn.210057 — pooled reconsolidation benefit across healthy and mixed clinical samples.
+- Raut et al.: PMID 35405409, DOI 10.1016/j.jpsychires.2022.03.045 — no significant overall PTSD symptom benefit; heart-rate response reduced.
+- Steenen et al.: PMID 36130812, DOI 10.1503/jpn.220072-l — rectified analysis argued no propranolol-vs-placebo traumatic-memory effect.
+- Detailed card: `REVIEWS/2022_Propranolol_Reconsolidation_Conflicting_MetaAnalyses.md`
+
+**FearPrime update:** preserve reconsolidation as a distinct mechanistic track, but do not use the phrase “memory erasure” as an established clinical effect.
+
+## Glucocorticoids / hydrocortisone
+
+### Yehuda et al. 2015 pilot
+- PMID: 25212409
+- DOI: 10.1016/j.psyneuen.2014.08.004
+- N = 24 veterans.
+- 30 mg hydrocortisone before PE sessions 3–10.
+- Positive signal largely associated with improved treatment retention and possibly baseline glucocorticoid sensitivity.
+
+### Lehrner et al. 2021 larger RCT
+- PMID: 34298438
+- DOI: 10.1016/j.brat.2021.103924
+- N = 60 combat veterans.
+- 30 mg hydrocortisone 30 min before exposure sessions.
+- No overall intent-to-treat augmentation of PTSD outcomes; exploratory subgroup/biomarker interactions remained.
+
+### Post-exposure timing counterexample
+- PMID: 30245330.
+- Spider-phobia exposure followed by 20 mg hydrocortisone showed no add-on benefit and no one-month renewal protection.
+
+- Detailed card: `VERIFIED/2015_2021_Hydrocortisone_PE_PTSD.md`
+
+**FearPrime update:** cortisol effects must be modeled by timing, baseline HPA state, retrieval suppression, consolidation and later retrieval separately.
+
+## NMDA / memantine
+
+### Golisch et al. 2017
+- PMID: 28326025
+- DOI: 10.3389/fnbeh.2017.00034
+- 64 enrolled, 48 analyzed.
+- Single oral 30 mg memantine 2.5–3 h before extinction/recall.
+- Better/faster extinction-like associative learning in parts of the task, no reduction of renewal.
+- Critical limitation: the task used non-aversive stimulus-outcome learning, not conditioned fear.
+- Detailed card: `VERIFIED/2017_Golisch_Memantine_Extinction.md`
+
+### PTSD symptom studies
+- Open-label civilian PTSD: PMID 33680346.
+- Small double-blind combat-PTSD add-on pilot: PMID 37575607.
+
+**FearPrime update:** memantine is an NMDA mechanistic candidate with limited PTSD symptom evidence, not an established fear-extinction augmenter.
+
+## α2A / guanfacine
+
+### Neylan et al. 2006
+- PMID: 17151174
+- DOI: 10.1176/appi.ajp.163.12.2186
+- N = 63 chronic-PTSD veterans.
+- 0.5 mg start, weekly 0.5 mg increases, target 1–3 mg nightly; mean dose ~2.4 mg.
+- No superiority to placebo for PTSD symptoms, sleep or mood.
+
+### Davis et al. 2008
+- PMID: 18362867.
+- Another double-blind placebo-controlled veteran trial.
+- No significant guanfacine-vs-placebo clinical advantage.
+
+- Detailed card: `VERIFIED/2006_2008_Guanfacine_PTSD_RCTs.md`
+
+**FearPrime update:** α2A/PFC-control biology remains mechanistically interesting, but direct adult chronic-PTSD clinical evidence for guanfacine is negative.
+
+## Interoceptive exposure
+
+Direct PTSD evidence remains preliminary:
+- case report: PMID 15844686,
+- pilot n=7: PMID 17270392,
+- PTSD + chronic-pain series n=5: PMID 19941177, DOI 10.1080/16506070903183570.
+
+Interoceptive exposure reduced anxiety-sensitivity signals in these small studies and maps directly onto fear of bodily defensive sensations, but randomized PTSD evidence is still lacking.
+
+Detailed card: `VERIFIED/2005_2007_2010_Interoceptive_Exposure_PTSD.md`
+
+## Stress reinstatement / relapse taxonomy
+
+### Haaker et al. 2014
+- PMID: 25128533.
+- Human reinstatement review.
+- Reinstatement, renewal, spontaneous recovery and reacquisition should be tracked as different return-of-fear mechanisms.
+- Detailed card: `REVIEWS/2014_Haaker_Human_Reinstatement.md`
+
+## Updated FearPrime evidence equation
+
+`durable fear-control outcome = corrective learning × plasticity state × consolidation × later retrieval × context transfer − renewal − reinstatement − spontaneous recovery − reacquisition`
+
+This batch strengthens the repository rule that the same biological pathway can have opposite practical meaning depending on **what is being learned, when it is modulated, and which relapse mechanism is tested**.
