@@ -754,3 +754,163 @@ This ranking is provisional and is based on **direct relevance to durable fear-e
 Batch 03 adds a further rule:
 
 > An intervention that improves PTSD symptoms is not automatically an extinction enhancer, and an intervention that improves explicit threat expectancy is not automatically improving autonomic fear memory.
+
+
+---
+
+# Evidence batch 04 — hormones, circadian state, inflammation, metabolism, GLP-1, mitochondria and epigenetics
+
+## Estradiol / progesterone
+
+### Glover et al. 2012
+- PMID: 22502987
+- DOI: 10.1016/j.biopsych.2012.02.031
+- N = 81 trauma-exposed women.
+- Low endogenous estradiol was associated with a stronger PTSD-related extinction deficit; this diagnostic difference was absent in the high-E2 group.
+
+### Kaczmarczyk et al. 2024 RCT
+- PMID: 39448569
+- DOI: 10.1038/s41398-024-03079-4
+- N = 116 healthy pre-menopausal women.
+- 2 mg estradiol, 400 mg progesterone, combination or placebo ~2 h before extinction.
+- Acute estradiol administration was followed by greater return of fear on SCR the next day.
+- Progesterone produced no clear main SCR effect.
+
+Detailed card: \`VERIFIED/2012_2024_Estradiol_Progesterone_Fear_Extinction.md\`
+
+**FearPrime update:** endogenous hormone status and acute hormone administration cannot be assumed to produce the same extinction phenotype.
+
+## Testosterone / cortisol / circadian state
+
+### Pace-Schott et al. 2013
+- PMID: 23992769
+- DOI: 10.1016/j.jpsychires.2013.07.027
+- N = 109 healthy men.
+- Extinction was learned better in the morning, with better later generalized recall and less contextual renewal.
+- Higher morning testosterone:cortisol ratio predicted better extinction learning in the measured subgroup.
+
+Detailed card: \`VERIFIED/2013_Circadian_Testosterone_Cortisol_Extinction.md\`
+
+**FearPrime update:** clock time and endocrine state become mandatory experimental covariates. This is not evidence that exogenous testosterone itself is an extinction enhancer.
+
+## Neuroimmune / microglia
+
+### Bonomi et al. 2024
+- PMID: 39172786
+- DOI: 10.1073/pnas.2406005121
+- PTSD n=15; controls n=15.
+- Dynamic TSPO PET before/after LPS challenge.
+- PTSD showed a smaller LPS-induced TSPO increase across prefrontal-limbic regions.
+- Suppressed response correlated with anhedonia severity.
+
+Detailed card: \`VERIFIED/2024_Microglia_Neuroimmune_PTSD.md\`
+
+**FearPrime update:** reject the universal model "PTSD = excessive brain inflammation." Peripheral inflammation, baseline central immunity and dynamic microglial responsiveness must be separated.
+
+## Fasting / ghrelin / metabolic state
+
+### Shi et al. 2018
+- PMID: 30301955
+- DOI: 10.1038/s41398-018-0260-1
+- N = 125 men randomized to overnight fasting vs food.
+- Fasting did not alter fear acquisition but improved extinction retention and reduced return of fear.
+- Elevated ghrelin correlated inversely with later fear response.
+- Cortisol was not materially changed by the fasting manipulation.
+
+Detailed card: \`VERIFIED/2018_Fasting_Ghrelin_Human_Fear_Extinction.md\`
+
+**FearPrime update:** metabolic state becomes a direct human extinction variable. The evidence applies to overnight fasting and cannot be extrapolated to multi-day fasting.
+
+## GLP-1
+
+### Akillioglu et al. 2026
+- PMID: 42342196
+- DOI: 10.1016/j.pnpbp.2026.111804
+- Single-prolonged-stress mouse model plus chemogenetic BLA manipulation.
+- Liraglutide improved some PTSD-like anxiety measures and altered NR2B/CREB/GLP-1R-related molecular signals.
+- The study did not test a clean human or animal extinction-retrieval augmentation endpoint.
+
+Detailed card: \`PRECLINICAL/2026_GLP1_Liraglutide_PTSD_Model.md\`
+
+**FearPrime update:** GLP-1 remains a metabolic/neuroplasticity hypothesis, not a demonstrated extinction enhancer.
+
+## Mitochondria / lactate / BDNF
+
+Current audit finds strong mechanistic plausibility but insufficient direct human extinction-intervention evidence for:
+- exogenous lactate,
+- mitochondrial biogenesis enhancers,
+- ATP-targeted augmentation,
+- or lactate as the causal mediator of exercise's extinction benefit.
+
+Detailed audit: \`MECHANISTIC/Mitochondria_Lactate_BDNF_Extinction_Audit.md\`
+
+**FearPrime update:** do not infer causality from exercise-associated lactate/BDNF changes without intervention-level mediation evidence.
+
+## PTSD epigenetics
+
+### Smith et al. 2020
+- PMID: 33235198
+- DOI: 10.1038/s41467-020-19615-x
+- N = 1,896 across 10 military/civilian cohorts.
+- PTSD-associated methylation differences included AHRR and links with kynurenine/immune-metabolic biology.
+
+### Snijders et al. 2020
+- PMID: 31931860.
+- Longitudinal epigenome-wide military cohort analyses identified PTSD-associated CpG patterns across multiple genomic regions.
+
+Detailed card: \`VERIFIED/2020_2024_PTSD_Epigenome_Evidence.md\`
+
+**FearPrime update:** separate blood DNA-methylation biomarkers of PTSD from chromatin manipulation that directly affects extinction consolidation. HDAC inhibition is not equivalent to globally "reversing the PTSD epigenome."
+
+---
+
+## Updated evidence hierarchy after Batch 04
+
+### High direct relevance to extinction state/modulation
+- exposure/inhibitory learning,
+- exercise,
+- sleep/circadian timing,
+- sodium butyrate/HDAC,
+- FAAH/anandamide,
+- metabolic state/overnight fasting,
+- endogenous estradiol status as a moderator.
+
+### Conditional or directionally mixed
+- L-DOPA,
+- D-cycloserine,
+- hydrocortisone,
+- estradiol administration,
+- oxytocin,
+- tVNS,
+- CBD.
+
+### Strong PTSD biology but not established extinction augmentation
+- ketamine,
+- microglia/neuroimmune modulation,
+- lurasidone,
+- memantine,
+- GLP-1 agonism,
+- low-dose amisulpride,
+- mitochondrial/lactate manipulation,
+- PTSD-associated DNA methylation.
+
+## Updated systems equation
+
+FearPrime outcome =
+corrective learning
+× plasticity state
+× endocrine/circadian state
+× metabolic state
+× neuromodulatory state
+× consolidation
+× sleep
+× retrieval context
+× context generalization
+− renewal
+− reinstatement
+− spontaneous recovery
+− reacquisition
+
+### Batch 04 rule
+
+A biomarker that correlates with PTSD is not automatically a treatment target, and a pathway that correlates with better natural extinction is not automatically improved by acute pharmacological activation of that pathway.
