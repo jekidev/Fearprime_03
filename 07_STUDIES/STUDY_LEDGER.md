@@ -581,3 +581,176 @@ Detailed card: `VERIFIED/2005_2007_2010_Interoceptive_Exposure_PTSD.md`
 `durable fear-control outcome = corrective learning × plasticity state × consolidation × later retrieval × context transfer − renewal − reinstatement − spontaneous recovery − reacquisition`
 
 This batch strengthens the repository rule that the same biological pathway can have opposite practical meaning depending on **what is being learned, when it is modulated, and which relapse mechanism is tested**.
+
+
+---
+
+# Evidence batch 03 — endocannabinoids, CBD, ketamine, 5-HT2A/MDMA, exercise, sleep and vagal modulation
+
+## Endocannabinoids / CB1 / FAAH
+
+### Human CB1 genetics — Heitland et al. 2012
+- PMID: 23010766
+- DOI: 10.1038/tp.2012.90
+- N = 150 healthy humans.
+- CNR1 rs2180619 genotype predicted fear-extinction performance without equivalent effects on acquisition.
+
+### Human FAAH inhibition — Mayo et al. 2020
+- PMID: 31590924
+- Randomized double-blind placebo-controlled experimental medicine trial.
+- PF-04457845 4 mg daily for 10 days; FAAH n=16, placebo n=29.
+- ~10-fold higher anandamide and improved 24-h extinction recall plus attenuated stress reactivity.
+
+Detailed card: `VERIFIED/2012_2019_Endocannabinoid_CB1_FAAH_Human_Extinction.md`
+
+**FearPrime update:** the AEA/FAAH/CB1 pathway now has direct randomized human pharmacological support and is promoted to a high-priority mechanistic track.
+
+## Cannabidiol
+
+### Das et al. 2013
+- PMID: 23307069
+- DOI: 10.1007/s00213-012-2955-y
+- N=48 healthy participants.
+- 32 mg CBD before or after extinction.
+- Post-extinction CBD enhanced explicit shock-expectancy consolidation, without acute within-session enhancement.
+
+### Clinical exposure RCT — Kwee et al. 2022
+- PMID: 35561538
+- N=80 anxiety-disorder patients.
+- 300 mg oral CBD before eight weekly exposure sessions.
+- No improvement in clinical exposure outcome relative to placebo through 6-month follow-up.
+
+### Fear-conditioning sub-study
+- PMID: 38044339.
+- Reduced threat expectancy at retention but no improved re-extinction; possible adverse learning interactions in antidepressant users in exploratory analyses.
+
+Detailed card: `VERIFIED/2013_2023_CBD_Human_Extinction_Exposure.md`
+
+**FearPrime update:** CBD remains mixed; early healthy-volunteer consolidation evidence does not translate into proven clinical exposure augmentation.
+
+## Ketamine
+
+Verified human PTSD efficacy includes:
+- Feder 2014 — PMID 24740528 — single 0.5 mg/kg IV infusion vs midazolam, rapid symptom reduction.
+- Feder 2021 — PMID 33397139 — six infusions over two weeks, stronger CAPS reduction than midazolam.
+- 2023 meta-analysis — PMID 37776285 — pooled RCT evidence favored ketamine for PTSD symptom scores.
+- 2025 i.m. active-control RCT — PMID 41030011, DOI 10.1192/bjo.2025.10854 — preliminary short-term efficacy in treatment-resistant PTSD.
+
+However:
+- ketamine + Written Exposure Therapy evidence (PMID 40215385) is open-label;
+- ketamine + Prolonged Exposure publication (PMID 38729297) is a protocol rather than efficacy result.
+
+Detailed card: `VERIFIED/2014_2026_Ketamine_PTSD_and_Extinction_Audit.md`
+
+**FearPrime update:** ketamine is supported as a PTSD symptom treatment, but human fear-extinction augmentation remains unproven.
+
+## MDMA and 5-HT2A psychedelic track
+
+### MDMA human extinction RCT
+- Maples-Keller et al. 2022.
+- PMID: 35166140.
+- DOI: 10.1177/02698811211069124.
+- Randomized healthy-human fear acquisition/extinction study.
+- No significant overall drug-group effect on the main extinction-retention analysis, though more MDMA participants met a retained-learning criterion.
+
+Detailed card: `VERIFIED/2022_MDMA_Human_Fear_Extinction.md`
+
+### Psilocybin 2024 preclinical study
+- PMID: 39087917.
+- Psilocybin before extinction facilitated extinction, later retention and some renewal outcomes in mice.
+- 5-HT2A antagonism blocked the principal effects.
+- Concurrent extinction experience was necessary; administration before fear learning or immediately after extinction did not reproduce the effect.
+
+Detailed card: `PRECLINICAL/2024_Psilocybin_5HT2A_Fear_Extinction.md`
+
+**FearPrime update:** 5-HT2A-dependent plasticity is mechanistically compelling but direct human psilocybin extinction evidence remains absent from the ledger. MDMA has human extinction data but is mechanistically multimodal rather than a selective 5-HT2A probe.
+
+## Exercise / BDNF / anandamide
+
+### Crombie et al. 2021
+- PMID: 34280820.
+- DOI: 10.1016/j.psyneuen.2021.105355.
+- N=35 women with PTSD.
+- 30-min moderate exercise immediately after extinction vs very-light walking.
+- Exercise-related rises in peripheral anandamide and BDNF mediated lower threat expectancy after reinstatement.
+
+### Bryant et al. 2023 clinical RCT
+- PMID: 36436532.
+- DOI: 10.1016/S2215-0366(22)00368-6.
+- N=130 PTSD.
+- Exposure + 10 min aerobic exercise vs exposure + passive stretching.
+- Greater CAPS reduction at six months in exercise augmentation; between-group difference ~12.1 points, effect size ~0.6.
+
+### Additional human evidence
+- Pilot exposure augmentation: PMID 25706090.
+- BDNF Val66Met moderation of acute exercise/extinction: PMID 30967530.
+- Post-extinction exercise reducing return of fear: PMID 37065640.
+- 2026 contextual generalization study: PMID 41719892.
+
+Detailed card: `VERIFIED/2015_2026_Exercise_BDNF_AEA_PTSD_Extinction.md`
+
+**FearPrime update:** exercise is promoted to a **core non-pharmacological augmentation candidate**, with convergence across clinical outcome, experimental extinction, BDNF and anandamide.
+
+## Sleep / REM / circadian consolidation
+
+Key human evidence:
+- REM-rich late sleep and reduced return of fear — PMID 26888926.
+- Sleep deprivation disrupts extinction recall — PMID 28758152.
+- Morning blue light in N=82 PTSD improved extinction-memory retention relative to amber placebo — PMID 36172467, DOI 10.3389/fnbeh.2022.886816.
+- Schenker et al. 2026: N=70 trauma-exposed adults; late sleep improved physiological extinction recall in probable PTSD under the split-night design — PMID 42659753, DOI 10.1016/j.psychres.2026.117393.
+
+Detailed card: `VERIFIED/2016_2026_Sleep_REM_Circadian_Extinction.md`
+
+**FearPrime update:** sleep is a core consolidation variable and must be recorded in every longitudinal FearPrime extinction experiment.
+
+## Transcutaneous vagus nerve stimulation
+
+Human studies:
+- Burger et al. 2016 — PMID 27222436, DOI 10.1016/j.nlm.2016.05.007, N=31.
+- Burger et al. 2017 — PMID 28719827, DOI 10.1016/j.brat.2017.07.005, N=42.
+- Burger et al. 2019 — PMID 30986531, DOI 10.1016/j.nlm.2019.04.006, N=58.
+
+Across studies, tVNS repeatedly accelerated or improved **declarative threat-expectancy extinction**, but did not consistently improve physiological measures or delayed retention.
+
+Detailed card: `VERIFIED/2016_2019_tVNS_Human_Fear_Extinction.md`
+
+**FearPrime update:** tVNS remains a promising low-invasive mechanistic candidate, but the current evidence is stronger for explicit expectancy change than durable autonomic extinction.
+
+---
+
+## Evidence ranking after Batch 03
+
+### Tier 1 — strongest current augmentation/translational tracks
+1. Exposure / inhibitory learning itself.
+2. Exercise paired with exposure/extinction.
+3. Sleep/circadian support of extinction consolidation.
+4. Sodium butyrate/HDAC — strong single major human experimental anchor, replication still needed.
+5. Endocannabinoid/FAAH-anandamide — strong human experimental-medicine mechanism, clinical PTSD translation pending.
+
+### Tier 2 — promising but conditional/mixed
+- L-DOPA/dopamine.
+- D-cycloserine.
+- Hydrocortisone/glucocorticoids.
+- tVNS.
+- MDMA-related extinction mechanisms.
+- BDNF/TrkB modulation as a general pathway.
+
+### Tier 3 — clinical efficacy or mechanistic interest without demonstrated extinction augmentation
+- Ketamine.
+- Lurasidone/Latuda.
+- Memantine.
+- Oxytocin.
+- CBD.
+- Guanfacine.
+- low-dose amisulpride.
+- psilocybin/5-HT2A in humans.
+
+This ranking is provisional and is based on **direct relevance to durable fear-extinction/exposure augmentation**, not on general psychiatric efficacy.
+
+## Updated framework equation
+
+`FearPrime outcome = corrective learning × plasticity window × neuromodulatory state × consolidation quality × sleep × retrieval context × generalization − renewal − reinstatement − spontaneous recovery − reacquisition`
+
+Batch 03 adds a further rule:
+
+> An intervention that improves PTSD symptoms is not automatically an extinction enhancer, and an intervention that improves explicit threat expectancy is not automatically improving autonomic fear memory.
