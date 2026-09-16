@@ -2,6 +2,17 @@
 
 Denne mappe samler læringsmateriale, som er nyttigt for FearPrime, men som skal holdes adskilt fra studieregistret.
 
+## Tematisk indeks
+
+- [Exposure](CATEGORIES/EXPOSURE.md)
+- [Fear Extinction](CATEGORIES/FEAR_EXTINCTION.md)
+- [CPTSD](CATEGORIES/CPTSD.md)
+- [Somatic](CATEGORIES/SOMATIC.md)
+- [Recovery](CATEGORIES/RECOVERY.md)
+- [Resilience](CATEGORIES/RESILIENCE.md)
+- [Peer Support](CATEGORIES/PEER_SUPPORT.md)
+- [Samlet kategoriindeks](CATEGORIES/README.md)
+
 ## Ressourcetyper
 
 - [YouTube og video](YOUTUBE_RESOURCES.md)
