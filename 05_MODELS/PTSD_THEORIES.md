@@ -47,3 +47,20 @@ Tre observationsartikler supplerer teorikortene:
 
 ## Uafklaret
 Tre udvalgte empiriske artikler er nu registreret. Senere revisioner, prospektive undersøgelser og den samlede støtte til alternative hukommelsesmodeller mangler fortsat en systematisk gennemgang. CPTSD, dissociation, relationelle vanskeligheder, skyld og skam kræver selvstændig dækning. Se [søgelog](../09_DEBUG/THEORY_SEARCH_LOG.md) og [dækningsplan](../09_DEBUG/COVERAGE_PLAN.md).
+
+
+## Udvidede perspektiver — version 0.17
+
+| Perspektiv | Centralt spørgsmål | Kilde |
+|---|---|---|
+| Predictive processing | Hvor stærkt vægtes tidligere trusselsforventninger relativt til ny sensorisk, interoceptiv og social information? | [Putica & Agathos 2024](../07_STUDIES/THEORY/2024_Putica_Agathos_CPTSD_Predictive_Processing.md) |
+| Interoception | Hvordan registreres, fortolkes og reguleres kropslige signaler ved PTSD? | [Leech et al. 2024](../07_STUDIES/REVIEWS/2024_Leech_Interoception_PTSD_Scoping.md) |
+| Dissociation | Kan lavt subjektivt arousal afspejle depersonalisation/derealisation frem for sikkerhedslæring? | [Misitano et al.](../07_STUDIES/REVIEWS/2024_Misitano_Dissociative_PTSD_Subtype.md) |
+| Defensive responser | Hvornår er immobilitet en involuntær forsvarsrespons, og hvordan relaterer den sig til PTSD-sværhedsgrad? | [Coimbra et al. 2023](../07_STUDIES/REVIEWS/2023_Coimbra_Tonic_Immobility_PTSD_Meta.md) |
+| Hukommelsesopdatering | Hvornår afspejler ændring extinction, retrieval eller reconsolidation? | [Chen et al. 2025](../07_STUDIES/REVIEWS/2025_Chen_Fear_Memory_Update.md) |
+| Farmakologisk augmentation | Hvilket læringstrin ændres faktisk af et biologisk tillæg? | [Smits et al. 2026](../07_STUDIES/REVIEWS/2026_Smits_Pharmacological_Augmentation_Extinction.md) |
+
+Den integrerende [Adaptive PTSD Model](ADAPTIVE_PTSD_MODEL.md) samler disse perspektiver uden at antage, at de beskriver samme forklaringsniveau eller allerede er valideret som én samlet teori.
+
+### Opdateret uafklaret
+CPTSD, dissociation og interoception har nu egne indledende kilder og ressourcekategorier. Der mangler fortsat systematisk dækning af bl.a. skyld, skam, moral injury, social threat, udviklingstraumer og prospektive predictive-processing-tests.
