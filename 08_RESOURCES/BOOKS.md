@@ -29,3 +29,20 @@
 - **Relevans:** primær konceptuel kilde til TRE-metoden.
 - **Dansk biblioteksreference:** https://bibliotek.dk/materiale/shake-it-off-naturally/work-of%3A870970-basis%3A52220564
 - **Vigtigt:** bruges til at forstå metoden, ikke til at dokumentere effekt. Effektpåstande skal kontrolleres mod [TRE-dossieret](../03_EXTINCTION/TRE_DOSSIER.md) og studierne.
+
+
+## Udvidet PTSD- og eksponeringsbibliotek
+
+### Abramowitz, Deacon & Whiteside — *Exposure Therapy for Anxiety: Principles and Practice*, 2. udg. (2019)
+- **Type:** A/C — forskningsbaseret klinisk fagbog.
+- **Forlag:** Guilford Press.
+- **Relevans:** eksponering, inhibitory learning, behandlingsplanlægning og variation på tværs af angstproblemer.
+- **Link:** https://www.guilford.com/books/Exposure-Therapy-for-Anxiety/Abramowitz-Deacon-Whiteside/9781462539529
+- **FearPrime-brug:** praktisk og teoretisk reference for eksponering; PTSD-specifikke konklusioner bør krydstjekkes mod PTSD-litteraturen.
+
+### Friedman, Schnurr & Keane (red.) — *Handbook of PTSD: Science and Practice*, 3. udg. (2021/2023)
+- **Type:** A/C — forskningshåndbog.
+- **Forlag:** Guilford Press.
+- **Relevans:** bred PTSD-videnskab, risikofaktorer, neurobiologi, resiliens, vurdering og evidensbaserede behandlinger.
+- **Link:** https://www.guilford.com/books/Handbook-of-PTSD/Friedman-Schnurr-Keane/9781462553785
+- **FearPrime-brug:** overordnet reference, især når FearPrime-hypoteser skal sammenholdes med etableret PTSD-forskning.
