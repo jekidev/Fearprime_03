@@ -23,6 +23,8 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
 - [Frygt og selvbeherskelse](10_*******/FEAR_MASTERY.md)
 - [TRE — forskningsdossier](03_EXTINCTION/TRE_DOSSIER.md)
+- [TRE — samlet litteraturkort](07_STUDIES/TRE_LITERATURE_MAP.md)
+- [TRE — søgelog og dækningsstatus](09_DEBUG/TRE_SEARCH_LOG.md)
 
 ## Præparater og mekanismer
 - [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
