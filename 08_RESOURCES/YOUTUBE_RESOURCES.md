@@ -33,3 +33,13 @@ TRE-specifikke videoer kan tilføjes her efter samme skabelon. Påstande kontrol
 - **Emne:** Somatic Experiencing, titrering og Levines model for kropslig traumeregulering.
 - **FearPrime-brug:** sammenligningskilde til TRE og somatiske modeller.
 - **Afgrænsning:** Somatic Experiencing ≠ TRE; mekanistiske udsagn kræver separat evidenskontrol.
+
+
+## Evidensbaseret PTSD-behandling — videoportaler
+
+### National Center for PTSD — animerede behandlingsvideoer
+- **Type:** B — faglig organisationsressource.
+- **Videoportal:** https://www.ptsd.va.gov/appvid/video/videos_508_public.asp
+- **Indhold:** korte videoer om bl.a. “What is PTSD?”, behandlingsvalg, Prolonged Exposure, CPT, EMDR, Written Exposure Therapy og medicin.
+- **FearPrime-brug:** hurtig visuel orientering i etablerede behandlingsmodeller, før mere eksperimentelle FearPrime-spor vurderes.
+- **Afgrænsning:** videoerne er undervisningsressourcer; effektstørrelser og mekanismer kontrolleres i guidelines/primærstudier.
