@@ -293,3 +293,11 @@ Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ik
 ## Harnisch / coping og kontekst — version 0.15
 - Harnisch H. (2016). *”The first time you kill someone, your mind will not be settled”. Forced resilience, experiences of war, and difficult demobilizations among former violently mobilized children and youth in Acholiland, northern Uganda.* Ph.d.-afhandling, DPU, Aarhus Universitet. ISBN 9788776846534. Se [forskningskort](QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md).
 - [PMID 28738316](https://pubmed.ncbi.nlm.nih.gov/28738316/) — Harnisch H, Montgomery E. (2017). *“What kept me going”: A qualitative study of avoidant responses to war-related adversity and perpetration of violence by former forcibly recruited children and youth in the Acholi region of northern Uganda.* Social Science & Medicine 188:100–108. DOI 10.1016/j.socscimed.2017.07.007. Se [studiekort](QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md).
+
+
+## Harnisch-sporet — supplerende kilder, version 0.16
+- [PMID 29151235](https://pubmed.ncbi.nlm.nih.gov/29151235/) — Harnisch H, Pfeiffer A. (2018). *How ‘the urge to kill’ feels: articulations of emic ‘appetitive aggression’ experiences among former forcefully recruited children and youth in the Acholi region of northern Uganda.* Culture, Medicine and Psychiatry 42(2):419–448. DOI 10.1007/s11013-017-9557-4.
+- Harnisch H. (2018). *“The Additional Past”: Struggles of Demobilization and Homecoming Narratives in Northern Uganda.* I Jensen S & Vigh H (red.), *Sporadically Radical*, s. 235–268, Museum Tusculanum Press.
+- Harnisch H, Montgomery E, Knoop HH. (2020). *Forced Resilience: Conceptualizing Resilience in Life-Threatening Adversity.* Oxford Research Encyclopedia of Psychology. DOI 10.1093/acrefore/9780190236557.013.546.
+- Harnisch H. (2022). *“The Third Time Janus Died”: Resilience and Dependencies In Coping With Adversity During And After Civil War In Northern Uganda.* Civil Wars 24(2–3):280–304. DOI 10.1080/13698249.2022.2092687.
+- [Samlet Harnisch-dossier](QUALITATIVE/HARNISCH_DOSSIER.md).
