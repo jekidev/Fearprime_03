@@ -21,7 +21,8 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
-- [Frygt og selvbeherskelse](10_UBERMENSCH/FEAR_MASTERY.md)
+- [Frygt og selvbeherskelse](10_REDACTED/FEAR_MASTERY.md)
+- [TRE — forskningsdossier](03_EXTINCTION/TRE_DOSSIER.md)
 
 ## Præparater og mekanismer
 - [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
@@ -39,7 +40,11 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 
 ## Ressourcer
-- [YouTube-ressourcer – inkl. TRE](08_RESOURCES/YOUTUBE_RESOURCES.md)
+- [Samlet ressourceindeks](08_RESOURCES/README.md)
+- [YouTube-ressourcer](08_RESOURCES/YOUTUBE_RESOURCES.md)
+- [Bøger](08_RESOURCES/BOOKS.md)
+- [Podcasts](08_RESOURCES/PODCASTS.md)
+- [Foredrag og webinarer](08_RESOURCES/LECTURES.md)
 
 Målet er læring og funktion, som holder over tid og i flere sammenhænge. Akut ro, forventning, fysiologi og symptomer måles separat. »0–100« er projektets vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; personlige helbredsregistreringer opbevares privat.
 
@@ -82,3 +87,7 @@ To åbne primærkilder har nu egne danske studiekort og indgår i begge registre
 - [Lurasidon og patient-PET, 2014](07_STUDIES/MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md).
 
 Dossiererne skelner tydeligere mellem interventionsfase, eksponering, receptorbelægning og læring. [Kontrolstatus og næste kildeopgaver](09_DEBUG/TRANSLATION_SEARCH_LOG.md).
+
+
+## Version 0.13: TRE og ressourcebibliotek
+[TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) samler teori, mekanismehypoteser, positive fund og modfund. TRE holdes adskilt fra Somatic Experiencing, og Kent-rapportens manglende signifikante PTSD Group × Time-effekt er registreret som et centralt modfund. [Ressourcebiblioteket](08_RESOURCES/README.md) indeholder nu video, bøger, podcasts og foredrag med evidensmærkning.
