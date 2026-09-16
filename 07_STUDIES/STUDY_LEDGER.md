@@ -166,3 +166,8 @@ TRE er registreret som en kropslig/somatisk kandidatintervention, ikke som dokum
 - [Oh & Shin 2021 — akut state anxiety](VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md): n=25, ukontrolleret før/efter-pilot; akut angstsignal, ikke langtidseffekt.
 
 Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTION/TRE_DOSSIER.md).
+
+
+### TRE-protokol uden effektresultater
+- [Zhao et al. 2024 — TRE ved emotionelle lidelser hos unge](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md): RCT-protokol, 140 mor–unge-par, ChiCTR2100044553. Protokollen tælles ikke som positiv eller negativ effekt-evidens.
+- [Samlet TRE-litteraturkort](TRE_LITERATURE_MAP.md) bevarer 2023-korpus, nyere kilder og grå litteratur med kontrolstatus.
