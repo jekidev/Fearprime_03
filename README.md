@@ -91,3 +91,9 @@ Dossiererne skelner tydeligere mellem interventionsfase, eksponering, receptorbe
 
 ## Version 0.13: TRE og ressourcebibliotek
 [TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) samler teori, mekanismehypoteser, positive fund og modfund. TRE holdes adskilt fra Somatic Experiencing, og Kent-rapportens manglende signifikante PTSD Group × Time-effekt er registreret som et centralt modfund. [Ressourcebiblioteket](08_RESOURCES/README.md) indeholder nu video, bøger, podcasts og foredrag med evidensmærkning.
+
+
+## Version 0.14: udvidet TRE-evidens og ressourcebibliotek
+TRE-sporet er udvidet med fire yderligere humane kilder: Berceli et al. 2014, Johnson & Naidoo 2017, Thommessen & Fougner 2020 samt Oh & Shin 2021. De er registreret som pilot-/mixed-method-/kvalitative signaler og holdes adskilt fra kontrollerede kliniske forsøg. [TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) indeholder nu et eksplicit evidenshierarki.
+
+[YouTube](08_RESOURCES/YOUTUBE_RESOURCES.md), [bøger](08_RESOURCES/BOOKS.md), [podcasts](08_RESOURCES/PODCASTS.md) og [foredrag](08_RESOURCES/LECTURES.md) er samtidig udvidet med TRE-, PTSD- og eksponeringsressourcer. Ressourcebiblioteket er fortsat sekundært til studieregistret: videoer, bøger og podcasts bruges til læring og hypotesegenerering, ikke som erstatning for primær evidens.
