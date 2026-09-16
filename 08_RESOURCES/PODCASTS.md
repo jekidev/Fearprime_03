@@ -20,3 +20,10 @@
 - **Emne:** posttraumatisk vækst.
 - **Link:** https://www.apa.org/news/podcasts/speaking-of-psychology/transformation-trauma
 - **FearPrime-brug:** konceptuel ressource om positive forandringer efter traumer; må ikke bruges som evidens for, at vækst er universel eller forventelig.
+
+
+### APA — Veterans’ mental health, med Rajeev Ramchand, PhD og Terri Tanielian, MA
+- **Type:** B/C — faglig organisationspodcast.
+- **Link:** https://www.apa.org/research/action/speaking-of-psychology/veterans-mental-health
+- **Emne:** veteraners mentale helbred, PTSD og bl.a. prolonged exposure.
+- **FearPrime-brug:** introduktion til behandlingskontekst og implementering; konkrete behandlingseffekter kontrolleres mod primærstudier/guidelines.
