@@ -116,6 +116,13 @@ DOI 10.1080/19443927.2019.1694971
 DOI 10.47116/apjcri.2021.11.31  
 [Studiekort](../07_STUDIES/VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md)
 
+
+## Samlet litteraturdækning
+
+Den fulde bibliografiske dækning ligger i [TRE — samlet litteraturkort](../07_STUDIES/TRE_LITERATURE_MAP.md). Det kort registrerer hele det verificerede 2023-scoping-korpus på 18 unikke studier/20 rapporter, nyere studier og åbne spor. Den peer-reviewede 2026-opdatering rapporterer 22 studier/24 rapporter; hvor fuld primærtekst ikke er kontrolleret, står posten som bibliografisk spor frem for som verificeret effektfund.
+
+[Søgelog og dækningsstatus](../09_DEBUG/TRE_SEARCH_LOG.md) dokumenterer dubletter, grå litteratur og åbne fuldtekst-opgaver.
+
 ## 4. Hvad evidensen ikke viser endnu
 
 Der er endnu ikke et stærkt, replikeret evidensgrundlag for at sige, at TRE:
