@@ -286,3 +286,5 @@ Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængi
 - DOI 10.47116/apjcri.2021.11.31 — *A Pilot Study on the Anxiety Reduction Effect of Tension, Stress, and Trauma Releasing Exercises (TRE)*. Se [studiekort](VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md).
 
 Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ikke tælles som uafhængige, direkte PTSD-RCT'er. De nye pilot-/kvalitative kilder er registreret netop for at bevare hele evidenslandskabet uden at opgradere deres kausale styrke.
+
+- DOI 10.1186/s12906-024-04650-8 — Zhao et al. 2024, RCT-protokol for TRE som tillæg ved emotionelle lidelser hos unge; ChiCTR2100044553. Se [protokolkort](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md). **Ingen effektresultater i protokolartiklen.**
