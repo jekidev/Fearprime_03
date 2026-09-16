@@ -160,4 +160,9 @@ TRE er registreret som en kropslig/somatisk kandidatintervention, ikke som dokum
 - [Skovgaard et al. 2025 — TRE ved MS, RCT](VERIFIED/2025_Skovgaard_TRE_MS_RCT.md): n=28; ujusteret primæranalyse ikke signifikant, justeret MFIS-total signifikant; ikke PTSD-population.
 - [Roos, van Niekerk & Tönsing 2026 — TRE scoping review](REVIEWS/2026_Roos_TRE_Scoping_Review.md): 22 studier/24 rapporter; lovende signaler, men heterogen og ofte metodisk svag litteratur.
 
+- [Berceli et al. 2014 — TRE/SUTT caregiver-pilot](VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md): n=21 gennemførere; ukontrolleret 10-ugers feasibility/QoL-signal; PMID 25568824.
+- [Johnson & Naidoo 2017 — lærer-stress og burnout](VERIFIED/2017_Johnson_Naidoo_TRE_Teacher_Stress.md): mixed-method pilot med TRE-relateret kropslig coping; ikke et rent TRE-RCT.
+- [Thommessen & Fougner 2020 — dramastuderende](VERIFIED/2020_Thommessen_Fougner_TRE_Drama_Students.md): kvalitativt case-studie, n=12; kropsbevidsthed og oplevet funktion.
+- [Oh & Shin 2021 — akut state anxiety](VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md): n=25, ukontrolleret før/efter-pilot; akut angstsignal, ikke langtidseffekt.
+
 Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTION/TRE_DOSSIER.md).
