@@ -11,6 +11,12 @@ Denne mappe samler læringsmateriale, som er nyttigt for FearPrime, men som skal
 - [Recovery](CATEGORIES/RECOVERY.md)
 - [Resilience](CATEGORIES/RESILIENCE.md)
 - [Peer Support](CATEGORIES/PEER_SUPPORT.md)
+- [Pharmacological Augmentation](CATEGORIES/PHARMACOLOGICAL_AUGMENTATION.md)
+- [Neurobiology](CATEGORIES/NEUROBIOLOGY.md)
+- [Memory Reconsolidation](CATEGORIES/MEMORY_RECONSOLIDATION.md)
+- [Dissociation / Freeze](CATEGORIES/DISSOCIATION_FREEZE.md)
+- [Interoception](CATEGORIES/INTEROCEPTION.md)
+- [Predictive Processing](CATEGORIES/PREDICTIVE_PROCESSING.md)
 - [Samlet kategoriindeks](CATEGORIES/README.md)
 
 ## Ressourcetyper
