@@ -149,3 +149,15 @@ Kortene vedrører forskellige evidensniveauer. [Kontrolstatus](../09_DEBUG/TRANS
 - [Potkin 2014](MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md): DOI 10.1017/S109285291300059X. Human receptorundersøgelse, online 2013.
 
 Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængige replikationer. Resumé og metadata er kontrolleret; fuld metodevurdering udestår.
+
+
+## TRE og somatiske interventioner — version 0.13
+TRE er registreret som en kropslig/somatisk kandidatintervention, ikke som dokumenteret fear-extinction- eller rekonsolideringsmekanisme.
+
+- [Kent 2018 — kontrolleret TRE-forsøg ved stress/PTSD](VERIFIED/2018_Kent_TRE_PTSD_Controlled_Trial.md): teknisk slutrapport. TRE-gruppen forbedredes over tid, men PTSD Group × Time var ikke signifikant; rapporten dokumenterer derfor ikke TRE-specifik overlegenhed på PTSD-symptomer.
+- [Lynning et al. 2021 — TRE ved MS, pilot](VERIFIED/2021_Lynning_TRE_MS_Pilot.md): n=9, enkeltgruppe; positive selvrapporterede signaler, men ingen kontrolgruppe og ikke PTSD.
+- [Parker et al. 2024 — TRE hos østafrikanske flygtninge](VERIFIED/2024_Parker_TRE_Refugees.md): positivt traumesymptomsignal mod delayed-treatment/control; kræver uafhængig replikation.
+- [Skovgaard et al. 2025 — TRE ved MS, RCT](VERIFIED/2025_Skovgaard_TRE_MS_RCT.md): n=28; ujusteret primæranalyse ikke signifikant, justeret MFIS-total signifikant; ikke PTSD-population.
+- [Roos, van Niekerk & Tönsing 2026 — TRE scoping review](REVIEWS/2026_Roos_TRE_Scoping_Review.md): 22 studier/24 rapporter; lovende signaler, men heterogen og ofte metodisk svag litteratur.
+
+Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTION/TRE_DOSSIER.md).
