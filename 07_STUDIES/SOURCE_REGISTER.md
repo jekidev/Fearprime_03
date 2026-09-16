@@ -280,4 +280,9 @@ Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængi
 - [PMID 42713778](https://pubmed.ncbi.nlm.nih.gov/42713778/) — *Trauma Releasing Exercises as a Treatment Technique: A Scoping Review*. DOI 10.1080/07380577.2026.2726931. Se [studiekort](REVIEWS/2026_Roos_TRE_Scoping_Review.md).
 - Kent M. 2018 — *Neurogenic Tremors Training (TRE) for Stress and PTSD: A Controlled Clinical Trial*, technical final report, award W81XWH-15-1-0054. Se [studiekort](VERIFIED/2018_Kent_TRE_PTSD_Controlled_Trial.md).
 
-Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ikke tælles som fem uafhængige, direkte PTSD-RCT'er.
+- [PMID 25568824](https://pubmed.ncbi.nlm.nih.gov/25568824/) — *Effects of Self-induced Unclassified Therapeutic Tremors on Quality of Life Among Non-professional Caregivers: A Pilot Study*. DOI 10.7453/gahmj.2014.032. Se [studiekort](VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md).
+- DOI 10.4172/2469-6676.100151 — *A Body-Based Group Intervention for Teacher Stress and Burnout in High-Risk Schools*. Se [studiekort](VERIFIED/2017_Johnson_Naidoo_TRE_Teacher_Stress.md).
+- DOI 10.1080/19443927.2019.1694971 — *Body awareness in acting – a case study of TRE as a supporting tool for drama students’ personal and professional development*. Se [studiekort](VERIFIED/2020_Thommessen_Fougner_TRE_Drama_Students.md).
+- DOI 10.47116/apjcri.2021.11.31 — *A Pilot Study on the Anxiety Reduction Effect of Tension, Stress, and Trauma Releasing Exercises (TRE)*. Se [studiekort](VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md).
+
+Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ikke tælles som uafhængige, direkte PTSD-RCT'er. De nye pilot-/kvalitative kilder er registreret netop for at bevare hele evidenslandskabet uden at opgradere deres kausale styrke.
