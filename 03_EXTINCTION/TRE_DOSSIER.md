@@ -71,6 +71,51 @@ PMID 34522632 · DOI 10.1016/j.jtcme.2021.02.003
 
 PMID 40064004.
 
+
+### Berceli et al. 2014 — caregiver-pilot
+
+- **Population:** 21 gennemførende ikke-professionelle omsorgspersoner/personale i Cape Town.
+- **Design:** 10 ugers enkeltarmet, ukontrolleret TRE/SUTT-pilot.
+- **Fund:** enkelte QoL-domæner og samlede indtryk bevægede sig positivt; flere individuelle domæner, inklusive stress-evaluering, var ikke signifikante.
+- **Begrænsninger:** lille prøve, selvrapport, ingen kontrolgruppe og metodeudvikleren var medforfatter.
+- **FearPrime-fortolkning:** relevant som feasibility-/QoL-signal, ikke som kausal dokumentation for PTSD eller extinction.
+
+PMID 25568824 · PMCID PMC4268601 · DOI 10.7453/gahmj.2014.032  
+[Studiekort](../07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md)
+
+### Johnson & Naidoo 2017 — lærer-stress og burnout
+
+- **Population:** 63 lærere fra højrisikoskoler i Cape Flats.
+- **Design:** mixed-method pilot med kropsbaseret coping/TRE-elementer.
+- **Fund:** rapporterede signaler om selvkontrol, optimisme og bedre coping.
+- **Begrænsninger:** ikke et rent TRE-RCT og ikke en klinisk PTSD-population.
+- **FearPrime-fortolkning:** relevant for agency og funktion under vedvarende belastning; ikke evidens for hukommelsesændring.
+
+DOI 10.4172/2469-6676.100151  
+[Studiekort](../07_STUDIES/VERIFIED/2017_Johnson_Naidoo_TRE_Teacher_Stress.md)
+
+### Thommessen & Fougner 2020 — dramastuderende
+
+- **Population:** 12 dramastuderende.
+- **Design:** kvalitativt case-studie med fokusgrupper.
+- **Fokus:** kropsbevidsthed, trivsel og professionel performance.
+- **Begrænsning:** ingen kontrolgruppe eller kvantitativ effektprøve.
+- **FearPrime-fortolkning:** nyttigt til begreber som interoception og agency, men ikke effektbevis.
+
+DOI 10.1080/19443927.2019.1694971  
+[Studiekort](../07_STUDIES/VERIFIED/2020_Thommessen_Fougner_TRE_Drama_Students.md)
+
+### Oh & Shin 2021 — akut state anxiety
+
+- **Population:** 25 kandidatstuderende.
+- **Design:** enkeltgruppe før/efter ca. 3 timers TRE.
+- **Fund:** rapporteret fald i state anxiety.
+- **Begrænsninger:** ingen kontrolgruppe, akut måling, lille prøve.
+- **FearPrime-fortolkning:** signal om akut tilstandsændring; siger ikke noget sikkert om varig læring, extinction-recall eller klinisk funktion.
+
+DOI 10.47116/apjcri.2021.11.31  
+[Studiekort](../07_STUDIES/VERIFIED/2021_Oh_Shin_TRE_Anxiety_Pilot.md)
+
 ## 4. Hvad evidensen ikke viser endnu
 
 Der er endnu ikke et stærkt, replikeret evidensgrundlag for at sige, at TRE:
@@ -107,7 +152,19 @@ TRE kan undersøges som **adjunkt** til FearPrime frem for som selvstændig fork
 - generalisering til andre kontekster
 - næste eksponeringssessions tolerabilitet og læringsudfald
 
-## 6. Kritiske tests
+## 6. Evidenshierarki for TRE i FearPrime
+
+FearPrime skelner nu mellem fem niveauer:
+
+1. **Kontrollerede kliniske signaler:** fx Kent 2018 og Parker 2024.
+2. **Randomiseret forskning i andre populationer:** fx Skovgaard 2025 ved MS.
+3. **Ukontrollerede humane pilotstudier:** fx Berceli 2014 og Oh & Shin 2021.
+4. **Kvalitativ/mixed-method forskning:** fx Johnson & Naidoo 2017 og Thommessen & Fougner 2020.
+5. **Konceptuelle påstande og undervisningsressourcer:** bøger, videoer, interviews og TRE-materiale uden kontrolleret effektprøve.
+
+Denne opdeling forhindrer, at et positivt selvrapporteret akut signal behandles som samme type evidens som et randomiseret mellemgruppefund.
+
+## 7. Kritiske tests
 
 TRE-hypotesen styrkes, hvis ændringer:
 
@@ -120,7 +177,7 @@ TRE-hypotesen styrkes, hvis ændringer:
 
 Den svækkes, hvis effekten kun ses umiddelbart efter sessionen, kun i selvrapport eller forsvinder mod aktiv kontrol.
 
-## 7. Forhold til Peter Levine-videoen
+## 8. Forhold til Peter Levine-videoen
 
 Videoen **“Peter Levine's Secret to Releasing Trauma from the Body”** handler om Levines somatiske traumemodel/Somatic Experiencing og er ikke i sig selv dokumentation for TRE. Den beholdes som konceptuel ressource i [YouTube-ressourcer](../08_RESOURCES/YOUTUBE_RESOURCES.md).
 
