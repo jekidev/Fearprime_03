@@ -188,3 +188,16 @@ FearPrime-fortolkning: Studierne støtter behovet for at skelne mellem **funktio
 - [Harnisch 2022 — “The Third Time Janus Died”](QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md): DOI 10.1080/13698249.2022.2092687.
 
 Samlet fortolkning: Harnisch-sporet understøtter et funktionelt/kontekstuelt forskningsspørgsmål om coping, resiliens og kontekstskifte. Det er primært kvalitativt/teoretisk og bruges ikke som komparativ behandlingsevidens.
+
+
+## Integreret adaptiv model — version 0.17
+Følgende nyere review-/teorikilder er tilføjet som grundlag for [Adaptive PTSD Model](../05_MODELS/ADAPTIVE_PTSD_MODEL.md):
+
+- [Coimbra et al. 2023 — tonic immobility og PTSD](REVIEWS/2023_Coimbra_Tonic_Immobility_PTSD_Meta.md): systematisk review/meta-analyse, PMID 37229971.
+- [Putica & Agathos 2024 — predictive processing og CPTSD](THEORY/2024_Putica_Agathos_CPTSD_Predictive_Processing.md): teori/review, PMID 39084584.
+- [Leech et al. 2024 — interoception og PTSD](REVIEWS/2024_Leech_Interoception_PTSD_Scoping.md): scoping review med 43 inkluderede studier, PMID 38840943.
+- [Misitano et al. — dissociativ PTSD-subtype](REVIEWS/2024_Misitano_Dissociative_PTSD_Subtype.md): systematisk review af latent-profile-studier, PMID 36062756.
+- [Chen et al. 2025 — fear-memory update](REVIEWS/2025_Chen_Fear_Memory_Update.md): nyere review af extinction og reconsolidation, PMID 40205305.
+- [Smits et al. 2026 — pharmacological augmentation](REVIEWS/2026_Smits_Pharmacological_Augmentation_Extinction.md): kritisk translationelt review, PMID 41349549.
+
+Disse kilder dækker forskellige forklaringsniveauer og tælles ikke som seks direkte kliniske effektforsøg.
