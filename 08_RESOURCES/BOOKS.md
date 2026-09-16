@@ -46,3 +46,22 @@
 - **Relevans:** bred PTSD-videnskab, risikofaktorer, neurobiologi, resiliens, vurdering og evidensbaserede behandlinger.
 - **Link:** https://www.guilford.com/books/Handbook-of-PTSD/Friedman-Schnurr-Keane/9781462553785
 - **FearPrime-brug:** overordnet reference, især når FearPrime-hypoteser skal sammenholdes med etableret PTSD-forskning.
+
+
+## Resiliens og guideline-baseret PTSD-litteratur
+
+### George A. Bonanno — *The End of Trauma: How the New Science of Resilience Is Changing How We Think About PTSD* (2021)
+- **Type:** C — forskningsbaseret fagbog.
+- **Forlag:** Basic Books.
+- **ISBN:** 9781541674370.
+- **Relevans:** resiliens, heterogene forløb efter potentielt traumatiske hændelser og regulatorisk fleksibilitet.
+- **Link:** https://www.hachettebookgroup.com/titles/george-a-bonanno/the-end-of-trauma/9781541674370/
+- **FearPrime-brug:** relevant til at modvirke en deterministisk antagelse om, at stærk belastning nødvendigvis giver permanent skade. Bogens bredere formidling skal fortsat skelnes fra de enkelte primærstudier.
+
+### Forbes, Bisson, Monson & Berliner (red.) — *Effective Treatments for PTSD*, 3. udg. (2020)
+- **Type:** A/C — guideline-forankret forsknings- og klinisk håndbog.
+- **Forlag:** Guilford Press.
+- **ISBN:** 9781462543564.
+- **Link:** https://www.guilford.com/books/Effective-Treatments-for-PTSD/Forbes-Bisson-Monson-Berliner/9781462543564
+- **Relevans:** vurdering, PTSD/CPTSD, PE, CPT, kognitiv terapi, EMDR, farmakoterapi og implementering.
+- **FearPrime-brug:** referenceværk til at sammenholde eksperimentelle FearPrime-hypoteser med etableret klinisk evidens og ISTSS-guidelines.
