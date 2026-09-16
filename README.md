@@ -9,6 +9,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 ## Start her
 - [Manifest og formål](00_MANIFESTO.md)
 - [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
+- [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 - [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister](07_STUDIES/STUDY_LEDGER.md)
@@ -113,3 +114,17 @@ Helle Harnischs forskningsspor bag podcasten om traumefortrængning er nu koblet
 Helle Harnisch-sporet er udvidet til et samlet dossier med seks centrale publikationer fra 2016–2022 om forced resilience, avoidant coping, appetitiv aggression, demobilisering, narrativ tavshed, reintegration og kontekstuel resiliens. Nye studiekort omfatter bl.a. [appetitiv aggression](07_STUDIES/QUALITATIVE/2018_Harnisch_Pfeiffer_Appetitive_Aggression.md), [The Additional Past](07_STUDIES/QUALITATIVE/2018_Harnisch_Additional_Past.md), [Forced Resilience](07_STUDIES/THEORY/2020_Harnisch_Forced_Resilience.md) og [The Third Time Janus Died](07_STUDIES/QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md).
 
 Ressourcebiblioteket kan nu navigeres både efter medietype og efter tema via [Exposure, Fear Extinction, CPTSD, Somatic, Recovery, Resilience og Peer Support](08_RESOURCES/CATEGORIES/README.md). Eksisterende podcast-, video-, bog- og foredragsfiler er bevaret og suppleret med nyere/autoritative VA-, ISTSS-, WHO- og forskningsressourcer.
+
+
+## Version 0.17: integreret adaptiv PTSD-model
+[Adaptive PTSD Model](05_MODELS/ADAPTIVE_PTSD_MODEL.md) samler nu FearPrimes funktionelle grundidé med Harnischs kontekstuelle copingperspektiv, predictive processing, interoception, dissociation/tonic immobility, inhibitory learning, extinction, rekonsolidering og biologisk augmentation.
+
+Seks nye tematiske ressourcekategorier er tilføjet:
+- [Predictive Processing](08_RESOURCES/CATEGORIES/PREDICTIVE_PROCESSING.md)
+- [Interoception](08_RESOURCES/CATEGORIES/INTEROCEPTION.md)
+- [Dissociation / Freeze](08_RESOURCES/CATEGORIES/DISSOCIATION_FREEZE.md)
+- [Memory Reconsolidation](08_RESOURCES/CATEGORIES/MEMORY_RECONSOLIDATION.md)
+- [Neurobiology](08_RESOURCES/CATEGORIES/NEUROBIOLOGY.md)
+- [Pharmacological Augmentation](08_RESOURCES/CATEGORIES/PHARMACOLOGICAL_AUGMENTATION.md)
+
+Modellen behandler ikke disse felter som én allerede valideret teori. Hvert spor beholder sit evidensniveau, og klinisk effekt, laboratorielæring, biomarkører og teoretiske modeller holdes adskilt.
