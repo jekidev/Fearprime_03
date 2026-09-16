@@ -301,3 +301,12 @@ Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ik
 - Harnisch H, Montgomery E, Knoop HH. (2020). *Forced Resilience: Conceptualizing Resilience in Life-Threatening Adversity.* Oxford Research Encyclopedia of Psychology. DOI 10.1093/acrefore/9780190236557.013.546.
 - Harnisch H. (2022). *“The Third Time Janus Died”: Resilience and Dependencies In Coping With Adversity During And After Civil War In Northern Uganda.* Civil Wars 24(2–3):280–304. DOI 10.1080/13698249.2022.2092687.
 - [Samlet Harnisch-dossier](QUALITATIVE/HARNISCH_DOSSIER.md).
+
+
+## Adaptive PTSD Model — nye kilder, version 0.17
+- [PMID 37229971](https://pubmed.ncbi.nlm.nih.gov/37229971/) — Coimbra BM et al. *The relationship between tonic immobility and the development, severity, and course of posttraumatic stress disorder: Systematic and meta-analytic literature review.* DOI 10.1016/j.janxdis.2023.102730.
+- [PMID 39084584](https://pubmed.ncbi.nlm.nih.gov/39084584/) — Putica A, Agathos J. *Reconceptualizing complex posttraumatic stress disorder: A predictive processing framework for mechanisms and intervention.* DOI 10.1016/j.neubiorev.2024.105836.
+- [PMID 38840943](https://pubmed.ncbi.nlm.nih.gov/38840943/) — Leech K, Stapleton P, Patching A. *A roadmap to understanding interoceptive awareness and post-traumatic stress disorder: a scoping review.* DOI 10.3389/fpsyt.2024.1355442.
+- [PMID 36062756](https://pubmed.ncbi.nlm.nih.gov/36062756/) — Misitano A et al. *The Dissociative Subtype of Post-Traumatic Stress Disorder: A Systematic Review of the Literature using the Latent Profile Analysis.* DOI 10.1080/15299732.2022.2120155.
+- [PMID 40205305](https://pubmed.ncbi.nlm.nih.gov/40205305/) — Chen J et al. *How Fear Memory is Updated: From Reconsolidation to Extinction?* DOI 10.1007/s12264-025-01367-7.
+- [PMID 41349549](https://pubmed.ncbi.nlm.nih.gov/41349549/) — Smits JAJ et al. *Enhancing the Efficacy of Exposure Therapy: Translation of Pharmacological Augmentation of Fear Extinction.* DOI 10.1146/annurev-clinpsy-061324-071811.
