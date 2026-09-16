@@ -18,3 +18,18 @@ Denne mappe samler videoer, foredrag og andre audiovisuelle ressourcer, som kan 
 ## TRE
 
 TRE-specifikke videoer kan tilføjes her efter samme skabelon. Påstande kontrolleres mod [TRE-dossieret](../03_EXTINCTION/TRE_DOSSIER.md) og [studieregistret](../07_STUDIES/STUDY_LEDGER.md).
+
+
+### David Berceli / TRE for ALL — “TRE™ (Tension & Trauma Releasing Exercises): Full Instructions with Dr. David Berceli (OFFICIAL)”
+- **Type:** C/D — officiel metode-/demonstrationsvideo.
+- **YouTube:** https://www.youtube.com/watch?v=FeUioDuJjFI
+- **Emne:** demonstration af de syv grundøvelser og fremkaldelse af TRE-tremorer.
+- **FearPrime-brug:** bruges til at forstå selve interventionsproceduren, så forskningsprotokoller og praksisressourcer ikke blandes sammen.
+- **Vigtigt:** kanalens egne effektpåstande er ikke i sig selv evidens; de kontrolleres mod [TRE-dossieret](../03_EXTINCTION/TRE_DOSSIER.md).
+
+### Peter A. Levine — “Trauma, Somatic Experiencing and Peter A. Levine PhD”
+- **Type:** C/D — konceptuel originalressource.
+- **YouTube:** https://www.youtube.com/watch?v=ByalBx85iC8
+- **Emne:** Somatic Experiencing, titrering og Levines model for kropslig traumeregulering.
+- **FearPrime-brug:** sammenligningskilde til TRE og somatiske modeller.
+- **Afgrænsning:** Somatic Experiencing ≠ TRE; mekanistiske udsagn kræver separat evidenskontrol.
