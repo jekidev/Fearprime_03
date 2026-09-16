@@ -38,6 +38,9 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 
+## Ressourcer
+- [YouTube-ressourcer – inkl. TRE](08_RESOURCES/YOUTUBE_RESOURCES.md)
+
 Målet er læring og funktion, som holder over tid og i flere sammenhænge. Akut ro, forventning, fysiologi og symptomer måles separat. »0–100« er projektets vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; personlige helbredsregistreringer opbevares privat.
 
 ## Version 0.6: dansk dokumentation og klinisk evidens
