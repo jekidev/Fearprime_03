@@ -288,3 +288,8 @@ Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængi
 Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ikke tælles som uafhængige, direkte PTSD-RCT'er. De nye pilot-/kvalitative kilder er registreret netop for at bevare hele evidenslandskabet uden at opgradere deres kausale styrke.
 
 - DOI 10.1186/s12906-024-04650-8 — Zhao et al. 2024, RCT-protokol for TRE som tillæg ved emotionelle lidelser hos unge; ChiCTR2100044553. Se [protokolkort](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md). **Ingen effektresultater i protokolartiklen.**
+
+
+## Harnisch / coping og kontekst — version 0.15
+- Harnisch H. (2016). *”The first time you kill someone, your mind will not be settled”. Forced resilience, experiences of war, and difficult demobilizations among former violently mobilized children and youth in Acholiland, northern Uganda.* Ph.d.-afhandling, DPU, Aarhus Universitet. ISBN 9788776846534. Se [forskningskort](QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md).
+- [PMID 28738316](https://pubmed.ncbi.nlm.nih.gov/28738316/) — Harnisch H, Montgomery E. (2017). *“What kept me going”: A qualitative study of avoidant responses to war-related adversity and perpetration of violence by former forcibly recruited children and youth in the Acholi region of northern Uganda.* Social Science & Medicine 188:100–108. DOI 10.1016/j.socscimed.2017.07.007. Se [studiekort](QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md).
