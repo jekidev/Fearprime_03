@@ -99,3 +99,9 @@ Dossiererne skelner tydeligere mellem interventionsfase, eksponering, receptorbe
 TRE-sporet er udvidet med fire yderligere humane kilder: Berceli et al. 2014, Johnson & Naidoo 2017, Thommessen & Fougner 2020 samt Oh & Shin 2021. De er registreret som pilot-/mixed-method-/kvalitative signaler og holdes adskilt fra kontrollerede kliniske forsøg. [TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) indeholder nu et eksplicit evidenshierarki.
 
 [YouTube](08_RESOURCES/YOUTUBE_RESOURCES.md), [bøger](08_RESOURCES/BOOKS.md), [podcasts](08_RESOURCES/PODCASTS.md) og [foredrag](08_RESOURCES/LECTURES.md) er samtidig udvidet med TRE-, PTSD- og eksponeringsressourcer. Ressourcebiblioteket er fortsat sekundært til studieregistret: videoer, bøger og podcasts bruges til læring og hypotesegenerering, ikke som erstatning for primær evidens.
+
+
+## Version 0.15: coping, kontekst og danske podcastressourcer
+Helle Harnischs forskningsspor bag podcasten om traumefortrængning er nu koblet til [ph.d.-afhandlingen](07_STUDIES/QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md) og den peer-reviewede [Harnisch & Montgomery 2017-artikel](07_STUDIES/QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md). Frameworket skelner eksplicit mellem kontekstafhængig funktionel coping og rigid generaliseret undgåelse; den kvalitative forskning bruges ikke som bevis for, at undgåelse generelt overgår traumefokuseret behandling.
+
+[Podcastbiblioteket](08_RESOURCES/PODCASTS.md) er samtidig udvidet med danske ressourcer om PTSD, kompleks PTSD, traumebevidsthed, resiliens, recovery, tilknytning og peer-erfaringer. Ressourcerne er evidensmærket og holdes adskilt fra studieregistret.
