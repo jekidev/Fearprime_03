@@ -47,6 +47,8 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Bøger](08_RESOURCES/BOOKS.md)
 - [Podcasts](08_RESOURCES/PODCASTS.md)
 - [Foredrag og webinarer](08_RESOURCES/LECTURES.md)
+- [Tematiske ressourcekategorier](08_RESOURCES/CATEGORIES/README.md)
+- [Harnisch — samlet dossier](07_STUDIES/QUALITATIVE/HARNISCH_DOSSIER.md)
 
 Målet er læring og funktion, som holder over tid og i flere sammenhænge. Akut ro, forventning, fysiologi og symptomer måles separat. »0–100« er projektets vision om handlefrihed, ikke en klinisk score. Repoet er offentligt; personlige helbredsregistreringer opbevares privat.
 
@@ -105,3 +107,9 @@ TRE-sporet er udvidet med fire yderligere humane kilder: Berceli et al. 2014, Jo
 Helle Harnischs forskningsspor bag podcasten om traumefortrængning er nu koblet til [ph.d.-afhandlingen](07_STUDIES/QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md) og den peer-reviewede [Harnisch & Montgomery 2017-artikel](07_STUDIES/QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md). Frameworket skelner eksplicit mellem kontekstafhængig funktionel coping og rigid generaliseret undgåelse; den kvalitative forskning bruges ikke som bevis for, at undgåelse generelt overgår traumefokuseret behandling.
 
 [Podcastbiblioteket](08_RESOURCES/PODCASTS.md) er samtidig udvidet med danske ressourcer om PTSD, kompleks PTSD, traumebevidsthed, resiliens, recovery, tilknytning og peer-erfaringer. Ressourcerne er evidensmærket og holdes adskilt fra studieregistret.
+
+
+## Version 0.16: Harnisch-dossier og tematisk ressourcearkitektur
+Helle Harnisch-sporet er udvidet til et samlet dossier med seks centrale publikationer fra 2016–2022 om forced resilience, avoidant coping, appetitiv aggression, demobilisering, narrativ tavshed, reintegration og kontekstuel resiliens. Nye studiekort omfatter bl.a. [appetitiv aggression](07_STUDIES/QUALITATIVE/2018_Harnisch_Pfeiffer_Appetitive_Aggression.md), [The Additional Past](07_STUDIES/QUALITATIVE/2018_Harnisch_Additional_Past.md), [Forced Resilience](07_STUDIES/THEORY/2020_Harnisch_Forced_Resilience.md) og [The Third Time Janus Died](07_STUDIES/QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md).
+
+Ressourcebiblioteket kan nu navigeres både efter medietype og efter tema via [Exposure, Fear Extinction, CPTSD, Somatic, Recovery, Resilience og Peer Support](08_RESOURCES/CATEGORIES/README.md). Eksisterende podcast-, video-, bog- og foredragsfiler er bevaret og suppleret med nyere/autoritative VA-, ISTSS-, WHO- og forskningsressourcer.
