@@ -258,3 +258,10 @@ Kontrolniveau varierer: Lancaster-kortet bygger på indekserede primærresuméer
 - [Eckstein — oxytocin under udslukning](VERIFIED/2015_Eckstein_Oxytocin.md): DOI 10.1016/j.biopsych.2014.10.015.
 
 Dalile og Guillen-Burgos var tidligere omtalt i dossierer og er nu selvstændige kort; de tælles ikke som nye uafhængige forsøg. Cisler er et laboratorieforsøg i en PTSD-population. Kontrolniveau og åbne spor fremgår af [søgeloggen](../09_DEBUG/CORE_DRUG_SEARCH_LOG.md).
+
+## Version 0.11: optagelse, central mekanisme og receptorbelægning
+- [Boets 2017 — systemisk tilgængelighed af kolonfrigivet butyrat](MECHANISTIC/2017_Boets_Butyrate_Availability.md): DOI 10.1113/JP272613; PMID 27510655.
+- [Wong 2013 — lurasidon og D2-belægning](MECHANISTIC/2013_Wong_Lurasidone_D2_PET.md): DOI 10.1007/s00213-013-3103-z; PMID 23649882.
+- [Mohammadi-Farani 2022 — lokal butyratindgift og BDNF](PRECLINICAL/2022_Mohammadi_Farani_Local_Butyrate.md): DOI 10.22038/ijbms.2022.65000.14312.
+
+Kortene vedrører forskellige evidensniveauer. [Kontrolstatus](../09_DEBUG/TRANSLATION_SEARCH_LOG.md).

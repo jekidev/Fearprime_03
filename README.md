@@ -67,3 +67,6 @@ Fire nye studiekort og uddybning af [butyrat](04_CANDIDATES/BUTYRATE_DOSSIER.md)
 
 ## Version 0.10: afprøvbar Butyrat–Latuda-hypotese
 [Kombinationsdossieret](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md) skelner nu mellem mekanistiske holdepunkter, mulige modvirkninger og fem målbare forudsigelser. [Test- og analyseplanen](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md) definerer tillægseffekt, synergi og fortolkningsgrænser. Hypotesen er fortsat uprøvet som kombination.
+
+## Version 0.11: begge mekanismespor
+[Butyrats formulering og mulige hjernevirkning](04_CANDIDATES/BUTYRATE_FORMULATION_BRAIN.md) samt [Latudas D2/5-HT7 og læring](04_CANDIDATES/LURASIDONE_RECEPTORS_LEARNING.md) er uddybet med tre studiekort. [Søgelog](09_DEBUG/TRANSLATION_SEARCH_LOG.md) angiver kontrolniveau og resterende huller.

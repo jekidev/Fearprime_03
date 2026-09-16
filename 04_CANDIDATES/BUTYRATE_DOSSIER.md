@@ -49,3 +49,6 @@ Prioritér butyrat i litteraturarbejdet. Hold klinisk effekt, formulering og kom
 
 ## Opfølgning — version 0.9
 Dalile har nu et [selvstændigt studiekort](../07_STUDIES/VERIFIED/2024_Dalile_Colonic_Butyrate.md). Det genkontrollerede resumé ændrer ikke konklusionen ovenfor. Næste afklaring er fuldtekstens udfaldsretning og formulering; et nulresultat på stressrespons må ikke udlægges som nul effekt på alle hukommelsesmål.
+
+## Version 0.11: formulering og central virkning
+[Fordybelse: formulering, systemisk eksponering og HDAC/BDNF](BUTYRATE_FORMULATION_BRAIN.md). Nye kort om isotopmålt tilgængelighed og lokal butyratindgift holder farmakokinetik og mekanisme adskilt.

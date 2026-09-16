@@ -39,3 +39,6 @@ Svække: replikerede nulresultater, forringet læring eller en effekt, der alene
 Uafklaret: optimal population, kronisk versus akut design, og kombination med butyrat.
 
 **Beslutning:** Bevar som præklinisk begrundet kandidat. Ingen evidensbaseret dosis ved udslukning eller titreringsplan kan udledes af dette dossier.
+
+## Version 0.11: D2-belægning og 5-HT7
+[Fordybelse: receptorer og læring](LURASIDONE_RECEPTORS_LEARNING.md). Det nye PET-kort dokumenterer human receptorbelægning; det er ikke et udslukningsforsøg.
