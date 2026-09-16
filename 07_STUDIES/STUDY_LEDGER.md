@@ -178,3 +178,13 @@ Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTI
 - [Harnisch & Montgomery 2017 — avoidant coping efter tvangsrekruttering](QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md): 36 tidligere tvangsrekrutterede personer; ca. 10 måneders etnografisk feltarbejde; PMID 28738316; DOI 10.1016/j.socscimed.2017.07.007.
 
 FearPrime-fortolkning: Studierne støtter behovet for at skelne mellem **funktionel, kontekstafhængig coping** og rigid generaliseret undgåelse. De dokumenterer ikke, at “fortrængning” generelt er bedre end evidensbaseret PTSD-behandling.
+
+
+## Harnisch-sporet — samlet udvidelse, version 0.16
+- [Samlet Harnisch-dossier](QUALITATIVE/HARNISCH_DOSSIER.md)
+- [Harnisch & Pfeiffer 2018 — appetitiv aggression](QUALITATIVE/2018_Harnisch_Pfeiffer_Appetitive_Aggression.md): PMID 29151235; DOI 10.1007/s11013-017-9557-4.
+- [Harnisch 2018 — “The Additional Past”](QUALITATIVE/2018_Harnisch_Additional_Past.md): bogkapitel om demobilisering, tavshed, fortælling og hjemkomst.
+- [Harnisch, Montgomery & Knoop 2020 — Forced Resilience](THEORY/2020_Harnisch_Forced_Resilience.md): DOI 10.1093/acrefore/9780190236557.013.546.
+- [Harnisch 2022 — “The Third Time Janus Died”](QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md): DOI 10.1080/13698249.2022.2092687.
+
+Samlet fortolkning: Harnisch-sporet understøtter et funktionelt/kontekstuelt forskningsspørgsmål om coping, resiliens og kontekstskifte. Det er primært kvalitativt/teoretisk og bruges ikke som komparativ behandlingsevidens.
