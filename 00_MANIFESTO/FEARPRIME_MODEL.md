@@ -28,3 +28,15 @@ Frygtudslukning modelleres som konkurrerende hæmmende læring og sikkerhedslær
 7. Modstandskraft mod tilbagevendende frygt.
 
 Biologisk understøttelse skal vurderes på baggrund af et godt forsøgsdesign. Modellen er FearPrimes hypotese og dækker ikke alene alle aspekter af PTSD eller CPTSD.
+
+
+## Integreret model
+Den mere detaljerede [Adaptive PTSD Model](../05_MODELS/ADAPTIVE_PTSD_MODEL.md) udvider denne kerne med:
+- kontekstuel coping og forced resilience,
+- predictive processing,
+- interoception,
+- dissociation og defensive immobilitetsresponser,
+- extinction og rekonsolidering,
+- biologisk/farmakologisk augmentation.
+
+Kerneprincippet ændres ikke: målet er bedre kalibrering, fleksibilitet, generalisering, recovery og funktion — ikke nul frygt.
