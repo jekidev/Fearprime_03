@@ -67,6 +67,10 @@ Disse er identificeret i den aktuelle litteratursøgning og/eller TRE Global's f
 | Macedo (2013) | TRE i situationer med vold i hjemmet | BIBLIOGRAFISK SPOR; masterafhandling |
 | Amaral et al. (2018) | Unges mentale sundhed i primary care | BIBLIOGRAFISK SPOR; relation til TRE skal fuldtekstkontrolleres |
 
+### Registreret større RCT-protokol
+
+- **Zhao et al. (2024):** randomiseret protokol med 140 mor–unge-par ved emotionelle lidelser; ChiCTR2100044553; DOI 10.1186/s12906-024-04650-8. **Ingen effektresultater endnu.** Se [protokolkort](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md).
+
 ## D. Direkte relevans for PTSD/traume i FearPrime
 
 Højeste prioritet for FearPrime er ikke nødvendigvis de metodisk stærkeste TRE-studier generelt, men de studier der direkte måler trauma/PTSD:
