@@ -32,3 +32,17 @@
 - **Link:** https://www.ptsd.va.gov/professional/treat/txessentials/
 - **Indhold:** samlet portal til PE, CPT, EMDR, WET, medicin, guidelines og behandlingsimplementering.
 - **FearPrime-brug:** baseline-reference ved vurdering af nye eller eksperimentelle interventioner.
+
+
+### National Center for PTSD — State of the Science for Written Exposure Therapy
+- **Type:** A/B — continuing-education foredrag.
+- **Dato:** 2025.
+- **Link:** https://www.ptsd.va.gov/professional/continuing_ed/WET_state_science.asp
+- **Indhold:** udvikling, evidens og klinisk implementering af fem-sessioners Written Exposure Therapy.
+- **FearPrime-brug:** sammenligningspunkt for korte exposure-baserede interventioner.
+
+### National Center for PTSD — Delivering Prolonged Exposure for PTSD in 60-Minute Sessions
+- **Type:** A/B — continuing-education foredrag.
+- **Dato:** 2026.
+- **Link:** https://www.ptsd.va.gov/professional/continuing_ed/pe_60.asp
+- **FearPrime-brug:** nyere praktisk undervisningsressource om PE-implementering; ændrer ikke evidenshierarkiet for selve PE.
