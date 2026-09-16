@@ -1,6 +1,8 @@
 # FearPrime_03
 
-Et levende forskningsrammeværk om PTSD/CPTSD, frygtlæring, udslukning, rekonsolidering og fleksibel håndtering af trusler.
+Et forskningprojekt i PTSD/CPTSD, frygtlæring, udslukning, rekonsolidering og fleksibel håndtering af trusler.
+
+(Indledningsvit N=1, N=3 ~ OPDATERES LØBENDE)
 
 FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneraliserede, og hvordan mere præcis læring og større handlefrihed kan udvikles. Det er en arbejdsmodel, ikke en samlet valideret behandling.
 
