@@ -1,12 +1,12 @@
 # Hovedkandidater: evidens og åbne spørgsmål
-Kontrolleret 2026-09-15. Afgrænset kildekontrol, ikke en systematisk søgning efter alle publicerede studier.
+Opdateret 2026-09-16; version 0.9. Afgrænset kildekontrol, ikke en systematisk søgning efter alle publicerede studier.
 
 Evidensbogstaver følger [fælles regler](../01_EVIDENCE_RULES.md). De beskriver evidenstype, ikke automatisk effektens størrelse eller studiets kvalitet.
 
 | Kandidat | Direkte holdepunkt | Modfund / begrænsning | FearPrime-status |
 |---|---|---|---|
 | Natriumbutyrat | B: Ribbens 2026, 180 raske deltagere; bedre forventningsbaseret genkaldelse efter syv dage ved lang udslukning | Ikke tilsvarende hovedeffekt på SCR; ingen forebyggelse af genaktivering efter uvarslet ubehag | Lovende laboratoriefund; PTSD-effekt ikke etableret af studiet |
-| L-DOPA | B: tidligere positive forsøg i repoet | Andres 2024 replikerede ikke samlet forbedring af genkaldelse eller øget antal vmPFC-reaktiveringer | Blandet evidens |
+| L-DOPA | Humane laboratorieforsøg i raske samt Cisler 2020 i en PTSD-population; se dossier | Andres 2024 replikerede ikke samlet forbedring af genkaldelse eller øget antal vmPFC-reaktiveringer | Blandet evidens |
 | Oxytocin | B: humane betingning/udslukning-forsøg | Rashidi: 124 raske kvinder; forringet udslukningslæring; ingen forsinket genkaldelse-test | Kontekstafhængig, blandet evidens |
 | Lurasidon / Latuda | Repoets prækliniske og receptorbaserede spor | Disse dokumenterer ikke klinisk udslukningseffekt eller effekt af kombination med butyrat | C/D-grundlag; kombinationshypotese E |
 | Amisulprid | Repoets receptor-/occupancy-spor | Lav dosis kan ikke alene dokumentere selektiv præsynaptisk eller klinisk dopaminfremmende effekt | Mekanistisk sammenligningshypotese |
@@ -39,3 +39,11 @@ Før en kombinationspåstand opgraderes, kræves direkte sammenligning med relev
 - Kombinationer: Er effekten større end komponenternes og ledsaget af acceptable tolerabilitetsdata?
 
 Manglende dokumentation er ikke bevis på nul effekt; det er en grænse for konklusionen.
+
+## Samlede dossierer og ny primærkontrol
+- [Butyrat](BUTYRATE_DOSSIER.md): særskilt Dalile-kort om kolonfrigivelse.
+- [Lurasidon](LURASIDONE_DOSSIER.md): traumerelateret human observationsundersøgelse afgrænset fra PTSD-effekt.
+- [L-DOPA](LDOPA_DOSSIER.md): klinisk population, laboratoriefund og replikation samlet.
+- [Oxytocin](OXYTOCIN_DOSSIER.md): fasespecifikke fund, modfund og kliniske kildeopgaver.
+
+[Søgelog og kontrolniveau](../09_DEBUG/CORE_DRUG_SEARCH_LOG.md). Opdateringen er ikke en rangordning af behandlinger eller en udtømmende litteraturoversigt.

@@ -31,7 +31,7 @@ Kilde: [producentens produktresumé, afsnit 4.2–4.5, 4.8 og 5](https://www.med
 ## Human evidens: præcis afgrænsning
 Den målrettede søgning identificerede ikke et kontrolleret humant studie af lurasidon som tillæg ved udslukning ved PTSD. Det er et afgrænset søgeresultat, ikke bevis på at intet studie findes.
 
-Et relevant spor er Guillen-Burgos 2025 om bipolar I-depression med barndomstraume: [artikelpost](https://pubmed.ncbi.nlm.nih.gov/40156897/), DOI 10.1093/ijnp/pyaf020. Metadata er identificeret; resultater og design er ikke tilstrækkeligt udtrukket og bruges derfor ikke som effektbevis her.
+Et relevant spor er Guillen-Burgos 2025 om bipolar I-depression med barndomstraume: [artikelpost](https://pubmed.ncbi.nlm.nih.gov/40156897/), DOI 10.1093/ijnp/pyaf020. Opdatering 2026-09-16: primærtekst er nu tilgængelig og design samt hovedfund er udtrukket i [studiekortet](../07_STUDIES/VERIFIED/2025_Guillen_Burgos_Lurasidone_Trauma.md). Dette er observationsdata om bipolar depression, ikke et PTSD-udslukningsforsøg.
 
 ## Hvad ville styrke eller svække hypotesen?
 Styrke: direkte humane data med forsinket fastholdelse, funktion og tolerabilitet.

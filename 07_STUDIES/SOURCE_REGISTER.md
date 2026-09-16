@@ -250,3 +250,11 @@ Tidligere spor PMID 18999355, DOI 10.1037/a0013165, er nu fulgt op med et studie
 - [Rubin, Dennis og Beckham 2011 — klinisk hukommelsesundersøgelse](VERIFIED/2011_Rubin_Clinical_Memory.md): PMID 21489820; DOI 10.1016/j.concog.2011.03.015.
 
 Kontrolniveau varierer: Lancaster-kortet bygger på indekserede primærresuméer; Rubin-kortene omfatter tilgængelige primærtekster. Mappenavnet VERIFIED betyder ikke fuld metodekontrol.
+
+## Præparatudvidelse — version 0.9
+- [Dalile 2024 — kolonfrigivet butyrat](VERIFIED/2024_Dalile_Colonic_Butyrate.md): DOI 10.1016/j.pnpbp.2024.110939; PMID 38199487.
+- [Guillen-Burgos 2025 — lurasidon og barndomstraumer](VERIFIED/2025_Guillen_Burgos_Lurasidone_Trauma.md): DOI 10.1093/ijnp/pyaf020; PMID 40156897.
+- [Cisler 2020 — L-DOPA hos kvinder med PTSD](VERIFIED/2020_Cisler_LDOPA_PTSD.md): DOI 10.1038/s41398-020-00975-3.
+- [Eckstein — oxytocin under udslukning](VERIFIED/2015_Eckstein_Oxytocin.md): DOI 10.1016/j.biopsych.2014.10.015.
+
+Dalile og Guillen-Burgos var tidligere omtalt i dossierer og er nu selvstændige kort; de tælles ikke som nye uafhængige forsøg. Cisler er et laboratorieforsøg i en PTSD-population. Kontrolniveau og åbne spor fremgår af [søgeloggen](../09_DEBUG/CORE_DRUG_SEARCH_LOG.md).

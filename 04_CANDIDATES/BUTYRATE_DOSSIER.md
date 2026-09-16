@@ -46,3 +46,6 @@ Arbejdshypotesen er, at et biologisk læringsmodulerende stof kan ændre fasthol
 
 ## Aktuel beslutning
 Prioritér butyrat i litteraturarbejdet. Hold klinisk effekt, formulering og kombinationer åbne. Se [kombinationsdossier](BUTYRATE_LATUDA_HYPOTHESIS.md).
+
+## Opfølgning — version 0.9
+Dalile har nu et [selvstændigt studiekort](../07_STUDIES/VERIFIED/2024_Dalile_Colonic_Butyrate.md). Det genkontrollerede resumé ændrer ikke konklusionen ovenfor. Næste afklaring er fuldtekstens udfaldsretning og formulering; et nulresultat på stressrespons må ikke udlægges som nul effekt på alle hukommelsesmål.

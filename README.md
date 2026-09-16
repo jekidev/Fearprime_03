@@ -61,3 +61,6 @@ Fire teoriartikler er tilføjet med egne kildekort. De registreres særskilt fra
 
 ## Version 0.8: empirisk støtte og modfund
 Tre studiekort om hukommelse og kognitiv PTSD-model er tilføjet: Rubin 2008, Lancaster 2011 og Rubin 2011. [Teorisammenligningen](05_MODELS/PTSD_THEORIES.md) forbinder dem med projektets forskningsspørgsmål. [Søgeloggen](09_DEBUG/THEORY_SEARCH_LOG.md) angiver kildeadgang og resterende kontrol. Studierne er observationsforskning; dokumentationen er på dansk med originale bibliografiske titler bevaret.
+
+## Version 0.9: fire hovedpræparater
+Fire nye studiekort og uddybning af [butyrat](04_CANDIDATES/BUTYRATE_DOSSIER.md), [lurasidon](04_CANDIDATES/LURASIDONE_DOSSIER.md), [L-DOPA](04_CANDIDATES/LDOPA_DOSSIER.md) og [oxytocin](04_CANDIDATES/OXYTOCIN_DOSSIER.md). [Søgeloggen](09_DEBUG/CORE_DRUG_SEARCH_LOG.md) dokumenterer kildekontrol og resterende opgaver. Al ny redaktionel tekst er på dansk.

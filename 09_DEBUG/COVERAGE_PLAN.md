@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.8 · 2026-09-16
+Version 0.9 · 2026-09-16
 
 Målet er at samle alle studier, der er relevante for FearPrimes spørgsmål, også negative og modstridende. Denne revision bevarer alle hidtil registrerede kilder og omfatter kliniske rekonsolideringsforsøg, teorikort og udvalgte empiriske teoriprøver. Den er ikke en udtømmende systematisk litteratursøgning.
 
@@ -40,3 +40,11 @@ Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller m
 
 ## Sprog og ændringskontrol
 Redaktionen har samlet gentagelser, rettet åbenlyst inkonsistente evidensmærker og bevaret bibliografiske identifikatorer. De tidligere fulde tekster findes i Git-historikken. Engelske filstier fastholdes for linkstabilitet; danske overskrifter og [ordbog](../DANSK_ORDBOG.md) er læseindgangen.
+
+## Prioriterede kildeopgaver efter version 0.9
+1. Butyrat: Dalile-fuldtekst, formulering og præcis retning på hukommelsesmål.
+2. Lurasidon: direkte humane læringsforsøg; bipolar observationsforskning udfylder ikke dette hul.
+3. L-DOPA: kliniske symptomudfald og kontrol af eventuelt deltageroverlap i senere analyser af Cisler-materialet.
+4. Oxytocin: Flanagan-pilotens fuldtekst og resultater fra større eksponeringsforsøg.
+
+Se [præparatsøgelog](CORE_DRUG_SEARCH_LOG.md). De eksisterende forskningshuller er fortsat åbne, medmindre en konkret kontrol er beskrevet.
