@@ -1,0 +1,19 @@
+# FearPrime ressourcer
+
+Denne mappe samler læringsmateriale, som er nyttigt for FearPrime, men som skal holdes adskilt fra studieregistret.
+
+## Ressourcetyper
+
+- [YouTube og video](YOUTUBE_RESOURCES.md)
+- [Bøger](BOOKS.md)
+- [Podcasts](PODCASTS.md)
+- [Foredrag og webinarer](LECTURES.md)
+
+## Evidensmærkning
+
+**A — forsknings-/klinisk manual:** bygger direkte på et dokumenteret forsknings- eller behandlingsprogram.  
+**B — faglig organisationsressource:** fx National Center for PTSD eller APA.  
+**C — konceptuel/fagbog:** nyttig til modeller og ideer, men ikke i sig selv effektbevis.  
+**D — populær/oplevelsesbaseret ressource:** inspiration; konkrete påstande skal efterkontrolleres.
+
+Ressourcer bruges til hypoteser, undervisning og begrebsudvikling. Kliniske eller mekanistiske påstande flyttes først ind i selve FearPrime-modellen, når de kan kobles til kontrollerbare studier.
