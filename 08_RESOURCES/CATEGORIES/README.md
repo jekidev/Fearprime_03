@@ -10,6 +10,12 @@ Dette indeks organiserer ressourcer efter **emne**. De eksisterende medieindekse
 - [Recovery](RECOVERY.md)
 - [Resilience](RESILIENCE.md)
 - [Peer Support](PEER_SUPPORT.md)
+- [Pharmacological Augmentation](PHARMACOLOGICAL_AUGMENTATION.md)
+- [Neurobiology](NEUROBIOLOGY.md)
+- [Memory Reconsolidation](MEMORY_RECONSOLIDATION.md)
+- [Dissociation / Freeze](DISSOCIATION_FREEZE.md)
+- [Interoception](INTEROCEPTION.md)
+- [Predictive Processing](PREDICTIVE_PROCESSING.md)
 
 ## Princip
 En ressource kan stå i flere kategorier, hvis den reelt dækker flere emner. Det er ikke en dublet i evidensregistret, fordi 08_RESOURCES er et læringsbibliotek.
