@@ -34,3 +34,24 @@ Luoni- og 5-HT7-kort ændres fra D til C, fordi de er dyreforsøg med adfærdsm�
 - Afklar faktisk butyratprodukt og massebasis, før formuleringer sammenlignes.
 
 Denne revision tilføjer ikke personlige helbredsdata eller en doseringsplan.
+
+## Opfølgning 2026-09-16 — version 0.10
+Formål: præcisere mekanistiske alternativer og afprøvning af kombinationen.
+
+Nye søgestrenge:
+- "lurasidone" "butyrate" extinction
+- Kusek 2021 5-HT7 amygdala interneurons inhibition
+
+Kontrol:
+- [Kusek, PMID 34481835](https://pubmed.ncbi.nlm.nih.gov/34481835/): resumé genkontrolleret; synaptisk museforsøg, ikke klinisk kombinationsforsøg.
+- [Latuda-produktresumé](https://www.medicines.org.uk/emc/product/3299/smpc): måltidsafhængig eksponering, CYP3A4 og relevante bivirkninger genkontrolleret.
+- [Ribbens](https://www.nature.com/articles/s41380-026-03802-1): artikel genåbnet; ingen ny fuld supplementanalyse.
+- Luoni: forlagsadgang fejlede og PubMed gav tomt svar; tidligere kort og kontrolstatus fastholdes.
+
+Søgningen identificerede ikke et direkte kombinationsforsøg. Det er ikke en udtømmende interaktionssøgning eller dokumentation for fravær af interaktion. Søgeresultater med begge stofnavne i brede oversigter/patenttekster tæller ikke som kombinationsdata.
+
+Et [CINP-posterindeks](https://cinp2026.org/documents/poster-numbers-by-name.pdf) identificerede et butyrat/PTSD-musemodelspor af Arthur Coelho. Kun titelsporet er identificeret; ingen resultater er udtrukket, og det bruges ikke som støtte for kombinationen.
+
+Opdatering af tidligere opgave: Guillen-Burgos-sporet er behandlet i [version 0.9-søgeloggen](CORE_DRUG_SEARCH_LOG.md) og har nu eget kort. De øvrige fuldtekst-/registeropgaver ovenfor er fortsat åbne.
+
+De nye forudsigelser og analysevalg er FearPrimes egne forslag. Denne revision tilføjer ingen ny påstået kombinationseffekt.

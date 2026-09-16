@@ -77,3 +77,6 @@ HDAC-pilen er en forenkling af Bredy-fundene og hævder ikke, at alle HDAC-hæmm
 5. Brug funktion og vedvarende læring som mål; receptorhistorien er en forklaring, der skal testes.
 
 Ingen dosis, kronisk behandlingsplan eller “optimal cAMP/BDNF-værdi” kan udledes af dette kort.
+
+## Version 0.10: fra mekanisme til afprøvning
+[Kombinationshypotesen](../04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md) har nu et regnskab over manglende kausale led og fem forudsigelser. [Testplanen](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md) definerer, hvordan en effekt kan adskilles fra statistisk interaktion og en molekylær forklaring.

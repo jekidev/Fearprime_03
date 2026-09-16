@@ -64,3 +64,6 @@ Tre studiekort om hukommelse og kognitiv PTSD-model er tilføjet: Rubin 2008, La
 
 ## Version 0.9: fire hovedpræparater
 Fire nye studiekort og uddybning af [butyrat](04_CANDIDATES/BUTYRATE_DOSSIER.md), [lurasidon](04_CANDIDATES/LURASIDONE_DOSSIER.md), [L-DOPA](04_CANDIDATES/LDOPA_DOSSIER.md) og [oxytocin](04_CANDIDATES/OXYTOCIN_DOSSIER.md). [Søgeloggen](09_DEBUG/CORE_DRUG_SEARCH_LOG.md) dokumenterer kildekontrol og resterende opgaver. Al ny redaktionel tekst er på dansk.
+
+## Version 0.10: afprøvbar Butyrat–Latuda-hypotese
+[Kombinationsdossieret](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md) skelner nu mellem mekanistiske holdepunkter, mulige modvirkninger og fem målbare forudsigelser. [Test- og analyseplanen](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md) definerer tillægseffekt, synergi og fortolkningsgrænser. Hypotesen er fortsat uprøvet som kombination.

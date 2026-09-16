@@ -13,7 +13,7 @@ Adskil symptomer, læring og hverdagsfunktion. Denne plan er et observationsdesi
 | Ubehag | Selvrapporteret 0–10, holdt adskilt fra forventning | Før og efter |
 | Senere funktion | Kunne en sammenlignelig opgave udføres? | Ca. næste dag og syv dage senere |
 | Kontekst | Sted, tidspunkt og relevante forhold | Ved hver opgave |
-| Mulige mulige forstyrrende faktorer | Søvn, sygdom, koffein og ændringer i behandling | Samme dag |
+| Mulige forstyrrende faktorer | Søvn, sygdom, koffein og ændringer i behandling | Samme dag |
 
 ## Enkel udgangspunkt
 Brug eksempelvis syv dage med kort registrering af hverdagsfunktion og belastning. Syv dage er et praktisk valg, ikke en valideret nødvendighed. Vent ikke på en “perfekt udgangspunkt”, og udsæt ikke nødvendig behandling for at holde data rene. Ændringer markeres i tidslinjen.
@@ -37,3 +37,6 @@ Tidligere tekst om test “uden læringstillæg” må ikke forstås som at spri
 
 ## Opbevaring
 Dette repo er offentligt. Skabelonerne er tomme; udfyldte personlige helbredslogs skal opbevares privat.
+
+## Kombination som forskningsspørgsmål
+[FP-BL-01-testplanen](FP_BL_01_TEST_PLAN.md) adskiller tillægseffekt, synergi og mekanisme. Den indeholder forudvalgte mål og håndtering af læringsoverførsel; personlige observationer kan ikke erstatte dens kontrolgrupper.
