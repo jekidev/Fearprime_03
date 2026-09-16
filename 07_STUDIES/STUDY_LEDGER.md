@@ -119,3 +119,12 @@ Disse er teori-/oversigtsartikler og tælles ikke som nye effektforsøg:
 - [Craske 2014: hæmmende læring ved eksponering](THEORY/2014_Craske_Inhibitory_Learning.md) — PMID 24864005.
 
 [Samlet teorisammenligning](../05_MODELS/PTSD_THEORIES.md) · [Søgelog og yderligere spor](../09_DEBUG/THEORY_SEARCH_LOG.md).
+
+## Empiriske teoriprøver — version 0.8
+Tre observationsartikler, ikke randomiserede behandlingsforsøg:
+
+- [Rubin, Boals og Berntsen 2008 — selvbiografisk hukommelse](VERIFIED/2008_Rubin_Autobiographical_Memory.md)
+- [Lancaster, Rodriguez og Weston 2011 — kognitiv model](VERIFIED/2011_Lancaster_Cognitive_Model.md)
+- [Rubin, Dennis og Beckham 2011 — klinisk hukommelsesundersøgelse](VERIFIED/2011_Rubin_Clinical_Memory.md)
+
+Deltagergrupper og kildekontrol fremgår af hvert kort. Resultaterne indgår i [teorisammenligningen](../05_MODELS/PTSD_THEORIES.md).

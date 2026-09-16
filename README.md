@@ -58,3 +58,6 @@ Rammeværket skelner mellem kliniske resultater, laboratoriefund, dyreforsøg, m
 - [Teorisøgning og åbne kildeopgaver](09_DEBUG/THEORY_SEARCH_LOG.md)
 
 Fire teoriartikler er tilføjet med egne kildekort. De registreres særskilt fra effektforsøg.
+
+## Version 0.8: empirisk støtte og modfund
+Tre studiekort om hukommelse og kognitiv PTSD-model er tilføjet: Rubin 2008, Lancaster 2011 og Rubin 2011. [Teorisammenligningen](05_MODELS/PTSD_THEORIES.md) forbinder dem med projektets forskningsspørgsmål. [Søgeloggen](09_DEBUG/THEORY_SEARCH_LOG.md) angiver kildeadgang og resterende kontrol. Studierne er observationsforskning; dokumentationen er på dansk med originale bibliografiske titler bevaret.

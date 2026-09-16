@@ -1,5 +1,5 @@
 # PTSD-teorier og FearPrimes arbejdsmodeller
-Version 0.7 · 2026-09-15
+Version 0.8 · 2026-09-16
 
 Teorierne beskriver forskellige niveauer og kan overlappe. De fire kildekort er teori-/oversigtsartikler, ikke fire nye behandlingsforsøg. Tabellen sammenfatter dem kort; afgrænsninger og kontrolniveau står i kortene.
 
@@ -34,5 +34,16 @@ FearPrime skal formulere stofspecifikke hypoteser: påvirker kandidaten deltagel
 
 Ingen af disse teoriartikler dokumenterer butyrat–lurasidon-synergi, en bestemt dosis eller en fælles molekylær årsag til PTSD. Projektets funktionelle forklaring må også rumme observationer, som ikke passer til en simpel alarmmodel.
 
+## Empiriske prøver og modfund
+Tre observationsartikler supplerer teorikortene:
+
+| Undersøgelse | Betydning for teoriarbejdet |
+|---|---|
+| [Rubin 2008](../07_STUDIES/VERIFIED/2008_Rubin_Autobiographical_Memory.md) | Studentermateriale udfordrer en generel antagelse om fragmenterede belastende minder. |
+| [Lancaster 2011](../07_STUDIES/VERIFIED/2011_Lancaster_Cognitive_Model.md) | Kognitioner og livshistorisk centralitet undersøges sammen; foreløbigt udtræk fra indekserede primærresuméer. |
+| [Rubin 2011](../07_STUDIES/VERIFIED/2011_Rubin_Clinical_Memory.md) | Klinisk sammenligning udvider spørgsmålet til diagnosticeret PTSD. |
+
+**Projektets metodevalg:** Identitetsmæssig centralitet og tidslig/rumlig kontekstualisering er forskellige begreber. De skal operationaliseres særskilt, før en undersøgelse kan bruges til at afvise en model. En stianalyse er heller ikke i sig selv en kausal afprøvning. Studiekortene giver ikke belæg for præparateffekt eller kombinationssynergi.
+
 ## Uafklaret
-Senere revisioner, empiriske sammenligninger og kritiske alternative hukommelsesmodeller mangler fortsat en samlet gennemgang. CPTSD, dissociation, relationelle vanskeligheder, skyld og skam kræver selvstændig dækning. Se [søgelog](../09_DEBUG/THEORY_SEARCH_LOG.md) og [dækningsplan](../09_DEBUG/COVERAGE_PLAN.md).
+Tre udvalgte empiriske artikler er nu registreret. Senere revisioner, prospektive undersøgelser og den samlede støtte til alternative hukommelsesmodeller mangler fortsat en systematisk gennemgang. CPTSD, dissociation, relationelle vanskeligheder, skyld og skam kræver selvstændig dækning. Se [søgelog](../09_DEBUG/THEORY_SEARCH_LOG.md) og [dækningsplan](../09_DEBUG/COVERAGE_PLAN.md).

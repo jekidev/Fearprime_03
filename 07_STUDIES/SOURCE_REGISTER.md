@@ -242,4 +242,11 @@ Læs [studieregistret](STUDY_LEDGER.md) for fortolkning og [dækningsplanen](../
 - [Ehlers og Clark 2000: oplevelsen af aktuel trussel](THEORY/2000_Ehlers_Clark.md): PMID 10761279; DOI 10.1016/S0005-7967(99)00123-0.
 - [Craske 2014: hæmmende læring ved eksponering](THEORY/2014_Craske_Inhibitory_Learning.md): PMID 24864005; DOI 10.1016/j.brat.2014.04.006.
 
-Litteraturspor uden sikkert resultatudtræk: [PMID 18999355](https://pubmed.ncbi.nlm.nih.gov/18999355/), DOI 10.1037/a0013165, samt [PMID 24041427](https://pubmed.ncbi.nlm.nih.gov/24041427/). Se [kontrolstatus](../09_DEBUG/THEORY_SEARCH_LOG.md).
+Tidligere spor PMID 18999355, DOI 10.1037/a0013165, er nu fulgt op med et studiekort nedenfor. [PMID 24041427](https://pubmed.ncbi.nlm.nih.gov/24041427/) kræver fortsat kontrol. Se [kontrolstatus](../09_DEBUG/THEORY_SEARCH_LOG.md).
+
+## Empiriske teoriprøver — version 0.8
+- [Rubin, Boals og Berntsen 2008 — selvbiografisk hukommelse](VERIFIED/2008_Rubin_Autobiographical_Memory.md): PMID 18999355; DOI 10.1037/a0013165.
+- [Lancaster, Rodriguez og Weston 2011 — kognitiv model](VERIFIED/2011_Lancaster_Cognitive_Model.md): PMID 21295768; DOI 10.1016/j.brat.2011.01.002.
+- [Rubin, Dennis og Beckham 2011 — klinisk hukommelsesundersøgelse](VERIFIED/2011_Rubin_Clinical_Memory.md): PMID 21489820; DOI 10.1016/j.concog.2011.03.015.
+
+Kontrolniveau varierer: Lancaster-kortet bygger på indekserede primærresuméer; Rubin-kortene omfatter tilgængelige primærtekster. Mappenavnet VERIFIED betyder ikke fuld metodekontrol.

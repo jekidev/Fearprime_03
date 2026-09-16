@@ -1,7 +1,7 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.6 · 2026-09-15
+Version 0.8 · 2026-09-16
 
-Målet er at samle alle studier, der er relevante for FearPrimes spørgsmål, også negative og modstridende. Denne revision bevarer alle hidtil registrerede kilder og tilføjer kliniske rekonsolideringsforsøg. Den er ikke en udtømmende systematisk litteratursøgning.
+Målet er at samle alle studier, der er relevante for FearPrimes spørgsmål, også negative og modstridende. Denne revision bevarer alle hidtil registrerede kilder og omfatter kliniske rekonsolideringsforsøg, teorikort og udvalgte empiriske teoriprøver. Den er ikke en udtømmende systematisk litteratursøgning.
 
 ## Optagelsesregler
 Medtag direkte PTSD/CPTSD-resultater, relevante humane læringsforsøg, mekanistiske dyreforsøg og teori-/metodekilder. Hold populationer, forebyggelse versus behandling, oprindelig konsolidering versus rekonsolidering og symptomvirkning versus læring adskilt.
@@ -23,7 +23,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Bromantan/tyrosin/lithium/7,8-DHF/NAC | Kandidatmatrix | Dedikeret primærkildesøgning og kort mangler |
 | Diosmin/hesperidin/hestekastanje | Systemiske kandidathypoteser | Relevans for læring skal dokumenteres før opgradering |
 | Hæmmende læring/rekonsolidering/kontekst | Begrebskort og centrale positive/negative forsøg | Bredere teori- og metodebibliografi |
-| Kognitiv PTSD-model/dobbeltrepræsentation/følelsesbearbejdning | Fire [teorikort og sammenligning](../05_MODELS/PTSD_THEORIES.md), version 0.7 | Senere revisioner, empiriske modfund og samlet vurdering af støtte |
+| Kognitiv PTSD-model/dobbeltrepræsentation/følelsesbearbejdning | Fire teorikort og tre observationsartikler i [teorisammenligningen](../05_MODELS/PTSD_THEORIES.md), version 0.8 | Senere revisioner, prospektive studier, fuldtekstudtræk og samlet vurdering af støtte |
 | CPTSD/dissociation/selvorganisering | Projektets afgrænsning | Særskilt klinisk/teoretisk evidens og måling |
 | RTM/TIMBER/sirolimus | Identificerede spor i søgelog | Primærkontrol; ingen automatisk mekanismevalidering |
 
