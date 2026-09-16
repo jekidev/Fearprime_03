@@ -271,3 +271,13 @@ Kortene vedrører forskellige evidensniveauer. [Kontrolstatus](../09_DEBUG/TRANS
 - [Potkin 2014](MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md): DOI 10.1017/S109285291300059X. Human receptorundersøgelse, online 2013.
 
 Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængige replikationer. Resumé og metadata er kontrolleret; fuld metodevurdering udestår.
+
+
+## TRE-kilder — version 0.13
+- [PMID 34522632](https://pubmed.ncbi.nlm.nih.gov/34522632/) — *Tension and trauma releasing exercises for people with multiple sclerosis – An exploratory pilot study*. DOI 10.1016/j.jtcme.2021.02.003. Se [studiekort](VERIFIED/2021_Lynning_TRE_MS_Pilot.md).
+- DOI 10.4236/psych.2024.151006 — *The Effect of Tension and Trauma Releasing Exercises (TRE) on Trauma Symptoms in East African Refugees*. Se [studiekort](VERIFIED/2024_Parker_TRE_Refugees.md).
+- [PMID 40064004](https://pubmed.ncbi.nlm.nih.gov/40064004/) — *Tension and Trauma Releasing Exercises for People with Multiple Sclerosis: A Randomized Controlled Trial*. Se [studiekort](VERIFIED/2025_Skovgaard_TRE_MS_RCT.md).
+- [PMID 42713778](https://pubmed.ncbi.nlm.nih.gov/42713778/) — *Trauma Releasing Exercises as a Treatment Technique: A Scoping Review*. DOI 10.1080/07380577.2026.2726931. Se [studiekort](REVIEWS/2026_Roos_TRE_Scoping_Review.md).
+- Kent M. 2018 — *Neurogenic Tremors Training (TRE) for Stress and PTSD: A Controlled Clinical Trial*, technical final report, award W81XWH-15-1-0054. Se [studiekort](VERIFIED/2018_Kent_TRE_PTSD_Controlled_Trial.md).
+
+Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ikke tælles som fem uafhængige, direkte PTSD-RCT'er.
