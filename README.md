@@ -21,7 +21,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
-- [Frygt og selvbeherskelse](10_REDACTED/FEAR_MASTERY.md)
+- [Frygt og selvbeherskelse](10_*******/FEAR_MASTERY.md)
 - [TRE — forskningsdossier](03_EXTINCTION/TRE_DOSSIER.md)
 
 ## Præparater og mekanismer
