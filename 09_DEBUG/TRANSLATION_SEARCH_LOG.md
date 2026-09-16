@@ -29,3 +29,23 @@ PubMed gav enkelte tomme svar. PMC-kopien til 2022-artiklen gav adgangskontrol; 
 
 ## Kvalitetsgrænse
 Resuméudtræk er ikke fuld kvalitetsvurdering. Masseomregningen i formuleringsnotatet er en kemisk beregning for rent vandfrit salt; den er ikke en biotilgængelighedsberegning. Ingen personlig produktetiket er verificeret i denne revision.
+
+## Opfølgning 2026-09-16 · Version 0.12
+De to ovenstående åbne spor er fulgt op via direkte opslag i PubMed (33883448) og Cambridge Core (DOI 10.1017/S109285291300059X). Dette er målrettet kildekontrol, ikke en ny systematisk søgning.
+
+| Kilde | Udført | Fortsat åbent |
+|---|---|---|
+| Mohammadi-Farani 2021 | Resumé, bibliografi og forsøgsrækkefølge; eget præklinisk kort | Fuldtekst, indgiftsvej, dosis, dyreantal, kontrolanalyser og systematiske fejlkilder |
+| Potkin 2014, online 2013 | Forlagsresumé, bibliografi og finansiering; eget mekanistisk kort | Fuldtekst, regionale estimater, usikkerhed og komplet bivirkningsudtræk |
+
+Primærkilder:
+- https://pubmed.ncbi.nlm.nih.gov/33883448/
+- https://doi.org/10.1017/S109285291300059X
+
+## Næste konkrete forskningsopgaver
+1. Fuldtekst og supplement til Dalile: verificér formulering og retningen af hvert hukommelsesudfald.
+2. Fuldtekst til de to nye kort: udfyld de markerede metodehuller.
+3. Direkte human lurasidon/udslukningssøgning med dokumenteret søgestreng og registre.
+4. Fortsæt L-DOPA og oxytocin efter dækningsplanen.
+
+**Debug:** Denne revision dokumenterer to tidligere spor bedre. Den etablerer ikke kombinationseffekt, central human HDAC-målaktivering eller en personlig doseringsplan. Der er ikke tilføjet private helbredsdata.

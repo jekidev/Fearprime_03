@@ -70,3 +70,10 @@ Fire nye studiekort og uddybning af [butyrat](04_CANDIDATES/BUTYRATE_DOSSIER.md)
 
 ## Version 0.11: begge mekanismespor
 [Butyrats formulering og mulige hjernevirkning](04_CANDIDATES/BUTYRATE_FORMULATION_BRAIN.md) samt [Latudas D2/5-HT7 og læring](04_CANDIDATES/LURASIDONE_RECEPTORS_LEARNING.md) er uddybet med tre studiekort. [Søgelog](09_DEBUG/TRANSLATION_SEARCH_LOG.md) angiver kontrolniveau og resterende huller.
+
+## Version 0.12: opfølgning på begge mekanismespor
+To åbne primærkilder har nu egne danske studiekort og indgår i begge registre:
+- [Butyrat i en stressmodel, 2021](07_STUDIES/PRECLINICAL/2021_Mohammadi_Farani_Systemic_Butyrate.md).
+- [Lurasidon og patient-PET, 2014](07_STUDIES/MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md).
+
+Dossiererne skelner tydeligere mellem interventionsfase, eksponering, receptorbelægning og læring. [Kontrolstatus og næste kildeopgaver](09_DEBUG/TRANSLATION_SEARCH_LOG.md).

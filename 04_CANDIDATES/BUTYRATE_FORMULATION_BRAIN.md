@@ -34,3 +34,8 @@ En etiket med »180 mg smørsyre« kan ikke afklares uden at vide, om tallet ang
 6. Replikation med kliniske og funktionelle mål.
 
 **Status:** En præklinisk central mekanisme og humane stof-/adfærdsdata er forskellige dele af evidensen. Der mangler fortsat en direkte forbindelse mellem oral formulering, central påvirkning og klinisk effekt. [Hoveddossier](BUTYRATE_DOSSIER.md).
+
+## Opfølgning, version 0.12: tidspunktet er en del af mekanismen
+[Studiekortet fra 2021](../07_STUDIES/PRECLINICAL/2021_Mohammadi_Farani_Systemic_Butyrate.md) udfylder det tidligere åbne spor. Forbehandling skal registreres særskilt fra indgift omkring udslukning.
+
+**Projektets kontrolregel:** Klassificér hvert forsøg efter, om interventionen kan påvirke oprindelig indlæring, udslukning, konsolidering eller testadfærd. Et forbedret slutmål er ikke alene tilstrækkeligt til at identificere fasen.

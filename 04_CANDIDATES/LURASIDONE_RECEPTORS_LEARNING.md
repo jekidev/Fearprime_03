@@ -36,3 +36,8 @@ Positive L-DOPA-fund betyder ikke, at lurasidon nødvendigvis giver den modsatte
 - Selektive mekanismeforsøg, hvis en effekt skal tilskrives én receptor.
 
 **Status:** Receptorgrundlaget er mere konkret end klinisk udslukningsevidens. Nettovirkningen af lurasidon og kombinationen med butyrat kan ikke beregnes ud fra receptorlisten. [Hoveddossier](LURASIDONE_DOSSIER.md) · [Kombinationstest](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md).
+
+## Opfølgning, version 0.12: eksponering skal måles
+[Potkin-studiekortet](../07_STUDIES/MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md) udfylder det tidligere patient-PET-spor.
+
+**Projektets kontrolregel:** Hold ordineret dosis, målt blodkoncentration, receptorbelægning og læringsudfald som fire separate variable. Ingen af dem må udfyldes ved at kopiere værdien fra et andet niveau.

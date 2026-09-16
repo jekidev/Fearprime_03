@@ -143,3 +143,9 @@ Dalile og Guillen-Burgos var tidligere omtalt i dossierer og er nu selvstændige
 - [Mohammadi-Farani 2022 — lokal butyratindgift og BDNF](PRECLINICAL/2022_Mohammadi_Farani_Local_Butyrate.md): DOI 10.22038/ijbms.2022.65000.14312.
 
 Kortene vedrører forskellige evidensniveauer. [Kontrolstatus](../09_DEBUG/TRANSLATION_SEARCH_LOG.md).
+
+## Version 0.12: opfølgning på to åbne primærkilder
+- [Mohammadi-Farani 2021](PRECLINICAL/2021_Mohammadi_Farani_Systemic_Butyrate.md): PMID 33883448; DOI 10.1097/FBP.0000000000000633. Præklinisk forsøg.
+- [Potkin 2014](MECHANISTIC/2014_Potkin_Lurasidone_Patient_PET.md): DOI 10.1017/S109285291300059X. Human receptorundersøgelse, online 2013.
+
+Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængige replikationer. Resumé og metadata er kontrolleret; fuld metodevurdering udestår.
