@@ -171,3 +171,10 @@ Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTI
 ### TRE-protokol uden effektresultater
 - [Zhao et al. 2024 — TRE ved emotionelle lidelser hos unge](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md): RCT-protokol, 140 mor–unge-par, ChiCTR2100044553. Protokollen tælles ikke som positiv eller negativ effekt-evidens.
 - [Samlet TRE-litteraturkort](TRE_LITERATURE_MAP.md) bevarer 2023-korpus, nyere kilder og grå litteratur med kontrolstatus.
+
+
+## Kvalitativ forskning om coping, kontekst og resiliens — version 0.15
+- [Harnisch 2016 — forced resilience, krigserfaringer og vanskelig demobilisering](QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md): ph.d.-afhandling, DPU/Aarhus Universitet, 337 sider. Bruges som kvalitativ/kontekstuel evidens, ikke som behandlingseffektstudie.
+- [Harnisch & Montgomery 2017 — avoidant coping efter tvangsrekruttering](QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md): 36 tidligere tvangsrekrutterede personer; ca. 10 måneders etnografisk feltarbejde; PMID 28738316; DOI 10.1016/j.socscimed.2017.07.007.
+
+FearPrime-fortolkning: Studierne støtter behovet for at skelne mellem **funktionel, kontekstafhængig coping** og rigid generaliseret undgåelse. De dokumenterer ikke, at “fortrængning” generelt er bedre end evidensbaseret PTSD-behandling.
