@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.18
+Status efter version 0.19
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Det største arbejde mod v1.0 ligger ikke længere i at opfinde en grundidé, men i at gøre hvert led **målbart, kildekomplet og falsificerbart**.
+Efter v0.19 er de tidligere seks P0-framework-huller dækket på dokument-/måleniveau. Det største arbejde mod v1.0 er nu **dybere evidensdækning, mekanismeopdeling, risk-of-bias og reproducerbar datastruktur**.
 
 ---
 
@@ -47,14 +47,14 @@ Det største arbejde mod v1.0 ligger ikke længere i at opfinde en grundidé, me
 | Funktionel/adaptiv PTSD-model | ✅ | `00_MANIFESTO/FEARPRIME_MODEL.md`, `05_MODELS/ADAPTIVE_PTSD_MODEL.md` | Flere direkte empiriske tests af adaptive vs rigide strategier |
 | Klassiske PTSD-teorier | 🟡 | `05_MODELS/PTSD_THEORIES.md`, `07_STUDIES/THEORY/` | Nyere teori-reviews, prospektive tests, bedre model-sammenligning |
 | Predictive processing | 🟡 🔬 | adaptiv model + ressourcekategori | Dedikeret mekanisme-/teorifil og operationelle predictions |
-| CPTSD | ✅/🟡 | `05_MODELS/CPTSD_MODEL.md` | ITQ-målemodul, DSO-studiekort, longitudinelle mekanismedata |
+| CPTSD | ✅/🟡 | `05_MODELS/CPTSD_MODEL.md`, `06_MEASUREMENT/CPTSD_MEASUREMENT.md` | Flere DSO-studiekort og longitudinelle mekanismedata |
 | Selvmodel / identitet | 🟡 🔬 | CPTSD-model | Dedikeret spor for memory/identity og negativt selvkoncept |
 | Social threat learning | 🟡 🔬 | CPTSD + generalization engine | Humane paradigmer og klinisk overførsel |
 
 ## V1.0-krav
-- CPTSD skal have separat måling.
-- Predictive-processing-påstande skal omsættes til målbare predictions.
-- FearPrime skal tydeligt skelne teori, mekanisme og klinisk effekt.
+- ✅ CPTSD har separat measurement-layer.
+- Predictive-processing-påstande skal omsættes yderligere til målbare predictions.
+- FearPrime skal fortsat tydeligt skelne teori, mekanisme og klinisk effekt.
 
 ---
 
@@ -62,18 +62,18 @@ Det største arbejde mod v1.0 ligger ikke længere i at opfinde en grundidé, me
 
 | Del | Status | Filer | Hvad mangler |
 |---|---|---|---|
-| Fear acquisition | 🟡 | `EXTINCTION_ENGINE.md`, studieregister | Dedikeret oversigt over acquisition og målemetoder |
-| Extinction | ✅/🟡 | `EXTINCTION_ENGINE.md` | Større metode- og boundary-condition-del |
+| Fear acquisition | 🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md`, studieregister | Dedikeret acquisition/metodeoversigt |
+| Extinction | ✅/🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md` | Større paradigme- og metodebibliografi |
 | Inhibitory learning | 🟡 | arbejdsmodeller + teorikort | Egen engine/strategikort |
-| Expectancy violation | 🟡 | arbejdsmodeller | Formaliseret målemodel |
+| Expectancy violation | ✅/🟡 | arbejdsmodeller + learning metrics | Bedre paradigmestandardisering |
 | Safety learning | ✅/🟡 | `GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md` | Flere PTSD-specifikke primærstudier |
-| Threat/safety discrimination | 🟡 | generalization engine | Standardiseret målemodul |
-| Generalization | ✅/🟡 | generalization engine | Perceptuel/social/interoceptiv evidens opdelt |
+| Threat/safety discrimination | ✅/🟡 | generalization engine + learning metrics | Paradigme-/populationsspecifik evidens |
+| Generalization | ✅/🟡 | generalization engine + learning metrics | Perceptuel/social/interoceptiv evidens opdelt |
 | Context learning | 🟡 | adaptive model + extinction | Dedikeret hippocampus/context-fil |
-| Extinction recall | 🟡 | extinction/reconsolidation | Dedikerede outcome-standarder |
+| Extinction recall | ✅/🟡 | extinction/reconsolidation + learning metrics | Mere study-level standardisering |
 
 ## V1.0-krav
-FearPrime skal kunne skelne mindst:
+FearPrime skelner nu eksplicit:
 
 ```text
 acquisition
@@ -82,6 +82,7 @@ extinction recall
 generalization
 renewal
 reinstatement
+spontaneous recovery
 reacquisition
 ```
 
@@ -96,14 +97,23 @@ uden at bruge dem som synonymer.
 | Return of fear | ✅/🟡 | Samlet kvantitativ evidens for renewal/reinstatement/spontaneous recovery |
 | Retrieval | ✅ | Skal fortsat adskilles fra destabilisering |
 | Reconsolidation | ✅/🟡 | Flere replikationer, negative studier og paradigmeforskelle |
-| Boundary conditions | 🔴 | Egen fil: alder/styrke af memory, prediction error, retrieval-varighed, timing |
+| Boundary conditions | ✅/🟡 | `RECONSOLIDATION_BOUNDARY_CONDITIONS.md`; individuelle studiekort + R0–R4 coding mangler |
 | Klinisk PTSD-reconsolidation | ✅/🟡 | Nyere trials, registre og meta-analytisk syntese |
 
-## Høj prioritet
-Opret:
-`03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md`
+## v0.19-opdatering
+[Reconsolidation boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) dækker nu:
+- prediction error,
+- reminder/retrieval duration,
+- memory strength,
+- memory age,
+- memory type,
+- reminder specificity,
+- context/state,
+- intervention timing,
+- reconsolidation versus extinction,
+- evidensniveau R0–R4.
 
-Dette er et af de vigtigste resterende konceptuelle huller.
+Boundary conditions må ikke bruges post hoc som universalforklaring på negative resultater.
 
 ---
 
@@ -188,8 +198,8 @@ Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater b�
 
 | Del | Status | Hvad mangler |
 |---|---|---|
-| CPTSD-definition/model | ✅ | Ny v0.18-model |
-| DSO | 🟡 | Måling + interventionsstudier |
+| CPTSD-definition/model | ✅ | v0.18-model |
+| DSO measurement | ✅/🟡 | ITQ-layer findes; flere interventions-/longitudinelle data mangler |
 | Dissociation | 🟡 | Eget målespor og state-dependent learning |
 | Tonic immobility | 🟡/✅ | Review/meta findes; mekanismemodul mangler |
 | Freeze / shutdown | 🟡 | Skelnen mellem begreber og fysiologi |
@@ -202,7 +212,7 @@ Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater b�
 
 | Del | Status | Hvad mangler |
 |---|---|---|
-| Exposure | ✅/🟡 | Udvidet engine og outcome-standarder |
+| Exposure | ✅/🟡 | Udvidet engine og paradigmestandarder |
 | TRE | ✅/🟡 | Begrænset evidenskvalitet; fortsat klare evidenslabels |
 | Interoceptiv exposure | 🟡 | Integreret protokol-/målemodul |
 | Motion | 🟡 | Timing omkring læring og retention |
@@ -215,45 +225,50 @@ Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater b�
 
 # 9. Measurement layer
 
-## Eksisterer
+## Eksisterer efter v0.19
 - ✅ `MEASUREMENT_PLAN.md`
+- ✅ `CPTSD_MEASUREMENT.md`
+- ✅ `LEARNING_METRICS.md`
 - ✅ `SESSION_TEMPLATE.md`
 - ✅ `RETURN_OF_FEAR_TEMPLATE.md`
 - ✅ `FP_BL_01_TEST_PLAN.md`
 
-## Mangler før v1.0
+### ✅ CPTSD measurement
+Det nye modul indeholder:
+- ITQ-reference og scoringprincipper uden kopiering af questionnaire-items,
+- PTSD og DSO separat,
+- funktion separat,
+- probable classification adskilt fra klinisk diagnose,
+- versions-/sprog-/clinical-check metadata.
 
-### 🔴 CPTSD measurement
-- ITQ-reference og scoringprincipper
-- PTSD og DSO separat
-- funktion separat
-
-### 🔴 Learning metrics
-Standardfelter for:
+### ✅ Learning metrics
+Standardfelter er nu defineret for:
 - threat expectancy,
 - safety expectancy,
 - prediction error,
 - discrimination,
-- extinction slope,
-- next-day recall,
-- generalization transfer,
-- renewal/reinstatement.
+- acquisition,
+- extinction change/slope,
+- delayed recall,
+- generalization gradient,
+- renewal,
+- reinstatement,
+- spontaneous recovery,
+- reacquisition,
+- behavior/function og fysiologi.
 
 ### 🟡 fysiologi
-Definér hvad der kan måles uden at blande:
+Modaliteter er konceptuelt adskilt:
 - HR/HRV,
 - SCR,
 - startle,
 - respiration,
 - subjektiv distress.
 
-### 🟡 funktion
-Der mangler en stærkere funktionsakse end symptom-score alene.
+Der mangler stadig preprocessing/QC-standarder.
 
-## Høj prioritet
-Opret:
-- `06_MEASUREMENT/CPTSD_MEASUREMENT.md`
-- `06_MEASUREMENT/LEARNING_METRICS.md`
+### 🟡 funktion
+Funktionsaksen er styrket, men et dedikeret valideret funktionsinstrument-spor kan tilføjes senere.
 
 ---
 
@@ -269,7 +284,7 @@ Opret:
 | Review/meta-kategori | ✅/🟡 |
 | Effektstørrelser systematisk | 🟡 |
 | Risk-of-bias standard | 🔴/🟡 |
-| GRADE/certeainty-lignende lag | 🔴 |
+| GRADE/certainty-lignende lag | 🔴 |
 | Registrering af deltager-overlap | 🟡 |
 | Preregistration-lignende hypothesis registry | 🔴/🟡 |
 
@@ -306,12 +321,12 @@ certainty
 🟡 automatisk link checker  
 
 ## Forslag
-Senere:
 
 ```text
 /data/studies.csv
 /data/candidates.csv
 /data/mechanisms.csv
+/data/session_schema.yaml
 CHANGELOG.md
 VERSION
 ```
@@ -322,14 +337,16 @@ Det vil gøre repoet langt lettere at analysere med scripts/agenter.
 
 # 12. V1.0-prioriteret roadmap
 
-## P0 — nødvendigt
+## P0 — framework-kerne
 1. ✅ CPTSD-model.
 2. ✅ Fear Circuit Master Map.
 3. ✅ Generalization & Safety Learning Engine.
-4. 🔴 Reconsolidation boundary conditions.
-5. 🔴 CPTSD measurement / ITQ-spor.
-6. 🔴 Learning metrics.
-7. 🟡 Opdatér coverage-plan og README til v0.18.
+4. ✅ Reconsolidation boundary conditions.
+5. ✅ CPTSD measurement / ITQ-spor.
+6. ✅ Learning metrics.
+7. ✅ Coverage-plan opdateret til v0.19.
+
+**P0 er nu afsluttet på framework-niveau.** Det er ikke det samme som komplet systematisk evidensdækning.
 
 ## P1 — høj værdi
 8. Hippocampus/context discrimination.
@@ -339,19 +356,20 @@ Det vil gøre repoet langt lettere at analysere med scripts/agenter.
 12. Endocannabinoid-dossier.
 13. DCS-dossier.
 14. Propranolol-dossier.
+15. Boundary-condition studiekort + negative replikationer + R0–R4 coding.
 
 ## P2 — evidensstyrke
-15. Risk-of-bias template.
-16. Effektstørrelser + CI i kerne-studier.
-17. Systematiske søgninger for hver P0/P1-domæne.
-18. Maskinlæsbar study database.
+16. Risk-of-bias template.
+17. Effektstørrelser + CI i kerne-studier.
+18. Systematiske søgninger for hver P0/P1-domæne.
+19. Maskinlæsbar study database og session-schema.
 
 ## P3 — v1.0-polering
-19. samlet glossary-kontrol.
-20. link-check.
-21. changelog/version-fil.
-22. README som komplet navigationskort.
-23. særskilt `KNOWN_LIMITATIONS.md`.
+20. samlet glossary-kontrol.
+21. link-check.
+22. changelog/version-fil.
+23. README som komplet navigationskort.
+24. særskilt `KNOWN_LIMITATIONS.md`.
 
 ---
 
@@ -369,6 +387,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.18 et sammenhængende pre-v1.0 framework.**
+**FearPrime er efter v0.19 et sammenhængende pre-v1.0 framework med P0-kernen dækket.**
 
-Det mest afgørende hul er ikke længere selve PTSD-modellen. Det er overgangen fra teori til **standardiserede mål + boundary conditions + systematisk evidenssyntese**.
+Det afgørende hul er nu ikke grundmodellen eller de centrale målebegreber. Næste fase er **P1-mekanismer + systematisk study-level evidens + reproducerbar dataarkitektur**.
