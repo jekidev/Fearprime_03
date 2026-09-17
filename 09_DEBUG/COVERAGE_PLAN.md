@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.18 · 2026-09-17
+Version 0.19 · 2026-09-17
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -23,15 +23,15 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Område | Status | Findes i repoet | Konkret hul |
 |---|---|---|---|
 | Funktionel/adaptiv PTSD | ✅ | Manifest + adaptiv model | Flere direkte empiriske tests |
-| CPTSD / DSO | ✅/🟡 | [CPTSD-model](../05_MODELS/CPTSD_MODEL.md) | ITQ-måling, DSO-studiekort og longitudinelle mekanismedata |
+| CPTSD / DSO | ✅/🟡 | [CPTSD-model](../05_MODELS/CPTSD_MODEL.md) + [CPTSD measurement](../06_MEASUREMENT/CPTSD_MEASUREMENT.md) | Flere DSO-studiekort og longitudinelle mekanismedata |
 | Predictive processing | 🟡 🔬 | Adaptiv model + ressourcekategori | Dedikeret teori-/mekanismefil og operationelle predictions |
 | Fear acquisition | 🟡 | Extinction engine + studier | Dedikeret metodeoversigt |
-| Extinction / inhibitory learning | ✅/🟡 | Extinction engine + teori | Mere metode- og outcome-standardisering |
-| Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) | Flere PTSD-specifikke primærstudier og målemodul |
-| Threat/safety discrimination | 🟡 | Generalization engine | Standardiserede metrics |
-| Context / renewal | 🟡 📊 | Extinction/return-of-fear + review | Hippocampus/context-dossier |
-| Reconsolidation | ✅/🟡 | Kliniske og laboratoriske spor | Boundary conditions og nyere replikationer |
-| Reconsolidation boundary conditions | 🔴 | Delvist omtalt | Egen fil om memory strength/age, PE, retrieval og timing |
+| Extinction / inhibitory learning | ✅/🟡 | Extinction engine + [learning metrics](../06_MEASUREMENT/LEARNING_METRICS.md) | Dybere metode- og paradigmestandardisering |
+| Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) + learning metrics | Flere PTSD-specifikke primærstudier |
+| Threat/safety discrimination | ✅/🟡 | Generalization engine + learning metrics | Paradigme- og populationsspecifikke normer |
+| Context / renewal | 🟡 📊 | Extinction/return-of-fear + learning metrics | Hippocampus/context-dossier |
+| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) | Nyere replikationer og study-level R0–R4 coding |
+| Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret v0.19-modul | Individuelle studiekort + systematisk negative/replikationsspor |
 | Dissociation / tonic immobility | 🟡 📊 | Adaptiv model + review/resource | Eget mekanisme- og målespor |
 
 ## Dækningsmatrix — neurobiologi
@@ -76,7 +76,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 ## Dækningsmatrix — adfærd, fysiologi og kontekst
 | Område | Status | Konkret hul |
 |---|---|---|
-| Exposure | ✅/🟡 | Udvidet outcome-standardisering |
+| Exposure | ✅/🟡 | Udvidet paradigmestandardisering |
 | TRE | ✅/🟡 | Evidensen er primært lavere niveau; fortsat modfund/quality-labels |
 | Interoceptiv exposure | 🟡 | Integreret målemodul |
 | Motion | 🟡 | Timing omkring læring/retention og replikation |
@@ -86,17 +86,20 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Inflammation/metabolisme | 🟡 🔬 | Kausalitet og direkte læringsoutcomes |
 | Mitokondrier/laktat/GLP-1 | 🟡 🔬 | Direkte human intervention og mekanismemåling |
 
-## Measurement gaps
+## Measurement layer
 Eksisterende:
 - [Måleplan](../06_MEASUREMENT/MEASUREMENT_PLAN.md)
+- [CPTSD measurement / ITQ](../06_MEASUREMENT/CPTSD_MEASUREMENT.md)
+- [Standardiserede learning metrics](../06_MEASUREMENT/LEARNING_METRICS.md)
 - [Sessionsskabelon](../06_MEASUREMENT/SESSION_TEMPLATE.md)
 - [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-### P0 før v1.0
-1. 🔴 `06_MEASUREMENT/CPTSD_MEASUREMENT.md` — ITQ/PTSD/DSO/funktion adskilt.
-2. 🔴 `06_MEASUREMENT/LEARNING_METRICS.md` — expectancy, prediction error, discrimination, recall, generalization, renewal.
-3. 🟡 fysiologi-standard: HR/HRV, SCR, startle og respiration holdes adskilt fra subjektive ratings.
+### P0-status efter v0.19
+1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
+2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
+3. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
+4. 🟡 Maskinlæsbar session-schema mangler implementering i `/data/`.
 
 ## Evidensarkitektur
 ### Allerede på plads
@@ -116,15 +119,17 @@ Eksisterende:
 - 🟡 DOI/PMID- og link-validering
 
 ## Prioriteret roadmap
-### P0 — før v1.0
+### P0 — framework-kerne
 1. ✅ CPTSD-model.
 2. ✅ Fear Circuit Master Map.
 3. ✅ Generalization & Safety Learning Engine.
-4. 🔴 Reconsolidation boundary conditions.
-5. 🔴 CPTSD measurement.
-6. 🔴 Learning metrics.
+4. ✅ Reconsolidation boundary conditions.
+5. ✅ CPTSD measurement.
+6. ✅ Learning metrics.
 
-### P1
+**P0 er nu dækket på framework-niveau.** Det betyder ikke, at evidensdækningen er komplet; det betyder, at hvert kerneområde nu har en eksplicit model/målestandard og kan udbygges systematisk.
+
+### P1 — næste høje værdi
 7. Hippocampus/context discrimination.
 8. Insula/interoception.
 9. HPA/stress-memory timing.
@@ -132,12 +137,13 @@ Eksisterende:
 11. Endocannabinoid-dossier.
 12. DCS-dossier.
 13. Propranolol-dossier.
+14. Reconsolidation boundary-condition studiekort + R0–R4 coding.
 
 ### P2
-14. Risk-of-bias template.
-15. Effektstørrelser/CI for kernekilder.
-16. Reproducerbare søgninger for P0/P1-domæner.
-17. Maskinlæsbar study database.
+15. Risk-of-bias template.
+16. Effektstørrelser/CI for kernekilder.
+17. Reproducerbare søgninger for P0/P1-domæner.
+18. Maskinlæsbar study database + session-schema.
 
 ## Fremgangsmåde ved litteraturudvidelse
 1. Definér spørgsmål, population, intervention og udfald.
@@ -151,10 +157,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. Reconsolidation boundary conditions.
-2. CPTSD/ITQ measurement.
-3. Learning metrics.
-4. Hippocampus/context + generalization.
-5. HPA/glucocorticoid timing.
+1. Hippocampus/context discrimination.
+2. Insula/interoception.
+3. HPA/glucocorticoid timing.
+4. Reconsolidation boundary-condition study cards og negative replikationer.
+5. NMDA/AMPA + endocannabinoider.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
