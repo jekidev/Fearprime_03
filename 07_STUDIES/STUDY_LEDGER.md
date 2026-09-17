@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.6 · 2026-09-15
+Version 0.18 · 2026-09-17
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -15,6 +15,7 @@ A: kliniske udfald i forsøg/sammenfatninger. B: raske menneskers eksperimentell
 - Motion og søvn har relevante humane fund, men ingen enkelt biomarkør forklarer nødvendigvis effekten.
 - FAAH/anandamid, døgnrytme og metabolisk tilstand er direkte humane forskningsspor; klinisk overførsel kræver egne data.
 - Lurasidon, GLP-1, mitokondrier, laktat og receptorhypoteser skal vurderes på deres faktiske forsøgsniveau.
+- HDAC-subtyper kan have forskellige funktioner: HDAC2- og HDAC4-fund må ikke reduceres til én generel "HDAC-hæmning = mere plasticitet"-regel.
 - Klinisk symptomlettelse med et præparat er ikke automatisk dokumenteret forbedret udslukning.
 - [Klinisk rekonsolidering](../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md) rummer både positive og negative forsøg.
 
@@ -34,7 +35,9 @@ Antallet af kort er ikke antallet af uafhængige forsøg. Ét kort kan rumme fle
 | [Mitokondrier, laktat og BDNF: kritisk vurdering](MECHANISTIC/Mitochondria_Lactate_BDNF_Extinction_Audit.md) | Mekanismer |
 | [Nader 2000 — genkaldelse og restabilisering](PRECLINICAL/2000_Nader_Reconsolidation.md) | Prækliniske studier |
 | [Bredy 2007 — HDAC, BDNF og udslukning](PRECLINICAL/2007_Bredy_HDAC_BDNF.md) | Prækliniske studier |
+| [Guan 2009 — HDAC2, synaptisk plasticitet og hukommelse](PRECLINICAL/2009_Guan_HDAC2_Plasticity.md) | Prækliniske studier |
 | [Peters 2010 — lokal BDNF og frygt](PRECLINICAL/2010_Peters_BDNF.md) | Prækliniske studier |
+| [Kim 2012 — HDAC4, LTP og hukommelse](PRECLINICAL/2012_Kim_HDAC4_Plasticity.md) | Prækliniske studier |
 | [Luoni 2013: kronisk lurasidon i en rottemodel](PRECLINICAL/2013_Luoni_Lurasidone.md) | Prækliniske studier |
 | [Salinas-Hernández 2018 — uventet udeblivelse af fare](PRECLINICAL/2018_Salinas_Dopamine_Omission.md) | Prækliniske studier |
 | [de Assis Brasil 2019: lokal 5-HT7-blokade og udslukning](PRECLINICAL/2019_5HT7_BLA_extinction.md) | Prækliniske studier |
