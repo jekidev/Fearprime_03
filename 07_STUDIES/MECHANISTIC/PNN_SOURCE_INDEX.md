@@ -17,6 +17,7 @@ Dette indeks understøtter [PNN/critical-period mekanismekortet](../../02_MECHAN
 | [Lavertu-Jolin 2023](../PRECLINICAL/2023_Lavertu_Jolin_HDAC2_Acan_PNN_Extinction.md) | HDAC2 → Acan → PNN | Ja | BRD6688/Hdac2/Acan manipulation før extinction reducerede spontaneous fear recovery |
 | [Grødem 2025](../PRECLINICAL/2025_Grodem_Acan_PV_Adult_KO.md) | Acan timing / developmental compensation | Nej, visual cortex | Adult og germline PV+-Acan-loss giver forskellige plasticity-fænotyper |
 | [Teng 2025](../PRECLINICAL/2025_Teng_MMP9_PNN_Remote_Fear.md) | BDNF-TrkB → MMP-9 → PNN | Ja, remote memory | Endogen PNN-degradering koblet til post-retrieval extinction af remote fear i mus |
+| [Cramer 2026](2026_Cramer_ADAMTSL3_MMP9_PNN.md) | ADAMTSL3 → MMP-9 → PNN → OTX2 | Nej, visual cortex | Adult PV+-Adamtsl3 deletion reducerede PNN, sænkede OTX2 uptake og genåbnede juvenile-like plasticity; PV oxidative stress steg |
 
 ## Kritiske regler
 1. **Region:** BLA, IL, PrL, auditory cortex og visual cortex kan ikke sidestilles.
@@ -24,9 +25,11 @@ Dette indeks understøtter [PNN/critical-period mekanismekortet](../../02_MECHAN
 3. **Memory phase:** acquisition, consolidation, extinction, reconsolidation og retrieval skal registreres separat.
 4. **PNN er ikke én variabel:** Acan, HAPLN1/Crtl1, sulfation, OTX2-capture og proteolyse kan ændres uafhængigt.
 5. **PV+-tilstand:** interneuron maturation, TrkB og myelin/NgR1-brakes kan ændre plasticity uden at være identiske med direkte PNN-degradering.
-6. **Human translation:** ingen af disse prækliniske manipulationer er etableret som selektiv human PTSD-behandling.
+6. **Stabilitet/beskyttelse:** PNN understøtter også PV+-funktion og kan beskytte mod oxidative stress; reopening er derfor ikke biologisk gratis.
+7. **Human translation:** ingen af disse prækliniske manipulationer er etableret som selektiv human PTSD-behandling.
 
 ## Aktuelle moddata / åbne spørgsmål
 - Grødem 2025 viser developmental compensation ved germline Acan-loss.
 - PNN-removal i adult auditory cortex kan forringe fear learning/consolidation, så `PNN↓ = bedre` er forkert som global regel.
+- Cramer 2026 viser både reopening af plasticity og øget PV+-oxidative stress efter PNN-destabilisering.
 - En 2026 bioRxiv-preprint (*Neuropil aggrecan, not perineuronal nets, closes the critical period for visual plasticity*) rapporterer, at excitatory-neuron/neuropil Acan kan være vigtigere end PV-PNN for visual critical-period closure. Dette er endnu ikke et peer-reviewed fear-circuit fund og registreres som et aktivt debug-spor.
