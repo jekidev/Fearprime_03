@@ -1,6 +1,6 @@
 # FearPrime — reconsolidation boundary conditions
 
-Version 0.19 · 2026-09-17
+Version 0.20 · 2026-09-17
 
 ## Formål
 Dette dokument definerer, hvornår FearPrime **må** og **ikke må** bruge reconsolidation som forklaring på memory updating.
@@ -14,6 +14,9 @@ Se også:
 - [Klinisk PTSD-reconsolidation](CLINICAL_PTSD_RECONSOLIDATION.md)
 - [Generalization & Safety Learning Engine](GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Learning Metrics](../06_MEASUREMENT/LEARNING_METRICS.md)
+- [Study Ledger og R0–R4 robusthed](../07_STUDIES/STUDY_LEDGER.md)
+
+**Skala-afklaring:** Dette dokument bruger **M0–M4** til graden af *mekanistisk reconsolidation-inferens*. `STUDY_LEDGER.md` bruger separat **R0–R4** til *robusthed/replikation*. De to skalaer må ikke blandes.
 
 ---
 
@@ -77,6 +80,13 @@ PE ≠ bevis for reconsolidation
 ```
 
 PE kan også drive extinction, new learning eller andre updating-processer.
+
+### Replikationskontrol
+Stemerding et al. (2022) forsøgte at replikere det præcise mønster, hvor én PE var reconsolidation-sensitiv, men fandt ikke evidens for den forventede specifikke effekt. Kontrolgruppernes fear retention gjorde samtidig fortolkningen mindre ren.
+
+PMID `35145138` · DOI `10.1038/s41598-022-06119-5`.
+
+Det betyder, at “én prediction error” **ikke** må bruges som en valideret universal klinisk regel.
 
 ---
 
@@ -222,6 +232,8 @@ En ændring i context kan skabe prediction error, men kan også reducere retriev
 
 Det er derfor ikke givet, at maksimal novelty er optimalt.
 
+Se også [hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md).
+
 ---
 
 # 9. Boundary condition: state
@@ -237,6 +249,8 @@ Mulige state-moderatorer omfatter:
 Der findes human evidens for at stress kan påvirke reconsolidation af declarative memory, men dette kan ikke direkte generaliseres til alle trauma-memory paradigmer.
 
 Eksempel: Bos et al. (2014), PMID 24882163, DOI `10.1016/j.psyneuen.2014.04.011`.
+
+Se også [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md).
 
 ---
 
@@ -315,6 +329,8 @@ indtil designet faktisk kan skelne mellem:
 
 Det klassiske Schiller-spor er derfor relevant, men ikke alene tilstrækkeligt til at konkludere permanent memory erasure.
 
+Den registrerede direkte replikation af Chalkia et al. (2020) fandt ikke en fordel af retrieval+extinction over almindelig extinction til forebyggelse af recovery. Dette sænker robustheden af den specifikke procedure, men afviser ikke reconsolidation som biologisk proces.
+
 ---
 
 # 13. Farmakologisk blockade som mekanismeprobe
@@ -355,26 +371,36 @@ Boundary conditions må ikke bruges post hoc til at forklare ethvert negativt fu
 
 Hvis en boundary-condition-hypotese ikke var specificeret før data, markeres den som post hoc.
 
+Centrale modfund omfatter:
+- Wood et al. 2015: tre små negative kliniske PTSD-forsøg,
+- Chalkia et al. 2020: registreret direkte retrieval-extinction-replikation uden forventet fordel,
+- Roullet et al. 2021: ingen samlet propranololfordel i et større klinisk PTSD-RCT,
+- Stemerding et al. 2022: mislykket replikation af det præcise single-PE boundary-mønster.
+
+Se claim-specific robusthed i [Study Ledger](../07_STUDIES/STUDY_LEDGER.md).
+
 ---
 
-# 15. Evidence ladder for reconsolidation claims
+# 15. M0–M4: mekanistisk inferens for reconsolidation claims
 
-## Niveau R0 — retrieval only
+**Vigtigt:** M0–M4 beskriver *hvor stærkt et konkret design tillader reconsolidation som mekanismeinferens*. Det er separat fra R0–R4, som beskriver *robusthed/replikation* i Study Ledger.
+
+## Niveau M0 — retrieval only
 Memory blev genkaldt.
 
 **Tilladt konklusion:** retrieval fandt sted.
 
-## Niveau R1 — retrieval + prediction error
+## Niveau M1 — retrieval + prediction error
 Der var dokumenteret mismatch/novel information.
 
 **Tilladt konklusion:** destabilisering er mere plausibel.
 
-## Niveau R2 — post-reactivation updating
+## Niveau M2 — post-reactivation updating
 En intervention efter reactivation ændrede senere responding relativt til relevante kontroller.
 
 **Tilladt konklusion:** post-reactivation updating er understøttet.
 
-## Niveau R3 — reconsolidation-consistent pattern
+## Niveau M3 — reconsolidation-consistent pattern
 Designet viser:
 - relevant reactivation,
 - boundary-condition-sensitive effekt,
@@ -384,7 +410,7 @@ Designet viser:
 
 **Tilladt konklusion:** resultatet er reconsolidation-consistent.
 
-## Niveau R4 — stærk mekanistisk inference
+## Niveau M4 — stærk mekanistisk inference
 Flere uafhængige paradigmer/manipulationer og replikationer understøtter destabilisering + restabilisering af target memory.
 
 **Tilladt konklusion:** stærk reconsolidation-inference.
@@ -424,7 +450,8 @@ return_of_fear:
   spontaneous_recovery: null
   reacquisition: null
 alternative_explanations: []
-reconsolidation_evidence_level: R0-R4
+mechanistic_inference_level: M0-M4
+robustness_score: R0-R4
 ```
 
 ---
@@ -561,9 +588,10 @@ indtil evidensen retfærdiggør stærkere mekanistisk sprog.
 
 # Status
 
-Med dette modul er FearPrimes tidligere P0-hul om reconsolidation boundary conditions dækket på framework-niveau.
+P0-hullet om reconsolidation boundary conditions er dækket på framework-niveau, og v0.20 har nu:
+1. individuelle kort for centrale boundary-condition-studier,
+2. systematisk integration af negative replikationer,
+3. **M0–M4** for mekanistisk inferens,
+4. **R0–R4** i Study Ledger for robusthed/replikation.
 
-Næste niveau er at:
-1. oprette individuelle studiekort for de vigtigste boundary-condition-studier,
-2. integrere negative replikationer systematisk,
-3. koble R0–R4-skalaen til `STUDY_LEDGER.md` og den kommende maskinlæsbare study database.
+Næste niveau er effektstørrelser, risk-of-bias og en maskinlæsbar study database.
