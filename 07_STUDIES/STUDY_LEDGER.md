@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.18 · 2026-09-17
+Version 0.19 · 2026-09-17
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -16,6 +16,8 @@ A: kliniske udfald i forsøg/sammenfatninger. B: raske menneskers eksperimentell
 - FAAH/anandamid, døgnrytme og metabolisk tilstand er direkte humane forskningsspor; klinisk overførsel kræver egne data.
 - Lurasidon, GLP-1, mitokondrier, laktat og receptorhypoteser skal vurderes på deres faktiske forsøgsniveau.
 - HDAC-subtyper kan have forskellige funktioner: HDAC2- og HDAC4-fund må ikke reduceres til én generel "HDAC-hæmning = mere plasticitet"-regel.
+- Lavertu-Jolin 2023 gør HDAC2-sporet celletypespecifikt og direkte relevant for præklinisk fear extinction: PV+-interneuroner, Acan/aggrecan og perineuronale net er koblet til senere return of fear i voksne mus.
+- Cao 2024 viser, at SerBut-formuleringen kan øge systemisk og CNS-relateret butyrateksponering i mus; dette må ikke overføres direkte til humant natriumbutyrat eller fortolkes som dokumenteret HDAC2-målaktivering.
 - Klinisk symptomlettelse med et præparat er ikke automatisk dokumenteret forbedret udslukning.
 - [Klinisk rekonsolidering](../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md) rummer både positive og negative forsøg.
 
@@ -41,6 +43,8 @@ Antallet af kort er ikke antallet af uafhængige forsøg. Ét kort kan rumme fle
 | [Luoni 2013: kronisk lurasidon i en rottemodel](PRECLINICAL/2013_Luoni_Lurasidone.md) | Prækliniske studier |
 | [Salinas-Hernández 2018 — uventet udeblivelse af fare](PRECLINICAL/2018_Salinas_Dopamine_Omission.md) | Prækliniske studier |
 | [de Assis Brasil 2019: lokal 5-HT7-blokade og udslukning](PRECLINICAL/2019_5HT7_BLA_extinction.md) | Prækliniske studier |
+| [Lavertu-Jolin 2023 — HDAC2, Acan/PNN og return of fear](PRECLINICAL/2023_Lavertu_Jolin_HDAC2_Acan_PNN_Extinction.md) | Prækliniske studier |
+| [Cao 2024 — SerBut, oral bioavailability og CNS-eksponering](PRECLINICAL/2024_Cao_SerBut_Bioavailability_Neuroinflammation.md) | Prækliniske studier |
 | [Psilocybin, 5-HT2A og frygtudslukning](PRECLINICAL/2024_Psilocybin_5HT2A_Fear_Extinction.md) | Prækliniske studier |
 | [Zhang 2025 — dopamins retning afhænger af kredsløbet](PRECLINICAL/2025_Zhang_Dopamine_Circuits.md) | Prækliniske studier |
 | [GLP-1: kritisk vurdering af PTSD- og læringsevidens](PRECLINICAL/2026_GLP1_Liraglutide_PTSD_Audit.md) | Prækliniske studier |
@@ -204,3 +208,9 @@ Følgende nyere review-/teorikilder er tilføjet som grundlag for [Adaptive PTSD
 - [Smits et al. 2026 — pharmacological augmentation](REVIEWS/2026_Smits_Pharmacological_Augmentation_Extinction.md): kritisk translationelt review, PMID 41349549.
 
 Disse kilder dækker forskellige forklaringsniveauer og tælles ikke som seks direkte kliniske effektforsøg.
+
+## Version 0.19: HDAC2/PV/PNN og SerBut
+- [Lavertu-Jolin 2023](PRECLINICAL/2023_Lavertu_Jolin_HDAC2_Acan_PNN_Extinction.md): PMID 37131076; DOI 10.1038/s41380-023-02085-0. Direkte præklinisk fear-extinction/return-of-fear-studie, der forbinder HDAC2 i PV+-interneuroner med Acan/aggrecan, perineuronale net og senere spontan fear recovery.
+- [Cao 2024](PRECLINICAL/2024_Cao_SerBut_Bioavailability_Neuroinflammation.md): PMID 38561491; DOI 10.1038/s41551-024-01190-x. Præklinisk formulering/biodistribution: SerBut øgede systemisk og CNS-relateret butyrateksponering i mus og påvirkede autoimmune/neuroinflammatoriske modeller.
+
+De to kilder må ikke kædes sammen som dokumentation for, at oral natriumbutyrat hos mennesker selektivt rammer HDAC2/PV/PNN-sporet. De udfylder forskellige led i en fortsat uprøvet translationel kæde.
