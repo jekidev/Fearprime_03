@@ -2,7 +2,7 @@
 
 Et forskningprojekt i PTSD/CPTSD, frygtlæring, udslukning, rekonsolidering og fleksibel håndtering af trusler.
 
-Indledningsvist: N=1, N=3 ~ 
+Indledningsvist: N=1, N=3 ~  
 (OPDATERES LØBENDE)
 
 FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneraliserede, og hvordan mere præcis læring og større handlefrihed kan udvikles. Det er en arbejdsmodel, ikke en samlet valideret behandling.
@@ -11,17 +11,23 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Manifest og formål](00_MANIFESTO.md)
 - [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
 - [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
+- [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
 - [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
+- [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
+- [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister](07_STUDIES/STUDY_LEDGER.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan for studier, præparater og teorier](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.18](09_DEBUG/COVERAGE_PLAN.md)
+- [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
-## Læring og klinisk PTSD
+## Læring og klinisk PTSD/CPTSD
 - [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
+- [Generalisering, diskrimination og safety learning](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
+- [CPTSD-model og DSO](05_MODELS/CPTSD_MODEL.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
 - [Frygt og selvbeherskelse](10_*******/FEAR_MASTERY.md)
 - [TRE — forskningsdossier](03_EXTINCTION/TRE_DOSSIER.md)
@@ -29,6 +35,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [TRE — søgelog og dækningsstatus](09_DEBUG/TRE_SEARCH_LOG.md)
 
 ## Præparater og mekanismer
+- [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
 - [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
 - [Hovedkandidater og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
 - [Butyratdossier](04_CANDIDATES/BUTYRATE_DOSSIER.md)
@@ -36,12 +43,16 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Kombinationshypotese](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
 - [Mekanismeoversigt](02_MECHANISMS/MECHANISM_MAP.md)
 - [HDAC, BDNF/TrkB, 5-HT7 og dopamin](02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
+- [PNN og critical-period reopening](02_MECHANISMS/PNN_CRITICAL_PERIOD_REOPENING.md)
 - [Mekanismekilder](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
 
 ## Måling
 - [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
 - [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
+- [FP-BL-01 Butyrat–Latuda testplan](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
+
+**P0 mod v1.0:** særskilt CPTSD/ITQ-måling og standardiserede learning metrics for expectancy, prediction error, discrimination, recall, generalization og return of fear. Se [gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -94,28 +105,23 @@ To åbne primærkilder har nu egne danske studiekort og indgår i begge registre
 
 Dossiererne skelner tydeligere mellem interventionsfase, eksponering, receptorbelægning og læring. [Kontrolstatus og næste kildeopgaver](09_DEBUG/TRANSLATION_SEARCH_LOG.md).
 
-
 ## Version 0.13: TRE og ressourcebibliotek
 [TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) samler teori, mekanismehypoteser, positive fund og modfund. TRE holdes adskilt fra Somatic Experiencing, og Kent-rapportens manglende signifikante PTSD Group × Time-effekt er registreret som et centralt modfund. [Ressourcebiblioteket](08_RESOURCES/README.md) indeholder nu video, bøger, podcasts og foredrag med evidensmærkning.
-
 
 ## Version 0.14: udvidet TRE-evidens og ressourcebibliotek
 TRE-sporet er udvidet med fire yderligere humane kilder: Berceli et al. 2014, Johnson & Naidoo 2017, Thommessen & Fougner 2020 samt Oh & Shin 2021. De er registreret som pilot-/mixed-method-/kvalitative signaler og holdes adskilt fra kontrollerede kliniske forsøg. [TRE-dossieret](03_EXTINCTION/TRE_DOSSIER.md) indeholder nu et eksplicit evidenshierarki.
 
 [YouTube](08_RESOURCES/YOUTUBE_RESOURCES.md), [bøger](08_RESOURCES/BOOKS.md), [podcasts](08_RESOURCES/PODCASTS.md) og [foredrag](08_RESOURCES/LECTURES.md) er samtidig udvidet med TRE-, PTSD- og eksponeringsressourcer. Ressourcebiblioteket er fortsat sekundært til studieregistret: videoer, bøger og podcasts bruges til læring og hypotesegenerering, ikke som erstatning for primær evidens.
 
-
 ## Version 0.15: coping, kontekst og danske podcastressourcer
 Helle Harnischs forskningsspor bag podcasten om traumefortrængning er nu koblet til [ph.d.-afhandlingen](07_STUDIES/QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md) og den peer-reviewede [Harnisch & Montgomery 2017-artikel](07_STUDIES/QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md). Frameworket skelner eksplicit mellem kontekstafhængig funktionel coping og rigid generaliseret undgåelse; den kvalitative forskning bruges ikke som bevis for, at undgåelse generelt overgår traumefokuseret behandling.
 
 [Podcastbiblioteket](08_RESOURCES/PODCASTS.md) er samtidig udvidet med danske ressourcer om PTSD, kompleks PTSD, traumebevidsthed, resiliens, recovery, tilknytning og peer-erfaringer. Ressourcerne er evidensmærket og holdes adskilt fra studieregistret.
 
-
 ## Version 0.16: Harnisch-dossier og tematisk ressourcearkitektur
 Helle Harnisch-sporet er udvidet til et samlet dossier med seks centrale publikationer fra 2016–2022 om forced resilience, avoidant coping, appetitiv aggression, demobilisering, narrativ tavshed, reintegration og kontekstuel resiliens. Nye studiekort omfatter bl.a. [appetitiv aggression](07_STUDIES/QUALITATIVE/2018_Harnisch_Pfeiffer_Appetitive_Aggression.md), [The Additional Past](07_STUDIES/QUALITATIVE/2018_Harnisch_Additional_Past.md), [Forced Resilience](07_STUDIES/THEORY/2020_Harnisch_Forced_Resilience.md) og [The Third Time Janus Died](07_STUDIES/QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md).
 
 Ressourcebiblioteket kan nu navigeres både efter medietype og efter tema via [Exposure, Fear Extinction, CPTSD, Somatic, Recovery, Resilience og Peer Support](08_RESOURCES/CATEGORIES/README.md). Eksisterende podcast-, video-, bog- og foredragsfiler er bevaret og suppleret med nyere/autoritative VA-, ISTSS-, WHO- og forskningsressourcer.
-
 
 ## Version 0.17: integreret adaptiv PTSD-model
 [Adaptive PTSD Model](05_MODELS/ADAPTIVE_PTSD_MODEL.md) samler nu FearPrimes funktionelle grundidé med Harnischs kontekstuelle copingperspektiv, predictive processing, interoception, dissociation/tonic immobility, inhibitory learning, extinction, rekonsolidering og biologisk augmentation.
@@ -129,3 +135,12 @@ Seks nye tematiske ressourcekategorier er tilføjet:
 - [Pharmacological Augmentation](08_RESOURCES/CATEGORIES/PHARMACOLOGICAL_AUGMENTATION.md)
 
 Modellen behandler ikke disse felter som én allerede valideret teori. Hvert spor beholder sit evidensniveau, og klinisk effekt, laboratorielæring, biomarkører og teoretiske modeller holdes adskilt.
+
+## Version 0.18: CPTSD, fear circuits og safety/generalization
+Tre kernehuller er nu gjort til selvstændige moduler:
+
+1. [CPTSD-model](05_MODELS/CPTSD_MODEL.md) — ICD-11 PTSD + disturbances in self-organisation, social threat learning, selvmodel og særskilt målebehov.
+2. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) — amygdala, hippocampus, vmPFC, dACC, insula, BNST, PAG, HPA, striatum og netværksniveau, med eksplicit advarsel mod én-region/én-symptom-forklaringer.
+3. [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) — threat/safety discrimination, generaliseringsgradienter, kontekst, safety cues versus safety behaviours, extinction transfer og return of fear.
+
+Den nye [v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) og [coverage-plan v0.18](09_DEBUG/COVERAGE_PLAN.md) definerer næste P0-opgaver: reconsolidation boundary conditions, CPTSD/ITQ measurement og standardiserede learning metrics.
