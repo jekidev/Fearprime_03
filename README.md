@@ -14,14 +14,17 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
 - [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
 - [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
+- [Hippocampus, kontekst og diskrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
+- [Insula og interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md)
+- [HPA-akse, stresshormoner og hukommelse](02_MECHANISMS/HPA_STRESS_MEMORY.md)
 - [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
 - [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
 - [Standardiserede learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
-- [Samlet studieregister](07_STUDIES/STUDY_LEDGER.md)
+- [Samlet studieregister + R0–R4 robusthed](07_STUDIES/STUDY_LEDGER.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.19](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.20](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -31,6 +34,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
 - [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
+- [Reconsolidation-søgelog og replikationsstatus](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md)
 - [CPTSD-model og DSO](05_MODELS/CPTSD_MODEL.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
 - [Frygt og selvbeherskelse](10_*******/FEAR_MASTERY.md)
@@ -40,6 +44,9 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 
 ## Præparater og mekanismer
 - [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
+- [Hippocampus/context discrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
+- [Insula/interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md)
+- [HPA/stress-memory](02_MECHANISMS/HPA_STRESS_MEMORY.md)
 - [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
 - [Hovedkandidater og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
 - [Butyratdossier](04_CANDIDATES/BUTYRATE_DOSSIER.md)
@@ -58,7 +65,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 Butyrat–Latuda testplan](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-**P0-kernen mod v1.0 er nu dækket på framework-niveau.** Næste fase er P1: hippocampus/context discrimination, insula/interoception, HPA/stress-memory timing og dybere kandidatdossiers. Se [gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md).
+**P0-kernen er dækket, og fire centrale P1-opgaver er nu også gennemført:** hippocampus/context, insula/interoception, HPA/stress-memory samt reconsolidation study-level robusthed/replikation. Næste fase er NMDA/AMPA, endocannabinoider, DCS, propranolol og risk-of-bias/effect-size-laget. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -156,8 +163,20 @@ De tre tidligere P0-huller er nu implementeret:
 
 1. [CPTSD measurement](06_MEASUREMENT/CPTSD_MEASUREMENT.md) — ITQ-spor med PTSD, DSO, funktion og probable classification holdt adskilt.
 2. [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md) — standarder for expectancy, prediction error, discrimination, acquisition, extinction, delayed recall, generalization, renewal, reinstatement, spontaneous recovery og reacquisition.
-3. [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) — prediction error, reminder-varighed, memory strength/age/type, context, state, timing samt R0–R4-evidensniveauer.
+3. [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) — prediction error, reminder-varighed, memory strength/age/type, context, state og timing. Mekanistisk inferens bruger nu M0–M4; R0–R4 er reserveret til robusthed/replikation i Study Ledger.
 
 [Måleplanen](06_MEASUREMENT/MEASUREMENT_PLAN.md), [coverage-planen](09_DEBUG/COVERAGE_PLAN.md) og [v1.0 gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) er opdateret tilsvarende.
 
-**P0 er nu dækket på framework-niveau.** Næste fase er P1-mekanismer og systematisk study-level evidens, ikke flere brede kernemodeller.
+**P0 er dækket på framework-niveau.**
+
+## Version 0.20: context, interoception, HPA og reconsolidation-robusthed
+Fire centrale P1-spor er nu løftet:
+
+1. [Hippocampus/context discrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) — context representation, pattern separation/discrimination, renewal, generalisering og hippocampus-vmPFC-interaktion.
+2. [Insula/interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md) — kropssignal → salience → fortolkning → threat expectancy → handling, med eksplicit skel mellem neural aktivitet, fysiologi og selvrapport.
+3. [HPA/stress-memory](02_MECHANISMS/HPA_STRESS_MEMORY.md) — cortisol/MR/GR som fase- og timingafhængige memory-modulatorer frem for en simpel “høj/lav cortisol”-model.
+4. Reconsolidation-evidensen er udvidet med individuelle kort for Kindt 2009, Sevenster 2012, Sevenster 2014 og Stemerding 2022, sammen med eksisterende Schiller, Wood, Brunet, Chalkia og Roullet. [Study Ledger](07_STUDIES/STUDY_LEDGER.md) har nu claim-specific **R0–R4 robusthed**, mens boundary-modulet bruger **M0–M4 mekanistisk inferens**.
+
+Den praktiske konsekvens er, at negative direkte replikationer nu vægtes som reel evidens om robusthed og ikke blot som “mislykkede” studier. [Reconsolidation-søgeloggen](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md) dokumenterer den nye kontrolrunde.
+
+Næste P1/P2-runde er NMDA/AMPA, endocannabinoider, DCS, propranolol samt risk-of-bias og effektstørrelser/CI.
