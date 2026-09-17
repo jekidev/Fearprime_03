@@ -28,7 +28,7 @@ Dette er forklaringshypoteser, ikke en påstand om, at alle symptomer er gavnlig
 ## Frygtudslukning er ikke nødvendigvis sletning
 Arbejdsmodellen er, at frygtudslukning især skaber ny læring, som hæmmer eller konkurrerer med den oprindelige frygtassociation. Derfor kan frygt vende tilbage efter tid, kontekstskift eller uvarslede ubehagelige hændelser. En god session vurderes også på senere fastholdelse og overførsel.
 
-## Übermensch og selvbeherskelse
+## Selvbeherskelse
 Det filosofiske lag behandler frygtsystemer som systemer, der kan trænes. Målet er større valgfrihed: frygt, når den er nyttig; sikkerhed, når den er begrundet; bevidst møde med usikkerhed; læring fra forudsigelsesfejl; kontrol uden tab af forsvarsevne. Dette er en forskningsfilosofi, ikke en biologisk eller diagnostisk konklusion.
 
 ## Mulighed for modbevisning
