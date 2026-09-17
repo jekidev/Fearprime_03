@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.20 · 2026-09-17
+Version 0.21 · 2026-09-17
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -30,8 +30,8 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) + learning metrics | Flere PTSD-specifikke primærstudier |
 | Threat/safety discrimination | ✅/🟡 | Generalization engine + learning metrics + hippocampus/context | Paradigme- og populationsspecifikke normer |
 | Context / renewal | ✅/🟡 📊 | [Hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) + extinction/return-of-fear | Effektstørrelser, nyere uafhængige replikationer |
-| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) + R0–R4 ledger | Effektstørrelser, risk-of-bias og yderligere uafhængige replikationer |
-| Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret modul + individuelle kort + negative replikationer | Systematisk search/ROB og meta-niveau |
+| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) + R0–R4 ledger + [effect-size/RoB audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) | Flere studier med study-level RoB og fulde CI |
+| Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret modul + individuelle kort + negative replikationer | Systematisk search/meta-niveau |
 | Dissociation / tonic immobility | 🟡 📊 | Adaptiv model + review/resource | Eget mekanisme- og målespor |
 
 ## Dækningsmatrix — neurobiologi
@@ -46,6 +46,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | BNST / sustained threat | 🔴/🟡 | Master map | Dedikeret litteraturspor |
 | PAG / defensive output | 🟡 | Master map | Freeze/flight/fight-differentiering |
 | HPA / glucocorticoider | ✅/🟡 👤📊 | [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md) + kandidater/studiekort | Effektstørrelser og fase-specifik human syntese |
+| NMDA/AMPA | ✅/🟡 👤🐀📊 | [Glutamaterg plasticitetsmodul](../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md) + DCS | Direkte human AMPA-extinction evidens er begrænset |
 | Netværksmodeller (SN/DMN/CEN) | 🟡 | Master map + insula-spor | Systematisk netværkssyntese |
 
 ## Dækningsmatrix — molekylære mekanismer og kandidater
@@ -59,16 +60,16 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Amisulprid | 🟡 🔬 | Kandidatmatrix | Dedikeret receptor-/læringsdossier |
 | L-DOPA | 🟡 👤 | Dossier + studier | Kliniske PTSD-outcomes og deltager-overlap-kontrol |
 | Oxytocin | 🟡 👤 | Dossier + positive/negative studier | Større exposure-trials og kontekstmoderatorer |
-| D-cycloserin | 🟡 👤 | Studiekort | Fuldt dossier og effektstørrelser |
-| Propranolol | 🟡 👤📊 | Kliniske positive/negative genaktiveringsforsøg + R0–R4 reconsolidation-matrix | Dedikeret dossier + ROB/effect-size syntese |
+| D-cycloserin | ✅/🟡 👤📊 | [DCS-dossier](../04_CANDIDATES/DCS_DOSSIER.md), RCT'er og IPD-meta | Study-level RoB og bedre session-quality replication |
+| Propranolol | ✅/🟡 👤📊 | [Propranolol-dossier](../04_CANDIDATES/PROPRANOLOL_DOSSIER.md) + clinical trials + meta-conflict + RoB/effect-size audit | Flere fuldtekstudtræk og afklaring af review-heterogenitet |
 | Mifepriston | 🟡 👤 | Negative rekonsolideringsforsøg | Nyere data og samlet syntese |
 | Hydrokortison | ✅/🟡 👤 | HPA-modul + kliniske/eksperimentelle kort | Effektstørrelser og populationsmoderatorer |
 | Ketamin | 🟡 👤 | Kliniske symptomfund | Specifik læringsmekanisme og kombinationsdata |
 | CBD | 🟡 👤 | Lab + klinisk exposure-tillæg | Nyere replikationer |
-| FAAH/CB1 | 🟡 👤🐀 | Humane/prækliniske kort | Endocannabinoid-dossier |
+| FAAH/CB1 | ✅/🟡 👤🐀📊 | [Endocannabinoid/FAAH/CB1-dossier](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) + human experimental-medicine RCT | Uafhængig human replikation og klinisk PTSD-transfer |
 | MDMA | 🟡 👤 | Humant extinction-spor | Klinisk transfer adskilt fra psykoterapieffekt |
 | Psilocybin/5-HT2A | 🟡 🐀/🔬 | Præklinisk læringsspor | Human fear/safety translation |
-| NMDA/AMPA | 🟡 | Indirekte via DCS/memantin | Dedikeret mekanisme-/kandidatdossier |
+| NMDA/AMPA | ✅/🟡 | Mekanismemodul + DCS/memantin | Human AMPA-specifik fear-learning translation |
 | Hormoner | 🟡 👤 | Estradiol/progesteron/testosteron-kort | Fase-, køns- og timingmoderatorer |
 | Bromantan/tyrosin/lithium/7,8-DHF/NAC | 🔴/🔬 | Kandidatmatrix | Dedikeret primærkildesøgning før opgradering |
 | Diosmin/hesperidin/hestekastanje | 🔬 | Systemisk hypotese | Direkte læringsrelevans skal dokumenteres |
@@ -95,12 +96,13 @@ Eksisterende:
 - [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-### Status efter v0.20
+### Status efter v0.21
 1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
 2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
 3. ✅ Reconsolidation: M0–M4 mekanismeinferens holdes separat fra R0–R4 robusthed.
-4. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
-5. 🟡 Maskinlæsbar session-schema mangler implementering i `/data/`.
+4. ✅/🟡 RoB/effect-size: fælles [RoB-template](RISK_OF_BIAS_TEMPLATE.md) og første [reconsolidation-audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) findes; study-level udfyldning mangler fortsat bredt.
+5. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
+6. 🟡 Maskinlæsbar session-schema mangler implementering i `/data/`.
 
 ## Evidensarkitektur
 ### Allerede på plads
@@ -111,10 +113,12 @@ Eksisterende:
 - ✅ search logs
 - ✅ teori / review / mekanistisk / preklinisk opdeling
 - ✅ claim-specific R0–R4 robusthedsramme for reconsolidation
+- ✅ standardiseret risk-of-bias template
+- ✅ første effect-size + RoB audit for reconsolidation-kernen
 
 ### Mangler
-- 🟡 konsekvent effektstørrelse + konfidensinterval
-- 🔴/🟡 standardiseret risk-of-bias
+- 🟡 konsekvent effect-size + CI på alle centrale studiekort
+- 🟡 study-level RoB i hele kernekorpuset
 - 🔴 certainty-lag inspireret af GRADE uden at overdrive præcision
 - 🟡 deltager-overlap-register
 - 🔴 maskinlæsbar study database
@@ -135,17 +139,21 @@ Eksisterende:
 7. ✅ Hippocampus/context discrimination.
 8. ✅ Insula/interoception.
 9. ✅ HPA/stress-memory timing.
-10. 🟡 NMDA/AMPA-dossier.
-11. 🟡 Endocannabinoid-dossier.
-12. 🟡 DCS-dossier.
-13. 🟡 Propranolol-dossier.
+10. ✅ NMDA/AMPA-mekanismemodul.
+11. ✅ Endocannabinoid/FAAH/CB1-dossier.
+12. ✅ DCS-dossier.
+13. ✅ Propranolol-dossier.
 14. ✅ Reconsolidation boundary-condition studiekort + negative replikationer + R0–R4 coding.
 
-### P2
-15. Risk-of-bias template.
-16. Effektstørrelser/CI for kernekilder.
-17. Reproducerbare søgninger for P0/P1-domæner.
-18. Maskinlæsbar study database + session-schema.
+**De definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Evidensdækningen er stadig levende og ikke komplet.
+
+### P2 — evidensstyrke og reproducerbarhed
+15. ✅/🟡 Risk-of-bias template er oprettet; udfyld study-level vurderinger.
+16. ✅/🟡 Effektstørrelser/CI er startet for reconsolidation-kernen; udvid til øvrige kernekilder.
+17. 🟡 Reproducerbare søgninger for P0/P1-domæner.
+18. 🔴 Maskinlæsbar study database + session-schema.
+19. 🔴 Certainty-lag med klare kriterier.
+20. 🟡 Participant-overlap register.
 
 ## Fremgangsmåde ved litteraturudvidelse
 1. Definér spørgsmål, population, intervention og udfald.
@@ -159,10 +167,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. NMDA/AMPA-mekanisme og dossier.
-2. Endocannabinoid/FAAH/CB1-dossier.
-3. D-cycloserin-dossier med session-quality moderation og IPD-meta.
-4. Propranolol-dossier med effect-size/ROB og klinisk vs laboratorie-opdeling.
-5. Risk-of-bias template + effektstørrelser/CI for reconsolidation-kernekilder.
+1. Study-level RoB + effect-size/CI på DCS, FAAH og propranolol-kortene.
+2. Reproducerbare søgelogs for NMDA/AMPA og endocannabinoid-sporene.
+3. Maskinlæsbar `/data/studies.csv` eller YAML-index.
+4. Certainty-lag og deltager-overlap-register.
+5. Dedikeret predictive-processing eller dissociation/defensive-state modul som næste konceptuelle spor.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
