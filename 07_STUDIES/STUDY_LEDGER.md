@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.19 · 2026-09-17
+Version 0.20 · 2026-09-17
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -7,6 +7,35 @@ Dette er indgangen til alle registrerede studiekort og kilder. Den tidligere hov
 
 ## Evidenstyper
 A: kliniske udfald i forsøg/sammenfatninger. B: raske menneskers eksperimentelle frygtlæring. C: dyreforsøg med adfærdsmål. D: mekanismer og biomarkører. E: projektets hypotese. Kliniske observations- og pilotdesign navngives særskilt; bogstavet er ikke en kvalitetskarakter.
+
+## FearPrime R0–R4: robusthed og replikation
+R-scoren er et **internt robusthedsindeks** og må ikke forveksles med evidenstype A–E, klinisk effektstørrelse eller behandlingsanbefaling. Scoren gælder den konkrete påstand, som kortet bruges til at støtte.
+
+- **R0 — ukontrolleret spor:** citation/hypotese eller fund uden tilstrækkelig kontrol til robusthedsvurdering.
+- **R1 — tidligt signal:** verificeret enkeltstudie/pilot, men lille, indirekte, ukontrolleret eller stærkt begrænset for den relevante påstand.
+- **R2 — kontrolleret enkeltfund:** direkte og relevant kontrolleret primærstudie, men uden stærk uafhængig replikation eller med væsentlige boundary-/generaliseringsproblemer.
+- **R3 — replikations-/konvergensniveau:** preregistreret eller stærk direkte replikation, eller flere uafhængige kontrollerede fund. R3 kan være et **positivt eller negativt/modstridende** fund.
+- **R4 — robust konvergens:** flere uafhængige replikationer og/eller stærk meta-analytisk konvergens i relevant population, paradigme og outcome. R4 bruges restriktivt.
+
+Et negativt replikationsstudie kan således være R3, hvis det robust tester en påstand. R-scoren siger ikke, om effekten er ønskværdig; den siger hvor robust den konkrete evidenspåstand er.
+
+### Reconsolidation-audit — claim-specific R-score
+| Studie/spor | Type | Retning | R | FearPrime-fortolkning |
+|---|---:|---|---:|---|
+| Nader 2000, præklinisk fear memory | C | positiv mekanistisk | R3 | Stærkt fundament for retrieval-afhængig restabilisering i dyremodel; ikke direkte human PTSD |
+| [Kindt 2009](VERIFIED/2009_Kindt_Propranolol_Human_Fear_Reconsolidation.md) | B | positiv | R2 | Humant propranolol proof-of-concept; outcome- og paradigmespecifikt |
+| [Schiller 2010](VERIFIED/2010_Schiller_Retrieval_Extinction.md) | B | positiv | R2 | Klassisk retrieval-extinction-signal; robustheden reduceres af senere direkte replikation |
+| [Sevenster 2012](VERIFIED/2012_Sevenster_Retrieval_Not_Sufficient.md) | B | boundary | R2 | Retrieval alene var utilstrækkelig i paradigmet |
+| [Sevenster 2013](VERIFIED/2013_Sevenster_Prediction_Error.md) | B | boundary | R2 | Prediction error relevant, men ikke universel biomarkør for destabilisering |
+| [Sevenster 2014](VERIFIED/2014_Sevenster_PE_Retrieval_Reconsolidation_New_Learning.md) | B | boundary | R2 | Foreslog overgang retrieval → reconsolidation → new learning afhængigt af PE |
+| [Wood 2015](VERIFIED/2015_Wood_Negative_Reconsolidation.md) | A | negativ | R2 | Tre små kliniske PTSD-forsøg uden forventet effekt; vigtige modfund, men små samples |
+| [Brunet 2018](VERIFIED/2018_Brunet_Propranolol_Reactivation_RCT.md) | A | positiv | R2 | Kontrolleret klinisk signal; mekanismen er ikke isoleret fra øvrige treatment/retrieval-effekter |
+| [Chalkia 2020](VERIFIED/2020_Chalkia_Retrieval_Extinction_Replication.md) | B | negativ replikation | R3 | Registreret direkte replikation fandt ingen retrieval-extinction-fordel |
+| [Roullet 2021](VERIFIED/2021_Roullet_Propranolol_Placebo.md) | A | blandet/negativ samlet | R3 | Større klinisk RCT fandt ikke samlet propranololfordel; begrænser Brunet-generalisation |
+| [Stemerding 2022](VERIFIED/2022_Stemerding_Boundary_Replication_Failure.md) | B | negativ replikation | R3 | Kunne ikke reproducere det præcise single-PE boundary-mønster |
+| Propranolol-metaanalyser 2022 | review | konflikt | R3 | Meta-analyser når forskellige konklusioner pga. inklusion/outcomes; ingen R4-konvergens |
+
+**Nuværende reconsolidation-konklusion:** reconsolidation som biologisk memory-proces har et stærkt præklinisk fundament, men specifikke humane procedurer til pålideligt at åbne og manipulere et reconsolidation-vindue har ikke R4-robusthed. Kliniske symptomændringer må ikke bruges som direkte mekanismebevis.
 
 ## Hvad den samlede litteratur ændrer i modellen
 - Akut ro, indlæring, konsolidering, genkaldelse og klinisk funktion er forskellige mål.
@@ -56,7 +85,9 @@ Antallet af kort er ikke antallet af uafhængige forsøg. Ét kort kan rumme fle
 | [Testosteron: akut frygt og varig læring](VERIFIED/2005_2018_Testosterone_Human_Fear_Audit.md) | Humane/kliniske studier |
 | [Guanfacin ved kronisk PTSD: to negative forsøg](VERIFIED/2006_2008_Guanfacine_PTSD_RCTs.md) | Humane/kliniske studier |
 | [Brunet 2008: propranolol efter genkaldelse](VERIFIED/2008_Brunet_Propranolol_Physiology.md) | Humane/kliniske studier |
+| [Kindt 2009: propranolol og human fear reconsolidation](VERIFIED/2009_Kindt_Propranolol_Human_Fear_Reconsolidation.md) | Humane/kliniske studier |
 | [Schiller 2010 — genkaldelse før udslukning](VERIFIED/2010_Schiller_Retrieval_Extinction.md) | Humane/kliniske studier |
+| [Sevenster 2012 — retrieval alene er ikke nok](VERIFIED/2012_Sevenster_Retrieval_Not_Sufficient.md) | Humane/kliniske studier |
 | [Endocannabinoider: CB1-genetik og FAAH-hæmning](VERIFIED/2012_2019_Endocannabinoid_CB1_FAAH_Human_Extinction.md) | Humane/kliniske studier |
 | [Østradiol, progesteron og PTSD-læring](VERIFIED/2012_2023_Estradiol_Progesterone_PTSD_Extinction.md) | Humane/kliniske studier |
 | [Naturlige hormonniveauer og akut hormontilførsel](VERIFIED/2012_2024_Estradiol_Progesterone_Fear_Extinction.md) | Humane/kliniske studier |
@@ -67,6 +98,7 @@ Antallet af kort er ikke antallet af uafhængige forsøg. Ét kort kan rumme fle
 | [Haaker 2013: L-DOPA og kontekstafhængighed](VERIFIED/2013_Haaker_LDOPA.md) | Humane/kliniske studier |
 | [Sevenster 2013 — forudsigelsesfejl som betingelse](VERIFIED/2013_Sevenster_Prediction_Error.md) | Humane/kliniske studier |
 | [Smits 2013: D-cycloserin og sessionens udfald](VERIFIED/2013_Smits_DCS_session_quality.md) | Humane/kliniske studier |
+| [Sevenster 2014 — PE og procesovergang](VERIFIED/2014_Sevenster_PE_Retrieval_Reconsolidation_New_Learning.md) | Humane/kliniske studier |
 | [Ketamin: PTSD-symptomer og læringsmekanismer](VERIFIED/2014_2026_Ketamine_PTSD_and_Extinction_Audit.md) | Humane/kliniske studier |
 | [Hydrokortison ved eksponering: pilot og større forsøg](VERIFIED/2015_2021_Hydrocortisone_PE_PTSD.md) | Humane/kliniske studier |
 | [Motion som tillæg til læring og eksponering](VERIFIED/2015_2026_Exercise_BDNF_AEA_PTSD_Extinction.md) | Humane/kliniske studier |
@@ -82,6 +114,7 @@ Antallet af kort er ikke antallet af uafhængige forsøg. Ét kort kan rumme fle
 | [PTSD, DNA-methylering og epigenetik](VERIFIED/2020_2024_PTSD_Epigenome_Evidence.md) | Humane/kliniske studier |
 | [Chalkia 2020 — registreret replikation](VERIFIED/2020_Chalkia_Retrieval_Extinction_Replication.md) | Humane/kliniske studier |
 | [Roullet 2021: genaktivering med propranolol eller placebo](VERIFIED/2021_Roullet_Propranolol_Placebo.md) | Humane/kliniske studier |
+| [Stemerding 2022 — mislykket boundary-condition-replikation](VERIFIED/2022_Stemerding_Boundary_Replication_Failure.md) | Humane/kliniske studier |
 | [MDMA og human frygtudslukning](VERIFIED/2022_MDMA_Human_Fear_Extinction.md) | Humane/kliniske studier |
 | [Akut inflammation og kropslig trusselslæring](VERIFIED/2023_Inflammation_Endotoxin_Interoceptive_Extinction.md) | Humane/kliniske studier |
 | [Andres 2024: registreret L-DOPA-replikation](VERIFIED/2024_Andres_LDOPA_replication.md) | Humane/kliniske studier |
@@ -157,7 +190,6 @@ Kortene vedrører forskellige evidensniveauer. [Kontrolstatus](../09_DEBUG/TRANS
 
 Begge var allerede identificerede litteraturspor. Nye kort er ikke nye uafhængige replikationer. Resumé og metadata er kontrolleret; fuld metodevurdering udestår.
 
-
 ## TRE og somatiske interventioner — version 0.13
 TRE er registreret som en kropslig/somatisk kandidatintervention, ikke som dokumenteret fear-extinction- eller rekonsolideringsmekanisme.
 
@@ -174,18 +206,15 @@ TRE er registreret som en kropslig/somatisk kandidatintervention, ikke som dokum
 
 Samlet fortolkning og mekanismehypoteser: [TRE-forskningsdossier](../03_EXTINCTION/TRE_DOSSIER.md).
 
-
 ### TRE-protokol uden effektresultater
 - [Zhao et al. 2024 — TRE ved emotionelle lidelser hos unge](PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md): RCT-protokol, 140 mor–unge-par, ChiCTR2100044553. Protokollen tælles ikke som positiv eller negativ effekt-evidens.
 - [Samlet TRE-litteraturkort](TRE_LITERATURE_MAP.md) bevarer 2023-korpus, nyere kilder og grå litteratur med kontrolstatus.
-
 
 ## Kvalitativ forskning om coping, kontekst og resiliens — version 0.15
 - [Harnisch 2016 — forced resilience, krigserfaringer og vanskelig demobilisering](QUALITATIVE/2016_Harnisch_Forced_Resilience_PhD.md): ph.d.-afhandling, DPU/Aarhus Universitet, 337 sider. Bruges som kvalitativ/kontekstuel evidens, ikke som behandlingseffektstudie.
 - [Harnisch & Montgomery 2017 — avoidant coping efter tvangsrekruttering](QUALITATIVE/2017_Harnisch_Montgomery_Avoidant_Coping_Uganda.md): 36 tidligere tvangsrekrutterede personer; ca. 10 måneders etnografisk feltarbejde; PMID 28738316; DOI 10.1016/j.socscimed.2017.07.007.
 
 FearPrime-fortolkning: Studierne støtter behovet for at skelne mellem **funktionel, kontekstafhængig coping** og rigid generaliseret undgåelse. De dokumenterer ikke, at “fortrængning” generelt er bedre end evidensbaseret PTSD-behandling.
-
 
 ## Harnisch-sporet — samlet udvidelse, version 0.16
 - [Samlet Harnisch-dossier](QUALITATIVE/HARNISCH_DOSSIER.md)
@@ -195,7 +224,6 @@ FearPrime-fortolkning: Studierne støtter behovet for at skelne mellem **funktio
 - [Harnisch 2022 — “The Third Time Janus Died”](QUALITATIVE/2022_Harnisch_Third_Time_Janus_Died.md): DOI 10.1080/13698249.2022.2092687.
 
 Samlet fortolkning: Harnisch-sporet understøtter et funktionelt/kontekstuelt forskningsspørgsmål om coping, resiliens og kontekstskifte. Det er primært kvalitativt/teoretisk og bruges ikke som komparativ behandlingsevidens.
-
 
 ## Integreret adaptiv model — version 0.17
 Følgende nyere review-/teorikilder er tilføjet som grundlag for [Adaptive PTSD Model](../05_MODELS/ADAPTIVE_PTSD_MODEL.md):
@@ -214,3 +242,8 @@ Disse kilder dækker forskellige forklaringsniveauer og tælles ikke som seks di
 - [Cao 2024](PRECLINICAL/2024_Cao_SerBut_Bioavailability_Neuroinflammation.md): PMID 38561491; DOI 10.1038/s41551-024-01190-x. Præklinisk formulering/biodistribution: SerBut øgede systemisk og CNS-relateret butyrateksponering i mus og påvirkede autoimmune/neuroinflammatoriske modeller.
 
 De to kilder må ikke kædes sammen som dokumentation for, at oral natriumbutyrat hos mennesker selektivt rammer HDAC2/PV/PNN-sporet. De udfylder forskellige led i en fortsat uprøvet translationel kæde.
+
+## Version 0.20: neurobiologi og reconsolidation-robusthed
+Tre nye mekanismemoduler er tilføjet: [hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md), [insula/interoception](../02_MECHANISMS/INSULA_INTEROCEPTION.md) og [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md).
+
+Reconsolidation-sporet har nu individuelle kort for Kindt 2009, Sevenster 2012, Sevenster 2014 og Stemerding 2022 samt den claim-specifikke R0–R4-matrix ovenfor. Den vigtigste ændring er, at negative replikationer tælles som evidens om robusthed i stedet for at blive forklaret væk som fravær af effekt.
