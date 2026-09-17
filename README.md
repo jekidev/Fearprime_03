@@ -17,14 +17,17 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Hippocampus, kontekst og diskrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
 - [Insula og interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md)
 - [HPA-akse, stresshormoner og hukommelse](02_MECHANISMS/HPA_STRESS_MEMORY.md)
+- [NMDA/AMPA og glutamaterg plasticitet](02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
 - [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
 - [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
 - [Standardiserede learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister + R0–R4 robusthed](07_STUDIES/STUDY_LEDGER.md)
+- [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
+- [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.20](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.21](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -47,25 +50,31 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Hippocampus/context discrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
 - [Insula/interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md)
 - [HPA/stress-memory](02_MECHANISMS/HPA_STRESS_MEMORY.md)
+- [NMDA/AMPA/glutamaterg plasticitet](02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
 - [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
 - [Hovedkandidater og modfund](04_CANDIDATES/CORE_SYNTHESIS.md)
 - [Butyratdossier](04_CANDIDATES/BUTYRATE_DOSSIER.md)
 - [Lurasidon/Latuda-dossier](04_CANDIDATES/LURASIDONE_DOSSIER.md)
+- [D-cycloserin-dossier](04_CANDIDATES/DCS_DOSSIER.md)
+- [Endocannabinoid/FAAH/CB1-dossier](04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
+- [Propranolol-dossier](04_CANDIDATES/PROPRANOLOL_DOSSIER.md)
 - [Kombinationshypotese](04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md)
 - [Mekanismeoversigt](02_MECHANISMS/MECHANISM_MAP.md)
 - [HDAC, BDNF/TrkB, 5-HT7 og dopamin](02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
 - [PNN og critical-period reopening](02_MECHANISMS/PNN_CRITICAL_PERIOD_REOPENING.md)
 - [Mekanismekilder](07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md)
 
-## Måling
+## Måling og evidenskvalitet
 - [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
 - [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
 - [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 Butyrat–Latuda testplan](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
+- [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
+- [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 
-**P0-kernen er dækket, og fire centrale P1-opgaver er nu også gennemført:** hippocampus/context, insula/interoception, HPA/stress-memory samt reconsolidation study-level robusthed/replikation. Næste fase er NMDA/AMPA, endocannabinoider, DCS, propranolol og risk-of-bias/effect-size-laget. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
+**P0-kernen og de definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Næste fase er P2: study-level risk-of-bias, effektstørrelser/CI, reproducerbare søgninger, participant-overlap og maskinlæsbar dataarkitektur. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -163,7 +172,7 @@ De tre tidligere P0-huller er nu implementeret:
 
 1. [CPTSD measurement](06_MEASUREMENT/CPTSD_MEASUREMENT.md) — ITQ-spor med PTSD, DSO, funktion og probable classification holdt adskilt.
 2. [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md) — standarder for expectancy, prediction error, discrimination, acquisition, extinction, delayed recall, generalization, renewal, reinstatement, spontaneous recovery og reacquisition.
-3. [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) — prediction error, reminder-varighed, memory strength/age/type, context, state og timing. Mekanistisk inferens bruger nu M0–M4; R0–R4 er reserveret til robusthed/replikation i Study Ledger.
+3. [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) — prediction error, reminder-varighed, memory strength/age/type, context, state og timing. Mekanistisk inferens bruger M0–M4; R0–R4 er reserveret til robusthed/replikation i Study Ledger.
 
 [Måleplanen](06_MEASUREMENT/MEASUREMENT_PLAN.md), [coverage-planen](09_DEBUG/COVERAGE_PLAN.md) og [v1.0 gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) er opdateret tilsvarende.
 
@@ -179,4 +188,14 @@ Fire centrale P1-spor er nu løftet:
 
 Den praktiske konsekvens er, at negative direkte replikationer nu vægtes som reel evidens om robusthed og ikke blot som “mislykkede” studier. [Reconsolidation-søgeloggen](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md) dokumenterer den nye kontrolrunde.
 
-Næste P1/P2-runde er NMDA/AMPA, endocannabinoider, DCS, propranolol samt risk-of-bias og effektstørrelser/CI.
+## Version 0.21: glutamat, endocannabinoider, propranolol og P2-evidenslag
+De resterende definerede P1-opgaver er nu gjort til egne moduler/dossiers:
+
+1. [NMDA/AMPA/glutamaterg plasticitet](02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md) — receptorplasticitet, LTP/LTD, faseafhængighed og bidirektionel læring.
+2. [D-cycloserin](04_CANDIDATES/DCS_DOSSIER.md) — tidlige positive signaler, negative PTSD-fund, IPD-meta og det større 2022 multisite-RCT; session-quality-modellen holdes som moderatorhypotese snarere end generel main effect.
+3. [Endocannabinoid/FAAH/CB1](04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) — humant FAAH experimental-medicine signal for delayed extinction recall, adskilt fra CBD/THC og klinisk PTSD-effekt.
+4. [Propranolol](04_CANDIDATES/PROPRANOLOL_DOSSIER.md) — kliniske positive og negative trials samt modstridende meta-analyser holdes samlet uden at sidestille symptomændring med reconsolidation.
+
+P2 er samtidig startet med en fælles [Risk-of-Bias-template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md) og en [reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md), hvor Brunet, Roullet, Schiller/Chalkia og meta-analyserne kobles til effektstørrelser, R-score, M-score og bias-noter.
+
+**De definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Næste arbejde er primært P2: systematisk study-level evidenskvalitet, reproducerbare søgninger og dataarkitektur.
