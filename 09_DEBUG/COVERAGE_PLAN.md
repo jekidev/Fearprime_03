@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.19 · 2026-09-17
+Version 0.20 · 2026-09-17
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -28,25 +28,25 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Fear acquisition | 🟡 | Extinction engine + studier | Dedikeret metodeoversigt |
 | Extinction / inhibitory learning | ✅/🟡 | Extinction engine + [learning metrics](../06_MEASUREMENT/LEARNING_METRICS.md) | Dybere metode- og paradigmestandardisering |
 | Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) + learning metrics | Flere PTSD-specifikke primærstudier |
-| Threat/safety discrimination | ✅/🟡 | Generalization engine + learning metrics | Paradigme- og populationsspecifikke normer |
-| Context / renewal | 🟡 📊 | Extinction/return-of-fear + learning metrics | Hippocampus/context-dossier |
-| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) | Nyere replikationer og study-level R0–R4 coding |
-| Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret v0.19-modul | Individuelle studiekort + systematisk negative/replikationsspor |
+| Threat/safety discrimination | ✅/🟡 | Generalization engine + learning metrics + hippocampus/context | Paradigme- og populationsspecifikke normer |
+| Context / renewal | ✅/🟡 📊 | [Hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) + extinction/return-of-fear | Effektstørrelser, nyere uafhængige replikationer |
+| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) + R0–R4 ledger | Effektstørrelser, risk-of-bias og yderligere uafhængige replikationer |
+| Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret modul + individuelle kort + negative replikationer | Systematisk search/ROB og meta-niveau |
 | Dissociation / tonic immobility | 🟡 📊 | Adaptiv model + review/resource | Eget mekanisme- og målespor |
 
 ## Dækningsmatrix — neurobiologi
 | Område | Status | Findes i repoet | Konkret hul |
 |---|---|---|---|
-| Neural master map | ✅ | [Fear Circuit Master Map](../02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) | Split i dybere mekanismefiler |
+| Neural master map | ✅ | [Fear Circuit Master Map](../02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) | Flere dybe mekanismefiler |
 | Amygdala / salience | 🟡 | Master map | Nuclei- og task-specifik evidens |
-| vmPFC/mPFC | 🟡 | Master map | Extinction recall / valuation-dossier |
-| Hippocampus / context | 🟡 | Master map | Dedikeret context-discrimination-fil |
-| Insula / interoception | 🟡 | Adaptiv model + master map | Dedikeret mekanismefil |
+| vmPFC/mPFC | 🟡 | Master map + hippocampus/context | Extinction recall / valuation-dossier |
+| Hippocampus / context | ✅/🟡 👤📊 | [Dedikeret context-discrimination-modul](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) | Study cards, effektstørrelser, kausal evidens |
+| Insula / interoception | ✅/🟡 👤📊 | [Dedikeret mekanismefil](../02_MECHANISMS/INSULA_INTEROCEPTION.md) | Paradigmespecifik interoceptiv measurement og study cards |
 | dACC / threat expression | 🟡 | Master map | Mere human task-evidens |
 | BNST / sustained threat | 🔴/🟡 | Master map | Dedikeret litteraturspor |
 | PAG / defensive output | 🟡 | Master map | Freeze/flight/fight-differentiering |
-| HPA / glucocorticoider | 🟡 | Kandidat- og studiekort | Timing-specifikt dossier |
-| Netværksmodeller (SN/DMN/CEN) | 🟡 | Master map | Systematisk netværkssyntese |
+| HPA / glucocorticoider | ✅/🟡 👤📊 | [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md) + kandidater/studiekort | Effektstørrelser og fase-specifik human syntese |
+| Netværksmodeller (SN/DMN/CEN) | 🟡 | Master map + insula-spor | Systematisk netværkssyntese |
 
 ## Dækningsmatrix — molekylære mekanismer og kandidater
 | Område | Status | Findes i repoet | Konkret hul |
@@ -60,9 +60,9 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | L-DOPA | 🟡 👤 | Dossier + studier | Kliniske PTSD-outcomes og deltager-overlap-kontrol |
 | Oxytocin | 🟡 👤 | Dossier + positive/negative studier | Større exposure-trials og kontekstmoderatorer |
 | D-cycloserin | 🟡 👤 | Studiekort | Fuldt dossier og effektstørrelser |
-| Propranolol | 🟡 👤📊 | Kliniske positive/negative genaktiveringsforsøg | Dedikeret dossier + nyere trials/registre |
+| Propranolol | 🟡 👤📊 | Kliniske positive/negative genaktiveringsforsøg + R0–R4 reconsolidation-matrix | Dedikeret dossier + ROB/effect-size syntese |
 | Mifepriston | 🟡 👤 | Negative rekonsolideringsforsøg | Nyere data og samlet syntese |
-| Hydrokortison | 🟡 👤 | Kliniske/eksperimentelle kort | Timing-dossier |
+| Hydrokortison | ✅/🟡 👤 | HPA-modul + kliniske/eksperimentelle kort | Effektstørrelser og populationsmoderatorer |
 | Ketamin | 🟡 👤 | Kliniske symptomfund | Specifik læringsmekanisme og kombinationsdata |
 | CBD | 🟡 👤 | Lab + klinisk exposure-tillæg | Nyere replikationer |
 | FAAH/CB1 | 🟡 👤🐀 | Humane/prækliniske kort | Endocannabinoid-dossier |
@@ -78,7 +78,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 |---|---|---|
 | Exposure | ✅/🟡 | Udvidet paradigmestandardisering |
 | TRE | ✅/🟡 | Evidensen er primært lavere niveau; fortsat modfund/quality-labels |
-| Interoceptiv exposure | 🟡 | Integreret målemodul |
+| Interoceptiv exposure | 🟡 | Integrér insula/interoception med forsøgs-/målemodul |
 | Motion | 🟡 | Timing omkring læring/retention og replikation |
 | Søvn | 🟡 | Dedikeret sleep-memory consolidation-spor |
 | Døgnrytme | 🟡 | Human fear-learning litteratur |
@@ -95,11 +95,12 @@ Eksisterende:
 - [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-### P0-status efter v0.19
+### Status efter v0.20
 1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
 2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
-3. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
-4. 🟡 Maskinlæsbar session-schema mangler implementering i `/data/`.
+3. ✅ Reconsolidation: M0–M4 mekanismeinferens holdes separat fra R0–R4 robusthed.
+4. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
+5. 🟡 Maskinlæsbar session-schema mangler implementering i `/data/`.
 
 ## Evidensarkitektur
 ### Allerede på plads
@@ -109,6 +110,7 @@ Eksisterende:
 - ✅ positive og negative fund
 - ✅ search logs
 - ✅ teori / review / mekanistisk / preklinisk opdeling
+- ✅ claim-specific R0–R4 robusthedsramme for reconsolidation
 
 ### Mangler
 - 🟡 konsekvent effektstørrelse + konfidensinterval
@@ -127,17 +129,17 @@ Eksisterende:
 5. ✅ CPTSD measurement.
 6. ✅ Learning metrics.
 
-**P0 er nu dækket på framework-niveau.** Det betyder ikke, at evidensdækningen er komplet; det betyder, at hvert kerneområde nu har en eksplicit model/målestandard og kan udbygges systematisk.
+**P0 er dækket på framework-niveau.**
 
-### P1 — næste høje værdi
-7. Hippocampus/context discrimination.
-8. Insula/interoception.
-9. HPA/stress-memory timing.
-10. NMDA/AMPA-dossier.
-11. Endocannabinoid-dossier.
-12. DCS-dossier.
-13. Propranolol-dossier.
-14. Reconsolidation boundary-condition studiekort + R0–R4 coding.
+### P1 — høj værdi
+7. ✅ Hippocampus/context discrimination.
+8. ✅ Insula/interoception.
+9. ✅ HPA/stress-memory timing.
+10. 🟡 NMDA/AMPA-dossier.
+11. 🟡 Endocannabinoid-dossier.
+12. 🟡 DCS-dossier.
+13. 🟡 Propranolol-dossier.
+14. ✅ Reconsolidation boundary-condition studiekort + negative replikationer + R0–R4 coding.
 
 ### P2
 15. Risk-of-bias template.
@@ -157,10 +159,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. Hippocampus/context discrimination.
-2. Insula/interoception.
-3. HPA/glucocorticoid timing.
-4. Reconsolidation boundary-condition study cards og negative replikationer.
-5. NMDA/AMPA + endocannabinoider.
+1. NMDA/AMPA-mekanisme og dossier.
+2. Endocannabinoid/FAAH/CB1-dossier.
+3. D-cycloserin-dossier med session-quality moderation og IPD-meta.
+4. Propranolol-dossier med effect-size/ROB og klinisk vs laboratorie-opdeling.
+5. Risk-of-bias template + effektstørrelser/CI for reconsolidation-kernekilder.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
