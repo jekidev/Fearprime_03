@@ -14,6 +14,26 @@ Eksponering skal skabe ny læring; ro ved sessionens afslutning er ikke det enes
 9. Registrér den umiddelbare læring.
 10. Undersøg senere genkaldelse og registrér behandlingsforholdene. Spring ikke ordineret medicin over for at foretage en gentest.
 
+## Plasticity Window Engine
+Den biologiske plasticitet omkring en session er nu organiseret i [Plasticity Window Engine](../05_MODELS/PLASTICITY_WINDOW_ENGINE.md).
+
+Engine-modellen adskiller seks led:
+
+```text
+baseline/state
+→ window openness
+→ prediction error / læringsindhold
+→ aktivitet-afhængig synaptisk selektion
+→ konsolidering
+→ generalisering / return-of-fear
+
++ en parallel risk/stability-gate
+```
+
+Det betyder, at en intervention ikke kaldes en "extinction enhancer" alene fordi den øger en plasticitetsmarkør. Der skal dokumenteres en faktisk læringshændelse og senere retention/generalisation.
+
+[Human translation-kortet](../04_CANDIDATES/HUMAN_CRITICAL_PERIOD_TRANSLATION.md) skelner mellem humane critical-period-/extinction-data og mekanismer, der stadig kun er prækliniske.
+
 ## Tidligere arbejdsrækkefølge
 Projektet har arbejdet med en stabil observationsperiode, undersøgelse af butyrat som muligt tillæg, gradueret eksponering og bevidst afprøvning af forventninger. Et aktiveringsniveau omkring 3–5/10 har været en praktisk tommelfingerregel, ikke et universelt krav eller en valideret protokol.
 
