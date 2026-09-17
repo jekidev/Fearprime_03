@@ -1,20 +1,20 @@
 # HDAC, BDNF/TrkB, 5-HT7 og dopamin
-Version 0.6 · 2026-09-17
+Version 0.20 · 2026-09-17
 
 ## Hovedkonklusion
-Mekanismerne giver en begrundelse for forskning, men kan ikke lægges sammen som fire positive tal. Nettovirkningen afhænger af celle, kredsløb, timing og læringsindhold. Kortet nedenfor er FearPrimes syntese, ikke en påvist årsagskæde for butyrat + Latuda hos mennesker.
+Mekanismerne giver en begrundelse for forskning, men kan ikke lægges sammen som fire positive tal. Nettovirkningen afhænger af celle, kredsløb, timing, eksponering og læringsindhold. Kortet nedenfor er FearPrimes syntese, ikke en påvist årsagskæde for butyrat + Latuda hos mennesker.
 
-Et centralt korrektiv er nu eksplicit: **HDAC-subtyper har forskellige og til dels modsatrettede funktioner i læring og plasticitet.** Guan 2009 peger på HDAC2 som en negativ regulator af synapser/plasticitet og hukommelse i mus, mens Kim 2012 viser, at forebrain-specifikt tab af HDAC4 svækker hippocampal LTP og hukommelse. Lavertu-Jolin 2023 gør HDAC2-sporet mere FearPrime-specifikt ved at vise, at Hdac2-manipulation i **PV+-GABAerge interneuroner** kan ændre **Acan/aggrecan, perineuronale net og senere return of fear efter extinction**. Derfor må "HDAC-hæmning" aldrig behandles som én enkelt biologisk mekanisme.
+Et centralt korrektiv er eksplicit: **HDAC-subtyper har forskellige og til dels modsatrettede funktioner i læring og plasticitet.** Guan 2009 peger på HDAC2 som en negativ regulator af synapser/plasticitet og hukommelse i mus, mens Kim 2012 viser, at forebrain-specifikt tab af HDAC4 svækker hippocampal LTP og hukommelse. Lavertu-Jolin 2023 gør HDAC2-sporet mere FearPrime-specifikt ved at vise, at Hdac2-manipulation i **PV+-GABAerge interneuroner** kan ændre **Acan/aggrecan, perineuronale net og senere return of fear efter extinction**. Kilgore 2010 viser samtidig, at **butyrat ikke er en selektiv HDAC2-hæmmer**, men en klasse-I-præferent HDAC-hæmmer i rekombinante assays.
 
 ## Fire forskellige niveauer
 | Niveau | Spørgsmål | Evidensanker |
 |---|---|---|
-| HDAC/kromatin | Ændres transkriptionsbetingelser omkring bestemte gener, hvilken HDAC-subtype og hvilken celletype er involveret? | Bredy 2007; Guan 2009; Kim 2012; Lavertu-Jolin 2023 |
+| HDAC/kromatin | Ændres transkriptionsbetingelser omkring bestemte gener, hvilken HDAC-subtype og hvilken celletype er involveret? | Bredy 2007; Guan 2009; Kilgore 2010; Kim 2012; Lavertu-Jolin 2023 |
 | BDNF/TrkB | Aktiveres en plasticitetsrelevant receptor i det relevante kredsløb? | Klein 1991; Peters 2010 |
 | 5-HT7 | Hvilke celler ændrer signalering og synaptisk aktivitet? | Bard 1993; Kusek 2021 |
 | Dopamin | Hvilket signal når hvilke celler, og hvornår? | Salinas-Hernández 2018; Zhang 2025 |
 
-Kilder og kontrolniveauer findes i [kildeindekset](../07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md).
+Kilder og kontrolniveauer findes i [kildeindekset](../07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md). Formuleringssporet findes i [NaBut vs. tributyrin vs. SerBut](../04_CANDIDATES/BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
 
 ## 1. HDAC → BDNF: en mulig forbindelse
 Bredy 2007 koblede udslukning til promotorspecifik histonacetylering og BDNF-transkripter i præfrontal cortex hos mus; interventionen omfattede valproat. Det understøtter en epigenetisk forbindelse, men valproat er ikke butyrat, og samme signalvej-navn dokumenterer ikke samme effekt.
@@ -43,14 +43,12 @@ Det er derfor biologisk forkert at bruge en generel ligning som:
 
 Den korrekte forskningsmodel er nærmere:
 
-`effekt = HDAC-subtype × celletype/kredsløb × timing × interventionsform × læringsopgave`
-
-**FearPrime-konsekvens:** Et positivt fund med natriumbutyrat eller en anden bred HDAC-hæmmer må ikke automatisk tilskrives HDAC2, og det må heller ikke antages, at samtidig påvirkning af HDAC4 er fordelagtig. Genetisk deletion, kronisk overekspression og akut farmakologisk hæmning er forskellige interventioner. Ingen af Guan 2009 eller Kim 2012 tester PTSD-behandling hos mennesker.
+`effekt = HDAC-subtype × celletype/kredsløb × timing × eksponering × interventionsform × læringsopgave`
 
 ### 1B. HDAC2 → PV+-interneuroner → Acan/aggrecan → perineuronale net → return of fear
 [Lavertu-Jolin 2023](../07_STUDIES/PRECLINICAL/2023_Lavertu_Jolin_HDAC2_Acan_PNN_Extinction.md) er et direkte fear-extinction-holdepunkt i voksne mus. Celletypespecifikt tab af Hdac2 i parvalbumin-positive GABAerge interneuroner ændrede ikke tydeligt selve extinction-raten, men reducerede senere spontan tilbagekomst af frygt. Den oprindelige frygthukommelse var fortsat til stede uden extinction-træning.
 
-Hdac2-tab var samtidig forbundet med mere PV+-synaptisk remodeling og mindre perineuronal-net-aggregation i præfrontal cortex og basolateral amygdala. I præfrontal cortex blev **Acan**, som koder for PNN-komponenten aggrecan, nedreguleret. Farmakologisk HDAC2-hæmning efter frygtindlæring og før extinction reducerede også senere spontan fear recovery, og effekten blev occluded, når Hdac2 allerede var slettet i PV+-celler. Direkte Acan-knockdown efter acquisition og før extinction gav ligeledes mindre senere fear recovery.
+Hdac2-tab var samtidig forbundet med mere PV+-synaptisk remodeling og mindre perineuronal-net-aggregation i præfrontal cortex og basolateral amygdala. I præfrontal cortex blev **Acan**, som koder for PNN-komponenten aggrecan, nedreguleret. Farmakologisk HDAC2-hæmning efter frygtindlæring og før extinction reducerede også senere spontan fear recovery. Direkte Acan-knockdown efter acquisition og før extinction gav ligeledes mindre senere fear recovery.
 
 FearPrime kan derfor arbejde med denne **prækliniske** kæde:
 
@@ -63,20 +61,59 @@ perineuronale net (PNN) og kredsløbsstabilisering
         ↓
 begrænsning af voksen synaptisk remodeling
         ↓
-svagere/langt mindre fleksibel extinction-retention
+ændret extinction-retention / return of fear
 ```
 
-og omvendt, i den specifikke musemodel:
+**Kritisk afgrænsning:** BRD6688 er ikke natriumbutyrat, tributyrin eller SerBut. Studiet beviser derfor ikke, at en oral butyratform selektivt rammer HDAC2 i humane PV+-celler.
+
+### 1C. Butyrat rammer klasse-I-HDAC'er bredt — ikke HDAC2 alene
+[Kilgore 2010](../07_STUDIES/PRECLINICAL/2010_Kilgore_Class_I_HDAC_Selectivity.md) målte direkte enzymhæmning af rekombinante humane HDAC-isoformer. For butyric acid blev følgende IC50-værdier rapporteret:
+
+| Isoform | IC50 |
+|---|---:|
+| HDAC3 | 4,8 µM |
+| HDAC2 | 7,0 µM |
+| HDAC1 | 8,3 µM |
+| HDAC8 | 10,4 µM |
+| HDAC4 | 5725 µM |
+| HDAC5 | 6403 µM |
+| HDAC7 | 4380 µM |
+| HDAC9 | 5614 µM |
+| HDAC6 | 5881 µM |
+
+Dette gør den tidligere formulering "butyrat → HDAC2" for specifik. Den biokemisk mere korrekte arbejdshypotese er:
 
 ```text
-kortvarig HDAC2/Acan-reduktion omkring extinction
+relevant intracellulær butyrateksponering
         ↓
-mere PV+-remodeling / mindre PNN-begrænsning
+klasse-I-præferent HDAC-hæmning
+(HDAC1 / HDAC2 / HDAC3 / HDAC8)
         ↓
-mindre spontan return of fear senere
+celletype- og kredsløbsspecifikke transkriptionsændringer
 ```
 
-**Kritisk afgrænsning:** BRD6688 er ikke natriumbutyrat. Studiet beviser derfor ikke, at oral natriumbutyrat selektivt rammer HDAC2 i humane PV+-celler. Det viser heller ikke, at PNN bør reduceres generelt eller kronisk; PV+-inhibition og PNN har stabiliserende funktioner, og virkningen er celle-, kredsløbs- og timingafhængig.
+HDAC3 var i dette assay numerisk mere følsom end HDAC2. Derfor kan et positivt butyratfund ikke uden direkte target-engagement-data tilskrives HDAC2.
+
+### 1D. Levering ændrer eksponering — ikke nødvendigvis selektivitet
+Tre formuleringer holdes nu adskilt i FearPrime:
+
+- **Natriumbutyrat:** har det mest direkte humane extinction-retention-signal i repoet via Ribbens 2026, men hjernens butyrat/HDAC2 blev ikke målt.
+- **Tributyrin:** har human systemisk PK og et lille åbent [human PET target-engagement-signal](../07_STUDIES/VERIFIED/2026_Bohnen_Tributyrin_PET_Target_Engagement.md), men ingen direkte HDAC2- eller extinction-måling.
+- **SerBut:** har den stærkeste direkte prækliniske formulering-vs-NaBut CNS-biodistribution i [Cao 2024](../07_STUDIES/PRECLINICAL/2024_Cao_SerBut_Bioavailability_Neuroinflammation.md), men ingen etableret human extinction- eller HDAC2-target-engagement-evidens.
+
+[Frit mærket butyrat](../07_STUDIES/MECHANISTIC/2013_Kim_Butyrate_PET_Brain_Uptake.md) viste meget lav hjerneoptagelse i et primat-PET-paradigme, hvilket er endnu en grund til at holde **enzympotens** og **faktisk CNS-eksponering** adskilt.
+
+Den snævre FearPrime-kæde er derfor stadig uprøvet:
+
+```text
+oral butyratform
+→ human CNS-butyrateksponering i relevant tidsvindue
+→ HDAC2 target engagement i PV+-interneuroner
+→ Acan/PNN-remodeling
+→ bedre varig extinction / mindre return of fear
+```
+
+Se den fulde [head-to-head-analyse](../04_CANDIDATES/BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
 
 ## 2. BDNF → TrkB: signalstof og receptor
 BDNF er ligand for TrkB, en receptortyrosinkinase; rækkefølgen er altså BDNF → TrkB ved ligandaktivering. [Klein 1991](https://pubmed.ncbi.nlm.nih.gov/1649702/).
@@ -110,7 +147,9 @@ Fuld pil: observation i det angivne forsøg. Stiplet pil: uprøvet overførsel/s
 flowchart TD
   A["Læringshændelse"] -->|"VTA-signal i mus"| B["Dopamin og timing"]
   C["HDAC-spor"] -->|"Promotorfund i mus"| D["BDNF-transkription"]
-  C2["HDAC2 i PV+-celler"] -->|"Lavertu-Jolin 2023, mus"| P["Acan / aggrecan / PNN-remodeling"]
+  X["Butyrat"] -->|"Kilgore: klasse-I-præferent"| Y["HDAC1/2/3/8"]
+  Y -.-> C2["HDAC2 i PV+-celler"]
+  C2 -->|"Lavertu-Jolin 2023, mus"| P["Acan / aggrecan / PNN-remodeling"]
   P -->|"associeret med"| R["senere return of fear"]
   E["5-HT7-aktivering"] -->|"Musevæv"| F["Hæmmende synaptisk input"]
   B -.-> G["Læring under kombinationen"]
@@ -120,7 +159,7 @@ flowchart TD
   G -.-> H["Forsinket funktion ved PTSD"]
 ```
 
-HDAC-pilen er en forenkling af Bredy-fundene og hævder ikke, at alle HDAC-hæmmere har samme virkning. Guan 2009 og Kim 2012 gør subtype-afgrænsningen eksplicit; Lavertu-Jolin 2023 gør celletypen, PNN-sporet og return-of-fear-udfaldet eksplicit. Dossiererne beskriver stofspecifik evidens.
+Den stiplede pil fra klasse-I-HDAC-hæmning til det specifikke HDAC2/PV-spor er bevidst: den forbindelse er **ikke direkte demonstreret for oral butyrat hos mennesker**.
 
 ## Tre konkurrerende modeller — evidenstype E
 | Model | Forudsigelse | Hvad skal skelne den fra alternativer? |
@@ -133,12 +172,14 @@ HDAC-pilen er en forenkling af Bredy-fundene og hævder ikke, at alle HDAC-hæmm
 1. Registrér den præcise forbindelse, hver kilde understøtter.
 2. Angiv celle/kredsløb, art, timing og målt udfaldsmål.
 3. Angiv HDAC-subtype og celletype; skriv ikke bare “HDAC”, hvis kilden er subtype- eller celletypespecifik.
-4. Registrér PNN/Acan/aggrecan separat fra BDNF-sporet.
-5. Kræv separate data for kombinationen.
-6. Lad negative og modgående fund ændre hypotesens styrke.
-7. Brug funktion og vedvarende læring som mål; receptorhistorien er en forklaring, der skal testes.
+4. Skriv ikke “HDAC2-hæmning” for butyrat uden subtype-specifik target-engagement-data; standardformuleringen er **klasse-I-præferent HDAC-hæmning**.
+5. Registrér formulering/PK, CNS-target engagement og HDAC-target engagement som tre separate akser.
+6. Registrér PNN/Acan/aggrecan separat fra BDNF-sporet.
+7. Kræv separate data for kombinationen.
+8. Lad negative og modgående fund ændre hypotesens styrke.
+9. Brug funktion og vedvarende læring som mål; receptorhistorien er en forklaring, der skal testes.
 
 Ingen dosis, kronisk behandlingsplan eller “optimal cAMP/BDNF-værdi” kan udledes af dette kort.
 
-## Version 0.10: fra mekanisme til afprøvning
-[Kombinationshypotesen](../04_CANDIDATES/BUTYRATE_LATUDA_HYPOTHESIS.md) har nu et regnskab over manglende kausale led og fem forudsigelser. [Testplanen](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md) definerer, hvordan en effekt kan adskilles fra statistisk interaktion og en molekylær forklaring.
+## Version 0.20: formulering × CNS × HDAC
+FearPrime har nu et særskilt regnskab for **NaBut, tributyrin og SerBut**. Den næste translationelle test skal helst måle plasma-PK, CNS-target engagement, HDAC1/2/3-mål og extinction-retention i samme design, hvis en subtype-specifik mekanisme skal hævdes.
