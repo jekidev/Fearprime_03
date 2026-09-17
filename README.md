@@ -15,10 +15,13 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
 - [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
 - [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
+- [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
+- [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
+- [Standardiserede learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister](07_STUDIES/STUDY_LEDGER.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.18](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.19](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -26,6 +29,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
 - [Generalisering, diskrimination og safety learning](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
+- [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [CPTSD-model og DSO](05_MODELS/CPTSD_MODEL.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
@@ -48,11 +52,13 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 
 ## Måling
 - [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
+- [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
+- [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Tom sessionsskabelon](06_MEASUREMENT/SESSION_TEMPLATE.md)
 - [Observation ved tilbagevendende frygt](03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 Butyrat–Latuda testplan](06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-**P0 mod v1.0:** særskilt CPTSD/ITQ-måling og standardiserede learning metrics for expectancy, prediction error, discrimination, recall, generalization og return of fear. Se [gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md).
+**P0-kernen mod v1.0 er nu dækket på framework-niveau.** Næste fase er P1: hippocampus/context discrimination, insula/interoception, HPA/stress-memory timing og dybere kandidatdossiers. Se [gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -143,4 +149,15 @@ Tre kernehuller er nu gjort til selvstændige moduler:
 2. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) — amygdala, hippocampus, vmPFC, dACC, insula, BNST, PAG, HPA, striatum og netværksniveau, med eksplicit advarsel mod én-region/én-symptom-forklaringer.
 3. [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) — threat/safety discrimination, generaliseringsgradienter, kontekst, safety cues versus safety behaviours, extinction transfer og return of fear.
 
-Den nye [v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) og [coverage-plan v0.18](09_DEBUG/COVERAGE_PLAN.md) definerer næste P0-opgaver: reconsolidation boundary conditions, CPTSD/ITQ measurement og standardiserede learning metrics.
+Den nye [v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) og [coverage-plan](09_DEBUG/COVERAGE_PLAN.md) definerer de resterende opgaver mod v1.0.
+
+## Version 0.19: measurement-layer og reconsolidation boundary conditions
+De tre tidligere P0-huller er nu implementeret:
+
+1. [CPTSD measurement](06_MEASUREMENT/CPTSD_MEASUREMENT.md) — ITQ-spor med PTSD, DSO, funktion og probable classification holdt adskilt.
+2. [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md) — standarder for expectancy, prediction error, discrimination, acquisition, extinction, delayed recall, generalization, renewal, reinstatement, spontaneous recovery og reacquisition.
+3. [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) — prediction error, reminder-varighed, memory strength/age/type, context, state, timing samt R0–R4-evidensniveauer.
+
+[Måleplanen](06_MEASUREMENT/MEASUREMENT_PLAN.md), [coverage-planen](09_DEBUG/COVERAGE_PLAN.md) og [v1.0 gap-auditten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) er opdateret tilsvarende.
+
+**P0 er nu dækket på framework-niveau.** Næste fase er P1-mekanismer og systematisk study-level evidens, ikke flere brede kernemodeller.
