@@ -199,3 +199,8 @@ De resterende definerede P1-opgaver er nu gjort til egne moduler/dossiers:
 P2 er samtidig startet med en fælles [Risk-of-Bias-template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md) og en [reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md), hvor Brunet, Roullet, Schiller/Chalkia og meta-analyserne kobles til effektstørrelser, R-score, M-score og bias-noter.
 
 **De definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Næste arbejde er primært P2: systematisk study-level evidenskvalitet, reproducerbare søgninger og dataarkitektur.
+
+### Discord-opstart
+Discord-serveren opstartes i løbet af næste uge, når der er samlet **admins** og tilstrækkelig egen empiri til en forsvarlig N=3-opstart.
+
+**OBS:** Husk klausul og disclaimer inden invite.
