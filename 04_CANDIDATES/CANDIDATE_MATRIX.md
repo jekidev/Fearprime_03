@@ -1,5 +1,7 @@
 # Kandidater, præparater og forskningsspørgsmål
 
+Version 0.21 · 2026-09-17
+
 Optagelse betyder forskningsrelevans, ikke dokumenteret behandling. Prioritet er projektets interesse; evidenstype, kvalitet og effekt vurderes særskilt.
 
 | Kandidat | Arbejdshypotese | Område og status |
@@ -12,13 +14,13 @@ Optagelse betyder forskningsrelevans, ikke dokumenteret behandling. Prioritet er
 | Guanfacin | Alfa-2A og præfrontal regulering | Negative kliniske PTSD-forsøg |
 | Dexmedetomidin | Alfa-2-agonisme | Aktivering og sedation; mekanistisk spor |
 | Memantin | NMDA-modulation | Begrænset symptom- og indirekte læringsevidens |
-| D-cycloserin | Delvis agonisme ved NMDA-glycinstedet | Klinisk sammenligningsstof; lille/blandet tillægseffekt |
-| Propranolol | Betareceptorblokade omkring genaktivering | Blandede kliniske rekonsolideringsforsøg |
+| [D-cycloserin](DCS_DOSSIER.md) | Partiel agonisme ved NMDA-glycinstedet | Lille/blandet augmentation; større PTSD-RCT viser ingen stabil main effect |
+| [Propranolol](PROPRANOLOL_DOSSIER.md) | Betareceptorblokade omkring genaktivering | Blandede kliniske forsøg og modstridende meta-analyser |
 | Mifepriston | Glukokortikoidreceptorblokade | Negative rekonsolideringsforsøg |
 | Hydrokortison | HPA-akse, genkaldelse og konsolidering | Timingafhængige og blandede fund |
 | Ketamin | NMDA og plasticitet | Kliniske symptomfund; specifik læringsmekanisme usikker |
 | CBD | Endocannabinoidrelateret modulation | Blandede laboratoriefund og negativt klinisk eksponeringstillæg |
-| FAAH-hæmmer PF-04457845 | Forhøjet anandamid | Humant laboratorieforsøg; forsøgsstof |
+| [FAAH-hæmmer PF-04457845 / endocannabinoider](ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) | Forhøjet anandamid / CB1-relateret extinction | Humant experimental-medicine RCT; ikke etableret PTSD-behandling |
 | MDMA | Flere monoaminsystemer og social kontekst | Humant udslukningsforsøg med blandede udfald |
 | Psilocybin | 5-HT2A og kontekstafhængig plasticitet | Præklinisk udslukningsstøtte |
 | Liraglutid/GLP-1 | Metabolisk og neural signalering | Præklinisk; direkte udslukningseffekt ikke vist her |
@@ -31,10 +33,15 @@ Optagelse betyder forskningsrelevans, ikke dokumenteret behandling. Prioritet er
 | NAC | Redox og glutamat | Støttende hypotese; ingen kerneeffekt fastslået |
 | Diosmin, hesperidin og hestekastanje | Vaskulære/systemiske hypoteser | Ingen dokumenteret primær udslukningseffekt her |
 
+## Mekanismespor
+- [NMDA/AMPA/glutamaterg plasticitet](../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
+- [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md)
+- [HDAC/BDNF/5-HT7/dopamin](../02_MECHANISMS/HDAC_BDNF_5HT7_DOPAMINE.md)
+
 ## Samspil
 Projektets begrebsmodel er: effekt afhænger af intervention, læringskvalitet, tidspunkt, kontekst og senere genkaldelse. Dette er ikke en valideret matematisk ligning. Øget plasticitet kan understøtte både sikkerheds- og trusselslæring.
 
 ## Centrale spørgsmål
-Butyrat: hvilken timing og læringsstyrke er nødvendig, hvilke mål ændres, og kan effekten replikeres ved PTSD? L-DOPA: afhænger senere fordel af en vellykket session og præfrontale signaler? Oxytocin: skyldes udfaldet angstdæmpning, social betydning eller varig læring? Lurasidon: er 5-HT7/5-HT1A og BDNF relevante, eller ses blot symptomdæmpning? Amisulprid: hvad viser receptorbelægning, plasmaniveau og prolaktin om den forenklede lavdosishypotese?
+Butyrat: hvilken timing og læringsstyrke er nødvendig, hvilke mål ændres, og kan effekten replikeres ved PTSD? L-DOPA: afhænger senere fordel af en vellykket session og præfrontale signaler? Oxytocin: skyldes udfaldet angstdæmpning, social betydning eller varig læring? Lurasidon: er 5-HT7/5-HT1A og BDNF relevante, eller ses blot symptomdæmpning? DCS: forstærkes den læring der faktisk sker i sessionen snarere end en generel sikkerhedseffekt? Propranolol: kan clinical symptom change adskilles fra adrenerg state-effekt og mekanistisk reconsolidation? FAAH: replikeres forbedret delayed extinction recall i uafhængige humane og kliniske PTSD-studier?
 
-Se [evidensregler](../01_EVIDENCE_RULES.md), [samlet kandidatvurdering](CORE_SYNTHESIS.md), [klinisk rekonsolidering](../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md) og [studieoversigt](../07_STUDIES/STUDY_LEDGER.md).
+Se [evidensregler](../01_EVIDENCE_RULES.md), [samlet kandidatvurdering](CORE_SYNTHESIS.md), [klinisk rekonsolidering](../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md), [RoB-template](../09_DEBUG/RISK_OF_BIAS_TEMPLATE.md) og [studieoversigt](../07_STUDIES/STUDY_LEDGER.md).
