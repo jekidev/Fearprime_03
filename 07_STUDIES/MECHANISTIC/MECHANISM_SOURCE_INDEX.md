@@ -1,6 +1,9 @@
 # Kilder til mekanismekortet
 Kontroldato 2026-09-17. Bogstaver følger repoets evidenstyper, ikke en rangering af effektstørrelse. Studiekortene er korte evidensudtræk; ikke fulde vurderinger af systematiske fejlkilder.
 
+## Specialiserede kildeindeks
+- [PNN / critical-period source index](PNN_SOURCE_INDEX.md) — Acan/aggrecan, ChABC, Crtl1/HAPLN1, OTX2, PV-TrkB, NgR1, MMP-9, ADAMTSL3 og related fear/critical-period data.
+
 | Kilde | Type | Kontrol og anvendelse |
 |---|---|---|
 | [Bredy 2007](../PRECLINICAL/2007_Bredy_HDAC_BDNF.md) | C | PubMed-resumé: histon/BDNF-forbindelse og adfærd |
@@ -41,6 +44,11 @@ Santacruzamate A/CAY10683 er registreret som metodisk advarsel: den oprindelige 
 
 Se [HDAC2-selektivt kandidatdossier](../../04_CANDIDATES/HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md).
 
+## PNN / critical-period-sporet
+[PNN-kildeindekset](PNN_SOURCE_INDEX.md) skal bruges sammen med HDAC2-kilderne. Det registrerer direkte og parallelle reopening-mekanismer: ChABC/CSPG, Acan/aggrecan, Crtl1/HAPLN1, OTX2-PNN binding, PV-TrkB/iPlasticity, NgR1/myelin-brakes, interneuron-maturation, CSPG-sulfation, MMP-9 og ADAMTSL3.
+
+**Ny 2026-korrektiv:** PNN-destabilisering kan genåbne plasticitet, men Cramer 2026 viser samtidig øget oxidative stress i PV+-celler efter ADAMTSL3/MMP-9-medieret PNN-loss. Reopening og neuronal beskyttelse skal derfor vurderes som separate akser.
+
 ## Formulering og central eksponering
 Tre kilder udfylder forskellige led:
 
@@ -67,8 +75,13 @@ Målrettede websøgninger, bl.a.:
 - Cao 2024 SerBut sodium butyrate brain biodistribution
 - Suzuki 2026 highly selective HDAC2 compound 11 LTP
 - Bohnen 2026 tributyrin butyrate PET brain target engagement
+- Gogolla PNN fear erasure ChABC
+- OTX2 PNN RK peptide critical period
+- Crtl1 HAPLN1 fear extinction
+- PV TrkB fluoxetine PNN iPlasticity
+- ADAMTSL3 MMP9 PNN OTX2 adult plasticity
 
 Ikke et systematisk litteraturoversigt og ingen garanti for udtømmende dækning. Eksakte n, doser og effektstørrelser udfyldes kun, hvor de blev kontrolleret.
 
 ## Afgrænsning
-Ingen af disse kilder dokumenterer hele kæden fra en oral intervention til selektiv HDAC2-hæmning i humane PV+-interneuroner og forbedret PTSD-behandling. Ribbens giver human extinction-adfærd; Bohnen giver et humant tributyrin/CNS-signal; Cao giver præklinisk SerBut-CNS-biodistribution; Lavertu-Jolin giver det mest direkte prækliniske HDAC2/PV/PNN-extinction-spor. De skal fortsat holdes som separate evidensled.
+Ingen af disse kilder dokumenterer hele kæden fra en oral intervention til selektiv HDAC2-hæmning i humane PV+-interneuroner og forbedret PTSD-behandling. Ribbens giver human extinction-adfærd; Bohnen giver et humant tributyrin/CNS-signal; Cao giver præklinisk SerBut-CNS-biodistribution; Lavertu-Jolin giver det mest direkte prækliniske HDAC2/PV/PNN-extinction-spor. PNN/critical-period-kilderne viser flere måder at ændre voksen plasticitet i dyr, men ingen er etableret som selektiv human PTSD-behandling.
