@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.19
+Status efter version 0.21
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.19 er de tidligere seks P0-framework-huller dækket på dokument-/måleniveau. Det største arbejde mod v1.0 er nu **dybere evidensdækning, mekanismeopdeling, risk-of-bias og reproducerbar datastruktur**.
+Efter v0.21 er de tidligere P0-huller og de definerede P1-moduler dækket på framework-/dossierniveau. Det største arbejde mod v1.0 er nu **study-level evidenskvalitet, reproducerbare søgninger, certainty, participant-overlap og maskinlæsbar datastruktur**.
 
 ---
 
@@ -45,16 +45,11 @@ Efter v0.19 er de tidligere seks P0-framework-huller dækket på dokument-/måle
 | Del | Status | Filer | Hvad mangler før v1.0 |
 |---|---|---|---|
 | Funktionel/adaptiv PTSD-model | ✅ | `00_MANIFESTO/FEARPRIME_MODEL.md`, `05_MODELS/ADAPTIVE_PTSD_MODEL.md` | Flere direkte empiriske tests af adaptive vs rigide strategier |
-| Klassiske PTSD-teorier | 🟡 | `05_MODELS/PTSD_THEORIES.md`, `07_STUDIES/THEORY/` | Nyere teori-reviews, prospektive tests, bedre model-sammenligning |
+| Klassiske PTSD-teorier | 🟡 | `05_MODELS/PTSD_THEORIES.md`, `07_STUDIES/THEORY/` | Nyere teori-reviews, prospektive tests, model-sammenligning |
 | Predictive processing | 🟡 🔬 | adaptiv model + ressourcekategori | Dedikeret mekanisme-/teorifil og operationelle predictions |
 | CPTSD | ✅/🟡 | `05_MODELS/CPTSD_MODEL.md`, `06_MEASUREMENT/CPTSD_MEASUREMENT.md` | Flere DSO-studiekort og longitudinelle mekanismedata |
 | Selvmodel / identitet | 🟡 🔬 | CPTSD-model | Dedikeret spor for memory/identity og negativt selvkoncept |
 | Social threat learning | 🟡 🔬 | CPTSD + generalization engine | Humane paradigmer og klinisk overførsel |
-
-## V1.0-krav
-- ✅ CPTSD har separat measurement-layer.
-- Predictive-processing-påstande skal omsættes yderligere til målbare predictions.
-- FearPrime skal fortsat tydeligt skelne teori, mekanisme og klinisk effekt.
 
 ---
 
@@ -62,31 +57,17 @@ Efter v0.19 er de tidligere seks P0-framework-huller dækket på dokument-/måle
 
 | Del | Status | Filer | Hvad mangler |
 |---|---|---|---|
-| Fear acquisition | 🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md`, studieregister | Dedikeret acquisition/metodeoversigt |
-| Extinction | ✅/🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md` | Større paradigme- og metodebibliografi |
+| Fear acquisition | 🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md` | Dedikeret acquisition/metodeoversigt |
+| Extinction | ✅/🟡 | `EXTINCTION_ENGINE.md`, `LEARNING_METRICS.md` | Større paradigme-/metodebibliografi |
 | Inhibitory learning | 🟡 | arbejdsmodeller + teorikort | Egen engine/strategikort |
 | Expectancy violation | ✅/🟡 | arbejdsmodeller + learning metrics | Bedre paradigmestandardisering |
 | Safety learning | ✅/🟡 | `GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md` | Flere PTSD-specifikke primærstudier |
-| Threat/safety discrimination | ✅/🟡 | generalization engine + learning metrics | Paradigme-/populationsspecifik evidens |
+| Threat/safety discrimination | ✅/🟡 | generalization engine + learning metrics + hippocampus/context | Populationsspecifik evidens |
 | Generalization | ✅/🟡 | generalization engine + learning metrics | Perceptuel/social/interoceptiv evidens opdelt |
-| Context learning | 🟡 | adaptive model + extinction | Dedikeret hippocampus/context-fil |
+| Context learning | ✅/🟡 | `HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md` | Flere study cards og kausale humane data |
 | Extinction recall | ✅/🟡 | extinction/reconsolidation + learning metrics | Mere study-level standardisering |
 
-## V1.0-krav
-FearPrime skelner nu eksplicit:
-
-```text
-acquisition
-extinction
-extinction recall
-generalization
-renewal
-reinstatement
-spontaneous recovery
-reacquisition
-```
-
-uden at bruge dem som synonymer.
+FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalization, renewal, reinstatement, spontaneous recovery og reacquisition.
 
 ---
 
@@ -94,26 +75,19 @@ uden at bruge dem som synonymer.
 
 | Del | Status | Hvad mangler |
 |---|---|---|
-| Return of fear | ✅/🟡 | Samlet kvantitativ evidens for renewal/reinstatement/spontaneous recovery |
+| Return of fear | ✅/🟡 | Mere samlet kvantitativ evidens |
 | Retrieval | ✅ | Skal fortsat adskilles fra destabilisering |
-| Reconsolidation | ✅/🟡 | Flere replikationer, negative studier og paradigmeforskelle |
-| Boundary conditions | ✅/🟡 | `RECONSOLIDATION_BOUNDARY_CONDITIONS.md`; individuelle studiekort + R0–R4 coding mangler |
-| Klinisk PTSD-reconsolidation | ✅/🟡 | Nyere trials, registre og meta-analytisk syntese |
+| Reconsolidation | ✅/🟡 | Flere uafhængige humane replikationer |
+| Boundary conditions | ✅/🟡 | Dedikeret modul + individuelle cards; systematisk meta-/RoB-niveau mangler |
+| Klinisk PTSD-reconsolidation | ✅/🟡 | Flere fuldtekstudtræk, effect sizes og certainty |
 
-## v0.19-opdatering
-[Reconsolidation boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) dækker nu:
-- prediction error,
-- reminder/retrieval duration,
-- memory strength,
-- memory age,
-- memory type,
-- reminder specificity,
-- context/state,
-- intervention timing,
-- reconsolidation versus extinction,
-- evidensniveau R0–R4.
+[Reconsolidation boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) dækker prediction error, reminder duration, memory strength/age/type, context/state og timing.
 
-Boundary conditions må ikke bruges post hoc som universalforklaring på negative resultater.
+**Skalaer:**
+- M0–M4 = mekanistisk reconsolidation-inferens.
+- R0–R4 = robusthed/replikation.
+
+[Reconsolidation effect-size/RoB audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) er første P2-lag på dette domæne.
 
 ---
 
@@ -121,22 +95,16 @@ Boundary conditions må ikke bruges post hoc som universalforklaring på negativ
 
 | Del | Status | Hvad mangler |
 |---|---|---|
-| Masterkort | ✅ | `02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md` |
+| Masterkort | ✅ | `FEAR_CIRCUIT_MASTER_MAP.md` |
 | Amygdala | 🟡 | Mere nuclei-/procesopdeling |
-| vmPFC/mPFC | 🟡 | Extinction recall og valuation-kilder |
-| Hippocampus | 🟡 | Dedikeret context/discrimination-fil |
-| Insula | 🟡 | Dedikeret interoception-fil |
-| dACC | 🟡 | Trusselsudtryk og konflikt |
+| vmPFC/mPFC | 🟡 | Extinction recall / valuation-dossier |
+| Hippocampus/context | ✅/🟡 | Study cards, effect sizes, kausal human evidens |
+| Insula/interoception | ✅/🟡 | Paradigmespecifik måling + study cards |
+| dACC | 🟡 | Mere human task-evidens |
 | BNST / sustained threat | 🔴/🟡 | Dedikeret litteraturspor |
-| PAG / defensive output | 🟡 | Freeze/flight/fight-mekanismer |
-| Striatum | 🟡 | Dopamin/prediction-error-kobling |
+| PAG / defensive output | 🟡 | Freeze/flight/fight-differentiering |
+| HPA/stress-memory | ✅/🟡 | Fase-specifik human syntese + effect sizes |
 | Netværksmodeller | 🟡 | SN/DMN/CEN og connectivity |
-
-## V1.0-krav
-Minimum tre særskilte mekanismefiler:
-1. `HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md`
-2. `INSULA_INTEROCEPTION.md`
-3. `HPA_STRESS_MEMORY.md`
 
 ---
 
@@ -149,9 +117,9 @@ Minimum tre særskilte mekanismefiler:
 | PNN / critical periods | ✅/🟡 🐀 | Human translation |
 | Dopamin | ✅/🟡 | Fase- og dosisafhængighed |
 | 5-HT7 / 5-HT1A | 🟡 🔬 | Direkte humane læringsdata |
-| NMDA / AMPA | 🟡 | Dedikeret mekanismedossier |
-| Endocannabinoider | 🟡 👤🐀 | Dossier og klinisk translation |
-| Glucocorticoider | 🟡 👤 | Timing: acquisition vs retrieval vs consolidation |
+| NMDA / AMPA | ✅/🟡 👤🐀📊 | `NMDA_AMPA_GLUTAMATE_PLASTICITY.md`; human AMPA-specifik fear-learning translation mangler |
+| Endocannabinoider | ✅/🟡 👤🐀📊 | FAAH/CB1-dossier; uafhængig human replikation og klinisk PTSD-transfer mangler |
+| Glucocorticoider | ✅/🟡 👤 | Timingmodul findes; effektstørrelser/CI mangler |
 | GABA/glutamat-balance | 🔴/🟡 | Egen evidenssyntese uden “imbalance”-forenkling |
 | Mitokondrier/metabolisme | 🟡 🔬 | Direkte kobling til fear learning mangler |
 
@@ -159,38 +127,33 @@ Minimum tre særskilte mekanismefiler:
 
 # 6. Farmakologisk / biologisk augmentation
 
-## Godt dækket
+## Dossiers på plads
 - ✅ Butyrat
 - ✅/🟡 Lurasidon
 - 🟡 L-DOPA
 - 🟡 Oxytocin
-- ✅/🟡 HDAC2-selectivitet som forskningsspor
+- ✅/🟡 HDAC2-selectivitet
+- ✅/🟡 [D-cycloserin](../04_CANDIDATES/DCS_DOSSIER.md)
+- ✅/🟡 [Propranolol](../04_CANDIDATES/PROPRANOLOL_DOSSIER.md)
+- ✅/🟡 [Endocannabinoid/FAAH/CB1](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
+- ✅/🟡 [NMDA/AMPA-mekanismesporet](../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
 
-## Kandidater med studiekort, men uden fuldt dossier
-- 🟡 D-cycloserin
-- 🟡 propranolol
+## Stadig delvist dækket
 - 🟡 hydrokortison
 - 🟡 mifepriston
 - 🟡 ketamin
 - 🟡 CBD
-- 🟡 FAAH/CB1
 - 🟡 MDMA
 - 🟡 psilocybin
 - 🟡 hormoner
 - 🟡 guanfacin
 - 🟡 memantin
+- 🟡/🔬 amisulprid
 
-## Primære dossier-huller
-Opret senere:
-1. `DCS_DOSSIER.md`
-2. `PROPRANOLOL_DOSSIER.md`
-3. `GLUCOCORTICOID_DOSSIER.md`
-4. `ENDOCANNABINOID_DOSSIER.md`
-5. `NMDA_AMPA_DOSSIER.md`
-6. `AMISULPRIDE_DOSSIER.md`
-
-## Lavere prioritet / eksplorativt
-Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater bør forblive 🔬 indtil direkte relevans for FearPrime-outcomes er dokumenteret.
+## V0.21-nøglefortolkninger
+- DCS har stærk mekanistisk plausibilitet, men PTSD-RCT'er er blandede og større multisite data viser ingen stabil main effect.
+- FAAH-hæmning har et direkte humant experimental-medicine signal for delayed extinction recall, men ikke etableret klinisk PTSD-efficacy.
+- Propranolol har positive og negative kliniske trials samt modstridende meta-analyser; symptomændring må ikke bruges som direkte reconsolidation-bevis.
 
 ---
 
@@ -199,10 +162,10 @@ Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater b�
 | Del | Status | Hvad mangler |
 |---|---|---|
 | CPTSD-definition/model | ✅ | v0.18-model |
-| DSO measurement | ✅/🟡 | ITQ-layer findes; flere interventions-/longitudinelle data mangler |
+| DSO measurement | ✅/🟡 | Flere interventions-/longitudinelle data |
 | Dissociation | 🟡 | Eget målespor og state-dependent learning |
 | Tonic immobility | 🟡/✅ | Review/meta findes; mekanismemodul mangler |
-| Freeze / shutdown | 🟡 | Skelnen mellem begreber og fysiologi |
+| Freeze / shutdown | 🟡 | Begrebs-/fysiologisk differentiering |
 | Social threat | 🟡 🔬 | Eksperimentelle paradigmer |
 | Attachment / relational safety | 🔴/🟡 | Skal adskilles fra generisk social støtte |
 
@@ -225,50 +188,20 @@ Bromantan, tyrosin, lithium, 7,8-DHF, NAC og systemiske vaskulære kandidater b�
 
 # 9. Measurement layer
 
-## Eksisterer efter v0.19
+## Eksisterer
 - ✅ `MEASUREMENT_PLAN.md`
 - ✅ `CPTSD_MEASUREMENT.md`
 - ✅ `LEARNING_METRICS.md`
 - ✅ `SESSION_TEMPLATE.md`
 - ✅ `RETURN_OF_FEAR_TEMPLATE.md`
 - ✅ `FP_BL_01_TEST_PLAN.md`
+- ✅ `RISK_OF_BIAS_TEMPLATE.md`
+- ✅/🟡 `RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md`
 
-### ✅ CPTSD measurement
-Det nye modul indeholder:
-- ITQ-reference og scoringprincipper uden kopiering af questionnaire-items,
-- PTSD og DSO separat,
-- funktion separat,
-- probable classification adskilt fra klinisk diagnose,
-- versions-/sprog-/clinical-check metadata.
-
-### ✅ Learning metrics
-Standardfelter er nu defineret for:
-- threat expectancy,
-- safety expectancy,
-- prediction error,
-- discrimination,
-- acquisition,
-- extinction change/slope,
-- delayed recall,
-- generalization gradient,
-- renewal,
-- reinstatement,
-- spontaneous recovery,
-- reacquisition,
-- behavior/function og fysiologi.
-
-### 🟡 fysiologi
-Modaliteter er konceptuelt adskilt:
-- HR/HRV,
-- SCR,
-- startle,
-- respiration,
-- subjektiv distress.
-
-Der mangler stadig preprocessing/QC-standarder.
-
-### 🟡 funktion
-Funktionsaksen er styrket, men et dedikeret valideret funktionsinstrument-spor kan tilføjes senere.
+### Stadig åbent
+- 🟡 fysiologi preprocessing/QC-standarder
+- 🟡 dedikeret valideret funktionsinstrument-spor
+- 🔴 maskinlæsbar session-schema
 
 ---
 
@@ -282,15 +215,15 @@ Funktionsaksen er styrket, men et dedikeret valideret funktionsinstrument-spor k
 | Positive + negative fund | ✅ |
 | Search logs | ✅ |
 | Review/meta-kategori | ✅/🟡 |
-| Effektstørrelser systematisk | 🟡 |
-| Risk-of-bias standard | 🔴/🟡 |
+| Claim-specific R0–R4 | ✅ |
+| M0–M4 reconsolidation inference | ✅ |
+| Risk-of-bias standard | ✅/🟡 template findes; study-level udfyldning mangler |
+| Effektstørrelser systematisk | ✅/🟡 startet i reconsolidation-kernen |
 | GRADE/certainty-lignende lag | 🔴 |
-| Registrering af deltager-overlap | 🟡 |
+| Deltager-overlap-register | 🟡 |
 | Preregistration-lignende hypothesis registry | 🔴/🟡 |
 
-## V1.0-krav
-Tilføj en standard til hvert centralt studiekort:
-
+## V1.0-krav til centrale studiekort
 ```text
 population
 N
@@ -312,16 +245,15 @@ certainty
 # 11. Research reproducibility
 
 ## Mangler
-🔴 En maskinlæsbar study index (CSV/JSON/YAML)  
+🔴 maskinlæsbar study index (CSV/JSON/YAML)  
 🔴 versionsnummer samlet ét sted  
 🔴 changelog  
 🟡 citation consistency check  
 🟡 automatisk DOI/PMID-validering  
 🟡 duplicate-publication kontrol  
-🟡 automatisk link checker  
+🟡 automatisk link checker
 
 ## Forslag
-
 ```text
 /data/studies.csv
 /data/candidates.csv
@@ -330,8 +262,6 @@ certainty
 CHANGELOG.md
 VERSION
 ```
-
-Det vil gøre repoet langt lettere at analysere med scripts/agenter.
 
 ---
 
@@ -344,32 +274,35 @@ Det vil gøre repoet langt lettere at analysere med scripts/agenter.
 4. ✅ Reconsolidation boundary conditions.
 5. ✅ CPTSD measurement / ITQ-spor.
 6. ✅ Learning metrics.
-7. ✅ Coverage-plan opdateret til v0.19.
 
-**P0 er nu afsluttet på framework-niveau.** Det er ikke det samme som komplet systematisk evidensdækning.
+**P0 er afsluttet på framework-niveau.**
 
 ## P1 — høj værdi
-8. Hippocampus/context discrimination.
-9. Insula/interoception.
-10. HPA/stress-memory timing.
-11. NMDA/AMPA-dossier.
-12. Endocannabinoid-dossier.
-13. DCS-dossier.
-14. Propranolol-dossier.
-15. Boundary-condition studiekort + negative replikationer + R0–R4 coding.
+7. ✅ Hippocampus/context discrimination.
+8. ✅ Insula/interoception.
+9. ✅ HPA/stress-memory timing.
+10. ✅ NMDA/AMPA-mekanismemodul.
+11. ✅ Endocannabinoid/FAAH/CB1-dossier.
+12. ✅ DCS-dossier.
+13. ✅ Propranolol-dossier.
+14. ✅ Boundary-condition studiekort + negative replikationer + R0–R4 coding.
+
+**De definerede P1-opgaver er nu dækket på framework-/dossierniveau.**
 
 ## P2 — evidensstyrke
-16. Risk-of-bias template.
-17. Effektstørrelser + CI i kerne-studier.
-18. Systematiske søgninger for hver P0/P1-domæne.
-19. Maskinlæsbar study database og session-schema.
+15. ✅/🟡 Risk-of-bias template; udfyld study-level.
+16. ✅/🟡 Effect sizes + CI startet for reconsolidation-kernen; udvid til DCS/FAAH/øvrige kandidater.
+17. 🟡 Reproducerbare søgninger for hver P0/P1-domæne.
+18. 🔴 Maskinlæsbar study database og session-schema.
+19. 🔴 Certainty-lag.
+20. 🟡 Participant-overlap register.
 
 ## P3 — v1.0-polering
-20. samlet glossary-kontrol.
-21. link-check.
-22. changelog/version-fil.
-23. README som komplet navigationskort.
-24. særskilt `KNOWN_LIMITATIONS.md`.
+21. samlet glossary-kontrol.
+22. link-check.
+23. changelog/version-fil.
+24. README som komplet navigationskort.
+25. særskilt `KNOWN_LIMITATIONS.md`.
 
 ---
 
@@ -381,12 +314,13 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Biologiske kandidater er mærket efter human/præklinisk/hypotetisk evidens.
 - Negative studier og null-fund er integreret.
 - Centrale påstande kan spores til primærkilder.
-- Mindst kerne-domænerne har en reproducerbar litteratursøgning.
+- Kerne-domænerne har reproducerbare litteratursøgninger.
 - Learning outcomes og kliniske symptom-outcomes blandes ikke sammen.
 - Frameworket har eksplicitte falsifikationskriterier.
+- Centrale studier har RoB + effect sizes/CI eller eksplicit manglende data.
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.19 et sammenhængende pre-v1.0 framework med P0-kernen dækket.**
+**FearPrime er efter v0.21 et sammenhængende pre-v1.0 framework med P0 og de definerede P1-moduler dækket.**
 
-Det afgørende hul er nu ikke grundmodellen eller de centrale målebegreber. Næste fase er **P1-mekanismer + systematisk study-level evidens + reproducerbar dataarkitektur**.
+Det afgørende hul er nu **P2: evidensstyrke, reproducerbarhed og maskinlæsbar dataarkitektur** — ikke flere brede kernemodeller.
