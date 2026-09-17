@@ -1,20 +1,22 @@
 # HDAC, BDNF/TrkB, 5-HT7 og dopamin
-Version 0.20 · 2026-09-17
+Version 0.21 · 2026-09-17
 
 ## Hovedkonklusion
 Mekanismerne giver en begrundelse for forskning, men kan ikke lægges sammen som fire positive tal. Nettovirkningen afhænger af celle, kredsløb, timing, eksponering og læringsindhold. Kortet nedenfor er FearPrimes syntese, ikke en påvist årsagskæde for butyrat + Latuda hos mennesker.
 
 Et centralt korrektiv er eksplicit: **HDAC-subtyper har forskellige og til dels modsatrettede funktioner i læring og plasticitet.** Guan 2009 peger på HDAC2 som en negativ regulator af synapser/plasticitet og hukommelse i mus, mens Kim 2012 viser, at forebrain-specifikt tab af HDAC4 svækker hippocampal LTP og hukommelse. Lavertu-Jolin 2023 gør HDAC2-sporet mere FearPrime-specifikt ved at vise, at Hdac2-manipulation i **PV+-GABAerge interneuroner** kan ændre **Acan/aggrecan, perineuronale net og senere return of fear efter extinction**. Kilgore 2010 viser samtidig, at **butyrat ikke er en selektiv HDAC2-hæmmer**, men en klasse-I-præferent HDAC-hæmmer i rekombinante assays.
 
+Et nyt værktøjslag er nu tilføjet: BRD6688/BRD4884 demonstrerer, at HDAC2 kan favoriseres farmakologisk gennem binding kinetics; Tamanini 2022 viser oral CNS-HDAC-PD med en brain-penetrant lead; og Suzuki 2026 beskriver en nyere cellulært HDAC2-selektiv compound 11 med in-vivo histonacetylering og LTP. **BRD6688 er fortsat den tætteste direkte FearPrime-probe**, fordi den allerede er brugt før extinction i Lavertu-Jolin-modellen.
+
 ## Fire forskellige niveauer
 | Niveau | Spørgsmål | Evidensanker |
 |---|---|---|
-| HDAC/kromatin | Ændres transkriptionsbetingelser omkring bestemte gener, hvilken HDAC-subtype og hvilken celletype er involveret? | Bredy 2007; Guan 2009; Kilgore 2010; Kim 2012; Lavertu-Jolin 2023 |
+| HDAC/kromatin | Ændres transkriptionsbetingelser omkring bestemte gener, hvilken HDAC-subtype og hvilken celletype er involveret? | Bredy 2007; Guan 2009; Kilgore 2010; Kim 2012; Wagner 2015; Tamanini 2022; Lavertu-Jolin 2023; Suzuki 2026 |
 | BDNF/TrkB | Aktiveres en plasticitetsrelevant receptor i det relevante kredsløb? | Klein 1991; Peters 2010 |
 | 5-HT7 | Hvilke celler ændrer signalering og synaptisk aktivitet? | Bard 1993; Kusek 2021 |
 | Dopamin | Hvilket signal når hvilke celler, og hvornår? | Salinas-Hernández 2018; Zhang 2025 |
 
-Kilder og kontrolniveauer findes i [kildeindekset](../07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md). Formuleringssporet findes i [NaBut vs. tributyrin vs. SerBut](../04_CANDIDATES/BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
+Kilder og kontrolniveauer findes i [kildeindekset](../07_STUDIES/MECHANISTIC/MECHANISM_SOURCE_INDEX.md). Formuleringssporet findes i [NaBut vs. tributyrin vs. SerBut](../04_CANDIDATES/BUTYRATE_FORMULATION_HEAD_TO_HEAD.md). Selektive værktøjer findes i [HDAC2-dossieret](../04_CANDIDATES/HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md).
 
 ## 1. HDAC → BDNF: en mulig forbindelse
 Bredy 2007 koblede udslukning til promotorspecifik histonacetylering og BDNF-transkripter i præfrontal cortex hos mus; interventionen omfattede valproat. Det understøtter en epigenetisk forbindelse, men valproat er ikke butyrat, og samme signalvej-navn dokumenterer ikke samme effekt.
@@ -115,6 +117,27 @@ oral butyratform
 
 Se den fulde [head-to-head-analyse](../04_CANDIDATES/BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
 
+### 1E. HDAC2-selektive værktøjer kommer tættere på den smalle mekanisme
+[Wagner 2015](../07_STUDIES/PRECLINICAL/2015_Wagner_BRD6688_BRD4884_HDAC2.md) udviklede BRD6688 og BRD4884 med CNS-egenskaber og **kinetisk præference for HDAC2** over HDAC1. Dette er ikke det samme som en perfekt HDAC2-only IC50-profil: især BRD6688 hæmmer både HDAC1 og HDAC2, men har markant længere residence time på HDAC2 og meget svagere HDAC3-potens.
+
+Det er netop BRD6688, der blev anvendt i Lavertu-Jolin 2023 før extinction. Derfor er BRD6688 den mest direkte eksisterende farmakologiske probe til den snævre FearPrime-hypotese.
+
+[Tamanini 2022](../07_STUDIES/MECHANISTIC/2022_Tamanini_HDAC2_Compound17.md) viste en anden løsning: en oral brain-penetrant compound 17 med in-vivo H4K12-acetylering. Den havde dog begrænset selectivity over HDAC1/8 og bruges derfor som CNS-target-engagement proof-of-concept, ikke som ren HDAC2-isolation.
+
+[Suzuki 2026](../07_STUDIES/PRECLINICAL/2026_Suzuki_HDAC2_Compound11.md) gik videre med cellulære HDAC2-vs-HDAC1-assays. Compound 11 øgede histonacetylering in vivo og forbedrede hippocampal LTP uden den samme hæmatologiske toksicitet i deres humane blodcellemodel. Den er derfor en stærk nyere kandidat til at teste HDAC2-mekanismer, men er endnu ikke afprøvet i fear extinction/PNN-paradigmet.
+
+FearPrime skal derfor skelne:
+
+```text
+BRD6688 → bedst direkte extinction/HDAC2/PV/PNN-match i eksisterende prækliniske data
+Compound 11 → nyere stærk HDAC2-selectivity/CNS/LTP-kandidat, men uden extinction-data
+Butyrat → human translational extinction-signal, men bred class-I-HDAC-biokemi
+```
+
+[Santacruzamate A/CAY10683](../07_STUDIES/MECHANISTIC/2013_2016_Santacruzamate_HDAC2_Replication.md) bruges som negativ metodekontrol: den oprindelige ekstremt potente HDAC2-påstand blev ikke reproduceret og forbindelsen må ikke behandles som valideret HDAC2-probe.
+
+Se [HDAC2-selektivt kandidatdossier](../04_CANDIDATES/HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md).
+
 ## 2. BDNF → TrkB: signalstof og receptor
 BDNF er ligand for TrkB, en receptortyrosinkinase; rækkefølgen er altså BDNF → TrkB ved ligandaktivering. [Klein 1991](https://pubmed.ncbi.nlm.nih.gov/1649702/).
 
@@ -149,6 +172,7 @@ flowchart TD
   C["HDAC-spor"] -->|"Promotorfund i mus"| D["BDNF-transkription"]
   X["Butyrat"] -->|"Kilgore: klasse-I-præferent"| Y["HDAC1/2/3/8"]
   Y -.-> C2["HDAC2 i PV+-celler"]
+  S["BRD6688"] -->|"Wagner + Lavertu-Jolin"| C2
   C2 -->|"Lavertu-Jolin 2023, mus"| P["Acan / aggrecan / PNN-remodeling"]
   P -->|"associeret med"| R["senere return of fear"]
   E["5-HT7-aktivering"] -->|"Musevæv"| F["Hæmmende synaptisk input"]
@@ -159,7 +183,7 @@ flowchart TD
   G -.-> H["Forsinket funktion ved PTSD"]
 ```
 
-Den stiplede pil fra klasse-I-HDAC-hæmning til det specifikke HDAC2/PV-spor er bevidst: den forbindelse er **ikke direkte demonstreret for oral butyrat hos mennesker**.
+Den stiplede pil fra klasse-I-HDAC-hæmning til det specifikke HDAC2/PV-spor er bevidst: den forbindelse er **ikke direkte demonstreret for oral butyrat hos mennesker**. BRD6688-pilen er præklinisk og må ikke overføres direkte til human behandling.
 
 ## Tre konkurrerende modeller — evidenstype E
 | Model | Forudsigelse | Hvad skal skelne den fra alternativer? |
@@ -174,12 +198,14 @@ Den stiplede pil fra klasse-I-HDAC-hæmning til det specifikke HDAC2/PV-spor er 
 3. Angiv HDAC-subtype og celletype; skriv ikke bare “HDAC”, hvis kilden er subtype- eller celletypespecifik.
 4. Skriv ikke “HDAC2-hæmning” for butyrat uden subtype-specifik target-engagement-data; standardformuleringen er **klasse-I-præferent HDAC-hæmning**.
 5. Registrér formulering/PK, CNS-target engagement og HDAC-target engagement som tre separate akser.
-6. Registrér PNN/Acan/aggrecan separat fra BDNF-sporet.
-7. Kræv separate data for kombinationen.
-8. Lad negative og modgående fund ændre hypotesens styrke.
-9. Brug funktion og vedvarende læring som mål; receptorhistorien er en forklaring, der skal testes.
+6. Registrér **termisk/kinetisk selectivity, cellular selectivity og in-vivo target engagement separat**; de er ikke det samme.
+7. Catalog-navne som “HDAC2 inhibitor” accepteres ikke uden reproducerbar profil; santacruzamate er kontrol-eksemplet.
+8. Registrér PNN/Acan/aggrecan separat fra BDNF-sporet.
+9. Kræv separate data for kombinationen.
+10. Lad negative og modgående fund ændre hypotesens styrke.
+11. Brug funktion og vedvarende læring som mål; receptorhistorien er en forklaring, der skal testes.
 
 Ingen dosis, kronisk behandlingsplan eller “optimal cAMP/BDNF-værdi” kan udledes af dette kort.
 
-## Version 0.20: formulering × CNS × HDAC
-FearPrime har nu et særskilt regnskab for **NaBut, tributyrin og SerBut**. Den næste translationelle test skal helst måle plasma-PK, CNS-target engagement, HDAC1/2/3-mål og extinction-retention i samme design, hvis en subtype-specifik mekanisme skal hævdes.
+## Version 0.21: selective-HDAC2 layer
+FearPrime har nu et selvstændigt [HDAC2-selektivt kandidatdossier](../04_CANDIDATES/HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md). Den centrale forskningsforskel er nu eksplicit: **butyrat er en translational bred class-I intervention; BRD6688 er den direkte prækliniske extinction/HDAC2-probe; compound 11 er en nyere selektiv CNS-kandidat uden extinction-data.**
