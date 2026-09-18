@@ -1,5 +1,5 @@
 # Måleplan
-Version 0.3 · 2026-09-17
+Version 0.26 · 2026-09-18
 
 ## Formål
 Adskil symptomer, læring og hverdagsfunktion. Denne plan er et observationsdesign; den identificerer ikke alene årsag eller neurotransmitterniveauer.
@@ -7,6 +7,7 @@ Adskil symptomer, læring og hverdagsfunktion. Denne plan er et observationsdesi
 Se de to specialiserede målelag:
 - [CPTSD measurement / ITQ](CPTSD_MEASUREMENT.md)
 - [Standardiserede FearPrime learning metrics](LEARNING_METRICS.md)
+- [Nightmare Measurement Engine](NIGHTMARE_MEASUREMENT_ENGINE.md)
 
 | Felt | Definition | Hvornår |
 |---|---|---|
@@ -95,5 +96,24 @@ Dette repo er offentligt. Skabelonerne er tomme; udfyldte personlige helbredslog
 ## Kombination som forskningsspørgsmål
 [FP-BL-01-testplanen](FP_BL_01_TEST_PLAN.md) adskiller tillægseffekt, synergi og mekanisme. Den indeholder forudvalgte mål og håndtering af læringsoverførsel; personlige observationer kan ikke erstatte dens kontrolgrupper.
 
-## Status v0.19
-FearPrime har nu et separat klinisk CPTSD-lag og et standardiseret læringslag. De næste måleopgaver er fysiologisk preprocessing/QC, maskinlæsbar session-schema og konsekvent effektstørrelse/CI i studieregistret.
+## Status v0.26
+FearPrime har nu et separat klinisk CPTSD-lag, standardiseret læringslag, maskinlæsbar session-schema, Nightmare Measurement Engine og et preregistreret interoceptivt factorial-design. De største åbne measurement-opgaver er fysiologisk preprocessing/QC og bredere validering af study-level effect/RoB-data.
+
+
+## Nightmare/sleep layer
+[Nightmare Measurement Engine](NIGHTMARE_MEASUREMENT_ENGINE.md) standardiserer:
+- nightmare frequency,
+- nightmare distress,
+- dream recall,
+- sleep continuity,
+- content/theme coding,
+- next-day arousal/intrusions,
+- imagery rescripting/IRT,
+- missingness og confounders.
+
+Nightmare burden, dream recall og PTSD-symptomer er separate outcomes.
+
+## Interoceptiv augmentation research design
+[Interoceptiv augmentation preregistration](../09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md) definerer et komponentopdelt factorial design for butyrat × post-learning dopaminerg manipulation med separat oxytocin-stage.
+
+Det er et forskningsdesign og må ikke læses som selvforsøgs- eller doseringsprotokol.
