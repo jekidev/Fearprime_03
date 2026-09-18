@@ -1,5 +1,5 @@
 # Lurasidon / Latuda — forskningsdossier
-Version 0.3 · 2026-09-15
+Version 0.25 · 2026-09-18
 Direkte udslukningsevidens her: C, præklinisk. Receptorfarmakologi: D. Human PTSD/udslukningseffekt er ikke dokumenteret af de gennemgåede kilder.
 
 ## Direkte dyreforsøg
@@ -42,3 +42,13 @@ Uafklaret: optimal population, kronisk versus akut design, og kombination med bu
 
 ## Version 0.11: D2-belægning og 5-HT7
 [Fordybelse: receptorer og læring](LURASIDONE_RECEPTORS_LEARNING.md). Det nye PET-kort dokumenterer human receptorbelægning; det er ikke et udslukningsforsøg.
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **LOW for den prækliniske claim:** lurasidon kan forbedre extinction-/memory-relateret adfærd i udvalgte rodentmodeller.
+- **VERY LOW:** lurasidon forbedrer human fear extinction.
+- **VERY LOW:** lurasidon er dokumenteret PTSD-augmentation.
+- **VERY LOW:** 5-HT7-antagonisme forklarer en klinisk PTSD-effekt.
+
+Receptorbinding, rodent cognition og SERT-KO extinction er mekanistiske spor. De må ikke opgraderes til human PTSD-efficacy uden direkte forsøg.
