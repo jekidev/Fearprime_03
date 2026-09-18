@@ -1,5 +1,7 @@
 # FearPrimes mekanismekort
 
+> **Compact legacy overview.** Den kanoniske overordnede neurobiologiske indgang er [FEAR_CIRCUIT_MASTER_MAP.md](FEAR_CIRCUIT_MASTER_MAP.md). Denne fil er en kort oversigt, ikke en parallel mastermodel.
+
 ## Kredsløb
 Et faresignal eller en kontekst kan udløse trusselsforudsigelse og autonomt forsvar gennem blandt andet amygdala. Korrigerende erfaring kan skabe forudsigelsesfejl og kontekstafhængig sikkerhedslæring, hvor vmPFC og hippocampus indgår. Efter konsolidering konkurrerer trussels- og udslukningshukommelse ved senere genkaldelse. Dette er en forenklet arbejdsmodel.
 
