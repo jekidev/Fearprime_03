@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.25
+Status efter version 0.26
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.25 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, reconsolidation og seks centrale biological candidates har claim-level certainty-profiler, og nightmare/interoceptive hypothesis-spor er dokumenteret. Det største arbejde mod v1.0 er nu **native PubMed hit-count/full export, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og publication-bias/dual-reviewer-validering**.
+Efter v0.26 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, reconsolidation og seks centrale biological candidates har claim-level certainty-profiler, og nightmare/interoception-sporene har nu operationelle measurement/preregistration-lag. Det største arbejde mod v1.0 er nu **native PubMed hit-count/full export, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og publication-bias/dual-reviewer-validering**.
 
 ---
 
@@ -177,9 +177,9 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 |---|---|---|
 | Exposure | ✅/🟡 | Udvidet engine og paradigmestandarder |
 | TRE | ✅/🟡 | Begrænset evidenskvalitet; fortsat klare evidenslabels |
-| Interoceptiv exposure | 🟡 | Integreret protokol-/målemodul |
+| Interoceptiv exposure | ✅/🟡 | Factorial preregistration + machine-readable trial schema; clinical validation/power-plan mangler |
 | Motion | 🟡 | Timing omkring læring og retention |
-| Søvn | 🟡 | Dedikeret sleep-memory consolidation-spor |
+| Søvn / nightmares | ✅/🟡 | Nightmare dossier + Measurement Engine + nightly schema; validering mod etablerede instrumenter mangler |
 | Døgnrytme | 🟡 | Human fear-learning evidens |
 | tVNS/autonom modulation | 🟡 🔬 | Replikation og klinisk translation |
 | Åndedræt/autonom regulering | 🟡 | Adskil akut state regulation fra læring; Jamison RCT tilføjet |
@@ -204,7 +204,9 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 ### Stadig åbent
 - 🟡 fysiologi preprocessing/QC-standarder
 - 🟡 dedikeret valideret funktionsinstrument-spor
-- 🔴 maskinlæsbar session-schema
+- ✅ maskinlæsbar session-schema
+- ✅ nightmare measurement schema + nightly CSV
+- ✅ interoceptive factorial schema + trial CSV
 
 ---
 
@@ -303,7 +305,7 @@ VERSION
 15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
 16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
 17. ✅/🟡 Reproducerbar search-protokol + verified export/screening-set; native PubMed total hit count og komplet PRISMA-flow mangler.
-18. ✅/🟡 Maskinlæsbar study/effect/session-database er etableret; korpus skal fortsat udfyldes.
+18. ✅/🟡 Maskinlæsbar study/effect/session-database er etableret; v0.26 tilføjer nightmare- og interoceptive-design schemas; korpus skal fortsat udfyldes.
 19. ✅/🟡 GRADE-informeret certainty framework + reconsolidation seed-profile; fuld formel certainty kræver komplet reviewflow.
 20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
 
@@ -331,6 +333,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.25 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret, reconsolidation og seks centrale candidates i claim-level certainty-laget samt nye nightmare/interoception-hypoteser med eksplicitte modfund og falsifikationskriterier.**
+**FearPrime er efter v0.26 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret, claim-level certainty for reconsolidation og centrale candidates samt operationelle Nightmare Measurement- og interoceptive factorial-preregistration lag.**
 
 Det afgørende hul er nu ikke datastrukturen, men dens **systematiske udfyldning og validering**: fuldtekster, effektstørrelser/CI, RoB, trial-register, participant-overlap, reproducerbare searches og derefter certainty.
