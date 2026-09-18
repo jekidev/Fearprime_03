@@ -44,7 +44,7 @@ Det kræver, at frameworket er:
 | Reviewer/screening-status eksplicit | 🟡 |
 | Machine-readable study/effect/RoB/certainty data | ✅/🟡 |
 | Link/integrity QA efter strukturændringer | 🟡 |
-| Dokumenteret release checklist | 🔴 |
+| Dokumenteret release checklist | ✅ |
 
 ## Vigtigste blockers
 
@@ -100,6 +100,8 @@ Følgende behøver ikke være “løst” før v1.0:
 - at alle ressourcefiler er systematiske reviews.
 
 v1.0 handler om **framework-kvalitet**, ikke om at fremtvinge positive forskningsresultater.
+
+Se også [Release Checklist](RELEASE_CHECKLIST.md).
 
 ## Release gate
 
