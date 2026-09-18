@@ -1,0 +1,31 @@
+pmid,citation_short,year,record_type,scope,screen_decision,reason,duplicate_of,verification
+19219038,Kindt et al. human fear reconsolidation propranolol,2009,primary,human_lab,include_core,foundational human pharmacological reconsolidation,,PubMed/repo
+20010606,Schiller et al. retrieval-extinction,2010,primary,human_lab,include_core,foundational retrieval-extinction,,PubMed/repo
+20516209,Limited efficacy of propranolol on reconsolidation,2010,primary,preclinical,exclude_wrong_species,animal/preclinical rather than human clinical/lab core,,PubMed
+22321909,The effects of noradrenergic blockade on extinction in humans,2012,primary,human_lab,include_context,distinguishes extinction from reconsolidation timing,,PubMed
+22406658,Sevenster et al. retrieval per se not sufficient,2012,primary,human_lab,include_core,prediction-error boundary condition,,PubMed/repo
+23413355,Sevenster et al. prediction error,2013,primary,human_lab,include_core,prediction-error boundary condition,,PubMed/repo
+25320349,Sevenster et al. process transition PE,2014,primary,human_lab,include_core,retrieval-reconsolidation-new learning boundary,,PubMed/repo
+25441015,Wood et al. three negative PTSD studies,2015,primary,clinical_PTSD,include_core,negative clinical reconsolidation tests,,PubMed/repo
+26462618,Propranolol before extinction can prevent return of fear,2015,primary,human_lab,include_context,beta-blockade/extinction alternative mechanism,,PubMed
+27537364,Modification of Fear Memory by Pharmacological and Behavioural Interventions during Reconsolidation,2016,primary,human_lab,include_core,mixed/negative human reconsolidation intervention,,PubMed
+28065842,Fear extinction and memory reconsolidation in PTSD treatment,2017,review,PTSD_review,include_background,narrative translational review,,PubMed
+29325446,Brunet et al. pre-reactivation propranolol PTSD RCT,2018,primary,clinical_PTSD,include_core,positive clinical RCT signal,,PubMed/repo
+30012882,Surprise and destabilize prediction error episodic memory,2018,primary,human_episodic,include_indirect,human PE/reconsolidation but not fear-conditioning/PTSD,,PubMed
+30846933,Acute but Not Permanent Effects of Propranolol on Fear Memory Expression in Humans,2019,primary,human_lab,include_core,negative/null human propranolol reconsolidation finding,,PubMed
+31669978,Role of prediction error in destabilizing fear memories in retrieval extinction,2019,primary,human_lab,include_core,PE manipulation and neural mechanisms,,PubMed
+31819037,Pharmacological prevention and early treatment of PTSD/ASD,2019,meta_analysis,PTSD_prevention,exclude_wrong_question,early prevention broader than reconsolidation treatment,,PubMed
+32338571,Generalising reconsolidation spatial context and prediction error,2020,primary,human_episodic,include_indirect,context/PE boundary but episodic not fear/PTSD,,PubMed
+32499503,Reconsolidation-based treatment for fear of public speaking propranolol,2020,primary,clinical_analogue,include_context,translation pilot with null propranolol advantage,,PubMed
+32563517,Chalkia verification/reanalysis of Schiller original data,2020,reanalysis,human_lab,include_core,reanalysis of original dataset,20010606,PubMed/repo
+32580869,Chalkia registered direct retrieval-extinction replication,2020,primary,human_lab,include_core,negative preregistered direct replication,,PubMed/repo
+33051441,US-reactivated fear memory propranolol,2020,primary,human_lab,include_context,positive human laboratory propranolol finding,,PubMed
+33612830,Roullet et al. traumatic memory reactivation with or without propranolol,2021,primary,clinical_PTSD,include_core,null overall clinical RCT,,PubMed/repo
+34774713,Lack of effect propranolol due to failure to engage destabilisation,2021,primary,preclinical,exclude_wrong_species,animal molecular destabilisation study,,PubMed
+35145138,Stemerding et al. unsuccessful boundary-condition replication,2022,primary,human_lab,include_core,failed single-PE replication,,PubMed/repo
+35393469,Better worse or different than expected PE fear reactivation,2022,primary,human_lab,include_core,null reconsolidation disruption across PE types,,PubMed
+35405409,Raut et al. propranolol PTSD reconsolidation meta-analysis,2022,meta_analysis,clinical_PTSD,include_core,negative/mixed clinical meta-analysis,,PubMed
+39944616,Li et al. propranolol PTSD systematic review/meta-analysis,2025,meta_analysis,clinical_PTSD,include_core,positive broad symptom meta-analysis conflicting with 2022,,PubMed/repo
+40570716,Chen et al. quantified prediction error,2025,primary,human_lab,include_core,new quantitative PE boundary study,,PubMed/repo
+40653191,Paul and Asthana memory strength x PE,2025,primary,human_lab,include_core,new memory-strength boundary study,,PubMed/repo
+41513054,Xia et al. pharmacological effects on human aversive memory,2026,systematic_review,human_lab,include_core,PRISMA review reports solid propranolol reconsolidation evidence in healthy humans,,PubMed/repo
