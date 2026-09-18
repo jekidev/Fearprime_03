@@ -31,7 +31,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.22](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.23](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -42,6 +42,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
 - [Kliniske rekonsolideringsforsøg: positive og negative fund](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [Reconsolidation-søgelog og replikationsstatus](09_DEBUG/RECONSOLIDATION_SEARCH_LOG.md)
+- [Reproducerbar reconsolidation update-search 2026-09-18](09_DEBUG/RECONSOLIDATION_SEARCH_2026-09-18.md)
 - [CPTSD-model og DSO](05_MODELS/CPTSD_MODEL.md)
 - [Supplerende læringsmodel](models/FEAR_EXTINCTION_MODEL.md)
 - [Frygt og selvbeherskelse](10_*******/FEAR_MASTERY.md)
@@ -215,6 +216,18 @@ P2 er løftet fra enkeltstående audit til en fælles data- og metodearkitektur:
 6. [data/session_schema.yaml](data/session_schema.yaml) gør learning/session-data strukturerbar uden at lægge personlige helbredslogs i det offentlige repo.
 
 **P2 er dermed etableret på framework-/dataarkitekturniveau, men ikke færdig som fuld evidensudtrækning.** Næste trin er systematisk fuldtekstkontrol, komplette CI/effect estimates, trial-registration checks og overlap-afklaring for de centrale domæner.
+
+## Version 0.23: reconsolidation update-search + effect-size/CI
+
+P2 er nu fyldt med den første reelle reconsolidation-update og et større kvantitativt udtræk:
+
+1. [Dateret reconsolidation-søgning](09_DEBUG/RECONSOLIDATION_SEARCH_2026-09-18.md) bevarer exact queries, dato, nye inklusioner og søgebegrænsninger. Det er en reproducerbar målrettet update-søgning; en direkte PubMed-export med fuldt hit-count/screeningflow mangler stadig før PRISMA-status.
+2. Nye humane boundary-kort: [Chen 2025 — kvantificeret PE](07_STUDIES/VERIFIED/2025_Chen_Quantified_Prediction_Error_Reconsolidation.md) og [Paul & Asthana 2025 — memory strength × PE](07_STUDIES/VERIFIED/2025_Paul_Memory_Strength_PE_Retrieval_Extinction.md).
+3. Nye review-kort: [Li 2025 — propranolol/PTSD](07_STUDIES/REVIEWS/2025_Li_Propranolol_PTSD_Meta.md) og [Xia 2026 — human aversiv memory pharmacology](07_STUDIES/REVIEWS/2026_Xia_Pharmacological_Human_Aversive_Memory.md).
+4. [Effect-size/RoB-auditten](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) er udvidet med beregnede 95% CI'er for Brunet, partial η² og CI'er for Roullet samt Schiller-verification. Wood forbliver eksplicit ikke-beregnelig fra de verificerede summary-data, og Chalkias observerede standardiserede effekt venter fortsat på fuld tabeludtrækning.
+5. [data/effects.csv](data/effects.csv), [data/studies.csv](data/studies.csv), [data/risk_of_bias.csv](data/risk_of_bias.csv) og [data/search_log.csv](data/search_log.csv) er opdateret tilsvarende.
+
+**Hovedkonklusionen ændres ikke til en stærkere klinisk påstand:** nyere PE/memory-strength fund nuancerer boundary conditions, men negative replikationer består. Human laboratoriekonvergens for propranolol/reconsolidation er stærkere end den kliniske PTSD-translation, som fortsat er blandet.
 
 ### Discord-opstart
 Discord-serveren opstartes i løbet af næste uge, når der er samlet **admins** og tilstrækkelig egen empiri til en forsvarlig N=3-opstart.
