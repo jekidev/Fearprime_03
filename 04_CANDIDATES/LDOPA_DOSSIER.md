@@ -1,5 +1,5 @@
 # L-DOPA — forskningsdossier
-Version 0.9 · 2026-09-16
+Version 0.25 · 2026-09-18
 
 ## Evidenskæde
 | Studie | Rolle i vurderingen |
@@ -20,3 +20,12 @@ Der er grund til at undersøge konsolidering, men ingen ensartet forbedring på 
 - Direkte kombinationsdata kræves før kobling til butyrat eller lurasidon.
 
 **Status:** Mekanistisk kandidat med blandede humane fund. Ingen universel doserings- eller sessionsregel følger af materialet. Nye kontroller og endnu uafklarede spor står i [søgeloggen](../09_DEBUG/CORE_DRUG_SEARCH_LOG.md).
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **LOW:** post-extinction L-DOPA forbedrer human extinction retrieval pålideligt.
+- **LOW:** L-DOPA kan reducere enkelte return-of-fear mål i PTSD-laboratorieparadigmer.
+- **VERY LOW:** klinisk PTSD-treatment augmentation.
+
+Cisler 2020 fandt mindre reinstatement, men **ingen forbedring af extinction recall**. Andres 2024 var en preregistreret replikation og fandt ikke den oprindelige signifikante L-DOPA-hovedvirkning. Dette gør dopaminsporet relevant, men ikke stabilt nok til en universel “L-DOPA efter exposure”-regel.
