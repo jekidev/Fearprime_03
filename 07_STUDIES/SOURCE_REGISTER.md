@@ -1,5 +1,5 @@
 # Samlet kilderegister
-2026-09-15 · Bibliografisk register, ikke kvalitetsgodkendelse.
+2026-09-18 · Bibliografisk register, ikke kvalitetsgodkendelse.
 
 Alle 131 tidligere registrerede PMID'er er bevaret. Nye PMID'er er tilføjet; bibliografiske spor tæller ikke automatisk som kontrollerede resultater. Originaltitler bevares på originalsproget. En post uden udtrukket titel henviser til kortet eller PubMed.
 
