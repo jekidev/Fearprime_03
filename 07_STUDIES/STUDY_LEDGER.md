@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.20 · 2026-09-17
+Version 0.23 · 2026-09-18
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB- og overlap-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -247,3 +247,25 @@ De to kilder må ikke kædes sammen som dokumentation for, at oral natriumbutyra
 Tre nye mekanismemoduler er tilføjet: [hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md), [insula/interoception](../02_MECHANISMS/INSULA_INTEROCEPTION.md) og [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md).
 
 Reconsolidation-sporet har nu individuelle kort for Kindt 2009, Sevenster 2012, Sevenster 2014 og Stemerding 2022 samt den claim-specifikke R0–R4-matrix ovenfor. Den vigtigste ændring er, at negative replikationer tælles som evidens om robusthed i stedet for at blive forklaret væk som fravær af effekt.
+
+## Version 0.23: reconsolidation update-search og kvantitativ P2-udtrækning
+
+### Nye humane laboratorie-/review-kilder
+- [Chen et al. 2025 — kvantificeret prediction error](VERIFIED/2025_Chen_Quantified_Prediction_Error_Reconsolidation.md): PMID 40570716; DOI 10.1016/j.cognition.2025.106224. **B, R2, M2**. PE behandles som gradueret/modelafhængig moderator, ikke som universel binær destabiliseringsmarkør.
+- [Paul & Asthana 2025 — memory strength × prediction error](VERIFIED/2025_Paul_Memory_Strength_PE_Retrieval_Extinction.md): PMID 40653191; DOI 10.1016/j.neuroscience.2025.07.014. **B, R1–R2, M2** indtil fuld RoB/effect extraction. Ikke klinisk PTSD-evidens.
+- [Li et al. 2025 — propranolol/PTSD meta-analyse](REVIEWS/2025_Li_Propranolol_PTSD_Meta.md): PMID 39944616; DOI 10.3389/fphar.2025.1545493. Positiv bred symptom-meta, men bredere spørgsmål end reconsolidation og i konflikt med 2022-sporet.
+- [Xia et al. 2026 — systematisk review af farmakologi og human aversiv hukommelse](REVIEWS/2026_Xia_Pharmacological_Human_Aversive_Memory.md): PMID 41513054; DOI 10.1016/j.neubiorev.2026.106548. R3 for bred human laboratoriekonvergens omkring propranolol/reconsolidation; **ikke klinisk PTSD R4**.
+
+### Effect-size/RoB-opdatering
+[data/effects.csv](../data/effects.csv) rummer nu:
+- Brunet 2018: mellemgruppe CAPS-estimat 11.50 og FearPrime-beregnet normal-approksimeret 95% CI 1.23–21.77; PCL-S-estimat 14.58, beregnet 95% CI 8.11–21.05.
+- Roullet 2021: samlet treatment partial η² ≈ 0.0048, treatment×session partial η² ≈ 0.0297; 3-måneders raw mean difference +3.68 med beregnet 95% CI −7.20 til 14.56.
+- Wood 2015: `not_derivable_from_verified_data`; manglende summary-data bliver ikke udfyldt ved gæt.
+- Schiller 2010 verification: group×time partial η² ≈ 0.07, p=.091; reanalyse af originaldata, ikke ny sample.
+- Chalkia 2020: negativ preregistreret replikation bevaret; observeret standardiseret effect/CI markeres endnu som `not_extracted`.
+
+Alle FearPrime-beregnede CI'er/effekter er markeret som beregnede og må ikke forveksles med originalartiklens rapporterede CI'er.
+
+### Aktuel fortolkning
+Nyere boundary-data gør PE/memory strength-modellen mere nuanceret, men **ophæver ikke** Chalkia- og Stemerding-type replication failures. Klinisk propranolol for PTSD forbliver et konfliktfyldt evidensspor, mens human laboratorieevidens for aversiv-memory reconsolidation er stærkere end den kliniske translation.
+
