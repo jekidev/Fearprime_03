@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.25 · 2026-09-18
+Version 0.26 · 2026-09-18
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB-, overlap-, PubMed-screening- og certainty-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -311,3 +311,15 @@ Maskinlæsbare ratings ligger i [data/certainty.csv](../data/certainty.csv).
 - [Butyrat → interoceptiv challenge → L-DOPA/oxytocin](../05_MODELS/INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md).
 
 Begge er eksplicit hypotesegenererende og må ikke læses som personlige doserings-/selvforsøgsprotokoller.
+## Version 0.26: operationalisering af nightmare- og interoception-hypoteser
+
+### Nightmare Measurement Engine
+- [Nightmare Measurement Engine](../06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md) adskiller nightmare burden, dream recall, sleep continuity, content, next-day state og later learning/function.
+- [nightmare_schema.yaml](../data/nightmare_schema.yaml) og [nightmare_log_template.csv](../data/nightmare_log_template.csv) er maskinlæsbare tomme skabeloner.
+
+### Interoceptiv factorial preregistration
+- [Interoceptiv augmentation preregistration](../09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md) formaliserer H0/H1, 2×2 butyrat × dopaminerg faktorstruktur, delayed recall, generalization, falsifikation og stopping rules.
+- Oxytocin behandles som separat Stage C frem for automatisk tredje faktor.
+- [interoceptive_factorial_schema.yaml](../data/interoceptive_factorial_schema.yaml) og [interoceptive_trial_template.csv](../data/interoceptive_trial_template.csv) gør designet maskinlæsbar.
+
+Dette er **research-design infrastructure**, ikke ny efficacy-evidens.
