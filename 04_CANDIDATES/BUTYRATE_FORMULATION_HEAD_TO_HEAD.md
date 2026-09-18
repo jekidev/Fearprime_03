@@ -1,6 +1,8 @@
 # Natriumbutyrat vs. tributyrin vs. SerBut — FearPrime head-to-head
 Version 0.20 · 2026-09-17
 
+> **Specialmodul.** Denne fil sammenligner formuleringer. Den overordnede efficacy/translation-konklusion for butyrat ligger i [BUTYRATE_DOSSIER.md](BUTYRATE_DOSSIER.md).
+
 ## Forskningsspørgsmål
 Hvilken butyratform har bedst dokumentation for at levere biologisk aktivt butyrat systemisk og til CNS, og hvad betyder det for FearPrimes hypotese om **klasse-I-HDAC/HDAC2-modulation omkring extinction**?
 
