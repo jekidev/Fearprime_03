@@ -1,0 +1,2 @@
+search_id,date,domain,database,query,filters,results_screened,records_included,last_result_date,reviewer,notes
+FP-SEARCH-TEMPLATE,,,,,,,,,,"One row per executed search; preserve exact query and date"
