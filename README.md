@@ -25,6 +25,8 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [PTSD-mareridt, søvn og memory processing](03_EXTINCTION/PTSD_NIGHTMARE_SLEEP_DOSSIER.md)
 - [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
 - [Standardiserede learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
+- [Nightmare Measurement Engine](06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md)
+- [Interoceptiv augmentation preregistration](09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister + R0–R4 robusthed](07_STUDIES/STUDY_LEDGER.md)
 - [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
@@ -37,8 +39,10 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [PubMed/MEDLINE export-status 2026-09-18](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
 - [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
+- [Nightmare schema](data/nightmare_schema.yaml)
+- [Interoceptiv factorial schema](data/interoceptive_factorial_schema.yaml)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.25](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.26](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -255,3 +259,13 @@ P2 er nu fyldt med den første reelle reconsolidation-update og et større kvant
 6. L-DOPA-sporet er nedgraderet af 2024 preregistreret replication failure på hovedvirkningen; oxytocin-sporet er gjort mere bidirektionelt efter 2025-data med forringet extinction learning.
 
 **Ingen af de to nye hypoteser er behandlings- eller doseringsprotokoller.**
+## Version 0.26: Nightmare Measurement Engine + factorial preregistration
+
+1. [Nightmare Measurement Engine](06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md) standardiserer nightmare frequency/distress, dream recall, sleep continuity, content/theme, next-day state, imagery rescripting og senere learning/function.
+2. [nightmare_schema.yaml](data/nightmare_schema.yaml) og [nightmare_log_template.csv](data/nightmare_log_template.csv) gør nightly data maskinlæsbare uden at blande missing data, no-recall og no-nightmare.
+3. [Interoceptiv augmentation preregistration](09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md) omdanner butyrat → challenge → L-DOPA/oxytocin-hypotesen til et komponentopdelt research-design.
+4. Primærstrukturen er et **2×2 butyrat × post-learning dopaminergt factorial design**. Oxytocin er en separat Stage C, fordi human extinction-evidens er timing-/kontekstafhængig og retningsmæssigt inkonsistent.
+5. H0/H1, primary/secondary outcomes, delayed recall, generalization, multiplicity, randomization/blinding, falsifikationskriterier og safety/stopping-regler er preregistreret på frameworkniveau.
+6. [interoceptive_factorial_schema.yaml](data/interoceptive_factorial_schema.yaml) og [interoceptive_trial_template.csv](data/interoceptive_trial_template.csv) er de maskinlæsbare parallelfiler.
+
+**Ingen dosis, administrationsvej eller detaljeret hyperventilationsinstruktion er defineret. Designet er et forskningsframework, ikke en selvforsøgsprotokol.**
