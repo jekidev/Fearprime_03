@@ -1,6 +1,6 @@
 # FearPrime — PTSD-mareridt, THC/cannabinoider, butyrat og drømmearbejde
 
-Version 0.25 · 2026-09-18  
+Version 0.26 · 2026-09-18  
 **Status: eksplorativ forskningshypotese — ikke behandlingsprotokol.**
 
 ## Forskningsspørgsmål
@@ -90,3 +90,13 @@ Hvis hypotesen har værdi, bør man kunne observere adskillelige ændringer i:
 
 ## Sikkerheds-/designregel
 Dette dokument specificerer **ingen dosis eller hjemmeprotokol**. Søvn-/nightmare-forskning skal adskille akut symptomdæmpning fra ændring i memory learning og tage højde for cannabinoidbivirkninger, tolerance og withdrawal.
+
+
+## Measurement integration v0.26
+Den operationelle måling ligger nu i [Nightmare Measurement Engine](../06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md).
+
+Maskinlæsbare skabeloner:
+- [nightmare_schema.yaml](../data/nightmare_schema.yaml)
+- [nightmare_log_template.csv](../data/nightmare_log_template.csv)
+
+Hypotesen må kun vurderes med adskilte outcomes for nightmare burden, dream recall, sleep continuity, next-day state og senere learning/function.
