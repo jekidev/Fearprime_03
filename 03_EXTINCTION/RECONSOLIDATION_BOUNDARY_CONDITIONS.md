@@ -1,6 +1,6 @@
 # FearPrime — reconsolidation boundary conditions
 
-Version 0.20 · 2026-09-17
+Version 0.23 · 2026-09-18
 
 ## Formål
 Dette dokument definerer, hvornår FearPrime **må** og **ikke må** bruge reconsolidation som forklaring på memory updating.
@@ -88,6 +88,20 @@ PMID `35145138` · DOI `10.1038/s41598-022-06119-5`.
 
 Det betyder, at “én prediction error” **ikke** må bruges som en valideret universal klinisk regel.
 
+### Nyere kvantificering af PE
+Chen et al. (2025) brugte expectancy-data og en forenklet Rescorla–Wagner-model til at estimere graden af prediction error i et humant fear-conditioning paradigme. De rapporterede, at den faktisk estimerede PE ikke altid fulgte den simple operationelle kategori/antal forventningsbrud.
+
+PMID `40570716` · DOI `10.1016/j.cognition.2025.106224`.
+
+FearPrime bruger dette som støtte for:
+```text
+PE = gradueret/modelafhængig moderator
+≠
+universel binær “window open/window closed”-markør
+```
+
+Det nyere fund må ikke bruges post hoc til at forklare alle ældre replication failures.
+
 ---
 
 # 3. Boundary condition: reminder/retrieval duration
@@ -153,6 +167,12 @@ Boundary conditions interagerer med reminderens egenskaber og prediction error.
 Fernández et al. (2016) viste i humane declarative-memory tests, at strength/age-boundaries kan være dynamiske snarere end absolutte.
 
 DOI `10.1016/j.nlm.2016.03.001`.
+
+Paul & Asthana (2025) manipulerede reinforcement history/memory strength sammen med PE-relaterede retrievalbetingelser i et humant fear-conditioning paradigme. Resultatet var konsistent med, at stærkere memories kan være mere resistente mod den testede retrieval-extinction-manipulation.
+
+PMID `40653191` · DOI `10.1016/j.neuroscience.2025.07.014`.
+
+FearPrime behandler dette som et **nyere enkeltstudie om interaction mellem strength og PE**, ikke som en universel tærskel og ikke som direkte evidens om langvarige autobiografiske traumeminder.
 
 ---
 
@@ -538,7 +558,22 @@ Kernepunkt: reconsolidation og extinction bør forstås som relaterede, men fors
 
 ---
 
-# 20. 2026-opdatering: dopamine/novelty
+# 20. 2025–2026-opdatering: boundary conditions og farmakologisk konvergens
+
+Et nyere systematisk review af akut farmakologisk manipulation af human aversiv hukommelse (Xia, Quednow & Bach 2026; PMID `41513054`; DOI `10.1016/j.neubiorev.2026.106548`) vurderer evidensen for propranolols påvirkning af reconsolidation i raske humane laboratorieparadigmer som relativt stærk sammenlignet med andre compounds/stadier.
+
+FearPrime-regel:
+```text
+human laboratory convergence
+≠
+clinical PTSD efficacy
+≠
+universal reliable reconsolidation-window induction
+```
+
+Dette review sameksisterer derfor med de blandede kliniske propranolol-resultater og de negative retrieval-extinction-replikationer.
+
+# 21. 2026-opdatering: dopamine/novelty
 
 Nyere review-litteratur fremhæver dopamine og salient novelty som mulige mekanismer, der kan påvirke prediction-error-signaler og hjælpe med at overvinde visse boundary conditions.
 
