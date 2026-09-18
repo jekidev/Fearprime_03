@@ -1,0 +1,31 @@
+screen_id,pmid,stage,decision,exclusion_reason,independent_sample,notes
+REC-001,19219038,abstract,include,,yes,Core human lab
+REC-002,20010606,abstract,include,,yes,Core retrieval-extinction
+REC-003,20516209,abstract,exclude,wrong_species,no,Preclinical
+REC-004,22321909,abstract,include_context,,yes,Extinction timing comparator
+REC-005,22406658,abstract,include,,yes,Core PE boundary
+REC-006,23413355,abstract,include,,yes,Core PE boundary
+REC-007,25320349,abstract,include,,yes,Core PE transition
+REC-008,25441015,abstract,include,,multiple,Three randomized PTSD substudies within one publication
+REC-009,26462618,abstract,include_context,,yes,Alternative extinction mechanism
+REC-010,27537364,abstract,include,,yes,Mixed/negative human intervention
+REC-011,28065842,abstract,background_only,narrative_review,no,Not primary effect evidence
+REC-012,29325446,abstract,include,,yes,Clinical PTSD RCT
+REC-013,30012882,abstract,include_indirect,wrong_memory_type_for_core,yes,Human episodic PE evidence
+REC-014,30846933,abstract,include,,yes,Negative human propranolol result
+REC-015,31669978,abstract,include,,yes,Human PE/retrieval-extinction
+REC-016,31819037,abstract,exclude,wrong_question,no,Early PTSD prevention not reconsolidation-specific
+REC-017,32338571,abstract,include_indirect,wrong_memory_type_for_core,yes,Episodic/context boundary
+REC-018,32499503,abstract,include_context,,yes,Clinical analogue/public speaking pilot
+REC-019,32563517,fulltext_metadata,include_reanalysis,duplicate_participants,no,Reanalysis of Schiller 2010 original dataset
+REC-020,32580869,abstract,include,,yes,Independent preregistered direct replication
+REC-021,33051441,abstract,include_context,,yes,Human US-retrieval propranolol
+REC-022,33612830,fulltext_metadata,include,,yes,Clinical PTSD RCT
+REC-023,34774713,abstract,exclude,wrong_species,no,Animal/molecular study
+REC-024,35145138,fulltext_metadata,include,,yes,Unsuccessful PE-boundary replication
+REC-025,35393469,fulltext_metadata,include,,yes,Null PE-type reconsolidation disruption
+REC-026,35405409,abstract,include_review,,no,2022 clinical meta-analysis
+REC-027,39944616,abstract,include_review,,no,2025 clinical meta-analysis
+REC-028,40570716,abstract,include,,yes,2025 quantitative PE study
+REC-029,40653191,abstract,include,,yes,2025 memory strength x PE
+REC-030,41513054,abstract,include_review,,no,2026 systematic review
