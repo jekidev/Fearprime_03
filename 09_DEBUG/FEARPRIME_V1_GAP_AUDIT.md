@@ -1,6 +1,6 @@
 # FearPrime v1.0 — gap-audit
 
-Dato: 2026-09-17  
+Dato: 2026-09-18  
 Status efter version 0.26
 
 ## Formål
