@@ -1,6 +1,6 @@
 # FearPrime — D-cycloserin (DCS)-dossier
 
-Version 0.21 · 2026-09-17
+Version 0.25 · 2026-09-18
 
 ## Formål
 Dette dossier samler FearPrimes humane evidens for **D-cycloserin (DCS)** som NMDA-relateret augmentation af exposure/extinction learning, med særskilt fokus på PTSD.
@@ -189,3 +189,12 @@ function: null
 
 ## 15. Debug
 DCS-sporet er et eksempel på FearPrimes hovedregel: stærk mekanistisk plausibilitet og positive tidlige trials er ikke nok. Større PTSD-studier viser ingen stabil main effect, og klinisk nytte ser ud til at afhænge af læringens kvalitet, population og timing.
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **MODERATE:** DCS giver en lille gennemsnitlig augmentationseffekt på tværs af anxiety/OCD/PTSD i IPD-meta-analyse.
+- **LOW:** DCS giver en konsistent klinisk fordel specifikt ved PTSD.
+- **LOW:** session-quality som moderator er plausibel, men ikke robust nok til at fungere som universel administrationsregel.
+
+Det større multisite PTSD-forsøg og tidligere negative PTSD-studier vægtes sammen med de positive pilotfund. Certainty gælder claims, ikke præparatet som helhed.
