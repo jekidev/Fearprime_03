@@ -1,0 +1,92 @@
+version: "0.26"
+updated: "2026-09-18"
+status: "research_design_not_treatment_protocol"
+study:
+  study_id: null
+  preregistration_id: null
+  population: null
+  randomized: null
+  blinded: null
+  assessor_blinded: null
+factors:
+  butyrate_factor:
+    levels:
+      - control
+      - butyrate
+  dopaminergic_factor:
+    levels:
+      - control
+      - dopaminergic
+  oxytocin_stage:
+    design: "separate_stage"
+    levels:
+      - control_timing
+      - oxytocin_timing
+challenge:
+  standardized: true
+  supervised: true
+  challenge_type: null
+  protocol_reference: null
+  stop_criteria_preregistered: true
+timing:
+  pre_challenge_condition_time: null
+  challenge_start: null
+  challenge_end: null
+  post_learning_condition_time: null
+  recall_24h_time: null
+  recall_7d_time: null
+primary:
+  outcome_name: null
+  metric_definition: null
+  timepoint: null
+  directional_hypothesis: null
+secondary:
+  peak_distress: null
+  threat_expectancy_end: null
+  safety_expectancy_end: null
+  prediction_error_signed: null
+  prediction_error_absolute: null
+  recovery_slope: null
+  recall_24h: null
+  recall_7d: null
+  generalization: null
+  reinstatement: null
+  function: null
+  dissociation: null
+physiology:
+  respiration: null
+  heart_rate: null
+  hrv: null
+  other: null
+bias_controls:
+  condition_guess_recorded: null
+  allocation_concealed: null
+  attrition_reason_recorded: null
+  expectancy_measured: null
+safety:
+  adverse_event_recorded: null
+  stopping_rule_triggered: null
+  participant_requested_stop: null
+  investigator_stop: null
+analysis:
+  primary_model: "outcome ~ B + D + B:D + baseline + prespecified_covariates"
+  repeated_measure_model: null
+  multiplicity_plan: null
+  missing_data_plan: null
+  intention_to_treat: null
+hypotheses:
+  H0_B: "no butyrate main effect"
+  H1_B: "butyrate main effect"
+  H0_D: "no dopaminergic main effect"
+  H1_D: "dopaminergic main effect"
+  H0_BxD: "no interaction"
+  H1_BxD: "interaction"
+  H0_OXT: "no oxytocin-stage effect"
+  H1_OXT: "oxytocin-stage effect"
+falsification:
+  acute_only_no_delayed: null
+  no_main_or_interaction_effect: null
+  poorer_generalization: null
+  worse_return_of_fear: null
+  adverse_learning_signal: null
+  unblinding_explains_effect: null
