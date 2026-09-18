@@ -310,3 +310,13 @@ Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ik
 - [PMID 36062756](https://pubmed.ncbi.nlm.nih.gov/36062756/) — Misitano A et al. *The Dissociative Subtype of Post-Traumatic Stress Disorder: A Systematic Review of the Literature using the Latent Profile Analysis.* DOI 10.1080/15299732.2022.2120155.
 - [PMID 40205305](https://pubmed.ncbi.nlm.nih.gov/40205305/) — Chen J et al. *How Fear Memory is Updated: From Reconsolidation to Extinction?* DOI 10.1007/s12264-025-01367-7.
 - [PMID 41349549](https://pubmed.ncbi.nlm.nih.gov/41349549/) — Smits JAJ et al. *Enhancing the Efficacy of Exposure Therapy: Translation of Pharmacological Augmentation of Fear Extinction.* DOI 10.1146/annurev-clinpsy-061324-071811.
+
+## Reconsolidation update — version 0.23
+- [PMID 40570716](https://pubmed.ncbi.nlm.nih.gov/40570716/) — Chen et al. (2025), *The effect of degree of prediction error elicited by retrieval on the reconsolidation of fear memory.* DOI 10.1016/j.cognition.2025.106224. Se [studiekort](VERIFIED/2025_Chen_Quantified_Prediction_Error_Reconsolidation.md).
+- [PMID 40653191](https://pubmed.ncbi.nlm.nih.gov/40653191/) — Paul & Asthana (2025), *Investigating the effect of memory strength within reactivation-extinction paradigm on cue-dependent amnesia.* DOI 10.1016/j.neuroscience.2025.07.014. Se [studiekort](VERIFIED/2025_Paul_Memory_Strength_PE_Retrieval_Extinction.md).
+- [PMID 39944616](https://pubmed.ncbi.nlm.nih.gov/39944616/) — Li et al. (2025), *Systematic review and meta-analysis of propranolol in the prevention and treatment of post-traumatic stress disorder.* DOI 10.3389/fphar.2025.1545493. Se [review-kort](REVIEWS/2025_Li_Propranolol_PTSD_Meta.md).
+- [PMID 41513054](https://pubmed.ncbi.nlm.nih.gov/41513054/) — Xia, Quednow & Bach (2026), *A systematic review of pharmacological effects on human aversive memory.* DOI 10.1016/j.neubiorev.2026.106548. Se [review-kort](REVIEWS/2026_Xia_Pharmacological_Human_Aversive_Memory.md).
+- DOI 10.3389/fnbeh.2026.1820847 — nyere systematisk review af spontaneous recovery i human fear conditioning; registreret som review-/replication-spor i [den daterede søgelog](../09_DEBUG/RECONSOLIDATION_SEARCH_2026-09-18.md).
+
+De nye 2025 boundary-condition-studier er humane laboratoriestudier og må ikke klassificeres som direkte klinisk PTSD-effekt.
+
