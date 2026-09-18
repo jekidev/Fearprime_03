@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.22
+Status efter version 0.23
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.22 er P0/P1-arkitekturen dækket og P2-dataarkitekturen etableret. Det største arbejde mod v1.0 er nu **at udfylde strukturen med reproducerbare søgninger, fuldtekstbaseret RoB, komplette effektstørrelser/CI, overlapkontrol og et senere certainty-lag**.
+Efter v0.23 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, og den første reconsolidation update-søgning/effect-size-runde er gennemført. Det største arbejde mod v1.0 er nu **fuld PubMed/screening-reproducerbarhed, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og derefter certainty**.
 
 ---
 
@@ -219,7 +219,7 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | M0–M4 reconsolidation inference | ✅ |
 | Risk-of-bias standard | ✅/🟡 template + maskinlæsbar seed-kodning findes; fuld korpuskodning mangler |
 | Effektstørrelser systematisk | ✅/🟡 extraction-standard + seed-data findes; komplette CI mangler |
-| Reproducerbar search-protokol | ✅/🟡 protokol + search-log findes; domænesøgninger skal udføres |
+| Reproducerbar search-protokol | ✅/🟡 protokol + første reconsolidation update-pass findes; fuld PubMed-export/screening og øvrige domæner mangler |
 | Deltager-overlap-register | ✅/🟡 register + CSV findes; flere trial-familier skal afklares |
 | Maskinlæsbar study/effect/session-data | ✅/🟡 schema + seed-data findes |
 | GRADE/certainty-lignende lag | 🔴 |
@@ -298,7 +298,7 @@ VERSION
 ## P2 — evidensstyrke
 15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
 16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
-17. ✅/🟡 Reproducerbar search-protokol + logstruktur; egentlige domænesøgninger skal udføres og screenes.
+17. ✅/🟡 Reproducerbar search-protokol + første reconsolidation update-pass; fuld PRISMA-lignende export/screening mangler.
 18. ✅/🟡 Maskinlæsbar study/effect/session-database er etableret; korpus skal fortsat udfyldes.
 19. 🔴 Certainty-lag.
 20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
@@ -327,6 +327,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.22 et sammenhængende pre-v1.0 framework med P0/P1 dækket og P2-infrastrukturen etableret.**
+**FearPrime er efter v0.23 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret og reconsolidation-sporet som første delvist udfyldte P2-domæne.**
 
 Det afgørende hul er nu ikke datastrukturen, men dens **systematiske udfyldning og validering**: fuldtekster, effektstørrelser/CI, RoB, trial-register, participant-overlap, reproducerbare searches og derefter certainty.
