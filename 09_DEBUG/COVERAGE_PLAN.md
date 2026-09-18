@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.21 · 2026-09-17
+Version 0.22 · 2026-09-18
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -116,12 +116,18 @@ Eksisterende:
 - ✅ standardiseret risk-of-bias template
 - ✅ første effect-size + RoB audit for reconsolidation-kernen
 
-### Mangler
-- 🟡 konsekvent effect-size + CI på alle centrale studiekort
-- 🟡 study-level RoB i hele kernekorpuset
+### P2-infrastruktur efter v0.22
+- ✅ standardiseret risk-of-bias-template + seed-data i `data/risk_of_bias.csv`
+- ✅ effect-size/CI extraction-standard + seed-data i `data/effects.csv`
+- ✅ participant-overlap-register + maskinlæsbar CSV
+- ✅ reproducerbar search-protokol + `data/search_log.csv`
+- ✅ maskinlæsbar `data/studies.csv` + `study_schema.yaml`
+- ✅ maskinlæsbar `session_schema.yaml`
+- 🟡 komplette study-level effektstørrelser + CI mangler for en stor del af korpuset
+- 🟡 fuld RoB-kodning mangler uden for seed-kernen
+- 🟡 reproducerbare searches skal udføres domæne for domæne; protokollen alene er ikke en færdig systematisk søgning
+- 🟡 participant-overlap skal afklares for flere trial-familier
 - 🔴 certainty-lag inspireret af GRADE uden at overdrive præcision
-- 🟡 deltager-overlap-register
-- 🔴 maskinlæsbar study database
 - 🟡 DOI/PMID- og link-validering
 
 ## Prioriteret roadmap
@@ -148,12 +154,12 @@ Eksisterende:
 **De definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Evidensdækningen er stadig levende og ikke komplet.
 
 ### P2 — evidensstyrke og reproducerbarhed
-15. ✅/🟡 Risk-of-bias template er oprettet; udfyld study-level vurderinger.
-16. ✅/🟡 Effektstørrelser/CI er startet for reconsolidation-kernen; udvid til øvrige kernekilder.
-17. 🟡 Reproducerbare søgninger for P0/P1-domæner.
-18. 🔴 Maskinlæsbar study database + session-schema.
+15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
+16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
+17. ✅/🟡 Reproducerbar search-protokol + logstruktur; egentlige domænesøgninger skal udføres og screenes.
+18. ✅/🟡 Maskinlæsbar study database + session-schema er etableret; korpus skal fortsat udfyldes.
 19. 🔴 Certainty-lag med klare kriterier.
-20. 🟡 Participant-overlap register.
+20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
 
 ## Fremgangsmåde ved litteraturudvidelse
 1. Definér spørgsmål, population, intervention og udfald.
@@ -167,10 +173,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. Study-level RoB + effect-size/CI på DCS, FAAH og propranolol-kortene.
-2. Reproducerbare søgelogs for NMDA/AMPA og endocannabinoid-sporene.
-3. Maskinlæsbar `/data/studies.csv` eller YAML-index.
-4. Certainty-lag og deltager-overlap-register.
-5. Dedikeret predictive-processing eller dissociation/defensive-state modul som næste konceptuelle spor.
+1. Udfør den første fuldt reproducerbare reconsolidation-søgning efter v0.22-protokollen og udfyld search-loggen.
+2. Udtræk komplette between-group effect estimates + 95% CI for Brunet/Roullet/Wood og øvrige kliniske kernekilder.
+3. Udvid `data/risk_of_bias.csv` fra seed-kernen til alle centrale humane learning/reconsolidation-studier.
+4. Afklar trial-registration og participant-overlap for kliniske publikationer.
+5. Start certainty-laget først efter effect/ROB/search-data er tilstrækkeligt udfyldt.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
