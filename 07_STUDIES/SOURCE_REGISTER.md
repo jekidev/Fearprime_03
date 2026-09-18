@@ -319,4 +319,13 @@ Disse kilder dokumenterer forskellige evidensniveauer og populationer; de må ik
 - DOI 10.3389/fnbeh.2026.1820847 — nyere systematisk review af spontaneous recovery i human fear conditioning; registreret som review-/replication-spor i [den daterede søgelog](../09_DEBUG/RECONSOLIDATION_SEARCH_2026-09-18.md).
 
 De nye 2025 boundary-condition-studier er humane laboratoriestudier og må ikke klassificeres som direkte klinisk PTSD-effekt.
+## Version 0.25 — candidate certainty, nightmares og interoception
+- [PMID 40382500](https://pubmed.ncbi.nlm.nih.gov/40382500/) — Mayo et al. 2025, FAAH-hæmning + internet-CBT ved PTSD. DOI 10.1038/s41386-025-02128-w. Se [studiekort](VERIFIED/2025_Mayo_FAAH_PTSD_CBT_RCT.md).
+- [PMID 40967124](https://pubmed.ncbi.nlm.nih.gov/40967124/) — Velzeboer et al. 2025, *Cannabis and sleep architecture: A systematic review and meta-analysis*. DOI 10.1016/j.smrv.2025.102164. Se [review-kort](REVIEWS/2025_Cannabis_Sleep_Architecture_Meta.md).
+- [PMID 42210342](https://pubmed.ncbi.nlm.nih.gov/42210342/) — 2026 scoping review af medical cannabis ved PTSD. Se [review-kort](REVIEWS/2026_Cannabis_PTSD_Scoping_Review.md).
+- [PMID 31804108](https://pubmed.ncbi.nlm.nih.gov/31804108/) — Jamison et al., capnometry-assisted respiratory training ved PTSD-hyperarousal. DOI 10.1037/tra0000525. Se [studiekort](VERIFIED/2022_Jamison_Respiratory_Training_PTSD.md).
+- [PMID 42557391](https://pubmed.ncbi.nlm.nih.gov/42557391/) — Ribbens et al. 2026, natriumbutyrat og long-term extinction-memory retrieval. DOI 10.1038/s41380-026-03802-1.
+- [PMID 38538636](https://pubmed.ncbi.nlm.nih.gov/38538636/) — Andres et al. 2024, preregistreret L-DOPA replication. DOI 10.1038/s41467-024-46936-y.
+- [PMID 39313675](https://pubmed.ncbi.nlm.nih.gov/39313675/) — Rashidi et al. 2025, intranasal oxytocin og fear extinction. DOI 10.1038/s41386-024-01996-y.
 
+De nye nightmare-/interoception-hypoteser bruger disse kilder som hypotesestøtte og modfund; de er ikke kliniske behandlingsprotokoller.
