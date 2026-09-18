@@ -1,6 +1,6 @@
 # FearPrime data layer
 
-Version 0.22 · 2026-09-18
+Version 0.24 · 2026-09-18
 
 Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne er fortsat den menneskeligt læsbare hoveddokumentation; datafilerne skal kunne analyseres af scripts/agenter uden at opfinde manglende information.
 
@@ -12,6 +12,9 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne 
 - `participant_overlap.csv` — register over kendt/muligt deltager-overlap.
 - `session_schema.yaml` — maskinlæsbar struktur til FearPrime learning/session-data.
 - `search_log.csv` — standardiseret log for reproducerbare litteratursøgninger.
+- `pubmed_reconsolidation_records_2026-09-18.csv` — verificeret PubMed-indekseret export-set fra reconsolidation-passet.
+- `reconsolidation_screening_2026-09-18.csv` — inclusion/exclusion + dedup/sample-overlap screeninglog.
+- `certainty.csv` — claim-level GRADE-informerede FearPrime certainty-ratings.
 
 ## Regler
 1. Tomme felter betyder **ikke verificeret / ikke udtrukket**, ikke nul.
@@ -26,3 +29,5 @@ Se også:
 - [Effect-size extraction standard](../09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md)
 - [Participant-overlap register](../09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md)
 - [Systematic search protocol](../09_DEBUG/SYSTEMATIC_SEARCH_PROTOCOL.md)
+- [PubMed reconsolidation export-status](../09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
+- [Certainty framework](../09_DEBUG/CERTAINTY_FRAMEWORK.md)
