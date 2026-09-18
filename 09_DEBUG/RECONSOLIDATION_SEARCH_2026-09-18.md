@@ -1,5 +1,7 @@
 # FearPrime — reconsolidation update search 2026-09-18
 
+> **Dateret search snapshot.** Denne fil beskriver søgekørslen 2026-09-18 og bør ikke omskrives til et rolling summary. Senere searches får nye daterede filer.
+
 Version 0.24 · 2026-09-18
 
 ## Formål
