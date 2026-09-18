@@ -1,10 +1,12 @@
 # Rekonsolidering og tilbagevendende frygt — kildekontrol
-2026-09-18 · Version 0.23 · Målrettet reproducerbar update-søgning, ikke fuld PRISMA-systematisk litteraturoversigt.
+2026-09-18 · Version 0.24 · Målrettet reproducerbar update-søgning, ikke fuld PRISMA-systematisk litteraturoversigt.
 
 ## v0.23 update-pass
 Den detaljerede query-/screeninglog findes i [RECONSOLIDATION_SEARCH_2026-09-18.md](RECONSOLIDATION_SEARCH_2026-09-18.md) og maskinlæsbart i [data/search_log.csv](../data/search_log.csv).
 
 Nye selvstændige kort:
+- [Bos et al. 2019 — acute but not permanent propranolol effects](../07_STUDIES/VERIFIED/2019_Bos_Acute_Not_Permanent_Propranolol.md), PMID `30846933`, DOI `10.3389/fnhum.2019.00051`.
+- [Gerlicher et al. 2022 — PE reconsolidation null](../07_STUDIES/VERIFIED/2022_Gerlicher_PE_Reconsolidation_Null.md), PMID `35393469`, DOI `10.1038/s41598-022-09720-w`.
 - [Chen et al. 2025 — kvantificeret prediction error](../07_STUDIES/VERIFIED/2025_Chen_Quantified_Prediction_Error_Reconsolidation.md), PMID `40570716`, DOI `10.1016/j.cognition.2025.106224`.
 - [Paul & Asthana 2025 — memory strength × prediction error](../07_STUDIES/VERIFIED/2025_Paul_Memory_Strength_PE_Retrieval_Extinction.md), PMID `40653191`, DOI `10.1016/j.neuroscience.2025.07.014`.
 - [Li et al. 2025 — propranolol/PTSD meta-analyse](../07_STUDIES/REVIEWS/2025_Li_Propranolol_PTSD_Meta.md), PMID `39944616`, DOI `10.3389/fphar.2025.1545493`.
@@ -78,3 +80,12 @@ Kredlow-meta-analysen (PMID `26689086`) er et ældre videre læsespor; dens søg
 3. Deltager-overlap og analyseversioner i propranolol-litteraturen.
 4. Hold fear-potentiated startle, SCR, expectancy, symptoms og funktion som separate outcomes.
 5. Udvid med uafhængige laboratorier, ikke kun samme forskningslinje.
+
+
+## v0.24 screening/export + certainty
+- [PubMed/MEDLINE export-status](PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
+- [Verified 30-record export set](../data/pubmed_reconsolidation_records_2026-09-18.csv)
+- [Screening/dedup log](../data/reconsolidation_screening_2026-09-18.csv)
+- [Reconsolidation certainty profile](RECONSOLIDATION_CERTAINTY_PROFILE.md)
+
+Native PubMed total hit count remains unverified because the ESearch/bulk-export endpoint was inaccessible in the current retrieval environment. This limitation is explicit and prevents PRISMA-complete labeling.
