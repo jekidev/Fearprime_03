@@ -1,0 +1,73 @@
+version: "0.26"
+updated: "2026-09-18"
+night:
+  night_id: null
+  date: null
+sleep_window:
+  lights_out_time: null
+  final_wake_time: null
+  subjective_sleep_quality_0_10: null
+  awakenings_count: null
+  estimated_sleep_minutes: null
+nightmare:
+  occurred: null
+  count: null
+  distress_peak_0_10: null
+  distress_on_waking_0_10: null
+  trauma_related: null
+  awakening_due_to_nightmare: null
+dream_recall:
+  recall_present: null
+  recall_vividness_0_10: null
+  estimated_recall_fraction_0_100: null
+content:
+  cue_tags: []
+  theme_tags: []
+  context_tags: []
+  trauma_similarity_0_10: null
+  free_text_private_reference: null
+morning:
+  arousal_0_10: null
+  intrusion_load_0_10: null
+  mood_0_10: null
+  avoidance_urge_0_10: null
+rescripting:
+  performed: null
+  target_night_id: null
+  new_ending_defined: null
+  rehearsal_completed: null
+  subjective_believability_0_10: null
+  distress_before_0_10: null
+  distress_after_0_10: null
+next_day_learning:
+  threat_expectancy_0_100: null
+  safety_expectancy_0_100: null
+  trauma_intrusion_0_10: null
+  cue_avoidance_0_10: null
+  action_goal_defined: null
+  action_goal_completed: null
+experimental_condition:
+  cannabinoid_condition: null
+  butyrate_condition: null
+  blinded: null
+  randomized: null
+  administration_time_relative_to_sleep: null
+confounders:
+  sleep_deprivation: null
+  prior_night_sleep_quality_0_10: null
+  illness: null
+  alcohol: null
+  cannabinoid_tolerance_or_withdrawal: null
+  medication_change: null
+  psychotherapy_change: null
+  acute_stressor: null
+  late_caffeine: null
+  sleep_environment_change: null
+missingness:
+  status: null
+  allowed:
+    - complete
+    - missing_not_recorded
+    - no_recall
+    - no_nightmare
+    - unclear
