@@ -1,6 +1,8 @@
 # Butyrat: fra formulering til mulig hjernevirkning
 Version 0.20 · 2026-09-17
 
+> **Specialmodul.** Denne fil svarer kun på formulering → eksponering → mulig CNS-bro. Den samlede evidensstatus for butyrat ligger i [BUTYRATE_DOSSIER.md](BUTYRATE_DOSSIER.md); direkte formulering-sammenligning ligger i [BUTYRATE_FORMULATION_HEAD_TO_HEAD.md](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
+
 Se også den nye [head-to-head-analyse: natriumbutyrat vs. tributyrin vs. SerBut](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
 
 ## Hvilket led er faktisk målt?
