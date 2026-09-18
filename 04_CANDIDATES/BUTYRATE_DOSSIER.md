@@ -1,5 +1,5 @@
 # Butyrat — forskningsdossier
-Version 0.20 · 2026-09-17 · Evidenstype B for humane laboratorieforsøg; klinisk PTSD-effekt uafklaret.
+Version 0.25 · 2026-09-18 · Evidenstype B for humane laboratorieforsøg; klinisk PTSD-effekt uafklaret.
 
 ## Ny hovedreference
 Se [Natriumbutyrat vs. tributyrin vs. SerBut — head-to-head](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md) for den samlede sammenligning af PK, CNS/BBB, HDAC1/2/3 og FearPrime-relevans.
@@ -126,3 +126,13 @@ Cao 2024 støtter primært CNS-leveringsleddet for SerBut i mus. Bohnen 2026 st�
 Prioritér butyrat i litteraturarbejdet, men hold **natriumbutyrat, kolonfrigivet butyrat, tributyrin og SerBut** som separate interventioner. Hold klinisk effekt, formulering, central målaktivering og kombinationer åbne.
 
 Se [kombinationsdossier](BUTYRATE_LATUDA_HYPOTHESIS.md), [formulering→hjerne](BUTYRATE_FORMULATION_BRAIN.md) og [head-to-head](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md).
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **LOW:** akut natriumbutyrat kan forbedre senere extinction-memory retrieval hos raske mennesker under bestemte learning-betingelser.
+- **VERY LOW:** butyrat forhindrer human reinstatement/return of fear.
+- **VERY LOW:** klinisk PTSD/exposure efficacy.
+- **VERY LOW:** at den humane learning-effekt er dokumenteret medieret af central HDAC2-hæmning.
+
+Ribbens 2026 er derfor et vigtigt human proof-of-concept, men ikke et klinisk PTSD-bevis.
