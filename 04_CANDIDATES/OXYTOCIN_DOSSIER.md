@@ -1,5 +1,5 @@
 # Oxytocin — forskningsdossier
-Version 0.9 · 2026-09-16
+Version 0.25 · 2026-09-18
 
 ## Evidenskæde
 | Studie | Rolle i vurderingen |
@@ -21,3 +21,14 @@ Akut aktivering, reduktion under træning og senere genkaldelse er forskellige u
 - Kontrol af køn, hormonstatus og timing uden at gøre undergruppefund til universelle regler.
 
 **Status:** Kontekstafhængig kandidat; de eksisterende modfund skal bevares. [Søgelog](../09_DEBUG/CORE_DRUG_SEARCH_LOG.md).
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **VERY LOW:** oxytocin forbedrer human fear extinction generelt.
+- **VERY LOW:** oxytocin forbedrer Prolonged Exposure ved PTSD.
+- **LOW:** oxytocin kan ændre threat/social salience og learning-state på timing- og kontekstafhængig måde.
+
+Rashidi 2025 (N=124 raske kvinder) fandt **reduceret extinction learning** ved intranasal oxytocin i det testede design. Det kliniske PE-pilotstudie var meget lille og gav ikke statistisk sikker superiority.
+
+FearPrime må derfor ikke bruge “oxytocin = safety” som standardantagelse.
