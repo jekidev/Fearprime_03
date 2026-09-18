@@ -31,8 +31,10 @@ Et negativt replikationsstudie kan således være R3, hvis det robust tester en 
 | [Wood 2015](VERIFIED/2015_Wood_Negative_Reconsolidation.md) | A | negativ | R2 | Tre små kliniske PTSD-forsøg uden forventet effekt; vigtige modfund, men små samples |
 | [Brunet 2018](VERIFIED/2018_Brunet_Propranolol_Reactivation_RCT.md) | A | positiv | R2 | Kontrolleret klinisk signal; mekanismen er ikke isoleret fra øvrige treatment/retrieval-effekter |
 | [Chalkia 2020](VERIFIED/2020_Chalkia_Retrieval_Extinction_Replication.md) | B | negativ replikation | R3 | Registreret direkte replikation fandt ingen retrieval-extinction-fordel |
+| [Bos 2019](VERIFIED/2019_Bos_Acute_Not_Permanent_Propranolol.md) | B | negativ/null | R2 | Ingen varig post-reactivation propranolol-effekt; akut performance-effekt skal adskilles fra memory change |
 | [Roullet 2021](VERIFIED/2021_Roullet_Propranolol_Placebo.md) | A | blandet/negativ samlet | R3 | Større klinisk RCT fandt ikke samlet propranololfordel; begrænser Brunet-generalisation |
 | [Stemerding 2022](VERIFIED/2022_Stemerding_Boundary_Replication_Failure.md) | B | negativ replikation | R3 | Kunne ikke reproducere det præcise single-PE boundary-mønster |
+| [Gerlicher 2022](VERIFIED/2022_Gerlicher_PE_Reconsolidation_Null.md) | B | negativ replikation | R3 | Ingen propranolol-disruption efter value-, identity- eller no-PE; begrænser simple PE-regler |
 | Propranolol-metaanalyser 2022 | review | konflikt | R3 | Meta-analyser når forskellige konklusioner pga. inklusion/outcomes; ingen R4-konvergens |
 
 **Nuværende reconsolidation-konklusion:** reconsolidation som biologisk memory-proces har et stærkt præklinisk fundament, men specifikke humane procedurer til pålideligt at åbne og manipulere et reconsolidation-vindue har ikke R4-robusthed. Kliniske symptomændringer må ikke bruges som direkte mekanismebevis.
