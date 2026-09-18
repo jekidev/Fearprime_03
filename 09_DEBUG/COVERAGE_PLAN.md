@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.24 · 2026-09-18
+Version 0.25 · 2026-09-18
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -96,7 +96,7 @@ Eksisterende:
 - [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-### Status efter v0.24
+### Status efter v0.25
 1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
 2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
 3. ✅ Reconsolidation: M0–M4 mekanismeinferens holdes separat fra R0–R4 robusthed.
@@ -129,7 +129,7 @@ Eksisterende:
 - 🟡 native PubMed ESearch total hit count/bulk export er stadig ikke verificeret; derfor ingen PRISMA-status endnu
 - 🟡 øvrige domæner skal stadig søges reproducerbart
 - 🟡 participant-overlap skal afklares for flere trial-familier
-- ✅/🟡 GRADE-informeret claim-level certainty framework + reconsolidation seed-profile; ikke formel GRADE
+- ✅/🟡 GRADE-informeret claim-level certainty framework + reconsolidation og candidate certainty-profiler; ikke formel GRADE
 - 🟡 DOI/PMID- og link-validering
 
 ## Prioriteret roadmap
@@ -160,8 +160,23 @@ Eksisterende:
 16. ✅/🟡 Effect-size/CI-standard + udvidet reconsolidation-udtræk: Brunet/Roullet/Schiller er kvantificeret yderligere; Wood/Chalkia kræver fortsat fuld statistisk udtrækning.
 17. ✅/🟡 Reproducerbar search-protokol + verified PubMed-indexed export/screening-set findes; native PubMed total hit count/full export og øvrige domæner mangler.
 18. ✅/🟡 Maskinlæsbar study database + session-schema er etableret; korpus skal fortsat udfyldes.
-19. ✅/🟡 GRADE-informeret certainty framework + reconsolidation claim-profile; formel GRADE kræver komplet reviewproces.
+19. ✅/🟡 GRADE-informeret certainty framework + reconsolidation/candidate claim-profiler; formel GRADE kræver komplet reviewproces.
 20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
+
+
+### Nye aktive hypotesespor v0.25
+- 🟡 PTSD nightmares/sleep: cannabinoider, REM/dream recall, IRT/rescripting og butyrat holdes som separate outcomes/mekanismer.
+- 🔬 THC/cannabinoid + butyrat pre-sleep-hypotese: direkte kombinationsdata mangler.
+- 🔬 Butyrat + interoceptiv challenge + post-learning L-DOPA/oxytocin: stærkt eksplorativ; komponenterne skal testes separat.
+- ✅/🟡 Respiratory/interoceptive evidence: PTSD-pilotdata findes; et antihyperventilation-RCT var negativt på PTSD-hyperarousal.
+
+### Candidate certainty v0.25
+- DCS: transdiagnostisk lille augmentation MODERATE; specifik konsistent PTSD-fordel LOW.
+- FAAH: target engagement MODERATE; healthy extinction recall LOW; clinical PTSD augmentation LOW og direkte negativt RCT.
+- Butyrat: human delayed extinction retrieval LOW; clinical PTSD VERY LOW.
+- L-DOPA: reliable extinction retrieval LOW; clinical PTSD efficacy VERY LOW.
+- Oxytocin: general extinction enhancement VERY LOW pga. retningskonflikt.
+- Lurasidon: preclinical extinction claim LOW; human/PTSD claim VERY LOW.
 
 ## Fremgangsmåde ved litteraturudvidelse
 1. Definér spørgsmål, population, intervention og udfald.
