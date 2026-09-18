@@ -1,0 +1,7 @@
+overlap_group,publication_or_study,year,study_card_path,status,evidence,notes
+CHALKIA_2020_PROGRAM,Chalkia direct registered replication,2020,07_STUDIES/VERIFIED/2020_Chalkia_Retrieval_Extinction_Replication.md,distinct_sample,verified,"Direct replication sample; keep separate from verification/reanalysis paper"
+CHALKIA_2020_PROGRAM,Chalkia verification/reanalysis of original Schiller data,2020,,same_original_data,verified,"Publication reanalyzes original Schiller dataset; must not be counted as a new participant sample"
+SCHILLER_2010,Schiller retrieval-extinction experiment,2010,07_STUDIES/VERIFIED/2010_Schiller_Retrieval_Extinction.md,original_sample,verified,"Original human retrieval-extinction dataset"
+BRUNET_PTSD,Brunet propranolol reactivation RCT,2018,07_STUDIES/VERIFIED/2018_Brunet_Propranolol_Reactivation_RCT.md,unknown_overlap,needs_check,"No overlap assumed; trial population identity should be checked against related publications before meta-analysis"
+ROULLET_PTSD,Roullet propranolol/placebo RCT,2021,07_STUDIES/VERIFIED/2021_Roullet_Propranolol_Placebo.md,unknown_overlap,needs_check,"Treat as independent until publication/registry linkage is checked"
+WOOD_2015,Wood three negative PTSD studies,2015,07_STUDIES/VERIFIED/2015_Wood_Negative_Reconsolidation.md,multiple_substudies,verified,"One publication contains three randomized PTSD experiments; do not treat publication count as one homogeneous sample"
