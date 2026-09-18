@@ -1,4 +1,4 @@
-version: "0.22"
+version: "0.26"
 updated: "2026-09-18"
 
 session:
@@ -60,3 +60,8 @@ confounders:
 privacy:
   contains_personal_health_data: false
   public_repo_allowed: false
+
+
+extensions:
+  nightmare_schema: "nightmare_schema.yaml"
+  interoceptive_factorial_schema: "interoceptive_factorial_schema.yaml"
