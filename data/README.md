@@ -35,3 +35,5 @@ Se også:
 - [Systematic search protocol](../09_DEBUG/SYSTEMATIC_SEARCH_PROTOCOL.md)
 - [PubMed reconsolidation export-status](../09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
 - [Certainty framework](../09_DEBUG/CERTAINTY_FRAMEWORK.md)
+- [Nightmare Measurement Engine](../06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md)
+- [Interoceptiv augmentation preregistration](../09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
