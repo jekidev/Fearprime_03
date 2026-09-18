@@ -1,7 +1,7 @@
 # FearPrimes samlede studieregister
-Version 0.23 · 2026-09-18
+Version 0.24 · 2026-09-18
 
-Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB- og overlap-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
+Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB-, overlap-, PubMed-screening- og certainty-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
 **Kontrolstatus:** Historiske VERIFIED-mærker betyder ikke, at hele litteraturen er kontrolleret på ny. Det enkelte kort angiver design, udfald og kontrolniveau. Nye bibliografiske spor holdes adskilt fra kontrollerede resultater.
 
@@ -268,4 +268,20 @@ Alle FearPrime-beregnede CI'er/effekter er markeret som beregnede og må ikke fo
 
 ### Aktuel fortolkning
 Nyere boundary-data gør PE/memory strength-modellen mere nuanceret, men **ophæver ikke** Chalkia- og Stemerding-type replication failures. Klinisk propranolol for PTSD forbliver et konfliktfyldt evidensspor, mens human laboratorieevidens for aversiv-memory reconsolidation er stærkere end den kliniske translation.
+## Version 0.24: screening/export og claim-level certainty
 
+- 30 PubMed-indekserede records er samlet i et verificeret export-set og screenet med inclusion/exclusion + dedup/sample-overlap status.
+- Dette er **ikke** PubMeds totale search hit count; native ESearch/bulk export var ikke tilgængeligt i den aktuelle retrievalflade.
+- [Certainty framework](../09_DEBUG/CERTAINTY_FRAMEWORK.md) holder certainty adskilt fra R0–R4 og M0–M4.
+- [Reconsolidation certainty profile](../09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md) giver de første claim-level vurderinger.
+
+Foreløbig profil:
+- human propranolol/reconsolidation laboratory effect: **MODERATE**
+- clinical PTSD propranolol superiority: **LOW**
+- reliable retrieval-extinction prevention of return of fear: **LOW**
+- prediction error as relevant moderator: **LOW**
+- universal single-PE trigger claim: **VERY LOW**
+- memory-strength moderation: **VERY LOW**
+- symptom improvement as proof of reconsolidation mechanism: **VERY LOW**
+
+Disse er GRADE-informerede FearPrime-ratings og ikke formel GRADE.
