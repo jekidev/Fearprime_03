@@ -43,7 +43,7 @@ Det kræver, at frameworket er:
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 |
 | Machine-readable study/effect/RoB/certainty data | ✅/🟡 |
-| Link/integrity QA efter strukturændringer | 🟡 |
+| Link/integrity QA efter strukturændringer | ✅/🟡 — aktive indekslinks valideret; fuld repo-wide lint kan stadig automatiseres |
 | Dokumenteret release checklist | ✅ |
 
 ## Vigtigste blockers
