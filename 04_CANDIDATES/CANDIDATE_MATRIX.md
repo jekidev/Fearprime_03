@@ -1,5 +1,7 @@
 # Kandidater, præparater og forskningsspørgsmål
 
+> **Kanonisk kandidatindgang.** Matrixen bruges til navigation og fase-/evidensoverblik. Detaljeret evidens og certainty ligger i de individuelle dossiers og [Candidate Certainty Profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
 Version 0.21 · 2026-09-17
 
 Optagelse betyder forskningsrelevans, ikke dokumenteret behandling. Prioritet er projektets interesse; evidenstype, kvalitet og effekt vurderes særskilt.
