@@ -1,6 +1,6 @@
 # FearPrime — endocannabinoid / FAAH / CB1-dossier
 
-Version 0.21 · 2026-09-17
+Version 0.25 · 2026-09-18
 
 ## Formål
 Dette dossier samler FearPrimes evidensspor for **anandamid (AEA), FAAH og CB1** i fear/safety learning, extinction og PTSD-relevant stressregulering.
@@ -69,9 +69,25 @@ Genetisk association støtter biologisk relevans, men kan ikke sidestilles med e
 **Robusthed for farmakologisk effekt:** R1.
 
 ## 5. PTSD-translation
-PTSD-litteraturen indeholder observationer af ændret endocannabinoid tone og CB1-relaterede markører, men biomarkørforskelle beviser ikke, at farmakologisk normalisering forbedrer extinction eller kliniske symptomer.
 
-Et nyere review fra 2025 beskriver endocannabinoidsystemet som et relevant mål for fear acquisition/extinction og stressregulering, men fremhæver samtidig, at en stor del af interventionsgrundlaget fortsat er præklinisk eller tidligt humant.
+### Mayo et al. 2025 — direkte klinisk RCT
+100 personer med PTSD blev randomiseret dobbeltblindet til FAAH-hæmmeren JNJ-42165279 eller placebo i 12 uger. I uge 5–12 gennemførte alle internetbaseret CBT med exposure-moduler.
+
+FAAH-hæmning øgede anandamid, men gav **ingen fordel** på CAPS-5 eller de rapporterede sekundære outcomes, herunder søvnkvalitet.
+
+PMID `40382500` · DOI `10.1038/s41386-025-02128-w`.
+
+Se [studiekort](../07_STUDIES/VERIFIED/2025_Mayo_FAAH_PTSD_CBT_RCT.md).
+
+Dette er et centralt negativt translationsfund:
+
+```text
+FAAH inhibition → AEA ↑
+men
+AEA ↑ ≠ automatisk bedre PTSD-CBT
+```
+
+Et nyere review fra 2025 beskriver fortsat endocannabinoidsystemet som biologisk relevant for fear acquisition/extinction og stressregulering, men den direkte kliniske RCT betyder, at clinical efficacy ikke længere kan beskrives som blot “manglende test”.
 
 PMID `40789309`.
 
@@ -86,7 +102,7 @@ FearPrime beholder derfor CBD i sit eksisterende separate spor.
 Der er ikke dokumenteret:
 
 - at FAAH-hæmning er en etableret PTSD-behandling,
-- at PF-04457845 forbedrer klinisk exposure-terapi,
+- at FAAH-hæmning generelt forbedrer exposure-terapi; Mayo 2025 fandt ingen merværdi i det testede PTSD-design,
 - at højere AEA altid er fordelagtigt,
 - at cannabinoid agonisme og FAAH-hæmning er funktionelt ækvivalente,
 - at akut anxiolyse er lig med bedre extinction memory.
@@ -124,8 +140,18 @@ stress_negative_affect: null
 | CB1/endocannabinoider er relevante for fear extinction | human + præklinisk | ✅/🟡 |
 | FAAH-hæmning øger AEA hos mennesker | RCT experimental medicine | ✅ |
 | FAAH-hæmning kan forbedre delayed extinction recall | ét kontrolleret humant studie | 🟡 R2 |
-| FAAH-hæmning forbedrer PTSD-behandling | mangler direkte klinisk evidens | 🔴 |
+| FAAH-hæmning forbedrer PTSD-behandling | direkte N=100 RCT negativt | 🔴/🟡 R2–R3 negativt translationsfund |
 | CBD/THC kan bruges som proxy for FAAH-hæmning | farmakologisk ugyldigt | ❌ |
 
 ## 11. Debug
 Den største risiko er at springe fra et elegant translationalt kædeforløb — FAAH → AEA → extinction recall — direkte til klinisk behandling. FearPrime kræver mindst uafhængig human replikation og klinisk PTSD-transfer før en sådan opgradering.
+
+## Certainty v0.25
+Se [candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
+- **MODERATE:** FAAH-hæmning øger anandamid hos mennesker.
+- **LOW:** forbedret delayed extinction recall i raske mennesker.
+- **LOW:** klinisk PTSD-augmentation; det direkte N=100 RCT fra 2025 var negativt trods target engagement.
+- **VERY LOW/forkert proxy:** THC/CBD som erstatning for FAAH-hæmning.
+
+Det centrale translationssignal er nu: **AEA-target engagement blev opnået uden klinisk merværdi over CBT alene.**
