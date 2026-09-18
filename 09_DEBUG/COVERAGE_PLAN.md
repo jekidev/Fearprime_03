@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.25 · 2026-09-18
+Version 0.26 · 2026-09-18
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -79,9 +79,9 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 |---|---|---|
 | Exposure | ✅/🟡 | Udvidet paradigmestandardisering |
 | TRE | ✅/🟡 | Evidensen er primært lavere niveau; fortsat modfund/quality-labels |
-| Interoceptiv exposure | 🟡 | Integrér insula/interoception med forsøgs-/målemodul |
+| Interoceptiv exposure | ✅/🟡 | Insula/interoception + factorial preregistration + machine-readable trial schema; direkte clinical validation mangler |
 | Motion | 🟡 | Timing omkring læring/retention og replikation |
-| Søvn | 🟡 | Dedikeret sleep-memory consolidation-spor |
+| Søvn / nightmares | ✅/🟡 | Nightmare/sleep dossier + Nightmare Measurement Engine + nightly schema; prospective validation mangler |
 | Døgnrytme | 🟡 | Human fear-learning litteratur |
 | tVNS/autonom modulation | 🟡 🔬 | Klinisk transfer og replikation |
 | Inflammation/metabolisme | 🟡 🔬 | Kausalitet og direkte læringsoutcomes |
@@ -96,13 +96,15 @@ Eksisterende:
 - [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
 - [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
-### Status efter v0.25
+### Status efter v0.26
 1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
 2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
 3. ✅ Reconsolidation: M0–M4 mekanismeinferens holdes separat fra R0–R4 robusthed.
 4. ✅/🟡 RoB/effect-size: fælles [RoB-template](RISK_OF_BIAS_TEMPLATE.md) og første [reconsolidation-audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) findes; study-level udfyldning mangler fortsat bredt.
 5. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
 6. ✅ Maskinlæsbar session-schema findes i `/data/session_schema.yaml`.
+7. ✅ Nightmare Measurement Engine + `nightmare_schema.yaml` + nightly CSV-template.
+8. ✅ Interoceptiv 2×2 factorial preregistration + machine-readable schema/trial-template.
 
 ## Evidensarkitektur
 ### Allerede på plads
@@ -166,8 +168,8 @@ Eksisterende:
 
 ### Nye aktive hypotesespor v0.25
 - 🟡 PTSD nightmares/sleep: cannabinoider, REM/dream recall, IRT/rescripting og butyrat holdes som separate outcomes/mekanismer.
-- 🔬 THC/cannabinoid + butyrat pre-sleep-hypotese: direkte kombinationsdata mangler.
-- 🔬 Butyrat + interoceptiv challenge + post-learning L-DOPA/oxytocin: stærkt eksplorativ; komponenterne skal testes separat.
+- ✅/🔬 THC/cannabinoid + butyrat pre-sleep-hypotese har nu Nightmare Measurement Engine; direkte kombinationsdata mangler.
+- ✅/🔬 Butyrat + interoceptiv challenge + post-learning L-DOPA/oxytocin har nu factorial preregistration; komponenternes faktiske effekt er fortsat uprøvet.
 - ✅/🟡 Respiratory/interoceptive evidence: PTSD-pilotdata findes; et antihyperventilation-RCT var negativt på PTSD-hyperarousal.
 
 ### Candidate certainty v0.25
@@ -190,10 +192,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. Færdiggør native PubMed/MEDLINE ESearch/export uden for den nuværende endpoint-begrænsning: exact total hit count + NBIB/RIS + PRISMA-flow.
-2. Udtræk observeret standardized effect + CI fra Chalkia 2020 og Wood 2015-delstudierne, hvis fuldteksten giver tilstrækkelige data.
-3. Afstem 2022 vs. 2025 propranolol-meta-analysernes præcise inkluderede trials/outcomes.
-4. Udvid RoB + certainty fra reconsolidation til DCS, FAAH/CB1 og øvrige P1-domæner.
-5. Tilføj publication-bias og dual-reviewer-status, før nogen claim kan overvejes til HIGH certainty.
+1. Prospektiv validering af Nightmare Measurement Engine mod eksisterende validerede nightmare/sleep-instrumenter.
+2. Fastlæg ét primary delayed-learning outcome og power/precision-mål for interoceptiv factorial-design før noget pilotforsøg.
+3. Færdiggør native PubMed/MEDLINE ESearch/export: exact total hit count + NBIB/RIS + PRISMA-flow.
+4. Udtræk observeret standardized effect + CI fra Chalkia 2020 og Wood 2015-delstudierne.
+5. Udvid RoB/certainty og publication-bias/dual-reviewer-status, før nogen claim kan overvejes til HIGH certainty.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
