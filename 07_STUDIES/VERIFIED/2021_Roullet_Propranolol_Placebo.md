@@ -14,3 +14,25 @@ Begge grupper fik genaktivering. Bedring inden for grupperne beviser derfor ikke
 - Forsøgsregistrering: NCT01713556
 
 Se [klinisk sammenfatning](../../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md).
+
+## P2 effect-size/RoB update — 2026-09-18
+Reported overall treatment effect: `F(1,55)=0.267`, p=.607. FearPrime-calculated partial η² ≈ **0.0048**.
+
+Treatment × session: `F(6,330)=1.682`, p=.125. FearPrime-calculated partial η² ≈ **0.0297**.
+
+At 3-month follow-up:
+- propranolol PCL-S: 45.16 ± 19.55
+- placebo PCL-S: 41.48 ± 19.04
+- FearPrime-calculated raw mean difference (propranolol − placebo): **+3.68**
+- calculated 95% CI: **−7.20 to 14.56**
+- p=.500
+
+Week 7→18 change difference: **−2.02**, calculated 95% CI **−7.51 to 3.47**, p=.464.
+
+Both between-group CIs cross zero. Arm-level percent change and within-group d remain descriptive, not treatment-effect estimates.
+
+**Robustness:** R3 for the null/negative direct clinical test of a general propranolol advantage.  
+**Mechanistic inference:** M2.  
+**RoB:** SOME.
+
+Derived quantities and provenance are stored in [data/effects.csv](../../data/effects.csv).
