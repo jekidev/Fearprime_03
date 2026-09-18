@@ -66,7 +66,7 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Hydrokortison | ✅/🟡 👤 | HPA-modul + kliniske/eksperimentelle kort | Effektstørrelser og populationsmoderatorer |
 | Ketamin | 🟡 👤 | Kliniske symptomfund | Specifik læringsmekanisme og kombinationsdata |
 | CBD | 🟡 👤 | Lab + klinisk exposure-tillæg | Nyere replikationer |
-| FAAH/CB1 | ✅/🟡 👤🐀📊 | [Endocannabinoid/FAAH/CB1-dossier](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) + human experimental-medicine RCT | Uafhængig human replikation og klinisk PTSD-transfer |
+| FAAH/CB1 | ✅/🟡 👤🐀📊 | [Endocannabinoid/FAAH/CB1-dossier](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) + healthy-human experimental-medicine + 2025 N=100 PTSD-RCT | Uafhængig replication af extinction-recall-signalet; klinisk PTSD-transfer er testet direkte og var negativ i det aktuelle RCT |
 | MDMA | 🟡 👤 | Humant extinction-spor | Klinisk transfer adskilt fra psykoterapieffekt |
 | Psilocybin/5-HT2A | 🟡 🐀/🔬 | Præklinisk læringsspor | Human fear/safety translation |
 | NMDA/AMPA | ✅/🟡 | Mekanismemodul + DCS/memantin | Human AMPA-specifik fear-learning translation |
