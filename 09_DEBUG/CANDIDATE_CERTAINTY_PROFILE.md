@@ -1,5 +1,7 @@
 # FearPrime — candidate certainty profile
 
+> **Claim profile, ikke kandidatdossier.** Denne fil samler certainty på tværs af kandidater; de individuelle dossiers er source-of-truth for kandidatens fulde evidensbeskrivelse.
+
 Version 0.25 · 2026-09-18
 
 Dette dokument anvender [certainty-frameworket](CERTAINTY_FRAMEWORK.md) på DCS, FAAH/CB1, butyrat, L-DOPA, oxytocin og lurasidon.
