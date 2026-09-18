@@ -32,5 +32,9 @@ Butyrat/Latuda, core drugs, theory, translation og TRE logs bevares som historis
 ## Preregistration
 - [Interoceptive Augmentation Preregistration](INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
 
+## Struktur / release
+- [Structure Audit 2026-09-18](STRUCTURE_AUDIT_2026-09-18.md)
+- [Release Checklist](RELEASE_CHECKLIST.md)
+
 ## Archive
 [ARCHIVE/](ARCHIVE/) indeholder snapshots af tidligere store indeksfiler. De er historik og skal ikke bruges som aktiv evidenssyntese.
