@@ -1,6 +1,6 @@
 # FearPrime — butyrat → interoceptiv challenge → L-DOPA/oxytocin
 
-Version 0.25 · 2026-09-18  
+Version 0.26 · 2026-09-18  
 **Status: stærkt eksplorativ sekvenshypotese — ikke personlig eller klinisk protokol.**
 
 ## Oprindelse
@@ -108,3 +108,15 @@ Hypotesen skal forkastes eller nedgraderes hvis:
 Ingen doser, varigheder eller selvadministrationsinstruktioner er defineret her.
 
 Kontrolleret hyperventilation kan fremkalde betydelig hypocapni og symptomer. Farmakologisk augmentation bør behandles som forsknings-/klinikerstyret design og ikke som automatisk konsekvens af mekanistisk plausibilitet.
+
+
+## Preregistration integration v0.26
+Den formelle komponentdekomposition ligger nu i [interoceptiv augmentation preregistration](../09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md).
+
+Hoveddesignet er et 2×2 butyrat × dopaminergt factorial design med oxytocin som separat Stage C.
+
+Maskinlæsbare filer:
+- [interoceptive_factorial_schema.yaml](../data/interoceptive_factorial_schema.yaml)
+- [interoceptive_trial_template.csv](../data/interoceptive_trial_template.csv)
+
+Ingen dosis eller hyperventilationsinstruktion er defineret; challenge skal være standardiseret og superviseret i et faktisk studie.
