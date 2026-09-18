@@ -1,5 +1,5 @@
 # FearPrimes samlede studieregister
-Version 0.24 · 2026-09-18
+Version 0.25 · 2026-09-18
 
 Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB-, overlap-, PubMed-screening- og certainty-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
@@ -287,3 +287,27 @@ Foreløbig profil:
 - symptom improvement as proof of reconsolidation mechanism: **VERY LOW**
 
 Disse er GRADE-informerede FearPrime-ratings og ikke formel GRADE.
+## Version 0.25: candidate certainty + nightmare/interoception-spor
+
+### Candidate certainty
+[Candidate certainty profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md) udvider claim-level certainty fra reconsolidation til:
+- DCS
+- FAAH/CB1
+- butyrat
+- L-DOPA
+- oxytocin
+- lurasidon.
+
+Maskinlæsbare ratings ligger i [data/certainty.csv](../data/certainty.csv).
+
+### Vigtige nye translations-/modfund
+- [Mayo 2025 FAAH PTSD RCT](VERIFIED/2025_Mayo_FAAH_PTSD_CBT_RCT.md): AEA target engagement uden ekstra CAPS-5/sekundær clinical benefit over CBT.
+- [2025 cannabis/sleep meta](REVIEWS/2025_Cannabis_Sleep_Architecture_Meta.md): ingen konsistent simpel THC→REM-suppression-regel; withdrawal/sleep disturbance mere konsistent.
+- [2026 cannabis/PTSD scoping review](REVIEWS/2026_Cannabis_PTSD_Scoping_Review.md): nabilone nightmare-signal, men almindelig cannabis/THC ikke stabilt superior på PTSD.
+- [Jamison respiratory RCT](VERIFIED/2022_Jamison_Respiratory_Training_PTSD.md): respiratory-rate ændring uden signifikant PTSD-hyperarousal benefit.
+
+### Nye hypoteser
+- [PTSD nightmare + THC/cannabinoider + butyrat + drømmearbejde](../05_MODELS/PTSD_NIGHTMARE_THC_BUTYRATE_HYPOTHESIS.md).
+- [Butyrat → interoceptiv challenge → L-DOPA/oxytocin](../05_MODELS/INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md).
+
+Begge er eksplicit hypotesegenererende og må ikke læses som personlige doserings-/selvforsøgsprotokoller.
