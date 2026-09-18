@@ -1,0 +1,7 @@
+effect_id,study_id,outcome,outcome_family,timepoint,comparison,metric,estimate,ci95_low,ci95_high,p_value,direction,adjusted,source,calculated_by_fearprime,notes
+FP-EFF-BRUNET2018-CAPS,FP-REC-BRUNET-2018,CAPS,clinical_symptoms,post_treatment,propranolol_vs_placebo,adjusted_mean_difference,11.50,,,,favors_intervention,true,original_report,false,"Direction reported as benefit; CI not yet extracted into repo"
+FP-EFF-BRUNET2018-CAPS-WG-P,FP-REC-BRUNET-2018,CAPS,clinical_symptoms,within_group,propranolol_pre_post,Cohen_d,1.76,,,,not_applicable,false,original_report,false,"Within-group change; NOT a treatment effect"
+FP-EFF-BRUNET2018-CAPS-WG-C,FP-REC-BRUNET-2018,CAPS,clinical_symptoms,within_group,placebo_pre_post,Cohen_d,1.25,,,,not_applicable,false,original_report,false,"Within-group change; NOT a treatment effect"
+FP-EFF-ROULLET2021-PCLS-PCT-P,FP-REC-ROULLET-2021,PCL-S,clinical_symptoms,treatment_period,propranolol_pre_post,percent_change,39.28,,,,not_applicable,false,original_report,false,"Arm-level change; not between-group treatment effect"
+FP-EFF-ROULLET2021-PCLS-PCT-C,FP-REC-ROULLET-2021,PCL-S,clinical_symptoms,treatment_period,placebo_pre_post,percent_change,34.48,,,,not_applicable,false,original_report,false,"Arm-level change; not between-group treatment effect"
+FP-EFF-CHALKIA2020-POWER,FP-REC-CHALKIA-2020,spontaneous_recovery,fear_learning,power_assumption,retrieval_extinction_vs_extinction,Hedges_g,0.53,,,,not_applicable,false,power_basis,false,"Meta-analytic effect used for power; not the observed replication treatment effect"
