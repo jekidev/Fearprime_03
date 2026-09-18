@@ -1,6 +1,6 @@
 # FearPrime data layer
 
-Version 0.25 · 2026-09-18
+Version 0.26 · 2026-09-18
 
 Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne er fortsat den menneskeligt læsbare hoveddokumentation; datafilerne skal kunne analyseres af scripts/agenter uden at opfinde manglende information.
 
@@ -11,6 +11,10 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne 
 - `risk_of_bias.csv` — study-level RoB seed-kodning.
 - `participant_overlap.csv` — register over kendt/muligt deltager-overlap.
 - `session_schema.yaml` — maskinlæsbar struktur til FearPrime learning/session-data.
+- `nightmare_schema.yaml` — nightly nightmare/sleep/dream/next-day schema.
+- `nightmare_log_template.csv` — tom nightly nightmare-log template.
+- `interoceptive_factorial_schema.yaml` — maskinlæsbar 2×2 butyrat × dopaminerg research-design med separat oxytocin-stage.
+- `interoceptive_trial_template.csv` — tom trial-level template til det interoceptive factorial-design.
 - `search_log.csv` — standardiseret log for reproducerbare litteratursøgninger.
 - `pubmed_reconsolidation_records_2026-09-18.csv` — verificeret PubMed-indekseret export-set fra reconsolidation-passet.
 - `reconsolidation_screening_2026-09-18.csv` — inclusion/exclusion + dedup/sample-overlap screeninglog.
