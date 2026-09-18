@@ -7,6 +7,8 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne 
 ## Filer
 - `studies.csv` — seed-indeks over centrale verificerede studier.
 - `study_schema.yaml` — felter og tilladte statuskoder for study-level evidens.
+- `effects.csv` — effect-level seed-data med eksplicit skel mellem treatment effects og within-group change.
+- `risk_of_bias.csv` — study-level RoB seed-kodning.
 - `participant_overlap.csv` — register over kendt/muligt deltager-overlap.
 - `session_schema.yaml` — maskinlæsbar struktur til FearPrime learning/session-data.
 - `search_log.csv` — standardiseret log for reproducerbare litteratursøgninger.
