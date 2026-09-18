@@ -1,6 +1,8 @@
 # PNN / critical-period source index
 Kontroldato 2026-09-17
 
+> **Specialindeks.** Dækker PNN/critical-period-sporet. Den overordnede mekanisme-kildenavigation ligger i [MECHANISM_SOURCE_INDEX.md](MECHANISM_SOURCE_INDEX.md).
+
 Dette indeks understøtter [PNN/critical-period mekanismekortet](../../02_MECHANISMS/PNN_CRITICAL_PERIOD_REOPENING.md). Kilderne er ikke én ensartet intervention: de tester forskellige hjerneområder, memory phases og manipulationsniveauer.
 
 | Kilde | Spor | Direkte fear-data? | Hovedbidrag |
