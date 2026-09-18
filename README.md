@@ -28,10 +28,14 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Effect-size & CI extraction standard](09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md)
 - [Reproducerbar litteratursøgning](09_DEBUG/SYSTEMATIC_SEARCH_PROTOCOL.md)
 - [Participant-overlap register](09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md)
+- [GRADE-informeret certainty framework](09_DEBUG/CERTAINTY_FRAMEWORK.md)
+- [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md)
+- [PubMed/MEDLINE export-status 2026-09-18](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
 - [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
+- [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.23](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.24](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -79,7 +83,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 
-**P0-kernen og de definerede P1-opgaver er dækket på framework-/dossierniveau. P2-infrastrukturen er nu implementeret:** RoB-standard, effect-size/CI-standard, participant-overlap, reproducerbar search-protokol og maskinlæsbare study/effect/session-data. Den resterende P2-opgave er primært at fylde strukturen systematisk med fuldtekstkontrollerede data. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
+**P0/P1 er dækket på framework-/dossierniveau, og P2 har nu både dataarkitektur, screening/export-log og claim-level certainty:** RoB, effect-size/CI, participant-overlap, reproducerbar search-protokol, verified PubMed-record export-set, screeninglog og GRADE-informeret certainty. Native PubMed total hit count/full PRISMA-flow mangler fortsat, fordi ESearch/export-endpointet ikke var tilgængeligt i denne kørsel. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -228,3 +232,12 @@ P2 er nu fyldt med den første reelle reconsolidation-update og et større kvant
 5. [data/effects.csv](data/effects.csv), [data/studies.csv](data/studies.csv), [data/risk_of_bias.csv](data/risk_of_bias.csv) og [data/search_log.csv](data/search_log.csv) er opdateret tilsvarende.
 
 **Hovedkonklusionen ændres ikke til en stærkere klinisk påstand:** nyere PE/memory-strength fund nuancerer boundary conditions, men negative replikationer består. Human laboratoriekonvergens for propranolol/reconsolidation er stærkere end den kliniske PTSD-translation, som fortsat er blandet.
+## Version 0.24: PubMed export-set, screening og certainty
+
+1. [PubMed/MEDLINE export-status](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md) dokumenterer præcist, hvad der blev og ikke blev gennemført. Et verificeret set på **30 PubMed-indekserede records** er eksporteret og screenet, men 30 er **ikke** PubMeds totale hit count.
+2. [data/pubmed_reconsolidation_records_2026-09-18.csv](data/pubmed_reconsolidation_records_2026-09-18.csv) bevarer de verificerede PMID-records; [data/reconsolidation_screening_2026-09-18.csv](data/reconsolidation_screening_2026-09-18.csv) bevarer inclusion/exclusion, wrong-species/wrong-question og participant-duplicate status.
+3. Native PubMed ESearch/bulk export kunne ikke nås fra den aktuelle retrievalflade. FearPrime kalder derfor dette et **reproducible targeted PubMed-indexed evidence pass with a verified export set**, ikke en komplet PRISMA-systematisk PubMed-review.
+4. [Certainty framework](09_DEBUG/CERTAINTY_FRAMEWORK.md) introducerer et claim-/outcome-baseret, GRADE-informeret lag med risk of bias, inconsistency, indirectness, imprecision og publication bias. Det er bevidst separat fra R0–R4 og M0–M4.
+5. [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md) og [data/certainty.csv](data/certainty.csv) giver de første provisoriske ratings: human propranolol/reconsolidation laboratorieeffekt MODERATE; klinisk PTSD-propranolol fordel LOW; retrieval-extinction reliability LOW; universal single-PE rule VERY_LOW.
+
+**Vigtigt:** disse ratings er GRADE-informerede FearPrime-vurderinger, ikke formelle GRADE-certificeringer. Ingen claim får HIGH i v0.24.
