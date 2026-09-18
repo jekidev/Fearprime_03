@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.24
+Status efter version 0.25
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.24 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, et verificeret PubMed-indexeret reconsolidation export/screening-set er registreret, og et claim-level certainty-lag er oprettet. Det største arbejde mod v1.0 er nu **native PubMed hit-count/full export, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og publication-bias/dual-reviewer-validering**.
+Efter v0.25 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, reconsolidation og seks centrale biological candidates har claim-level certainty-profiler, og nightmare/interoceptive hypothesis-spor er dokumenteret. Det største arbejde mod v1.0 er nu **native PubMed hit-count/full export, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og publication-bias/dual-reviewer-validering**.
 
 ---
 
@@ -118,7 +118,7 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | Dopamin | ✅/🟡 | Fase- og dosisafhængighed |
 | 5-HT7 / 5-HT1A | 🟡 🔬 | Direkte humane læringsdata |
 | NMDA / AMPA | ✅/🟡 👤🐀📊 | `NMDA_AMPA_GLUTAMATE_PLASTICITY.md`; human AMPA-specifik fear-learning translation mangler |
-| Endocannabinoider | ✅/🟡 👤🐀📊 | FAAH/CB1-dossier; uafhængig human replikation og klinisk PTSD-transfer mangler |
+| Endocannabinoider | ✅/🟡 👤🐀📊 | FAAH/CB1-dossier + 2025 N=100 PTSD-RCT; lab signal men direkte clinical augmentation var negativ |
 | Glucocorticoider | ✅/🟡 👤 | Timingmodul findes; effektstørrelser/CI mangler |
 | GABA/glutamat-balance | 🔴/🟡 | Egen evidenssyntese uden “imbalance”-forenkling |
 | Mitokondrier/metabolisme | 🟡 🔬 | Direkte kobling til fear learning mangler |
@@ -130,8 +130,8 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 ## Dossiers på plads
 - ✅ Butyrat
 - ✅/🟡 Lurasidon
-- 🟡 L-DOPA
-- 🟡 Oxytocin
+- ✅/🟡 L-DOPA — certainty profile + positive/mixed/replication-failure data
+- ✅/🟡 Oxytocin — certainty profile + 2025 human impairment modfund
 - ✅/🟡 HDAC2-selectivitet
 - ✅/🟡 [D-cycloserin](../04_CANDIDATES/DCS_DOSSIER.md)
 - ✅/🟡 [Propranolol](../04_CANDIDATES/PROPRANOLOL_DOSSIER.md)
@@ -150,9 +150,9 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 - 🟡 memantin
 - 🟡/🔬 amisulprid
 
-## V0.21-nøglefortolkninger
+## V0.25-nøglefortolkninger
 - DCS har stærk mekanistisk plausibilitet, men PTSD-RCT'er er blandede og større multisite data viser ingen stabil main effect.
-- FAAH-hæmning har et direkte humant experimental-medicine signal for delayed extinction recall, men ikke etableret klinisk PTSD-efficacy.
+- FAAH-hæmning har et direkte humant experimental-medicine signal for delayed extinction recall, men et N=100 PTSD-RCT fra 2025 fandt ingen ekstra clinical benefit over CBT trods AEA-target engagement.
 - Propranolol har positive og negative kliniske trials samt modstridende meta-analyser; symptomændring må ikke bruges som direkte reconsolidation-bevis.
 
 ---
@@ -182,7 +182,10 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | Søvn | 🟡 | Dedikeret sleep-memory consolidation-spor |
 | Døgnrytme | 🟡 | Human fear-learning evidens |
 | tVNS/autonom modulation | 🟡 🔬 | Replikation og klinisk translation |
-| Åndedræt/autonom regulering | 🔴/🟡 | Adskil akut state regulation fra læring |
+| Åndedræt/autonom regulering | 🟡 | Adskil akut state regulation fra læring; Jamison RCT tilføjet |
+| Nightmares/sleep | ✅/🟡 | Eget dossier + cannabinoid/sleep reviews; clinical outcome adskilles fra REM/dream recall |
+| Drømmelog/fortolkning | 🟡 🔬 | Kvalitativ hypotesegenerering; IRT/rescripting har stærkere clinical evidence |
+| Interoceptiv hyperventilation/challenge | 🟡 🔬 | Små PTSD-piloter + respiratory modfund; standardiseret/superviseret forskningsdesign mangler |
 
 ---
 
@@ -222,7 +225,7 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | Reproducerbar search-protokol | ✅/🟡 protokol + 30-record verified export/screening-set findes; native total hit count/full export og øvrige domæner mangler |
 | Deltager-overlap-register | ✅/🟡 register + CSV findes; flere trial-familier skal afklares |
 | Maskinlæsbar study/effect/session-data | ✅/🟡 schema + seed-data findes |
-| GRADE/certainty-lignende lag | ✅/🟡 — claim-level framework + reconsolidation seed-profile; ikke formel GRADE |
+| GRADE/certainty-lignende lag | ✅/🟡 — reconsolidation + candidate certainty-profiler; ikke formel GRADE |
 | Preregistration-lignende hypothesis registry | 🔴/🟡 |
 
 ## V1.0-krav til centrale studiekort
@@ -246,7 +249,7 @@ certainty
 
 # 11. Research reproducibility
 
-## Status efter v0.24
+## Status efter v0.25
 ✅ `/data/studies.csv` seed-index  
 ✅ `/data/study_schema.yaml`  
 ✅ `/data/effects.csv`  
@@ -328,6 +331,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.24 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret, reconsolidation som første delvist screenede/kvantificerede P2-domæne og et claim-level certainty-lag.**
+**FearPrime er efter v0.25 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret, reconsolidation og seks centrale candidates i claim-level certainty-laget samt nye nightmare/interoception-hypoteser med eksplicitte modfund og falsifikationskriterier.**
 
 Det afgørende hul er nu ikke datastrukturen, men dens **systematiske udfyldning og validering**: fuldtekster, effektstørrelser/CI, RoB, trial-register, participant-overlap, reproducerbare searches og derefter certainty.
