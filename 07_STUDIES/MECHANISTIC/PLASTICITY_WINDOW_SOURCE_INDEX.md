@@ -1,6 +1,8 @@
 # Plasticity Window Engine — source index
 Kontroldato 2026-09-17
 
+> **Specialindeks.** Dækker kun kilder, der bruges af Plasticity Window Engine. Den overordnede mekanisme-kildenavigation ligger i [MECHANISM_SOURCE_INDEX.md](MECHANISM_SOURCE_INDEX.md).
+
 Dette indeks understøtter [Plasticity Window Engine](../../05_MODELS/PLASTICITY_WINDOW_ENGINE.md). Det samler kilder på tværs af biologisk plasticitet, prediction error, extinction-retention, konsolidering og human translation. Kilderne understøtter forskellige led og må ikke kædes sammen som én allerede dokumenteret human mekanisme.
 
 | Kilde | Gate | Evidensniveau | Hovedbidrag |
