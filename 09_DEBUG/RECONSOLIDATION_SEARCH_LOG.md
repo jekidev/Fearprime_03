@@ -1,5 +1,16 @@
 # Rekonsolidering og tilbagevendende frygt — kildekontrol
-2026-09-17 · Målrettet evidensrunde, ikke fuld systematisk litteraturoversigt.
+2026-09-18 · Version 0.23 · Målrettet reproducerbar update-søgning, ikke fuld PRISMA-systematisk litteraturoversigt.
+
+## v0.23 update-pass
+Den detaljerede query-/screeninglog findes i [RECONSOLIDATION_SEARCH_2026-09-18.md](RECONSOLIDATION_SEARCH_2026-09-18.md) og maskinlæsbart i [data/search_log.csv](../data/search_log.csv).
+
+Nye selvstændige kort:
+- [Chen et al. 2025 — kvantificeret prediction error](../07_STUDIES/VERIFIED/2025_Chen_Quantified_Prediction_Error_Reconsolidation.md), PMID `40570716`, DOI `10.1016/j.cognition.2025.106224`.
+- [Paul & Asthana 2025 — memory strength × prediction error](../07_STUDIES/VERIFIED/2025_Paul_Memory_Strength_PE_Retrieval_Extinction.md), PMID `40653191`, DOI `10.1016/j.neuroscience.2025.07.014`.
+- [Li et al. 2025 — propranolol/PTSD meta-analyse](../07_STUDIES/REVIEWS/2025_Li_Propranolol_PTSD_Meta.md), PMID `39944616`, DOI `10.3389/fphar.2025.1545493`.
+- [Xia et al. 2026 — farmakologi og human aversiv hukommelse](../07_STUDIES/REVIEWS/2026_Xia_Pharmacological_Human_Aversive_Memory.md), PMID `41513054`, DOI `10.1016/j.neubiorev.2026.106548`.
+
+**Search-begrænsning:** den anvendte web/PubMed-indekserede søgeflade eksponerede ikke et stabilt komplet hit-count for de booleske queries. FearPrime registrerer derfor ikke et opdigtet PRISMA-n. Exact query, dato, kilder og inkluderede records er bevaret; en direkte PubMed-export er stadig nødvendig for en fuld systematisk search-flow.
 
 ## Søgninger
 - Schiller 2010 preventing return fear humans reconsolidation update extinction
