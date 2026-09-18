@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.21
+Status efter version 0.22
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.21 er de tidligere P0-huller og de definerede P1-moduler dækket på framework-/dossierniveau. Det største arbejde mod v1.0 er nu **study-level evidenskvalitet, reproducerbare søgninger, certainty, participant-overlap og maskinlæsbar datastruktur**.
+Efter v0.22 er P0/P1-arkitekturen dækket og P2-dataarkitekturen etableret. Det største arbejde mod v1.0 er nu **at udfylde strukturen med reproducerbare søgninger, fuldtekstbaseret RoB, komplette effektstørrelser/CI, overlapkontrol og et senere certainty-lag**.
 
 ---
 
@@ -217,10 +217,12 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | Review/meta-kategori | ✅/🟡 |
 | Claim-specific R0–R4 | ✅ |
 | M0–M4 reconsolidation inference | ✅ |
-| Risk-of-bias standard | ✅/🟡 template findes; study-level udfyldning mangler |
-| Effektstørrelser systematisk | ✅/🟡 startet i reconsolidation-kernen |
+| Risk-of-bias standard | ✅/🟡 template + maskinlæsbar seed-kodning findes; fuld korpuskodning mangler |
+| Effektstørrelser systematisk | ✅/🟡 extraction-standard + seed-data findes; komplette CI mangler |
+| Reproducerbar search-protokol | ✅/🟡 protokol + search-log findes; domænesøgninger skal udføres |
+| Deltager-overlap-register | ✅/🟡 register + CSV findes; flere trial-familier skal afklares |
+| Maskinlæsbar study/effect/session-data | ✅/🟡 schema + seed-data findes |
 | GRADE/certainty-lignende lag | 🔴 |
-| Deltager-overlap-register | 🟡 |
 | Preregistration-lignende hypothesis registry | 🔴/🟡 |
 
 ## V1.0-krav til centrale studiekort
@@ -244,21 +246,25 @@ certainty
 
 # 11. Research reproducibility
 
-## Mangler
-🔴 maskinlæsbar study index (CSV/JSON/YAML)  
-🔴 versionsnummer samlet ét sted  
-🔴 changelog  
+## Status efter v0.22
+✅ `/data/studies.csv` seed-index  
+✅ `/data/study_schema.yaml`  
+✅ `/data/effects.csv`  
+✅ `/data/risk_of_bias.csv`  
+✅ `/data/participant_overlap.csv`  
+✅ `/data/search_log.csv`  
+✅ `/data/session_schema.yaml`  
 🟡 citation consistency check  
 🟡 automatisk DOI/PMID-validering  
-🟡 duplicate-publication kontrol  
-🟡 automatisk link checker
+🟡 duplicate-publication kontrol er formaliseret, men ikke fuldt automatiseret  
+🟡 automatisk link checker  
+🔴 versionsnummer samlet ét sted  
+🔴 changelog
 
-## Forslag
+## Senere P3-filer
 ```text
-/data/studies.csv
 /data/candidates.csv
 /data/mechanisms.csv
-/data/session_schema.yaml
 CHANGELOG.md
 VERSION
 ```
@@ -290,12 +296,12 @@ VERSION
 **De definerede P1-opgaver er nu dækket på framework-/dossierniveau.**
 
 ## P2 — evidensstyrke
-15. ✅/🟡 Risk-of-bias template; udfyld study-level.
-16. ✅/🟡 Effect sizes + CI startet for reconsolidation-kernen; udvid til DCS/FAAH/øvrige kandidater.
-17. 🟡 Reproducerbare søgninger for hver P0/P1-domæne.
-18. 🔴 Maskinlæsbar study database og session-schema.
+15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
+16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
+17. ✅/🟡 Reproducerbar search-protokol + logstruktur; egentlige domænesøgninger skal udføres og screenes.
+18. ✅/🟡 Maskinlæsbar study/effect/session-database er etableret; korpus skal fortsat udfyldes.
 19. 🔴 Certainty-lag.
-20. 🟡 Participant-overlap register.
+20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
 
 ## P3 — v1.0-polering
 21. samlet glossary-kontrol.
@@ -321,6 +327,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.21 et sammenhængende pre-v1.0 framework med P0 og de definerede P1-moduler dækket.**
+**FearPrime er efter v0.22 et sammenhængende pre-v1.0 framework med P0/P1 dækket og P2-infrastrukturen etableret.**
 
-Det afgørende hul er nu **P2: evidensstyrke, reproducerbarhed og maskinlæsbar dataarkitektur** — ikke flere brede kernemodeller.
+Det afgørende hul er nu ikke datastrukturen, men dens **systematiske udfyldning og validering**: fuldtekster, effektstørrelser/CI, RoB, trial-register, participant-overlap, reproducerbare searches og derefter certainty.
