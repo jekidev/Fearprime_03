@@ -1,6 +1,8 @@
 # Kilder til mekanismekortet
 Kontroldato 2026-09-17. Bogstaver følger repoets evidenstyper, ikke en rangering af effektstørrelse. Studiekortene er korte evidensudtræk; ikke fulde vurderinger af systematiske fejlkilder.
 
+> **Kanonisk mekanisme-kildeindgang.** Dette indeks linker videre til specialindeks for PNN og Plasticity Window. De specialiserede indeksfiler må ikke tælles som separate evidenskilder.
+
 ## Specialiserede kildeindeks
 - [PNN / critical-period source index](PNN_SOURCE_INDEX.md) — Acan/aggrecan, ChABC, Crtl1/HAPLN1, OTX2, PV-TrkB, NgR1, MMP-9, ADAMTSL3 og related fear/critical-period data.
 
