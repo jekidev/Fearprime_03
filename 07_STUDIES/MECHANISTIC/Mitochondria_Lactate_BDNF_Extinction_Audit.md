@@ -1,6 +1,8 @@
 # Mitokondrier, laktat og BDNF: kritisk vurdering
 **Evidenstype D/E** for målrettet forbedring af human frygtudslukning.
 
+> **Bredere energy-metabolism audit.** Denne fil sætter lactate/BDNF-sporet ind i mitokondrie-/energi-kontekst. Den snævre lactate-audit ligger i [Lactate_BDNF_Extinction_Audit.md](Lactate_BDNF_Extinction_Audit.md).
+
 Læring kræver synaptisk ombygning, proteinsyntese, genopretning af iongradienter, glutamat/GABA, CREB-transkription og BDNF/TrkB. Motion påvirker samtidig energiomsætning, laktat, katekolaminer og endocannabinoider.
 
 Laktat kan fungere som brændstof, redoxsignal og transporteret substrat mellem astrocytter og neuroner. Sammenhænge med plasticitet i andre paradigmer dokumenterer ikke en replikeret human effekt af tilført laktat på frygtudslukning.
