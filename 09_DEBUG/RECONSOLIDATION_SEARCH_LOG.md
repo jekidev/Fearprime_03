@@ -1,6 +1,8 @@
 # Rekonsolidering og tilbagevendende frygt — kildekontrol
 2026-09-18 · Version 0.24 · Målrettet reproducerbar update-søgning, ikke fuld PRISMA-systematisk litteraturoversigt.
 
+> **Rolling historical search log.** Brug denne til kumulativ provenance. En konkret søgekørsel skal dokumenteres i en dateret search-fil, fx [RECONSOLIDATION_SEARCH_2026-09-18.md](RECONSOLIDATION_SEARCH_2026-09-18.md).
+
 ## v0.23 update-pass
 Den detaljerede query-/screeninglog findes i [RECONSOLIDATION_SEARCH_2026-09-18.md](RECONSOLIDATION_SEARCH_2026-09-18.md) og maskinlæsbart i [data/search_log.csv](../data/search_log.csv).
 
