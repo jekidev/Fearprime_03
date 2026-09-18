@@ -1,0 +1,6 @@
+study_id,randomization_process,allocation_concealment,participant_blinding,outcome_assessor_blinding,missing_outcome_data,outcome_measurement,selective_reporting,analysis_flexibility,multiplicity,baseline_imbalance,expectancy_unblinding,participant_overlap,overall,notes
+FP-REC-BRUNET-2018,LOW,UNCLEAR,LOW,UNCLEAR,SOME,SOME,SOME,SOME,SOME,UNCLEAR,SOME,UNCLEAR,SOME,"Double-blind RCT; physiological beta-blockade may threaten blinding; mechanism not isolated"
+FP-REC-ROULLET-2021,LOW,UNCLEAR,LOW,UNCLEAR,SOME,SOME,SOME,SOME,SOME,SOME,SOME,UNCLEAR,SOME,"Double-blind RCT; baseline age difference and follow-up attrition noted; subgroup signal not primary overall result"
+FP-REC-CHALKIA-2020,LOW,UNCLEAR,UNCLEAR,UNCLEAR,LOW,LOW,LOW,LOW,SOME,LOW,UNCLEAR,LOW,LOW-SOME,"Preregistered direct replication; strong design for testing retrieval-extinction claim"
+FP-REC-SCHILLER-2010,UNCLEAR,UNCLEAR,UNCLEAR,UNCLEAR,SOME,SOME,SOME,HIGH,SOME,UNCLEAR,UNCLEAR,LOW,SOME-HIGH,"Original influential signal; later reanalysis and direct replication reduce confidence in strong procedure claim"
+FP-REC-WOOD-2015,LOW,UNCLEAR,UNCLEAR,UNCLEAR,SOME,SOME,SOME,SOME,SOME,UNCLEAR,UNCLEAR,SOME,SOME,"Three small randomized PTSD experiments; small samples and heterogeneous pharmacological probes"
