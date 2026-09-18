@@ -228,8 +228,3 @@ P2 er nu fyldt med den første reelle reconsolidation-update og et større kvant
 5. [data/effects.csv](data/effects.csv), [data/studies.csv](data/studies.csv), [data/risk_of_bias.csv](data/risk_of_bias.csv) og [data/search_log.csv](data/search_log.csv) er opdateret tilsvarende.
 
 **Hovedkonklusionen ændres ikke til en stærkere klinisk påstand:** nyere PE/memory-strength fund nuancerer boundary conditions, men negative replikationer består. Human laboratoriekonvergens for propranolol/reconsolidation er stærkere end den kliniske PTSD-translation, som fortsat er blandet.
-
-### Discord-opstart
-Discord-serveren opstartes i løbet af næste uge, når der er samlet **admins** og tilstrækkelig egen empiri til en forsvarlig N=3-opstart.
-
-**OBS:** Husk klausul og disclaimer inden invite.
