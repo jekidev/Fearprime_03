@@ -1,6 +1,6 @@
 # FearPrime data layer
 
-Version 0.24 · 2026-09-18
+Version 0.25 · 2026-09-18
 
 Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne er fortsat den menneskeligt læsbare hoveddokumentation; datafilerne skal kunne analyseres af scripts/agenter uden at opfinde manglende information.
 
@@ -14,7 +14,7 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne 
 - `search_log.csv` — standardiseret log for reproducerbare litteratursøgninger.
 - `pubmed_reconsolidation_records_2026-09-18.csv` — verificeret PubMed-indekseret export-set fra reconsolidation-passet.
 - `reconsolidation_screening_2026-09-18.csv` — inclusion/exclusion + dedup/sample-overlap screeninglog.
-- `certainty.csv` — claim-level GRADE-informerede FearPrime certainty-ratings.
+- `certainty.csv` — claim-level GRADE-informerede FearPrime certainty-ratings; v0.25 omfatter reconsolidation samt DCS, FAAH/CB1, butyrat, L-DOPA, oxytocin og lurasidon.
 
 ## Regler
 1. Tomme felter betyder **ikke verificeret / ikke udtrukket**, ikke nul.
