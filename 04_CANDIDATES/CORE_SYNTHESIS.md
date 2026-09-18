@@ -1,6 +1,8 @@
 # Hovedkandidater: evidens og åbne spørgsmål
 Opdateret 2026-09-16; version 0.9. Afgrænset kildekontrol, ikke en systematisk søgning efter alle publicerede studier.
 
+> **Tværgående syntese.** Dette dokument sammenligner hovedspor og åbne spørgsmål; det er ikke et separat kandidatdossier. Aktuel claim-level certainty ligger i [Candidate Certainty Profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+
 Evidensbogstaver følger [fælles regler](../01_EVIDENCE_RULES.md). De beskriver evidenstype, ikke automatisk effektens størrelse eller studiets kvalitet.
 
 | Kandidat | Direkte holdepunkt | Modfund / begrænsning | FearPrime-status |
