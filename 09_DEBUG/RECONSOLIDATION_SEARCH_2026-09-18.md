@@ -1,6 +1,6 @@
 # FearPrime — reconsolidation update search 2026-09-18
 
-Version 0.23 · 2026-09-18
+Version 0.24 · 2026-09-18
 
 ## Formål
 Første v0.22-protokolbaserede update-pass for:
@@ -69,3 +69,11 @@ Søgningen er reproducerbar på query/date/source-niveau, men må først kaldes 
 
 ## Debug
 FearPrime må ikke efterrationalisere negative fund ved at tilføje en ny boundary condition, medmindre den nye moderator efterfølgende kan forudsige data i uafhængige studier.
+## v0.24 export/screening follow-up
+- Verified PubMed-indexed record set: [data/pubmed_reconsolidation_records_2026-09-18.csv](../data/pubmed_reconsolidation_records_2026-09-18.csv).
+- Screening/deduplication log: [data/reconsolidation_screening_2026-09-18.csv](../data/reconsolidation_screening_2026-09-18.csv).
+- Detailed limitation/status: [PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md](PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md).
+
+30 records are explicitly screened in the verified export set. This number must **not** be reported as the total PubMed search hit count.
+
+Because native PubMed ESearch/export was inaccessible through the current retrieval endpoint, v0.24 still does not claim PRISMA-complete identification. The export nevertheless preserves every PubMed record explicitly evaluated in this pass, including deliberate exclusions and duplicate-participant relationships.
