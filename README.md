@@ -37,7 +37,6 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [PubMed/MEDLINE export-status 2026-09-18](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
 - [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
-- [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
 - [Dækningsplan v0.25](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
