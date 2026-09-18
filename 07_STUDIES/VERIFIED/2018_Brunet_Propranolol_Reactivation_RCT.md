@@ -17,3 +17,16 @@ Brunet A, Saumier D, Liu A, Streiner DL, Tremblay J, Pitman RK. *Reduction of PT
 
 ## Kontrolniveau
 Dansk redaktion af det eksisterende studiekort, 2026-09-15. Tidligere kildeoplysninger er bevaret. Oversættelsen er ikke en ny fuldtekstkontrol eller vurdering af alle systematiske fejlkilder; særskilt ny kontrol fremgår af teksten, hvor den er udført.
+
+## P2 effect-size/RoB update — 2026-09-18
+**Between-group CAPS:** adjusted difference 11.50, reported SE 5.24, p=.034. FearPrime-calculated approximate normal 95% CI: **1.23 to 21.77**.
+
+**PCL-S:** reported model/group difference 14.58, SE 3.30, p<.001. FearPrime-calculated approximate normal 95% CI: **8.11 to 21.05**.
+
+The reported within-group Cohen d values are retained only as arm-level change and **must not be interpreted as treatment-effect d**.
+
+**Robustness:** R2.  
+**Mechanistic inference:** M2–M3 at most for the specific post-reactivation claim.  
+**RoB:** SOME.
+
+Calculation provenance is stored in [data/effects.csv](../../data/effects.csv). These CIs were calculated by FearPrime from reported estimate + SE and are not claimed as article-reported CIs.
