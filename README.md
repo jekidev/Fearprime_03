@@ -25,9 +25,13 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Evidensregler](01_EVIDENCE_RULES.md)
 - [Samlet studieregister + R0–R4 robusthed](07_STUDIES/STUDY_LEDGER.md)
 - [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
+- [Effect-size & CI extraction standard](09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md)
+- [Reproducerbar litteratursøgning](09_DEBUG/SYSTEMATIC_SEARCH_PROTOCOL.md)
+- [Participant-overlap register](09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md)
+- [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.21](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.22](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -74,7 +78,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 
-**P0-kernen og de definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Næste fase er P2: study-level risk-of-bias, effektstørrelser/CI, reproducerbare søgninger, participant-overlap og maskinlæsbar dataarkitektur. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
+**P0-kernen og de definerede P1-opgaver er dækket på framework-/dossierniveau. P2-infrastrukturen er nu implementeret:** RoB-standard, effect-size/CI-standard, participant-overlap, reproducerbar search-protokol og maskinlæsbare study/effect/session-data. Den resterende P2-opgave er primært at fylde strukturen systematisk med fuldtekstkontrollerede data. Se [coverage-planen](09_DEBUG/COVERAGE_PLAN.md).
 
 ## Ressourcer
 - [Samlet ressourceindeks](08_RESOURCES/README.md)
@@ -199,6 +203,18 @@ De resterende definerede P1-opgaver er nu gjort til egne moduler/dossiers:
 P2 er samtidig startet med en fælles [Risk-of-Bias-template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md) og en [reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md), hvor Brunet, Roullet, Schiller/Chalkia og meta-analyserne kobles til effektstørrelser, R-score, M-score og bias-noter.
 
 **De definerede P1-opgaver er nu dækket på framework-/dossierniveau.** Næste arbejde er primært P2: systematisk study-level evidenskvalitet, reproducerbare søgninger og dataarkitektur.
+
+## Version 0.22: maskinlæsbar P2-evidensarkitektur
+P2 er løftet fra enkeltstående audit til en fælles data- og metodearkitektur:
+
+1. [Risk-of-bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md) har nu et maskinlæsbar seed-register i [data/risk_of_bias.csv](data/risk_of_bias.csv).
+2. [Effect-size & CI extraction standard](09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md) adskiller mellemgruppeeffekter, within-group change, laboratoriemål og kliniske outcomes; [data/effects.csv](data/effects.csv) indeholder de første verificerede udtræk.
+3. [Reproducerbar litteratursøgning](09_DEBUG/SYSTEMATIC_SEARCH_PROTOCOL.md) standardiserer query, dato, databaser, screening, citation chasing, trial-register og eksklusionsgrunde; [data/search_log.csv](data/search_log.csv) er den maskinlæsbare log.
+4. [Participant-overlap register](09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md) og [data/participant_overlap.csv](data/participant_overlap.csv) forhindrer dobbeltoptælling af reanalyser, follow-ups og delstudier.
+5. [data/studies.csv](data/studies.csv) og [data/study_schema.yaml](data/study_schema.yaml) etablerer et study-level indeks med A–E, R0–R4, M0–M4, RoB, effektfelter og verification-status.
+6. [data/session_schema.yaml](data/session_schema.yaml) gør learning/session-data strukturerbar uden at lægge personlige helbredslogs i det offentlige repo.
+
+**P2 er dermed etableret på framework-/dataarkitekturniveau, men ikke færdig som fuld evidensudtrækning.** Næste trin er systematisk fuldtekstkontrol, komplette CI/effect estimates, trial-registration checks og overlap-afklaring for de centrale domæner.
 
 ### Discord-opstart
 Discord-serveren opstartes i løbet af næste uge, når der er samlet **admins** og tilstrækkelig egen empiri til en forsvarlig N=3-opstart.
