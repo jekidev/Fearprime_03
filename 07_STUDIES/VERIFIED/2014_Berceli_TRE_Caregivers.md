@@ -1,5 +1,7 @@
 # Berceli et al. 2014 — TRE/SUTT hos non-professional caregivers
 
+> **Alias / samme studie.** Dette kort beskriver samme PMID 25568824 / DOI 10.7453/gahmj.2014.032 som [2014_Berceli_TRE_Caregivers_Pilot.md](2014_Berceli_TRE_Caregivers_Pilot.md). Pilot-kortet er det kanoniske kort; denne fil bevares for eksisterende links og må ikke tælles som et ekstra studie.
+
 **Originaltitel:** Effects of Self-induced Unclassified Therapeutic Tremors on Quality of Life Among Non-professional Caregivers: A Pilot Study  
 **Journal:** Global Advances in Health and Medicine 3(5), 45–48  
 **PMID:** 25568824  
