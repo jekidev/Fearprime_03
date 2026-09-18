@@ -1,6 +1,8 @@
 # Laktat, motion og frygtudslukning
 **Evidens:** mekanistisk/præklinisk; direkte human intervention med laktat er ikke etableret her.
 
+> **Snæver audit.** Denne fil undersøger lactate/BDNF/extinction-sporet. Den bredere energi-/mitokondrie-kontekst ligger i [Mitochondria_Lactate_BDNF_Extinction_Audit.md](Mitochondria_Lactate_BDNF_Extinction_Audit.md).
+
 L-laktat øgede voksen hippocampal neurogenese gennem MCT2-afhængig biologi i dyreforsøg (31178678), men forbedrede ikke læring/hukommelse i de rapporterede prøver. Regelmæssig let motion accelererede præklinisk udslukning med mulig BDNF/TrkB-involvering (38214538).
 
 Motion har stærkere direkte støtte: 34280820, 36436532 og 30967530 forbinder motion med kliniske eller eksperimentelle udfald. Det dokumenterer ikke kæden »motion → laktat → BDNF → human udslukning« som eneste eller nødvendig mekanisme.
