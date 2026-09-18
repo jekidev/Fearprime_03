@@ -1,5 +1,5 @@
 # Dækning af studier, præparater, modeller og teorier
-Version 0.22 · 2026-09-18
+Version 0.23 · 2026-09-18
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
@@ -125,7 +125,8 @@ Eksisterende:
 - ✅ maskinlæsbar `session_schema.yaml`
 - 🟡 komplette study-level effektstørrelser + CI mangler for en stor del af korpuset
 - 🟡 fuld RoB-kodning mangler uden for seed-kernen
-- 🟡 reproducerbare searches skal udføres domæne for domæne; protokollen alene er ikke en færdig systematisk søgning
+- ✅/🟡 første daterede reconsolidation update-søgning med exact queries er gennemført; direkte PubMed-export/hit-count og fuld screeninglog mangler før PRISMA-status
+- 🟡 øvrige domæner skal stadig søges reproducerbart
 - 🟡 participant-overlap skal afklares for flere trial-familier
 - 🔴 certainty-lag inspireret af GRADE uden at overdrive præcision
 - 🟡 DOI/PMID- og link-validering
@@ -155,8 +156,8 @@ Eksisterende:
 
 ### P2 — evidensstyrke og reproducerbarhed
 15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
-16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
-17. ✅/🟡 Reproducerbar search-protokol + logstruktur; egentlige domænesøgninger skal udføres og screenes.
+16. ✅/🟡 Effect-size/CI-standard + udvidet reconsolidation-udtræk: Brunet/Roullet/Schiller er kvantificeret yderligere; Wood/Chalkia kræver fortsat fuld statistisk udtrækning.
+17. ✅/🟡 Reproducerbar search-protokol + første reconsolidation update-pass er gennemført; fuld PubMed-export/screeningflow og øvrige domæner mangler.
 18. ✅/🟡 Maskinlæsbar study database + session-schema er etableret; korpus skal fortsat udfyldes.
 19. 🔴 Certainty-lag med klare kriterier.
 20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
@@ -173,10 +174,10 @@ Eksisterende:
 Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller må ikke udfyldes med opfundne titler eller sikker effektstatus.
 
 ## Næste konkrete forskningsrunde
-1. Udfør den første fuldt reproducerbare reconsolidation-søgning efter v0.22-protokollen og udfyld search-loggen.
-2. Udtræk komplette between-group effect estimates + 95% CI for Brunet/Roullet/Wood og øvrige kliniske kernekilder.
-3. Udvid `data/risk_of_bias.csv` fra seed-kernen til alle centrale humane learning/reconsolidation-studier.
-4. Afklar trial-registration og participant-overlap for kliniske publikationer.
-5. Start certainty-laget først efter effect/ROB/search-data er tilstrækkeligt udfyldt.
+1. Kør samme reconsolidation-query direkte som PubMed/MEDLINE-export med total hit count, deduplikering og full-text exclusion log.
+2. Udtræk observeret standardized effect + CI fra Chalkia 2020 og de tre Wood 2015-delstudier, hvis fuldteksten giver tilstrækkelige data.
+3. Afstem 2022 vs. 2025 propranolol-meta-analysernes præcise inkluderede trials/outcomes.
+4. Udvid `data/risk_of_bias.csv` til resten af de centrale humane learning/reconsolidation-studier og afklar trial-overlap.
+5. Start certainty-laget først efter disse huller er reduceret.
 
 Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
