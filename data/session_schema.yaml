@@ -1,0 +1,62 @@
+version: "0.22"
+updated: "2026-09-18"
+
+session:
+  session_id: null
+  date: null
+  context_id: null
+  task_id: null
+
+pre:
+  threat_expectancy_0_100: null
+  safety_expectancy_0_100: null
+  distress_0_10: null
+  predicted_outcome: null
+
+exposure_or_task:
+  cue_type: null
+  context: null
+  safety_behavior_present: null
+  action_completed: null
+  actual_outcome: null
+  adverse_event: null
+
+learning:
+  prediction_error_signed: null
+  prediction_error_absolute: null
+  discrimination_csplus_minus_csminus: null
+  extinction_phase: null
+  generalization_stimulus: null
+
+post:
+  distress_0_10: null
+  threat_expectancy_0_100: null
+  safety_expectancy_0_100: null
+
+followup:
+  next_day_recall: null
+  seven_day_recall: null
+  renewal: null
+  reinstatement: null
+  spontaneous_recovery: null
+  reacquisition: null
+  function: null
+
+physiology:
+  heart_rate: null
+  hrv: null
+  scr: null
+  startle: null
+  respiration: null
+
+confounders:
+  sleep: null
+  illness: null
+  caffeine: null
+  medication_change: null
+  intervention_change: null
+  other: null
+
+privacy:
+  contains_personal_health_data: false
+  public_repo_allowed: false
