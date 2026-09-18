@@ -1,7 +1,7 @@
 # FearPrimes samlede studieregister
 Version 0.20 · 2026-09-17
 
-Dette er indgangen til alle registrerede studiekort og kilder. Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
+Dette er indgangen til alle registrerede studiekort og kilder. Den maskinlæsbare parallel findes i [`data/studies.csv`](../data/studies.csv), med separate effect-, RoB- og overlap-tabeller beskrevet i [`data/README.md`](../data/README.md). Den tidligere hovedliste indeholdt gentagne litteraturpakker; dens kilder er bevaret, mens beskrivelserne er samlet tematisk og redigeret på dansk.
 
 **Kontrolstatus:** Historiske VERIFIED-mærker betyder ikke, at hele litteraturen er kontrolleret på ny. Det enkelte kort angiver design, udfald og kontrolniveau. Nye bibliografiske spor holdes adskilt fra kontrollerede resultater.
 
