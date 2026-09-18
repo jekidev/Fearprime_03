@@ -16,3 +16,17 @@ Forsøgene taler imod en robust virkning af netop disse protokoller. Små gruppe
 - DOI: 10.1016/j.psychres.2014.09.005
 
 Se [klinisk sammenfatning](../../03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md).
+
+## P2 effect-size/RoB update — 2026-09-18
+The currently verified summary data do **not** provide enough information to calculate a defensible standardized between-group effect with 95% CI for the three substudies without additional full-text statistical extraction.
+
+FearPrime therefore records:
+`not_derivable_from_verified_data`
+
+No SD, correlation, or effect estimate is imputed.
+
+**Robustness:** R2.  
+**Mechanistic inference:** M2.  
+**RoB:** SOME.
+
+This missing-data status is itself preserved in [data/effects.csv](../../data/effects.csv).
