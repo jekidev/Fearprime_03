@@ -13,6 +13,8 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 - [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
 - [Fem arbejdsmodeller](05_MODELS/FIVE_WORKING_MODELS.md)
+- [PTSD nightmare + THC/cannabinoider + butyrat-hypotese](05_MODELS/PTSD_NIGHTMARE_THC_BUTYRATE_HYPOTHESIS.md)
+- [Butyrat → interoceptiv challenge → L-DOPA/oxytocin-hypotese](05_MODELS/INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md)
 - [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
 - [Hippocampus, kontekst og diskrimination](02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
 - [Insula og interoception](02_MECHANISMS/INSULA_INTEROCEPTION.md)
@@ -20,6 +22,7 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [NMDA/AMPA og glutamaterg plasticitet](02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
 - [Generalization & Safety Learning Engine](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md)
 - [Reconsolidation boundary conditions](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md)
+- [PTSD-mareridt, søvn og memory processing](03_EXTINCTION/PTSD_NIGHTMARE_SLEEP_DOSSIER.md)
 - [CPTSD measurement / ITQ](06_MEASUREMENT/CPTSD_MEASUREMENT.md)
 - [Standardiserede learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
@@ -30,12 +33,13 @@ FearPrime undersøger, hvordan beskyttende reaktioner kan blive overgeneralisere
 - [Participant-overlap register](09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md)
 - [GRADE-informeret certainty framework](09_DEBUG/CERTAINTY_FRAMEWORK.md)
 - [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md)
+- [Candidate certainty profile](09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md)
 - [PubMed/MEDLINE export-status 2026-09-18](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
 - [Maskinlæsbar dataarkitektur](data/README.md)
 - [Reconsolidation effect-size/RoB audit](09_DEBUG/RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 - [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md)
 - [Kilderegister med PMID og DOI](07_STUDIES/SOURCE_REGISTER.md)
-- [Dækningsplan v0.24](09_DEBUG/COVERAGE_PLAN.md)
+- [Dækningsplan v0.25](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime v1.0 gap-audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 
@@ -242,3 +246,13 @@ P2 er nu fyldt med den første reelle reconsolidation-update og et større kvant
 6. [Reconsolidation certainty profile](09_DEBUG/RECONSOLIDATION_CERTAINTY_PROFILE.md) og [data/certainty.csv](data/certainty.csv) giver de første provisoriske ratings: human propranolol/reconsolidation laboratorieeffekt MODERATE; klinisk PTSD-propranolol fordel LOW; retrieval-extinction reliability LOW; universal single-PE rule VERY_LOW.
 
 **Vigtigt:** disse ratings er GRADE-informerede FearPrime-vurderinger, ikke formelle GRADE-certificeringer. Ingen claim får HIGH i v0.24.
+## Version 0.25: candidate certainty, nightmares og interoceptiv learning
+
+1. [Candidate certainty profile](09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md) anvender samme claim-level certainty-logik på DCS, FAAH/CB1, butyrat, L-DOPA, oxytocin og lurasidon.
+2. FAAH-dossieret er korrigeret med [Mayo 2025 N=100 PTSD-RCT](07_STUDIES/VERIFIED/2025_Mayo_FAAH_PTSD_CBT_RCT.md): anandamid steg, men FAAH-hæmning gav ingen ekstra CAPS-5, sekundær symptom- eller søvnfordel over internet-CBT.
+3. [PTSD nightmare/sleep dossier](03_EXTINCTION/PTSD_NIGHTMARE_SLEEP_DOSSIER.md) adskiller nightmare distress, sleep quality, REM/dream recall og fear-memory learning. Nabilone-signalet må ikke generaliseres direkte til THC/cannabis.
+4. [Nightmare THC/butyrat-hypotesen](05_MODELS/PTSD_NIGHTMARE_THC_BUTYRATE_HYPOTHESIS.md) behandler drømmetydning som kvalitativ hypotesegenerering og imagery rehearsal/rescripting som det mere evidensnære learning-spor.
+5. [Interoceptiv butyrat/L-DOPA/oxytocin-hypotese](05_MODELS/INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md) registrerer brugerens egen empiri om kontrolleret hyperventilation som hypothesis-generating signal, ikke evidens. Komponenten skal dekomponeres før kombination.
+6. L-DOPA-sporet er nedgraderet af 2024 preregistreret replication failure på hovedvirkningen; oxytocin-sporet er gjort mere bidirektionelt efter 2025-data med forringet extinction learning.
+
+**Ingen af de to nye hypoteser er behandlings- eller doseringsprotokoller.**
