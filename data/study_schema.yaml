@@ -1,0 +1,68 @@
+version: "0.22"
+updated: "2026-09-18"
+
+study:
+  study_id: null
+  citation_key: null
+  year: null
+  title: null
+  study_card_path: null
+  doi: null
+  pmid: null
+  registration: null
+
+classification:
+  evidence_type: null   # A clinical, B healthy-human learning, C preclinical, D mechanism/biomarker, E hypothesis
+  domain: null
+  population: null
+  design: null
+  intervention: null
+  comparator: null
+  claim_direction: null # positive, negative, mixed, boundary, null, descriptive
+  robustness_r: null    # R0-R4
+  mechanism_m: null     # M0-M4 or NA
+
+sample:
+  randomized_n: null
+  analyzed_n: null
+  groups: []
+  participant_overlap_group: null
+
+outcomes:
+  primary_outcome: null
+  timepoint: null
+  modality: null
+  effect_metric: null
+  effect_estimate: null
+  ci95_low: null
+  ci95_high: null
+  p_value: null
+  effect_source: null
+  calculated_by_fearprime: false
+
+risk_of_bias:
+  randomization_process: UNCLEAR
+  allocation_concealment: UNCLEAR
+  participant_blinding: UNCLEAR
+  personnel_blinding: UNCLEAR
+  outcome_assessor_blinding: UNCLEAR
+  deviations_from_intended_intervention: UNCLEAR
+  missing_outcome_data: UNCLEAR
+  outcome_measurement: UNCLEAR
+  selective_reporting: UNCLEAR
+  analysis_flexibility: UNCLEAR
+  multiplicity: UNCLEAR
+  baseline_imbalance: UNCLEAR
+  treatment_fidelity: UNCLEAR
+  expectancy_unblinding: UNCLEAR
+  participant_overlap: UNCLEAR
+  overall: UNCLEAR
+
+verification:
+  metadata_verified: false
+  abstract_checked: false
+  fulltext_checked: false
+  supplement_checked: false
+  preregistration_checked: false
+  last_checked: null
+  notes: []
