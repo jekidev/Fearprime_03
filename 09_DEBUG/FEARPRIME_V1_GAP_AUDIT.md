@@ -1,7 +1,7 @@
 # FearPrime v1.0 — gap-audit
 
 Dato: 2026-09-17  
-Status efter version 0.23
+Status efter version 0.24
 
 ## Formål
 Denne audit vurderer **framework-dækning**, ikke om en behandling virker. Den spørger:
@@ -36,7 +36,7 @@ biologisk plasticitet
 retention + generalization + funktion
 ```
 
-Efter v0.23 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, og den første reconsolidation update-søgning/effect-size-runde er gennemført. Det største arbejde mod v1.0 er nu **fuld PubMed/screening-reproducerbarhed, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og derefter certainty**.
+Efter v0.24 er P0/P1-arkitekturen dækket, P2-dataarkitekturen etableret, et verificeret PubMed-indexeret reconsolidation export/screening-set er registreret, og et claim-level certainty-lag er oprettet. Det største arbejde mod v1.0 er nu **native PubMed hit-count/full export, fuldtekstbaseret RoB, resterende effektstørrelser/CI, overlapkontrol og publication-bias/dual-reviewer-validering**.
 
 ---
 
@@ -219,10 +219,10 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | M0–M4 reconsolidation inference | ✅ |
 | Risk-of-bias standard | ✅/🟡 template + maskinlæsbar seed-kodning findes; fuld korpuskodning mangler |
 | Effektstørrelser systematisk | ✅/🟡 extraction-standard + seed-data findes; komplette CI mangler |
-| Reproducerbar search-protokol | ✅/🟡 protokol + første reconsolidation update-pass findes; fuld PubMed-export/screening og øvrige domæner mangler |
+| Reproducerbar search-protokol | ✅/🟡 protokol + 30-record verified export/screening-set findes; native total hit count/full export og øvrige domæner mangler |
 | Deltager-overlap-register | ✅/🟡 register + CSV findes; flere trial-familier skal afklares |
 | Maskinlæsbar study/effect/session-data | ✅/🟡 schema + seed-data findes |
-| GRADE/certainty-lignende lag | 🔴 |
+| GRADE/certainty-lignende lag | ✅/🟡 — claim-level framework + reconsolidation seed-profile; ikke formel GRADE |
 | Preregistration-lignende hypothesis registry | 🔴/🟡 |
 
 ## V1.0-krav til centrale studiekort
@@ -246,7 +246,7 @@ certainty
 
 # 11. Research reproducibility
 
-## Status efter v0.22
+## Status efter v0.24
 ✅ `/data/studies.csv` seed-index  
 ✅ `/data/study_schema.yaml`  
 ✅ `/data/effects.csv`  
@@ -258,6 +258,7 @@ certainty
 🟡 automatisk DOI/PMID-validering  
 🟡 duplicate-publication kontrol er formaliseret, men ikke fuldt automatiseret  
 🟡 automatisk link checker  
+🟡 certainty.csv + PubMed screening/export-set er nu maskinlæsbare  
 🔴 versionsnummer samlet ét sted  
 🔴 changelog
 
@@ -298,9 +299,9 @@ VERSION
 ## P2 — evidensstyrke
 15. ✅/🟡 Risk-of-bias framework + maskinlæsbar seed-kodning; udvid study-level til hele kernekorpuset.
 16. ✅/🟡 Effect-size/CI-standard + seed-data; fuld udtrækning mangler.
-17. ✅/🟡 Reproducerbar search-protokol + første reconsolidation update-pass; fuld PRISMA-lignende export/screening mangler.
+17. ✅/🟡 Reproducerbar search-protokol + verified export/screening-set; native PubMed total hit count og komplet PRISMA-flow mangler.
 18. ✅/🟡 Maskinlæsbar study/effect/session-database er etableret; korpus skal fortsat udfyldes.
-19. 🔴 Certainty-lag.
+19. ✅/🟡 GRADE-informeret certainty framework + reconsolidation seed-profile; fuld formel certainty kræver komplet reviewflow.
 20. ✅/🟡 Participant-overlap framework + seed-register; unresolved trial-familier skal afklares.
 
 ## P3 — v1.0-polering
@@ -327,6 +328,6 @@ FearPrime bør først betegnes **v1.0**, når følgende er sandt:
 - Data- og versionsstrukturen kan læses både af mennesker og software.
 
 ## Samlet status
-**FearPrime er efter v0.23 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret og reconsolidation-sporet som første delvist udfyldte P2-domæne.**
+**FearPrime er efter v0.24 et sammenhængende pre-v1.0 framework med P0/P1 dækket, P2-infrastrukturen etableret, reconsolidation som første delvist screenede/kvantificerede P2-domæne og et claim-level certainty-lag.**
 
 Det afgørende hul er nu ikke datastrukturen, men dens **systematiske udfyldning og validering**: fuldtekster, effektstørrelser/CI, RoB, trial-register, participant-overlap, reproducerbare searches og derefter certainty.
