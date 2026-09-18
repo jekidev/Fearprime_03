@@ -1,5 +1,7 @@
 # Model for frygtudslukning
 
+> **Legacy compact model.** Bevares for historik og kort introduktion. Den kanoniske aktuelle learning-model er [03_EXTINCTION/EXTINCTION_ENGINE.md](../03_EXTINCTION/EXTINCTION_ENGINE.md). Denne fil må ikke tælles som en separat evidenskilde.
+
 ## Betingning og ny læring
 Ved betingning forbindes et signal (CS) med et ubehageligt udfald (US). Ved udslukning præsenteres signalet, mens det forventede ubehag udebliver. Forskellen mellem forventning og udfald kan understøtte ny hæmmende læring og sikkerhedslæring. Den oprindelige association kan stadig være tilgængelig.
 
