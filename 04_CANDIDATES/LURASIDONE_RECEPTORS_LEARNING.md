@@ -1,6 +1,8 @@
 # Lurasidon: 5-HT7, D2 og læring
 Version 0.11 · 2026-09-16
 
+> **Specialmodul.** Denne fil dækker receptor-/learning-broen. Den samlede kandidatstatus ligger i [LURASIDONE_DOSSIER.md](LURASIDONE_DOSSIER.md).
+
 ## Receptorbinding og adfærd er forskellige spørgsmål
 Det humane [D2-PET-kort](../07_STUDIES/MECHANISTIC/2013_Wong_Lurasidone_D2_PET.md) dokumenterer receptorbelægning under bestemte forsøgsbetingelser. Det fastlægger ikke en optimal læringsdosis eller individuel effekt.
 
