@@ -1,8 +1,10 @@
 # FearPrime data layer
 
-Version 0.26 · 2026-09-18
+Index version 0.27 · 2026-09-18
 
-Denne mappe er FearPrimes maskinlæsbare evidens- og målelag. Markdown-filerne er fortsat den menneskeligt læsbare hoveddokumentation; datafilerne skal kunne analyseres af scripts/agenter uden at opfinde manglende information.
+Denne mappe er FearPrimes maskinlæsbare evidens- og målelag.
+
+**Schema-versioner er uafhængige af repo-releaseversionen.** Et schema kan derfor fortsat stå som fx 0.22/0.26, hvis selve schemaet ikke er ændret i v0.27. Markdown-filerne er fortsat den menneskeligt læsbare hoveddokumentation; datafilerne skal kunne analyseres af scripts/agenter uden at opfinde manglende information.
 
 ## Filer
 - `studies.csv` — seed-indeks over centrale verificerede studier.
@@ -37,3 +39,12 @@ Se også:
 - [Certainty framework](../09_DEBUG/CERTAINTY_FRAMEWORK.md)
 - [Nightmare Measurement Engine](../06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md)
 - [Interoceptiv augmentation preregistration](../09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
+
+
+## Source-of-truth-rækkefølge
+1. Primærpublikation / registrering.
+2. Study card i `07_STUDIES/`.
+3. Struktureret row i `data/`.
+4. Dossier/syntese.
+
+Datafiler må ikke skabe nye claims, som ikke findes i den menneskeligt læsbare evidens.
