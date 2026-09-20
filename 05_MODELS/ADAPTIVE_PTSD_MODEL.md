@@ -1,6 +1,6 @@
 # FearPrime — adaptiv PTSD-model
 
-Version 0.17 · 2026-09-16
+Version 0.18 · 2026-09-20
 
 ## Status
 Dette er FearPrimes **integrerende arbejdsmodel**. Den samler funktionel/adaptiv forståelse, Harnischs kontekstuelle copingperspektiv, inhibitory learning, predictive processing, interoception, defensive responser, extinction og rekonsolidering.
@@ -41,6 +41,8 @@ Ved CPTSD er det foreslået, at stærke eller uhensigtsmæssigt præcise priors 
 FearPrime bruger dette som **teoretisk ramme**, ikke som bevist samlet neurobiologisk årsag til PTSD.
 
 **Arbejdshypotese:** Et traumesystem kan blive for sikkert på sin trusselsmodel og give ny sikkerhedsinformation for lav vægt.
+
+Det formelle lag ligger i [Predictive Processing / Bayesian / Active Inference Model](PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md), hvor priors, likelihood, precision weighting, hierarchical beliefs og action/policy selection kobles til ViolEx. Dette er en modelramme, ikke en påstand om en verificeret samlet neuronal PTSD-mekanisme.
 
 ### 3. Interoception
 Kropslige signaler er ikke kun “symptomer”; de er information, der kan indgå i trusselsvurderingen.
@@ -88,7 +90,7 @@ Craske/inhibitory-learning-sporet bruges til at fokusere på:
 - generalisering,
 - reduktion af unødvendig sikkerhedsadfærd.
 
-Se [Craske 2014](../07_STUDIES/THEORY/2014_Craske_Inhibitory_Learning.md) og [extinction-modellen](../03_EXTINCTION/EXTINCTION_ENGINE.md).
+Se [Craske 2014](../07_STUDIES/THEORY/2014_Craske_Inhibitory_Learning.md), [ViolEx 2.0](VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) og [extinction-modellen](../03_EXTINCTION/EXTINCTION_ENGINE.md).
 
 ### 6. Rekonsolidering og hukommelsesopdatering
 Genkaldelse af et minde betyder ikke automatisk, at mindet destabiliseres.
@@ -123,7 +125,7 @@ Undgåelse, scanning, mobilisering, immobilitet eller social tilbagetrækning re
 Hvis strategien altid fjerner personen fra situationen, kan systemet få mindre mulighed for at observere, hvornår den gamle forudsigelse ikke længere passer.
 
 ### Trin F — opdatering
-Sikker, afgrænset ny erfaring kan give prediction error og konkurrerende læring.
+Sikker, afgrænset ny erfaring kan give prediction error og konkurrerende læring. ViolEx-laget spørger desuden, om mismatch'et faktisk fører til accommodation eller immunization.
 
 ### Trin G — konsolidering og retrieval
 Det afgørende er ikke kun, hvad der skete under sessionen, men om den nye information kan genkaldes senere og i andre sammenhænge.

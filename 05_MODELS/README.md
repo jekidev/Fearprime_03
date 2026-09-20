@@ -4,6 +4,7 @@
 - [Adaptive PTSD Model](ADAPTIVE_PTSD_MODEL.md)
 - [CPTSD Model](CPTSD_MODEL.md)
 - [ViolEx 2.0 — expectation update vs. maintenance](VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) — valgfrit lærings-/fortolkningslag
+- [Predictive Processing / Bayesian / Active Inference Model](PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md) — formelt computationalt arbejds- og hypoteselag
 - [Five Working Models](FIVE_WORKING_MODELS.md)
 - [PTSD Theories](PTSD_THEORIES.md)
 - [Plasticity Window Engine](PLASTICITY_WINDOW_ENGINE.md)
@@ -17,4 +18,6 @@ En model organiserer spørgsmål og forudsigelser. Den er ikke ekstra evidens ov
 
 ViolEx 2.0 bruges som et valgfrit fortolkningslag og må ikke omtales som en valideret PTSD-protokol.
 
-Den ældre kompakte extinction-model ligger fortsat i `../models/` som legacy-dokument.
+Predictive-processing/active-inference modellen er ligeledes et hypoteselag. Den skal sammenlignes med enklere alternative modeller frem for antages sand.
+
+Den ældre kompakte extinction-model ligger fortsat i \`../models/\` som legacy-dokument.

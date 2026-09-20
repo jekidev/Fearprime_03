@@ -27,3 +27,7 @@ Artiklen er en teoretisk syntese. Den viser ikke, at én predictive-processing-m
 
 ## Evidensstatus
 Teori/review. Bruges til hypotesegenerering og operationalisering.
+
+## Integration i FearPrime
+
+Kilden er koblet direkte til [Predictive Processing / Bayesian / Active Inference Model](../../05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md), hvor den bruges sammen med Kube et al. 2020, ViolEx 2.0 og et empirisk-status review af predictive coding/active inference.
