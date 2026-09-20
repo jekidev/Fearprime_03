@@ -1,6 +1,6 @@
 # FearPrime_03
 
-**Aktuel framework-version: v0.27 · 2026-09-18**
+**Aktuel framework-version: v0.28 · 2026-09-20**
 
 FearPrime er et forskningsframework om PTSD/CPTSD, threat/safety learning, extinction, reconsolidation, kontekst, interoception og biologisk augmentation.
 
@@ -13,11 +13,12 @@ Kerneprincippet er funktionelt: defensive reaktioner kan være beskyttende i én
 1. [Manifest og formål](00_MANIFESTO.md)
 2. [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 3. [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
-4. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
-5. [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
-6. [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
-7. [Studieregister](07_STUDIES/STUDY_LEDGER.md)
-8. [Evidensregler](01_EVIDENCE_RULES.md)
+4. [ViolEx 2.0 — expectation update vs. maintenance](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
+5. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
+6. [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
+7. [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
+8. [Studieregister](07_STUDIES/STUDY_LEDGER.md)
+9. [Evidensregler](01_EVIDENCE_RULES.md)
 
 ## Repo-struktur
 
@@ -42,6 +43,7 @@ Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 - [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
 - [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 - [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
+- [ViolEx 2.0 — expectation update vs. maintenance](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
 - [Plasticity Window Engine](05_MODELS/PLASTICITY_WINDOW_ENGINE.md)
 
 ### Learning
@@ -84,6 +86,7 @@ Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 - P2 har maskinlæsbar dataarkitektur, RoB, effect-size/CI, participant-overlap, search logs og claim-level certainty.
 - Reconsolidation-sporet har et verificeret PubMed-indexeret screening/export-set, men ikke komplet native PubMed/PRISMA-flow.
 - Nightmare- og interoception-sporene har operationelle measurement/preregistration-lag.
+- ViolEx 2.0 er integreret som et valgfrit lag til analyse af expectation update vs. maintenance efter expectation violations.
 - Ingen claim behandles som stærkere end det direkte evidensniveau tillader.
 
 Se:

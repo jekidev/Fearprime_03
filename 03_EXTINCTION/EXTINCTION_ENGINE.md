@@ -14,6 +14,19 @@ Eksponering skal skabe ny læring; ro ved sessionens afslutning er ikke det enes
 9. Registrér den umiddelbare læring.
 10. Undersøg senere genkaldelse og registrér behandlingsforholdene. Spring ikke ordineret medicin over for at foretage en gentest.
 
+## Valgfrit ViolEx 2.0-lag
+
+[ViolEx 2.0-modellen](../05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) kan bruges som et ekstra fortolkningslag efter trin 7.
+
+Et expectation violation/prediction error er ikke automatisk lig med modelopdatering. Registrér derfor også, om udfaldet førte til:
+
+- **accommodation** — forventningen eller sikkerheden i forventningen blev opdateret,
+- **data-oriented immunization** — selve modbeviset blev devalueret eller kategoriseret som en undtagelse,
+- **concept-oriented immunization** — betydningen blev omdefineret, så udfaldet ikke længere testede den generaliserede forventning,
+- **assimilation** — anticipatorisk adfærd gjorde forventningsbekræftelse mere sandsynlig eller forventningsbrud mindre sandsynligt.
+
+FearPrime bruger ViolEx som en valgfri analysemodel, ikke som bevis for en bestemt PTSD-mekanisme eller behandling.
+
 ## Plasticity Window Engine
 Den biologiske plasticitet omkring en session er nu organiseret i [Plasticity Window Engine](../05_MODELS/PLASTICITY_WINDOW_ENGINE.md).
 
@@ -49,12 +62,13 @@ Genkaldelse efterfulgt af ny information kan indgå i både udslukning og rekons
 - Forudsigelsen bliver aldrig reelt afprøvet.
 - Overvældende eksponering bekræfter hjælpeløshed.
 - Sikkerhedsadfærd forhindrer læring.
+- Et objektivt forventningsbrud immuniseres bagefter og ændrer derfor ikke den generaliserede forventning.
 - Akut angstdæmpning forveksles med varig læring.
 - Øget plasticitet styrker uønsket læring.
 - Læringen knyttes kun til ét rum, én person eller én tilstand.
 - Senere genkaldelse bliver ikke undersøgt.
 - Mekanismen antages ud fra symptomændring.
 
-Spørg: Hvilken ny information var der faktisk grundlag for at lære?
+Spørg: Hvilken ny information var der faktisk grundlag for at lære — og blev den information accepteret som relevant evidens?
 
-Se [begrebsafklaring](EXTINCTION_RECONSOLIDATION_RETURN.md) og [observationsskabelon](RETURN_OF_FEAR_TEMPLATE.md). Genkaldelse beviser ikke destabilisering; symptomtilbagekomst identificerer ikke alene en bestemt laboratoriemekanisme.
+Se [begrebsafklaring](EXTINCTION_RECONSOLIDATION_RETURN.md), [ViolEx 2.0](../05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) og [observationsskabelon](RETURN_OF_FEAR_TEMPLATE.md). Genkaldelse beviser ikke destabilisering; symptomtilbagekomst identificerer ikke alene en bestemt laboratoriemekanisme.

@@ -2,6 +2,16 @@
 
 Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bevaret i [README v0.26 snapshot](09_DEBUG/ARCHIVE/README_v0.26_SNAPSHOT.md).
 
+## v0.28 — 2026-09-20 — ViolEx 2.0 integration
+
+- Tilføjet [ViolEx 2.0 expectation-update model](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) som valgfrit fortolkningslag.
+- Integreret accommodation, data-/concept-oriented immunization, assimilation og experimentation med FearPrimes eksisterende exposure/extinction-flow.
+- Tilføjet eksplicit skelnen mellem expectation violation/prediction error og faktisk expectation update.
+- Den foreslåede omvendte U-relation mellem violation magnitude og accommodation er markeret som hypotese/boundary-condition, ikke som universel lov.
+- Tilføjet teorikort for Panitz et al. 2021 med DOI, PMID og PMCID.
+- Extinction Engine linker nu til ViolEx-laget og registrerer immunization som mulig forklaring på manglende modelopdatering.
+- Panitz et al. 2021 er tilføjet til det maskinlæsbare study-register som teori, ikke klinisk effektstudie.
+
 ## v0.27 — 2026-09-18 — struktur-cleanup
 
 - Scannet hele repoet: 252 filer / 20 mapper.
