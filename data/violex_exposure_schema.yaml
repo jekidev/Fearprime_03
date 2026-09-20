@@ -1,0 +1,45 @@
+schema_name: fearprime_violex_exposure
+schema_version: "0.29"
+status: project_descriptive_not_clinically_validated
+
+units:
+  expectancy: "0-100"
+  confidence: "0-100"
+  severity: "0-100"
+  distress: "0-10"
+  arousal: "0-10"
+  safety_behavior_intensity: "0-100"
+  evidence_credibility: "0-100"
+
+derived_fields:
+  pe_signed:
+    formula: "observed_severity - pre_threat_expectancy"
+    warning: "Project-descriptive mismatch; not a neural prediction-error measure."
+  pe_absolute:
+    formula: "abs(observed_severity - pre_threat_expectancy)"
+    warning: "Project-descriptive expectation violation."
+  expectancy_update:
+    formula: "post_threat_expectancy - pre_threat_expectancy"
+  generalized_update:
+    formula: "post_generalized_belief - pre_generalized_belief"
+
+categorical_fields:
+  objective_risk:
+    allowed: [low, medium, high, unclear]
+  outcome_occurred:
+    allowed: [yes, no, partial, unclear]
+  violex_response:
+    allowed: [accommodation, immunization, mixed, no_violation, unclear]
+  immunization_subtype:
+    allowed: [none, data_oriented, concept_oriented, both, unclear]
+  generalization_result:
+    allowed: [generalized, context_specific, immunization_recurred, insufficient_data]
+
+rules:
+  - "Define prediction before observing outcome."
+  - "Do not equate subjective confidence with formal Bayesian precision."
+  - "Do not interpret PE fields as dopaminergic prediction error."
+  - "Do not infer reconsolidation from expectancy change alone."
+  - "Keep acute distress change separate from delayed retention/generalization."
+  - "Record real-world danger separately."
+  - "Do not commit identifiable/sensitive personal data to the public repo."
