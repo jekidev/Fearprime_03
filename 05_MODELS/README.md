@@ -5,6 +5,7 @@
 - [CPTSD Model](CPTSD_MODEL.md)
 - [ViolEx 2.0 — expectation update vs. maintenance](VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) — valgfrit lærings-/fortolkningslag
 - [Predictive Processing / Bayesian / Active Inference Model](PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md) — formelt computationalt arbejds- og hypoteselag
+- [Computational Model Comparison](COMPUTATIONAL_MODEL_COMPARISON.md) — operationaliseret sammenligning af simple og komplekse belief-update modeller
 - [Five Working Models](FIVE_WORKING_MODELS.md)
 - [PTSD Theories](PTSD_THEORIES.md)
 - [Plasticity Window Engine](PLASTICITY_WINDOW_ENGINE.md)
@@ -20,4 +21,6 @@ ViolEx 2.0 bruges som et valgfrit fortolkningslag og må ikke omtales som en val
 
 Predictive-processing/active-inference modellen er ligeledes et hypoteselag. Den skal sammenlignes med enklere alternative modeller frem for antages sand.
 
-Den ældre kompakte extinction-model ligger fortsat i \`../models/\` som legacy-dokument.
+HGF-like og active-inference-inspired kode i v0.30 er approximationsmodeller, ikke canonical HGF eller canonical active inference/POMDP.
+
+Den ældre kompakte extinction-model ligger fortsat i `../models/` som legacy-dokument.

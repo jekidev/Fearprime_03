@@ -1,0 +1,33 @@
+name: FearPrime computational tools
+
+on:
+  push:
+    paths:
+      - "tools/**"
+      - "tests/**"
+      - "data/computational_demo.csv"
+      - ".github/workflows/fearprime-tools.yml"
+  pull_request:
+    paths:
+      - "tools/**"
+      - "tests/**"
+      - "data/computational_demo.csv"
+      - ".github/workflows/fearprime-tools.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Calculator smoke test
+        run: python tools/fearprime_bayesian_calculator.py data/computational_demo.csv -o /tmp/violex_calculated.csv
+      - name: Model comparison smoke test
+        run: python tools/fearprime_model_compare.py data/computational_demo.csv -o /tmp/model_comparison.csv --predictions /tmp/model_predictions.csv
