@@ -1,8 +1,8 @@
 # FearPrime_03
 
-**Aktuel framework-version: v0.28 · 2026-09-20**
+**Aktuel framework-version: v0.29 · 2026-09-20**
 
-FearPrime er et forskningsframework om PTSD/CPTSD, threat/safety learning, extinction, reconsolidation, kontekst, interoception og biologisk augmentation.
+FearPrime er et forskningsframework om PTSD/CPTSD, threat/safety learning, extinction, reconsolidation, kontekst, interoception, predictive processing og biologisk augmentation.
 
 Kerneprincippet er funktionelt: defensive reaktioner kan være beskyttende i én kontekst og samtidig blive for brede, stive eller omkostningsfulde i en anden. Målet er bedre kalibrering, fleksibilitet, generalisering og funktion — ikke “nul frygt”.
 
@@ -14,26 +14,28 @@ Kerneprincippet er funktionelt: defensive reaktioner kan være beskyttende i én
 2. [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 3. [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
 4. [ViolEx 2.0 — expectation update vs. maintenance](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
-5. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
-6. [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
-7. [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
-8. [Studieregister](07_STUDIES/STUDY_LEDGER.md)
-9. [Evidensregler](01_EVIDENCE_RULES.md)
+5. [Predictive Processing / Bayesian / Active Inference](05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md)
+6. [ViolEx Exposure Measurement Sheet](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
+7. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
+8. [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
+9. [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
+10. [Studieregister](07_STUDIES/STUDY_LEDGER.md)
+11. [Evidensregler](01_EVIDENCE_RULES.md)
 
 ## Repo-struktur
 
 | Mappe | Ansvar |
 |---|---|
-| `00_MANIFESTO/` | Grundmodel og projektfilosofi |
-| `02_MECHANISMS/` | Kredsløb, signalveje og biologiske mekanismer |
-| `03_EXTINCTION/` | Learning, extinction, reconsolidation, generalization og søvn/nightmares |
-| `04_CANDIDATES/` | Interventioner/præparater og kandidatdossiers |
-| `05_MODELS/` | Samlede modeller og eksplorative hypoteser |
-| `06_MEASUREMENT/` | Outcomes, metrics og observations-/målerammer |
-| `07_STUDIES/` | Primær evidens, reviews, teori og kildekort |
-| `08_RESOURCES/` | Læringsressourcer, bøger, podcasts, videoer og kategorier |
-| `09_DEBUG/` | Metode, søgelogs, audits, certainty, roadmap og arkiv |
-| `data/` | Maskinlæsbare studie-, effekt-, RoB-, certainty- og måleschemas |
+| \`00_MANIFESTO/\` | Grundmodel og projektfilosofi |
+| \`02_MECHANISMS/\` | Kredsløb, signalveje og biologiske mekanismer |
+| \`03_EXTINCTION/\` | Learning, extinction, reconsolidation, generalization og søvn/nightmares |
+| \`04_CANDIDATES/\` | Interventioner/præparater og kandidatdossiers |
+| \`05_MODELS/\` | Samlede modeller og eksplorative hypoteser |
+| \`06_MEASUREMENT/\` | Outcomes, metrics og observations-/målerammer |
+| \`07_STUDIES/\` | Primær evidens, reviews, teori og kildekort |
+| \`08_RESOURCES/\` | Læringsressourcer, bøger, podcasts, videoer og kategorier |
+| \`09_DEBUG/\` | Metode, søgelogs, audits, certainty, roadmap og arkiv |
+| \`data/\` | Maskinlæsbare studie-, effekt-, RoB-, certainty- og måleschemas |
 
 Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 
@@ -43,7 +45,8 @@ Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 - [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
 - [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
 - [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
-- [ViolEx 2.0 — expectation update vs. maintenance](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
+- [ViolEx 2.0](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
+- [Predictive Processing / Bayesian / Active Inference](05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md)
 - [Plasticity Window Engine](05_MODELS/PLASTICITY_WINDOW_ENGINE.md)
 
 ### Learning
@@ -74,6 +77,7 @@ Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 ### Måling og metode
 - [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
 - [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
+- [ViolEx Exposure Measurement Sheet](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
 - [Nightmare Measurement Engine](06_MEASUREMENT/NIGHTMARE_MEASUREMENT_ENGINE.md)
 - [Risk of Bias template](09_DEBUG/RISK_OF_BIAS_TEMPLATE.md)
 - [Effect-size standard](09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md)
@@ -86,13 +90,15 @@ Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
 - P2 har maskinlæsbar dataarkitektur, RoB, effect-size/CI, participant-overlap, search logs og claim-level certainty.
 - Reconsolidation-sporet har et verificeret PubMed-indexeret screening/export-set, men ikke komplet native PubMed/PRISMA-flow.
 - Nightmare- og interoception-sporene har operationelle measurement/preregistration-lag.
-- ViolEx 2.0 er integreret som et valgfrit lag til analyse af expectation update vs. maintenance efter expectation violations.
+- ViolEx 2.0 er integreret som lag til expectation update vs. maintenance.
+- Predictive-processing/Bayesian/active-inference laget formaliserer priors, evidence weighting og action/policy selection uden at ophøje teorien til bevist PTSD-mekanisme.
+- ViolEx exposure-måling findes som Markdown-template og maskinlæsbar CSV/YAML.
 - Ingen claim behandles som stærkere end det direkte evidensniveau tillader.
 
 Se:
-- [Coverage Plan](09_DEBUG/COVERAGE_PLAN.md) — hvad der er dækket, og hvad der mangler.
-- [v1.0 Gap Audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) — readiness mod v1.0.
-- [CHANGELOG.md](CHANGELOG.md) — versionshistorik fremadrettet.
+- [Coverage Plan](09_DEBUG/COVERAGE_PLAN.md)
+- [v1.0 Gap Audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
+- [CHANGELOG.md](CHANGELOG.md)
 
 ## Historik
 
