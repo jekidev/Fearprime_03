@@ -36,7 +36,7 @@ Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hver
 | [Modeller](05_MODELS/README.md) | Adaptiv PTSD, CPTSD, ViolEx, forventningsopdatering og arbejdshypoteser |
 | [Måling](06_MEASUREMENT/README.md) | Skabeloner og særskilte mål for symptomer, læring og funktion |
 | [Studier](07_STUDIES/README.md) | Humane studier, dyreforsøg, mekanismer, teori og oversigter |
-| [Ressourcer](08_RESOURCES/README.md) | Bøger, foredrag, podcasts og [personligt betydningsfuld musik](08_RESOURCES/MUSIK.md) |
+| [Ressourcer](08_RESOURCES/README.md) | Bøger, foredrag, podcasts og [musik](08_RESOURCES/MUSIK.md) |
 | [Metode og kvalitet](09_DEBUG/README.md) | Søgelogs, fejlkilder, evidenssikkerhed og åbne opgaver |
 
 ## Beregningsmodeller
