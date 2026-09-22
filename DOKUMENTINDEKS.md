@@ -270,7 +270,7 @@ Opdateret med v0.31 · 2026-09-22.
 - [Foredrag og webinarer](08_RESOURCES/LECTURES.md)
 - [Podcasts](08_RESOURCES/PODCASTS.md)
 - [FearPrime ressourcer](08_RESOURCES/README.md)
-- [Spotify — personlige musikressourcer](08_RESOURCES/SPOTIFY.md)
+- [Musik](08_RESOURCES/MUSIK.md)
 - [YouTube-ressourcer](08_RESOURCES/YOUTUBE_RESOURCES.md)
 
 ## 08_RESOURCES/CATEGORIES

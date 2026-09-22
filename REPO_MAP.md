@@ -18,7 +18,7 @@ Version 0.31 · 2026-09-22
 | Hvad kan beregnes? | [Værktøjer](tools/README.md) | [Modelsammenligning](05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md), [data](data/README.md) |
 | Hvor sikkert er et udsagn? | [Evidensregler](01_EVIDENCE_RULES.md) | [Vurderingsramme](09_DEBUG/CERTAINTY_FRAMEWORK.md), fejlkilder og usikkerhed |
 | Hvad mangler? | [Dækningsplan](09_DEBUG/COVERAGE_PLAN.md) | [Mangelliste frem mod v1.0](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) |
-| Hvilke ressourcer findes? | [Ressourcer](08_RESOURCES/README.md) | Bøger, videoer, podcasts og [personlig musik](08_RESOURCES/SPOTIFY.md) |
+| Hvilke ressourcer findes? | [Ressourcer](08_RESOURCES/README.md) | Bøger, videoer, podcasts og [personlig musik](08_RESOURCES/MUSIK.md) |
 
 ## Sammenhæng uden dobbeltarbejde
 

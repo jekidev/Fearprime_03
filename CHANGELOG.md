@@ -2,6 +2,12 @@
 
 Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bevaret i [README v0.26 snapshot](09_DEBUG/ARCHIVE/README_v0.26_SNAPSHOT.md).
 
+## Unreleased — 2026-09-22
+
+- Omdøbt musikressourcen fra Spotify til Musik og opdateret navigationen.
+- Tilføjet en neoklassisk playliste.
+- Det eksisterende nummer er nu angivet som begyndelsen på en FearPrime-playliste.
+
 ## v0.31 — 2026-09-22 — læseveje, biokemi og linkintegritet
 
 - Ny kort indgang og læseveje fra grundforståelse til fordybelse.
