@@ -48,5 +48,3 @@ Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hver
 [Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder; [mangellisten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) viser det resterende arbejde med bl.a. effektstørrelser, systematiske fejlkilder og søgningernes fuldstændighed.
 
 **Find rundt:** [Dansk ordbog](DANSK_ORDBOG.md) · [Emnekort](REPO_MAP.md) · [Alle dokumenter](DOKUMENTINDEKS.md) · [Versionshistorik](CHANGELOG.md).
-
-Personlige helbredsregistreringer skal opbevares privat. Skabelonerne i repoet er til struktur og dokumentation.
