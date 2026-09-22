@@ -1,6 +1,6 @@
 # Musik
 
-Musik med personlig betydning i forbindelse med FearPrime. Samlingen er en personlig ressource, ikke forskningsgrundlag eller en behandlingsanbefaling.
+Samlingen er blot en personlig ressource, ikke forskningsgrundlag eller en behandlingsanbefaling.
 
 (Musikterapi kan have relevans)
 
