@@ -1,6 +1,6 @@
 # FearPrime computational tools
 
-Version 0.1 · repo v0.30
+Version 0.2 · repo v0.30
 
 Dependency-free Python utilities for the public FearPrime framework. They use only the Python standard library.
 
@@ -51,11 +51,41 @@ Implemented:
 
 The script reports SSE, MAE, RMSE, Gaussian NLL, AIC, BIC and ΔBIC. Ranking is in-sample and exploratory.
 
+## 3. Repository QA audit v0.1
+
+`fearprime_repo_audit.py` checks framework integrity without changing files.
+
+Run:
+
+```bash
+python tools/fearprime_repo_audit.py .
+```
+
+Strict mode returns a non-zero exit code when hard errors are found:
+
+```bash
+python tools/fearprime_repo_audit.py . --strict
+```
+
+Current checks:
+
+- missing internal Markdown link targets,
+- `VERSION` consistency against root README, repo-map and latest released changelog entry,
+- CSV readability and header integrity in `data/`,
+- Markdown files with no detected inbound link as **warnings**,
+- duplicate PMID/DOI appearances across study-card files as **warnings for manual review**.
+
+Warnings are intentionally non-destructive. A repeated PMID/DOI can represent an alias, reanalysis or deliberate cross-reference and is therefore not automatically treated as duplicate evidence.
+
+YAML schema validation and personal-data detection are not claimed by this tool yet; those remain explicit release-check items until a reliable validator is added.
+
 ## Tests
 
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+GitHub Actions runs unit tests, calculator/model smoke tests and the repository QA report.
 
 ## Method rule
 
