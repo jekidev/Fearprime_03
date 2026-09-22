@@ -8,7 +8,7 @@ Grundideen er funktionel: defensive reaktioner kan beskytte under fare og senere
 
 ## Start
 
-**[Start her: forstå FearPrime og vælg en læsevej](START_HER.md)**
+**[Forstå FearPrime og vælg en læsevej](START_HER.md)**
 
 | Jeg vil … | Begynd her |
 |---|---|
