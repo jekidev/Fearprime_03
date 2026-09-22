@@ -6,7 +6,7 @@ Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bev
 
 - Omdøbt musikressourcen fra Spotify til Musik og opdateret navigationen.
 - Tilføjet en neoklassisk playliste.
-- Det eksisterende nummer er nu angivet som begyndelsen på en FearPrime-playliste.
+- Erstattet det midlertidige enkelttrack med den egentlige FearPrime-playliste og rettet Markdown-linkformatet.
 
 ## v0.31 — 2026-09-22 — læseveje, biokemi og linkintegritet
 
