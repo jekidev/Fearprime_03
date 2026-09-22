@@ -10,9 +10,8 @@ Samlingen er blot en personlig ressource, ikke forskningsgrundlag eller en behan
 
 ## FearPrime-playliste
 
-Det første nummer er starten på en kommende FearPrime-playliste. Flere numre tilføjes.
+[Åbn FearPrime-playlisten på Spotify](https://open.spotify.com/playlist/3sd0vcbC8XlExSHiL2QwH3)
 
-1.(https://open.spotify.com/track/0sUh1WJUeDsILDuvT7qKyD).
+Flere numre kan tilføjes løbende.
 
-
-[Tilbage til ressourcer](README.md).
+[Tilbage til ressourcer](README.md)
