@@ -6,7 +6,7 @@ Et forskningsframework om PTSD/CPTSD, frygtlæring og muligheden for varig foran
 
 Grundideen er funktionel: defensive reaktioner kan beskytte under fare og senere blive for brede eller stive. Målet er bedre skelnen mellem fare og sikkerhed, større fleksibilitet og bedre funktion.
 
-## Start enkelt
+## Start
 
 **[Start her: forstå FearPrime og vælg en læsevej](START_HER.md)**
 
