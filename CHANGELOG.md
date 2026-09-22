@@ -8,6 +8,10 @@ Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bev
 - Første Spotify-spor er registreret som personlig ressource.
 - Spotify-laget er eksplicit markeret som **ikke evidens**, ikke intervention og ikke behandlingsanbefaling.
 - Ressourceindeks og repo-map er opdateret, så personlige musikressourcer ikke blandes med studier eller mekanistiske påstande.
+- Tilføjet dependency-free `tools/fearprime_repo_audit.py` til repo-wide QA.
+- Audit-v0.1 kontrollerer interne Markdown-links, release-versioner og CSV-integritet samt rapporterer orphan-filer og mulige PMID/DOI-duplikater til manuel triage.
+- Tilføjet `tests/test_repo_audit.py` og GitHub Actions QA-rapport.
+- v1.0 Gap Audit er opdateret, så resterende QA-blockers er eksplicitte i stedet for at blive markeret som løst.
 
 ## v0.30 — 2026-09-20 — Bayesian Calculator + computational model comparison
 
