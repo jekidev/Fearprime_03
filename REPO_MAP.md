@@ -30,6 +30,8 @@ audit / certainty / roadmap
 | Computational comparison | `05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md` | `tools/fearprime_model_compare.py` |
 | Måling | `06_MEASUREMENT/MEASUREMENT_PLAN.md` | learning metrics, ViolEx, CPTSD, nightmares |
 | Studier | `07_STUDIES/STUDY_LEDGER.md` | underkategorier + individuelle kort |
+| Ressourcer | `08_RESOURCES/README.md` | YouTube, bøger, podcasts, foredrag, personlig Spotify-musik |
+| Personlig musik | `08_RESOURCES/SPOTIFY.md` | ikke evidens; kun personlig betydning |
 | Maskinlæsbare data | `data/README.md` | CSV/YAML + synthetic demo |
 | Computational tools | `tools/README.md` | calculator + model comparison |
 | Tests | `tests/test_fearprime_tools.py` | GitHub Actions workflow |
@@ -73,6 +75,10 @@ De må ikke tælles som ekstra evidens.
 - `THEORY/`
 - `QUALITATIVE/`
 - `PROTOCOLS/`
+
+## Ressourcearkitektur
+
+`08_RESOURCES/` indeholder materiale, der kan være nyttigt for projektet uden automatisk at være evidens. Personligt materiale, herunder Spotify-musik, holdes eksplicit adskilt fra studier, mekanismer og interventionspåstande.
 
 ## Dataarkitektur
 
