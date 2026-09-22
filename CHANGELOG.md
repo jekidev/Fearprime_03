@@ -2,6 +2,13 @@
 
 Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bevaret i [README v0.26 snapshot](09_DEBUG/ARCHIVE/README_v0.26_SNAPSHOT.md).
 
+## Unreleased — 2026-09-22
+
+- Tilføjet `08_RESOURCES/SPOTIFY.md` som separat lag for personligt betydningsfuld musik.
+- Første Spotify-spor er registreret som personlig ressource.
+- Spotify-laget er eksplicit markeret som **ikke evidens**, ikke intervention og ikke behandlingsanbefaling.
+- Ressourceindeks og repo-map er opdateret, så personlige musikressourcer ikke blandes med studier eller mekanistiske påstande.
+
 ## v0.30 — 2026-09-20 — Bayesian Calculator + computational model comparison
 
 - Tilføjet dependency-free `tools/fearprime_bayesian_calculator.py` v0.1.
