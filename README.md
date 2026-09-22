@@ -1,101 +1,52 @@
-# FearPrime_03
+# FearPrime
 
-**Aktuel framework-version: v0.30 · 2026-09-20**
+**Aktuel framework-version: v0.31 · 2026-09-22**
 
-FearPrime er et forskningsframework om PTSD/CPTSD, threat/safety learning, extinction, reconsolidation, kontekst, interoception, predictive processing og biologisk augmentation.
+Et forskningsframework om PTSD/CPTSD, frygtlæring og muligheden for varig forandring. FearPrime forbinder biokemi, hjernekredsløb, eksponering, hukommelse og måling.
 
-Kerneprincippet er funktionelt: defensive reaktioner kan være beskyttende i én kontekst og samtidig blive for brede, stive eller omkostningsfulde i en anden. Målet er bedre kalibrering, fleksibilitet, generalisering og funktion — ikke “nul frygt”.
+Grundideen er funktionel: defensive reaktioner kan beskytte under fare og senere blive for brede eller stive. Målet er bedre skelnen mellem fare og sikkerhed, større fleksibilitet og bedre funktion.
 
-> Repoet er et forsknings- og hypoteseframework. Mekanistisk plausibilitet, laboratorielæring og klinisk effekt holdes adskilt.
+## Start enkelt
 
-## Start her
+**[Start her: forstå FearPrime og vælg en læsevej](START_HER.md)**
 
-1. [Manifest og formål](00_MANIFESTO.md)
-2. [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
-3. [Eksponering og ny læring](03_EXTINCTION/EXTINCTION_ENGINE.md)
-4. [ViolEx 2.0](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
-5. [Predictive Processing / Bayesian / Active Inference](05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md)
-6. [Computational Model Comparison](05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md)
-7. [ViolEx Exposure Measurement Sheet](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
-8. [Computational tools](tools/README.md)
-9. [Fear Circuit Master Map](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md)
-10. [Kandidatmatrix](04_CANDIDATES/CANDIDATE_MATRIX.md)
-11. [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
-12. [Studieregister](07_STUDIES/STUDY_LEDGER.md)
-13. [Evidensregler](01_EVIDENCE_RULES.md)
-
-## Repo-struktur
-
-| Mappe | Ansvar |
+| Jeg vil … | Begynd her |
 |---|---|
-| `00_MANIFESTO/` | Grundmodel og projektfilosofi |
-| `02_MECHANISMS/` | Kredsløb, signalveje og biologiske mekanismer |
-| `03_EXTINCTION/` | Learning, extinction, reconsolidation, generalization og søvn/nightmares |
-| `04_CANDIDATES/` | Interventioner/præparater og kandidatdossiers |
-| `05_MODELS/` | Samlede modeller og eksplorative computational models |
-| `06_MEASUREMENT/` | Outcomes, metrics og observations-/målerammer |
-| `07_STUDIES/` | Primær evidens, reviews, teori og kildekort |
-| `08_RESOURCES/` | Læringsressourcer, bøger, podcasts, videoer og kategorier |
-| `09_DEBUG/` | Metode, søgelogs, audits, certainty, roadmap og arkiv |
-| `data/` | Maskinlæsbare studie- og måledata/schemaer |
-| `tools/` | Dependency-free Python calculators/model comparison |
-| `tests/` | Regression tests for computational tools |
+| Forstå projektets formål | [Manifest](00_MANIFESTO.md) og [adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md) |
+| Forstå biokemien trin for trin | [Fra signal til hukommelse](02_MECHANISMS/BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md) |
+| Forstå receptorer og præparaters virkning | [Receptorer og signalveje](02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md) |
+| Forstå eksponering og ny læring | [Læringsmodulet](03_EXTINCTION/EXTINCTION_ENGINE.md) |
+| Undersøge butyrat, L-DOPA, oxytocin eller lurasidon | [Kandidatoversigten](04_CANDIDATES/README.md) |
+| Beskrive forventninger og ændring | [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md) og [ViolEx-ark](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md) |
+| Finde kilderne | [Studieregister](07_STUDIES/STUDY_LEDGER.md) og [kilderegister](07_STUDIES/SOURCE_REGISTER.md) |
 
-Se [REPO_MAP.md](REPO_MAP.md) for det detaljerede kort.
+## Det centrale spørgsmål
 
-## Centrale faglige indgange
+**Hvilken ny information bliver lært, fastholdt og brugt senere?**
 
-### Modeller
-- [Funktionel PTSD-model](00_MANIFESTO/FEARPRIME_MODEL.md)
-- [Adaptiv PTSD-model](05_MODELS/ADAPTIVE_PTSD_MODEL.md)
-- [CPTSD-model](05_MODELS/CPTSD_MODEL.md)
-- [ViolEx 2.0](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md)
-- [Predictive Processing / Bayesian / Active Inference](05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md)
-- [Computational Model Comparison](05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md)
-- [Plasticity Window Engine](05_MODELS/PLASTICITY_WINDOW_ENGINE.md)
+Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hverdagsfunktion er forskellige resultater. FearPrime holder dem adskilt. Biologisk plausibilitet og laboratoriefund bruges til at stille præcise forskningsspørgsmål; klinisk effekt kræver egne data.
 
-### Måling og computational tools
-- [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md)
-- [Learning metrics](06_MEASUREMENT/LEARNING_METRICS.md)
-- [ViolEx Exposure Measurement Sheet](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
-- [Bayesian Calculator + Model Compare](tools/README.md)
-- [Synthetic computational demo](data/computational_demo.csv)
+## Gå i dybden
 
-## Computational v0.1
+| Område | Indhold |
+|---|---|
+| [Biokemi og kredsløb](02_MECHANISMS/README.md) | Receptorer, glutamat, BDNF/TrkB, HDAC, dopamin, stresssystemer og PNN |
+| [Læring og hukommelse](03_EXTINCTION/README.md) | Udslukning, rekonsolidering, generalisering, tilbagekomst af frygt og søvn |
+| [Præparater og kandidater](04_CANDIDATES/README.md) | Hoveddossierer, formuleringer, direkte fund og modfund |
+| [Modeller](05_MODELS/README.md) | Adaptiv PTSD, CPTSD, ViolEx, forventningsopdatering og arbejdshypoteser |
+| [Måling](06_MEASUREMENT/README.md) | Skabeloner og særskilte mål for symptomer, læring og funktion |
+| [Studier](07_STUDIES/README.md) | Humane studier, dyreforsøg, mekanismer, teori og oversigter |
+| [Ressourcer](08_RESOURCES/README.md) | Bøger, foredrag, podcasts og [personligt betydningsfuld musik](08_RESOURCES/SPOTIFY.md) |
+| [Metode og kvalitet](09_DEBUG/README.md) | Søgelogs, fejlkilder, evidenssikkerhed og åbne opgaver |
 
-`tools/fearprime_bayesian_calculator.py` beregner PE, expectancy update, descriptive accommodation/immunization, retention og generalization fra ViolEx CSV-data.
+## Beregningsmodeller
 
-`tools/fearprime_model_compare.py` sammenligner på samme target:
-- no-update baseline,
-- Rescorla–Wagner,
-- soft-evidence Bayesian,
-- HGF-like adaptive volatility,
-- active-inference-inspired precision/policy.
+[Værktøjerne](tools/README.md) beregner beskrivende læringsmål og sammenligner modeller for forventningsopdatering. [Modelsammenligningen](05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md) forklarer forudsætningerne. De mere komplekse modeller er tilnærmelser; god tilpasning til data identificerer ikke i sig selv en neuronal mekanisme. [Demodata](data/computational_demo.csv) er syntetiske.
 
-HGF-like og active-inference-inspired modellerne er **approximationsmodeller**, ikke canonical implementations. Model-fit er ikke bevis for en neuronal mekanisme.
+## Evidens og projektstatus
 
-## Aktuel status
+[Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder; [mangellisten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) viser det resterende arbejde med bl.a. effektstørrelser, systematiske fejlkilder og søgningernes fuldstændighed.
 
-- ViolEx 2.0 er integreret som lag til expectation update vs. maintenance.
-- Predictive-processing/Bayesian/active-inference laget formaliserer priors, evidence weighting og action/policy selection.
-- ViolEx exposure-måling findes som Markdown-template og CSV/YAML.
-- Computational v0.1 kan beregne session metrics og lave model comparison med AIC/BIC/RMSE.
-- Unit tests og GitHub Actions smoke-tests er tilføjet.
-- Ingen claim behandles som stærkere end det direkte evidensniveau tillader.
+**Find rundt:** [Dansk ordbog](DANSK_ORDBOG.md) · [Emnekort](REPO_MAP.md) · [Alle dokumenter](DOKUMENTINDEKS.md) · [Versionshistorik](CHANGELOG.md).
 
-Se:
-- [Coverage Plan](09_DEBUG/COVERAGE_PLAN.md)
-- [v1.0 Gap Audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
-- [CHANGELOG.md](CHANGELOG.md)
-
-## Historik
-
-Den tidligere v0.26-README er bevaret i [README v0.26 snapshot](09_DEBUG/ARCHIVE/README_v0.26_SNAPSHOT.md).
-
-## Ressourcer
-
-- [Ressourceindeks](08_RESOURCES/README.md)
-- [Danske fagbegreber](DANSK_ORDBOG.md)
-- [Data layer](data/README.md)
-
-Repoet er offentligt; personlige helbredsregistreringer skal opbevares privat.
+Personlige helbredsregistreringer skal opbevares privat. Skabelonerne i repoet er til struktur og dokumentation.

@@ -1,4 +1,4 @@
-# Debug / methods — index
+# Metode, kvalitet og åbne spørgsmål
 
 Denne mappe indeholder **metode og audit**, ikke primær evidens.
 
@@ -27,7 +27,12 @@ Disse to filer har forskellige roller og må ikke udvikle parallelle changelogs.
 - [Effect-size/RoB Audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md)
 
 ## Andre søgelogs
-Butyrat/Latuda, core drugs, theory, translation og TRE logs bevares som historisk provenance.
+- [Butyrat og lurasidon](BUTYRATE_LATUDA_SEARCH_LOG.md)
+- [Hovedkandidater](CORE_DRUG_SEARCH_LOG.md)
+- [Teori](THEORY_SEARCH_LOG.md)
+- [Overførbarhed](TRANSLATION_SEARCH_LOG.md)
+- [TRE](TRE_SEARCH_LOG.md)
+- [Historisk status 2026-09-15](STATUS_2026-09-15.md)
 
 ## Preregistration
 - [Interoceptive Augmentation Preregistration](INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
@@ -38,3 +43,5 @@ Butyrat/Latuda, core drugs, theory, translation og TRE logs bevares som historis
 
 ## Archive
 [ARCHIVE/](ARCHIVE/) indeholder snapshots af tidligere store indeksfiler. De er historik og skal ikke bruges som aktiv evidenssyntese.
+
+[Struktur- og indholdskontrol 2026-09-22](STRUCTURE_AUDIT_2026-09-22.md).

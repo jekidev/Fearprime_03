@@ -200,5 +200,8 @@ FearPrime må derfor aldrig skrive “PTSD skyldes hyperaktiv amygdala” som sa
 - Suarez-Jimenez B et al. *Neural mechanisms of contextual fear conditioning in PTSD*. relevante humane fear/extinction-studier.
 - Pitman RK et al. *Biological studies of post-traumatic stress disorder*. Nat Rev Neurosci. 2012.
 
-## Næste mekanismekort
-Dette masterkort bør senere splittes i dedikerede filer for hippocampal context processing, insula/interoception, BNST/sustained threat, HPA/glucocorticoider, endocannabinoider og NMDA/AMPA-plasticitet.
+## Uddybende mekanismekort
+
+De særskilte kort om [hippocampus](HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md), [insula](INSULA_INTEROCEPTION.md), [HPA-aksen](HPA_STRESS_MEMORY.md) og [NMDA/AMPA](NMDA_AMPA_GLUTAMATE_PLASTICITY.md) findes allerede. [Biokemisk grundmodul](BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md) forbinder niveauerne, og [endocannabinoid-dossieret](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) uddyber dette spor.
+
+Et selvstændigt BNST-kort om vedvarende og uklar trussel er fortsat en mulig udbygning.

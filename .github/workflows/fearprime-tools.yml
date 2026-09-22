@@ -36,4 +36,4 @@ jobs:
       - name: Model comparison smoke test
         run: python tools/fearprime_model_compare.py data/computational_demo.csv -o /tmp/model_comparison.csv --predictions /tmp/model_predictions.csv
       - name: Repository QA report
-        run: python tools/fearprime_repo_audit.py .
+        run: python tools/fearprime_repo_audit.py . --strict

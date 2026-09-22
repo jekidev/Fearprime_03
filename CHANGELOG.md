@@ -2,7 +2,15 @@
 
 Fra v0.27 ligger aktiv versionshistorik her. Ældre v0.6–v0.26-historik er bevaret i [README v0.26 snapshot](09_DEBUG/ARCHIVE/README_v0.26_SNAPSHOT.md).
 
-## Unreleased — 2026-09-22
+## v0.31 — 2026-09-22 — læseveje, biokemi og linkintegritet
+
+- Ny kort indgang og læseveje fra grundforståelse til fordybelse.
+- Sammenhængende biokemisk grundmodul og guide til receptorfarmakologi med kilder.
+- Danske navigationsindekser og udvidet fagordbog.
+- Rettet relative links i historiske snapshots uden at fjerne deres faglige indhold.
+- Samlet filkatalog og dokumenteret håndtering af gentagne studiehenvisninger.
+- Streng link-/versionskontrol i CI og kontrol af antal CSV-felter.
+- Rettet to forskudte rækker i effektregistret ved at indsætte de manglende tomme p-værdifelter; ingen effektværdier er opfundet.
 
 - Tilføjet `08_RESOURCES/SPOTIFY.md` som separat lag for personligt betydningsfuld musik.
 - Første Spotify-spor er registreret som personlig ressource.

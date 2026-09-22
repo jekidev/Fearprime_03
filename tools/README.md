@@ -1,35 +1,22 @@
-# FearPrime computational tools
+# FearPrime — beregningsværktøjer
 
-Version 0.2 · repo v0.30
+Værktøjsversion 0.3 · repo v0.31
 
-Dependency-free Python utilities for the public FearPrime framework. They use only the Python standard library.
+Python-værktøjerne bruger kun standardbiblioteket. De understøtter beskrivende analyse og kvalitetskontrol.
 
-## 1. Bayesian Calculator v0.1
+## 1. Beregner for forventningsopdatering
 
-Input: a CSV using the fields in `data/violex_exposure_template.csv`.
-
-Run:
+Input er en CSV med felterne fra [ViolEx-skabelonen](../data/violex_exposure_template.csv).
 
 ```bash
 python tools/fearprime_bayesian_calculator.py data/computational_demo.csv -o out/violex_calculated.csv
 ```
 
-It adds project-descriptive fields for:
+Beregneren tilføjer mål for forudsigelsesfejl med fortegn og absolut værdi, forventningsopdatering, opdateringseffektivitet, tilpasnings-/fastholdelseslignende scorer, ændring i overordnet overbevisning, fastholdelse næste dag og generalisering.
 
-- signed/absolute prediction error,
-- expectancy update,
-- update efficiency,
-- accommodation-like score,
-- immunization-like score,
-- generalized-belief update,
-- next-day retention,
-- generalization update.
+Scorer for tilpasning og fastholdelse af overbevisninger er **projektets heuristikker**, ikke validerede kliniske skalaer. Beregnerens eget versionsnummer er fortsat v0.1.
 
-The accommodation/immunization scores are **heuristics for research exploration**, not validated clinical scales.
-
-## 2. Computational model comparison v0.1
-
-Run:
+## 2. Sammenligning af beregningsmodeller
 
 ```bash
 python tools/fearprime_model_compare.py data/computational_demo.csv \
@@ -37,58 +24,48 @@ python tools/fearprime_model_compare.py data/computational_demo.csv \
   --predictions out/model_predictions.csv
 ```
 
-All models predict the same target: `post_threat_expectancy`.
+Alle modeller forudsiger samme mål: `post_threat_expectancy`.
 
-Implemented:
-
-| Model | Parameters | Status |
+| Model | Parametre | Fortolkning |
 |---|---:|---|
-| No-update baseline | 0 | baseline |
-| Rescorla–Wagner | 1 | standard delta-rule comparator |
-| Soft-evidence Bayesian | 1 | simplified Bayesian comparator |
-| HGF-like adaptive volatility | 3 | approximation, **not canonical HGF** |
-| Active-inference-inspired precision/policy | 3 | approximation, **not canonical active inference/POMDP** |
+| Ingen opdatering | 0 | Reference uden læring |
+| Rescorla–Wagner | 1 | Sammenligningsmodel med deltaregel |
+| Bayes med gradueret evidens | 1 | Forenklet bayesiansk sammenligning |
+| HGF-lignende tilpasning til omskiftelighed | 3 | Tilnærmelse, ikke en fuld HGF-implementering |
+| Aktiv-inferens-inspireret vægtning og handlingsvalg | 3 | Tilnærmelse, ikke en fuld aktiv-inferens-/POMDP-model |
 
-The script reports SSE, MAE, RMSE, Gaussian NLL, AIC, BIC and ΔBIC. Ranking is in-sample and exploratory.
+Resultatet indeholder SSE, MAE, RMSE, gaussisk negativ log-likelihood, AIC, BIC og ΔBIC. Rangordningen er udforskende og foretages på de samme data, som modellerne tilpasses til; den er ikke en uafhængig test af forudsigelsesevne. Modelsammenlignerens eget versionsnummer er fortsat v0.1.
 
-## 3. Repository QA audit v0.1
+Rækkefølgen betyder noget for modeller med intern tilstand. Flere deltagere må ikke blandes i én sekvens uden særskilt håndtering af deltagerskift.
 
-`fearprime_repo_audit.py` checks framework integrity without changing files.
-
-Run:
-
-```bash
-python tools/fearprime_repo_audit.py .
-```
-
-Strict mode returns a non-zero exit code when hard errors are found:
+## 3. Kontrol af repoets struktur
 
 ```bash
 python tools/fearprime_repo_audit.py . --strict
 ```
 
-Current checks:
+Kontrollen ændrer ikke filer. `--strict` giver fejlkode, hvis der findes egentlige fejl; uden flaget udskrives blot rapporten.
 
-- missing internal Markdown link targets,
-- `VERSION` consistency against root README, repo-map and latest released changelog entry,
-- CSV readability and header integrity in `data/`,
-- Markdown files with no detected inbound link as **warnings**,
-- duplicate PMID/DOI appearances across study-card files as **warnings for manual review**.
+Den kontrollerer:
 
-Warnings are intentionally non-destructive. A repeated PMID/DOI can represent an alias, reanalysis or deliberate cross-reference and is therefore not automatically treated as duplicate evidence.
+- om interne Markdown-links peger på eksisterende filer eller mapper,
+- om `VERSION`, forsiden, emnekortet og seneste udgivelse i versionshistorikken stemmer overens,
+- CSV-læsbarhed, entydige kolonnenavne og samme antal felter i alle rækker,
+- Markdown-filer uden indgående links som advarsler,
+- gentagne PMID-/DOI-henvisninger som advarsler til vurdering.
 
-YAML schema validation and personal-data detection are not claimed by this tool yet; those remain explicit release-check items until a reliable validator is added.
+Gentagne henvisninger kan være aliaser, genanalyser eller bevidste krydsreferencer. De er ikke automatisk ekstra studier. De fire kendte DOI-advarsler er forklaret i [overlapregistret](../09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md).
 
-## Tests
+Kontrollen validerer **ikke** eksterne links, Markdown-ankre, YAML-skemaer eller personoplysninger. Det er fortsat særskilte opgaver i [udgivelseschecklisten](../09_DEBUG/RELEASE_CHECKLIST.md).
+
+## Test
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-GitHub Actions runs unit tests, calculator/model smoke tests and the repository QA report.
+GitHub Actions kører test, en praktisk gennemkørsel af begge beregnere og streng strukturkontrol. Demodata er syntetiske og indgår ikke i evidensgrundlaget.
 
-## Method rule
+## Fortolkningsregel
 
-Do not interpret any fitted parameter as a neural biomarker. A model that fits these behavioral/session data well is not thereby proven to be the brain's mechanism.
-
-See [Computational Model Comparison](../05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md).
+En tilpasset parameter er ikke en neuronal biomarkør. En model, der beskriver adfærdsdata godt, er ikke dermed bevist som hjernens mekanisme. Se [modelsammenligningen](../05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md).

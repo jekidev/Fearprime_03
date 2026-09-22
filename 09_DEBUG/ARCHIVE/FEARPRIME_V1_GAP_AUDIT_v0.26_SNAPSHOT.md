@@ -81,13 +81,13 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 | Boundary conditions | ✅/🟡 | Dedikeret modul + individuelle cards; systematisk meta-/RoB-niveau mangler |
 | Klinisk PTSD-reconsolidation | ✅/🟡 | Flere fuldtekstudtræk, effect sizes og certainty |
 
-[Reconsolidation boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) dækker prediction error, reminder duration, memory strength/age/type, context/state og timing.
+[Reconsolidation boundary conditions](../../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) dækker prediction error, reminder duration, memory strength/age/type, context/state og timing.
 
 **Skalaer:**
 - M0–M4 = mekanistisk reconsolidation-inferens.
 - R0–R4 = robusthed/replikation.
 
-[Reconsolidation effect-size/RoB audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) er første P2-lag på dette domæne.
+[Reconsolidation effect-size/RoB audit](../RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) er første P2-lag på dette domæne.
 
 ---
 
@@ -133,10 +133,10 @@ FearPrime skelner eksplicit acquisition, extinction, delayed recall, generalizat
 - ✅/🟡 L-DOPA — certainty profile + positive/mixed/replication-failure data
 - ✅/🟡 Oxytocin — certainty profile + 2025 human impairment modfund
 - ✅/🟡 HDAC2-selectivitet
-- ✅/🟡 [D-cycloserin](../04_CANDIDATES/DCS_DOSSIER.md)
-- ✅/🟡 [Propranolol](../04_CANDIDATES/PROPRANOLOL_DOSSIER.md)
-- ✅/🟡 [Endocannabinoid/FAAH/CB1](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
-- ✅/🟡 [NMDA/AMPA-mekanismesporet](../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
+- ✅/🟡 [D-cycloserin](../../04_CANDIDATES/DCS_DOSSIER.md)
+- ✅/🟡 [Propranolol](../../04_CANDIDATES/PROPRANOLOL_DOSSIER.md)
+- ✅/🟡 [Endocannabinoid/FAAH/CB1](../../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
+- ✅/🟡 [NMDA/AMPA-mekanismesporet](../../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md)
 
 ## Stadig delvist dækket
 - 🟡 hydrokortison

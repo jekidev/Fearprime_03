@@ -1,85 +1,45 @@
-# FearPrime — repo map
+# FearPrime — emnekort
 
-Version 0.30 · 2026-09-20
+Version 0.31 · 2026-09-22
 
-## Princip
+[Start her](START_HER.md) giver den korte indgang. [Dokumentindekset](DOKUMENTINDEKS.md) linker til samtlige Markdown-dokumenter, inklusive historik og specialkort.
 
-Hver filtype har ét primært ansvar. Krydslinks er ønskede; parallelle “master summaries” er ikke.
+## Hver dokumenttype har en opgave
 
-```text
-manifest/model
-   ↓
-mechanism + learning
-   ↓
-measurement
-   ↓
-machine-readable data
-   ↓
-computational tools / model comparison
-   ↓
-audit / certainty / roadmap
-```
-
-## Kanoniske indgange
-
-| Emne | Kanonisk indgang | Specialfiler |
+| Spørgsmål | Hovedindgang | Fordybelse |
 |---|---|---|
-| Projektets grundidé | `00_MANIFESTO.md` | `00_MANIFESTO/FEARPRIME_MODEL.md`, `05_MODELS/ADAPTIVE_PTSD_MODEL.md` |
-| Fear/extinction | `03_EXTINCTION/EXTINCTION_ENGINE.md` | generalization, reconsolidation, return-of-fear |
-| Predictive/ViolEx | `05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md` | ViolEx + computational comparison |
-| Computational comparison | `05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md` | `tools/fearprime_model_compare.py` |
-| Måling | `06_MEASUREMENT/MEASUREMENT_PLAN.md` | learning metrics, ViolEx, CPTSD, nightmares |
-| Studier | `07_STUDIES/STUDY_LEDGER.md` | underkategorier + individuelle kort |
-| Ressourcer | `08_RESOURCES/README.md` | YouTube, bøger, podcasts, foredrag, personlig Spotify-musik |
-| Personlig musik | `08_RESOURCES/SPOTIFY.md` | ikke evidens; kun personlig betydning |
-| Maskinlæsbare data | `data/README.md` | CSV/YAML + synthetic demo |
-| Computational tools | `tools/README.md` | calculator + model comparison |
-| Tests | `tests/test_fearprime_tools.py` | GitHub Actions workflow |
-| Versionering | `CHANGELOG.md` | historiske snapshots i `09_DEBUG/ARCHIVE/` |
+| Hvad er projektets formål? | [Manifest](00_MANIFESTO.md) | [Grundmodel](00_MANIFESTO/FEARPRIME_MODEL.md), [adaptiv model](05_MODELS/ADAPTIVE_PTSD_MODEL.md) |
+| Hvordan hænger biokemien sammen? | [Fra signal til hukommelse](02_MECHANISMS/BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md) | [Receptorer](02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md), [kredsløb](02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) |
+| Hvordan ændres læring? | [Læringsmodul](03_EXTINCTION/EXTINCTION_ENGINE.md) | [Generalisering](03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md), [rekonsolidering](03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) |
+| Hvad viser et præparats evidens? | [Kandidater](04_CANDIDATES/README.md) | Hoveddossier → specialmodul → studiekort |
+| Hvordan forstås forventninger? | [ViolEx](05_MODELS/VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) | [Forudsigelsesmodeller](05_MODELS/PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md) |
+| Hvad skal måles? | [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md) | [Sessionsark](06_MEASUREMENT/SESSION_TEMPLATE.md), CPTSD, mareridt og læring |
+| Hvor er kilderne? | [Studieregister](07_STUDIES/STUDY_LEDGER.md) | [Kilderegister](07_STUDIES/SOURCE_REGISTER.md), individuelle kort |
+| Hvad kan beregnes? | [Værktøjer](tools/README.md) | [Modelsammenligning](05_MODELS/COMPUTATIONAL_MODEL_COMPARISON.md), [data](data/README.md) |
+| Hvor sikkert er et udsagn? | [Evidensregler](01_EVIDENCE_RULES.md) | [Vurderingsramme](09_DEBUG/CERTAINTY_FRAMEWORK.md), fejlkilder og usikkerhed |
+| Hvad mangler? | [Dækningsplan](09_DEBUG/COVERAGE_PLAN.md) | [Mangelliste frem mod v1.0](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) |
+| Hvilke ressourcer findes? | [Ressourcer](08_RESOURCES/README.md) | Bøger, videoer, podcasts og [personlig musik](08_RESOURCES/SPOTIFY.md) |
 
-## Computational arkitektur
+## Sammenhæng uden dobbeltarbejde
 
-```text
-violex_exposure_template.csv
-        ↓
-fearprime_bayesian_calculator.py
-        ↓
-derived session metrics
+Et **studiekort** beskriver en kilde. Et **dossier** samler evidensen om en kandidat. Et **mekanismemodul** forklarer biologiske forbindelser. En **model** opstiller spørgsmål og forudsigelser. En **måleskabelon** operationaliserer observationer. Et **metodedokument** beskriver kontrollen af konklusionerne.
 
-ordered trial/session rows
-        ↓
-fearprime_model_compare.py
-        ↓
-same-target predictions
-        ↓
-AIC / BIC / RMSE comparison
-```
+Krydslinks forbinder lagene. Gentagen omtale af et studie er ikke en uafhængig replikation.
 
-HGF-like modellen er stateful og afhænger af rækkefølgen. Flere deltagere må ikke blandes i samme sekvens uden participant-level segmentering.
+## Studier og data
 
-## Legacy/kompakte filer
+Studiebiblioteket skelner mellem humane studier, dyreforsøg, mekanismer, oversigtsartikler, teori, kvalitativ forskning og protokoller. Mappenavnet `VERIFIED` er ikke i sig selv en kvalitetsgrad eller en garanti for fuldtekstkontrol; læs kortets kontrolniveau.
 
-- `models/FEAR_EXTINCTION_MODEL.md` → kompakt ældre extinction-model.
-- `02_MECHANISMS/MECHANISM_MAP.md` → kompakt ældre mekanismeoversigt.
-- `07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers.md` → alias for samme studie som det mere komplette Pilot-kort.
+Markdown forklarer evidensen. CSV/YAML-filer gør udvalgte felter analyserbare. Dataregistret er endnu ikke et komplet spejl af alle studiekort. Syntetiske demodata er kun til afprøvning af beregninger.
 
-De må ikke tælles som ekstra evidens.
+## Beregninger
 
-## Studiearkitektur
+ViolEx-data kan føres til læringsberegneren eller bruges til sammenligning af modeller, som forudsiger samme mål: `post_threat_expectancy`. Se [værktøjsvejledningen](tools/README.md) for kommandoer og begrænsninger. Modeller med hukommelse om tidligere rækker afhænger af rækkefølgen; flere deltagere må ikke blandes i én sekvens.
 
-`07_STUDIES/` er opdelt efter evidenstype/rolle:
-- `VERIFIED/`
-- `PRECLINICAL/`
-- `MECHANISTIC/`
-- `REVIEWS/`
-- `THEORY/`
-- `QUALITATIVE/`
-- `PROTOCOLS/`
+## Bevarede oversigter og historik
 
-## Ressourcearkitektur
-
-`08_RESOURCES/` indeholder materiale, der kan være nyttigt for projektet uden automatisk at være evidens. Personligt materiale, herunder Spotify-musik, holdes eksplicit adskilt fra studier, mekanismer og interventionspåstande.
-
-## Dataarkitektur
-
-Markdown forklarer evidensen; `data/` gør centrale felter analyserbare. Synthetic demo-data er kun til softwaretest og må ikke indgå i evidenssyntese.
+- [Kompakt udslukningsmodel](models/FEAR_EXTINCTION_MODEL.md): ældre oversigt.
+- [Kompakt mekanismekort](02_MECHANISMS/MECHANISM_MAP.md): ældre oversigt.
+- [Berceli-kort](07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers.md): samme studie som [pilotkortet](07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md).
+- [Arkiv](09_DEBUG/ARCHIVE/README.md): historiske versioner; de aktuelle hovedindgange ovenfor bruges til projektstatus.
+- [Versionshistorik](CHANGELOG.md): samlet ændringsoversigt.

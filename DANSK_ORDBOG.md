@@ -28,3 +28,33 @@ Dokumentationen bruger danske betegnelser. Tabellen bevarer de engelske søgeord
 CS betegner det betingede signal; US betegner det ubetingede, ofte ubehagelige udfald. PTSD, CPTSD, BDNF, HDAC, DOI og PMID bevares som faglige forkortelser. Lægemiddelnavne er ikke almindelige engelske sætninger.
 
 Udslukning betyder her ikke nødvendigvis, at den oprindelige hukommelse er slettet. Rekonsolidering må ikke bruges som synonym for enhver bedring efter genkaldelse.
+
+## Biokemi og receptorfarmakologi
+
+| Begreb | Betydning i FearPrime |
+|---|---|
+| Synapse | Kontaktsted, hvor en celle påvirker en anden |
+| Depolarisering | Membranpotentialet bliver mindre negativt |
+| Ionkanal | Protein, der tillader bestemte ioner at passere en membran |
+| Ligand | Molekyle, der binder til et målprotein |
+| Agonist / antagonist | Aktiverer en receptor / modvirker agonistaktivering |
+| Affinitet | Bindingens styrke under bestemte forsøgsbetingelser |
+| G-protein | Intracellulær kobling mellem receptor og videre signalering |
+| cAMP | Cyklisk adenosinmonofosfat; intracellulært signalmolekyle |
+| Kinase / fosfatase | Enzym, der tilføjer / fjerner fosfatgrupper |
+| CaMKII | Calcium/calmodulin-afhængig proteinkinase II |
+| LTP / LTD | Vedvarende styrkelse / svækkelse af synaptisk transmission |
+| Transkription / translation | Dannelse af RNA fra DNA / protein fra mRNA |
+| CREB | Transkriptionsfaktor, som forbinder signalering med genregulering |
+| Kromatin | DNA og de proteiner, som organiserer det |
+| Histonacetylering | Tilføjelse af acetylgrupper til histonproteiner |
+| HDAC | Histondeacetylase; enzym, der fjerner acetylgrupper |
+| BDNF / TrkB | Neurotrofin / en receptor, som BDNF kan aktivere |
+| PV+ | Celler, der udtrykker parvalbumin |
+| PNN | Perineuronale net i den ekstracellulære matrix |
+| Acan / aggrecan | Gen / matrixprotein, som genet koder for |
+| Farmakokinetik, PK | Optagelse, fordeling, omsætning og udskillelse af et stof |
+| Farmakodynamik, PD | Stoffets virkninger på biologiske mål og funktion |
+| Målaktivering | Måling af påvirkning af et bestemt biologisk mål; target engagement |
+
+Definitionerne er korte opslagsforklaringer. Se [biokemisk grundmodul](02_MECHANISMS/BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md) og [receptorguide](02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md) for mekanismer, kilder og afgrænsninger.

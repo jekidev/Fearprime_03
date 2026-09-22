@@ -187,7 +187,7 @@ def csv_audit(root: Path):
         rel = str(path.relative_to(root))
         try:
             with path.open("r", encoding="utf-8-sig", newline="") as handle:
-                reader = csv.reader(handle)
+                reader = csv.reader(handle, strict=True)
                 header = next(reader, None)
                 if not header:
                     findings.append(Finding("ERROR", "CSV_EMPTY", rel, "CSV has no header row."))
@@ -197,8 +197,16 @@ def csv_audit(root: Path):
                     findings.append(Finding("ERROR", "CSV_EMPTY_HEADER", rel, "CSV contains an empty header."))
                 if len(set(normalized)) != len(normalized):
                     findings.append(Finding("ERROR", "CSV_DUP_HEADER", rel, "CSV contains duplicate headers."))
-                for _ in reader:
-                    pass
+                for row in reader:
+                    if len(row) != len(header):
+                        findings.append(
+                            Finding(
+                                "ERROR",
+                                "CSV_ROW_WIDTH",
+                                rel,
+                                f"Record ending at line {reader.line_num} has {len(row)} fields; expected {len(header)}.",
+                            )
+                        )
         except (OSError, UnicodeError, csv.Error) as exc:
             findings.append(Finding("ERROR", "CSV_PARSE", rel, f"CSV parse failed: {exc}"))
     return findings

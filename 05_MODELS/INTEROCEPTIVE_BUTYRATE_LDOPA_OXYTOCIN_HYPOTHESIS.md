@@ -5,7 +5,7 @@ Version 0.26 · 2026-09-18
 
 ## Oprindelse
 Hypotesen kombinerer:
-- brugerens egen empiri om kontrolleret hyperventilation/interoceptiv challenge,
+- projektets egne observationer om kontrolleret hyperventilation/interoceptiv challenge,
 - butyrat som mulig plasticitets-/extinction-memory modulator,
 - dopamin/L-DOPA som mulig post-learning consolidation-modulator,
 - oxytocin som context/social-salience modulator.

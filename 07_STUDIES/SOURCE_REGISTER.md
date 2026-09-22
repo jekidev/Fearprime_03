@@ -75,3 +75,9 @@ Dossierer må gerne linke til kilder, men de bør ikke udvikle deres eget konkur
 ## Historik
 
 Alle tidligere PMID-/DOI-lister og versionsudvidelser er bevaret i v0.26-snapshot-filen. De er ikke slettet; de er flyttet ud af den aktive navigation for at undgå tredobbelt vedligeholdelse mellem README, Study Ledger og Source Register.
+
+## Biokemisk grundmodul — supplerende kilder
+
+- [Minichiello 2002: TrkB og PLCγ](MECHANISTIC/2002_Minichiello_TrkB_PLC_LTP.md).
+- [Zhou 2007: oxytocinreceptorkobling](MECHANISTIC/2007_Zhou_Oxytocin_Gq_Gi.md).
+- [Chen 2024: synaptisk receptorophobning](MECHANISTIC/2024_Chen_NMDA_CaMKII_AMPA.md).

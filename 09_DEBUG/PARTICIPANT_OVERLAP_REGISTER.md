@@ -56,3 +56,16 @@ Hver inkluderet publikation får:
 
 ## Debug
 Hvis overlap er uklart, må FearPrime hellere underklassificere certainty end antage uafhængighed.
+
+## Gentagne kildehenvisninger ved strukturkontrol 2026-09-22
+
+Dette er kontrol af dokumenternes identitet og rolle, ikke en ny kontrol af deltagernes rekrutteringshistorik. Automatikkens fire DOI-advarsler bevares synligt.
+
+| Dokumentpar | Forklaring og tælleregel |
+|---|---|
+| [GLP-1-model](../07_STUDIES/PRECLINICAL/2026_GLP1_Liraglutide_PTSD_Model.md) og [kritisk vurdering](../07_STUDIES/PRECLINICAL/2026_GLP1_Liraglutide_PTSD_Audit.md) | Samme primærpublikation omtalt fra to vinkler; ikke to forsøg |
+| [Ribbens 2026](../07_STUDIES/VERIFIED/2026_Ribbens_NaBu.md) og [epigenetisk samlekort](../07_STUDIES/MECHANISTIC/2012_2026_Epigenetics_FKBP5_COMT_HDAC_Extinction.md) | En primærartikel genbruges i en tværgående oversigt; ikke en replikation |
+| [Zhao-protokol](../07_STUDIES/PROTOCOLS/2024_Zhao_TRE_Adolescent_RCT_Protocol.md) og [TRE-litteraturkort](../07_STUDIES/TRE_LITERATURE_MAP.md) | Protokollen henvises fra litteraturkortet; ingen ekstra effektdata |
+| [Berceli-alias](../07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers.md) og [pilotkort](../07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md) | Samme studie; pilotkortet er hovedkortet |
+
+Filerne bevares. Ved evidensudtræk bruges primærpublikation og kohorte som tælleenhed, aldrig antal dokumenter eller links.

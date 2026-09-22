@@ -93,3 +93,7 @@ Tværgående certainty ligger i [Candidate Certainty Profile](CANDIDATE_CERTAINT
 ## Regel
 
 Når et område bliver “dækket”, betyder det kun, at FearPrime har en struktureret fil/ramme og et identificeret evidensgrundlag. Det betyder **ikke**, at hypotesen eller interventionen er bevist.
+
+## Læseadgang og grundforklaringer — v0.31
+
+[Start her](../START_HER.md), [biokemisk grundmodul](../02_MECHANISMS/BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md), [receptorguide](../02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md) og [fuldt dokumentindeks](../DOKUMENTINDEKS.md) er tilføjet. Dette forbedrer forklaring og navigation; det ændrer ikke kandidaternes evidensniveau.

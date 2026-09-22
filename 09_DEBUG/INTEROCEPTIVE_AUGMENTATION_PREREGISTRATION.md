@@ -142,7 +142,7 @@ Et faktisk protokolstudie kræver medicinsk vurdering af relevante kardiovaskul�
 Denne preregistration-template definerer ikke konkrete lægemiddeldoser.
 
 ## Own-empiricism rule
-Brugerens egen erfaring med kontrolleret hyperventilation registreres som hypothesis-generating observation, ikke efficacy evidence, dose-finding evidence, safety evidence eller proof of mechanism.
+En personlig observation med kontrolleret hyperventilation registreres som hypothesis-generating observation, ikke efficacy evidence, dose-finding evidence, safety evidence eller proof of mechanism.
 
 ## Data lock
 Før outcome-inspektion låses primary outcome, primary timepoint, exclusions, covariates, missing-data plan, analysis model, multiplicity handling og adverse-event definitions.

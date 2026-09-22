@@ -1,21 +1,20 @@
-# Measurement — index
+# Måling og skabeloner
 
-## Kanonisk indgang
-[Measurement Plan](MEASUREMENT_PLAN.md)
+Begynd med [måleplanen](MEASUREMENT_PLAN.md). Symptomer, forventninger, fysiologi, læring, senere genkaldelse, generalisering og funktion holdes som separate mål.
 
-## Kliniske og learning outcomes
-- [CPTSD Measurement](CPTSD_MEASUREMENT.md)
-- [Learning Metrics](LEARNING_METRICS.md)
-- [ViolEx Exposure Measurement Sheet](VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
-- [Nightmare Measurement Engine](NIGHTMARE_MEASUREMENT_ENGINE.md)
+## Vælg efter spørgsmål
 
-## Templates
-- [Session Template](SESSION_TEMPLATE.md)
-- [FP-BL-01 Test Plan](FP_BL_01_TEST_PLAN.md)
-- [ViolEx Exposure Measurement Sheet](VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md)
+| Spørgsmål | Dokument |
+|---|---|
+| Hvad observeres i en konkret session? | [Sessionsskabelon](SESSION_TEMPLATE.md) |
+| Bliver forventninger faktisk opdateret? | [ViolEx-måleark](VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md) |
+| Fastholdes og generaliseres læringen? | [Læringsmål](LEARNING_METRICS.md) |
+| Hvordan beskrives CPTSD? | [CPTSD-måling](CPTSD_MEASUREMENT.md) |
+| Hvordan adskilles mareridt, søvn og funktion? | [Mareridtmåling](NIGHTMARE_MEASUREMENT_ENGINE.md) |
+| Hvordan undersøges kombinationshypotesen FP-BL-01? | [Forsøgs- og analyseplan](FP_BL_01_TEST_PLAN.md) |
 
-## Machine-readable
-Se [data layer](../data/README.md), herunder \`violex_exposure_template.csv\` og \`violex_exposure_schema.yaml\`.
+## Data og beregninger
 
-## Regel
-Symptomer, expectancy, fysiologi, learning, delayed recall, generalization og funktion holdes som separate outcome-familier.
+Se [dataoversigten](../data/README.md), [ViolEx-CSV](../data/violex_exposure_template.csv) og [feltskemaet](../data/violex_exposure_schema.yaml). [Værktøjerne](../tools/README.md) kan beregne beskrivende mål; projektets egne heuristikker er ikke validerede kliniske skalaer.
+
+[Start her](../START_HER.md)

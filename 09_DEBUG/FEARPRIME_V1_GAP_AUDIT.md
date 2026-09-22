@@ -1,6 +1,6 @@
 # FearPrime v1.0 — Gap Audit
 
-**Version 0.30 · 2026-09-22**
+**Version 0.31 · 2026-09-22**
 
 ## Rolle
 
@@ -43,7 +43,7 @@ Det kræver, at frameworket er:
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 |
 | Machine-readable study/effect/RoB/certainty data | ✅/🟡 |
-| Link/integrity QA efter strukturændringer | ✅/🟡 — repo-audit tool + CI-rapport er tilføjet; warnings kræver stadig manuel triage |
+| Link/integrity QA efter strukturændringer | ✅ — relative links rettet, streng CI-kontrol; fire gentagne DOI-henvisninger er dokumenteret i overlapregistret |
 | Dokumenteret release checklist | ✅ |
 
 ## Vigtigste blockers
@@ -85,7 +85,7 @@ HIGH kræver:
 `tools/fearprime_repo_audit.py` automatiserer nu:
 - interne Markdown-linktargets,
 - versionsmatch,
-- CSV-header/readability,
+- CSV-header, læsbarhed og korrekt antal felter pr. række,
 - orphan diagnostics,
 - PMID/DOI duplicate diagnostics.
 

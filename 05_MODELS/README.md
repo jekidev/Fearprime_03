@@ -1,26 +1,28 @@
-# Models — index
+# Modeller og hypoteser
 
-## Kanoniske modeller
-- [Adaptive PTSD Model](ADAPTIVE_PTSD_MODEL.md)
-- [CPTSD Model](CPTSD_MODEL.md)
-- [ViolEx 2.0 — expectation update vs. maintenance](VIOLEX_2_EXPECTATION_UPDATE_MODEL.md) — valgfrit lærings-/fortolkningslag
-- [Predictive Processing / Bayesian / Active Inference Model](PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md) — formelt computationalt arbejds- og hypoteselag
-- [Computational Model Comparison](COMPUTATIONAL_MODEL_COMPARISON.md) — operationaliseret sammenligning af simple og komplekse belief-update modeller
-- [Five Working Models](FIVE_WORKING_MODELS.md)
-- [PTSD Theories](PTSD_THEORIES.md)
-- [Plasticity Window Engine](PLASTICITY_WINDOW_ENGINE.md)
-
-## Eksplorative hypoteser
-- [Nightmare + cannabinoid/butyrate hypothesis](PTSD_NIGHTMARE_THC_BUTYRATE_HYPOTHESIS.md)
-- [Butyrate → interoceptive challenge → L-DOPA/oxytocin](INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md)
-
-## Regel
 En model organiserer spørgsmål og forudsigelser. Den er ikke ekstra evidens oven på de studier, den bygger på.
 
-ViolEx 2.0 bruges som et valgfrit fortolkningslag og må ikke omtales som en valideret PTSD-protokol.
+## Grundforståelse
 
-Predictive-processing/active-inference modellen er ligeledes et hypoteselag. Den skal sammenlignes med enklere alternative modeller frem for antages sand.
+- [Adaptiv PTSD-model](ADAPTIVE_PTSD_MODEL.md): funktion, beskyttelse og omkostninger.
+- [CPTSD-model](CPTSD_MODEL.md): det bredere symptom- og funktionsbillede.
+- [Fem arbejdsmodeller](FIVE_WORKING_MODELS.md): alternative måder at strukturere undersøgelsen på.
+- [PTSD-teorier](PTSD_THEORIES.md): forklaringsrammer og deres forskelle.
 
-HGF-like og active-inference-inspired kode i v0.30 er approximationsmodeller, ikke canonical HGF eller canonical active inference/POMDP.
+## Læring og forventninger
 
-Den ældre kompakte extinction-model ligger fortsat i `../models/` som legacy-dokument.
+- [ViolEx 2.0](VIOLEX_2_EXPECTATION_UPDATE_MODEL.md): opdatering eller fastholdelse af forventninger.
+- [Forudsigelsesmodeller og aktiv inferens](PREDICTIVE_PROCESSING_ACTIVE_INFERENCE_MODEL.md): forventninger, vægtning af information og handling.
+- [Sammenligning af beregningsmodeller](COMPUTATIONAL_MODEL_COMPARISON.md): afprøvning af enkle og mere komplekse modeller på samme mål.
+- [Plasticitetsvinduer](PLASTICITY_WINDOW_ENGINE.md): biologiske betingelser og læringsindhold.
+
+ViolEx er et valgfrit fortolkningslag, ikke en valideret PTSD-protokol. Modeller for forudsigelser og aktiv inferens skal sammenlignes med enklere alternativer. Beregningsværktøjernes HGF-lignende og aktiv-inferens-inspirerede modeller er tilnærmelser, ikke fulde standardimplementeringer.
+
+## Eksplorative hypoteser
+
+- [Mareridt, cannabinoider og butyrat](PTSD_NIGHTMARE_THC_BUTYRATE_HYPOTHESIS.md).
+- [Interoception, butyrat, L-DOPA og oxytocin](INTEROCEPTIVE_BUTYRATE_LDOPA_OXYTOCIN_HYPOTHESIS.md).
+
+Den [ældre kompakte udslukningsmodel](../models/FEAR_EXTINCTION_MODEL.md) er bevaret som baggrund.
+
+[Start her](../START_HER.md) · [Måling](../06_MEASUREMENT/README.md)

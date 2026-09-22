@@ -3,7 +3,7 @@ Version 0.26 · 2026-09-18
 
 Målet er at samle de studier og modeller, der er relevante for FearPrimes spørgsmål, inklusive negative og modstridende resultater. Dette er en levende dækningsplan — ikke en påstand om en udtømmende systematisk review.
 
-Se også den mere detaljerede [FearPrime v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md).
+Se også den mere detaljerede [FearPrime v1.0 gap-audit](../FEARPRIME_V1_GAP_AUDIT.md).
 
 ## Statussymboler
 - ✅ dækket på framework-niveau
@@ -23,30 +23,30 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Område | Status | Findes i repoet | Konkret hul |
 |---|---|---|---|
 | Funktionel/adaptiv PTSD | ✅ | Manifest + adaptiv model | Flere direkte empiriske tests |
-| CPTSD / DSO | ✅/🟡 | [CPTSD-model](../05_MODELS/CPTSD_MODEL.md) + [CPTSD measurement](../06_MEASUREMENT/CPTSD_MEASUREMENT.md) | Flere DSO-studiekort og longitudinelle mekanismedata |
+| CPTSD / DSO | ✅/🟡 | [CPTSD-model](../../05_MODELS/CPTSD_MODEL.md) + [CPTSD measurement](../../06_MEASUREMENT/CPTSD_MEASUREMENT.md) | Flere DSO-studiekort og longitudinelle mekanismedata |
 | Predictive processing | 🟡 🔬 | Adaptiv model + ressourcekategori | Dedikeret teori-/mekanismefil og operationelle predictions |
 | Fear acquisition | 🟡 | Extinction engine + studier | Dedikeret metodeoversigt |
-| Extinction / inhibitory learning | ✅/🟡 | Extinction engine + [learning metrics](../06_MEASUREMENT/LEARNING_METRICS.md) | Dybere metode- og paradigmestandardisering |
-| Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) + learning metrics | Flere PTSD-specifikke primærstudier |
+| Extinction / inhibitory learning | ✅/🟡 | Extinction engine + [learning metrics](../../06_MEASUREMENT/LEARNING_METRICS.md) | Dybere metode- og paradigmestandardisering |
+| Generalization / safety learning | ✅/🟡 📊 | [Generalization & Safety Learning Engine](../../03_EXTINCTION/GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) + learning metrics | Flere PTSD-specifikke primærstudier |
 | Threat/safety discrimination | ✅/🟡 | Generalization engine + learning metrics + hippocampus/context | Paradigme- og populationsspecifikke normer |
-| Context / renewal | ✅/🟡 📊 | [Hippocampus/context discrimination](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) + extinction/return-of-fear | Effektstørrelser, nyere uafhængige replikationer |
-| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) + R0–R4 ledger + [effect-size/RoB audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) | Flere studier med study-level RoB og fulde CI |
+| Context / renewal | ✅/🟡 📊 | [Hippocampus/context discrimination](../../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) + extinction/return-of-fear | Effektstørrelser, nyere uafhængige replikationer |
+| Reconsolidation | ✅/🟡 | Kliniske/laboratoriske spor + [boundary conditions](../../03_EXTINCTION/RECONSOLIDATION_BOUNDARY_CONDITIONS.md) + R0–R4 ledger + [effect-size/RoB audit](../RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) | Flere studier med study-level RoB og fulde CI |
 | Reconsolidation boundary conditions | ✅/🟡 📊 | Dedikeret modul + individuelle kort + negative replikationer | Systematisk search/meta-niveau |
 | Dissociation / tonic immobility | 🟡 📊 | Adaptiv model + review/resource | Eget mekanisme- og målespor |
 
 ## Dækningsmatrix — neurobiologi
 | Område | Status | Findes i repoet | Konkret hul |
 |---|---|---|---|
-| Neural master map | ✅ | [Fear Circuit Master Map](../02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) | Flere dybe mekanismefiler |
+| Neural master map | ✅ | [Fear Circuit Master Map](../../02_MECHANISMS/FEAR_CIRCUIT_MASTER_MAP.md) | Flere dybe mekanismefiler |
 | Amygdala / salience | 🟡 | Master map | Nuclei- og task-specifik evidens |
 | vmPFC/mPFC | 🟡 | Master map + hippocampus/context | Extinction recall / valuation-dossier |
-| Hippocampus / context | ✅/🟡 👤📊 | [Dedikeret context-discrimination-modul](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) | Study cards, effektstørrelser, kausal evidens |
-| Insula / interoception | ✅/🟡 👤📊 | [Dedikeret mekanismefil](../02_MECHANISMS/INSULA_INTEROCEPTION.md) | Paradigmespecifik interoceptiv measurement og study cards |
+| Hippocampus / context | ✅/🟡 👤📊 | [Dedikeret context-discrimination-modul](../../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md) | Study cards, effektstørrelser, kausal evidens |
+| Insula / interoception | ✅/🟡 👤📊 | [Dedikeret mekanismefil](../../02_MECHANISMS/INSULA_INTEROCEPTION.md) | Paradigmespecifik interoceptiv measurement og study cards |
 | dACC / threat expression | 🟡 | Master map | Mere human task-evidens |
 | BNST / sustained threat | 🔴/🟡 | Master map | Dedikeret litteraturspor |
 | PAG / defensive output | 🟡 | Master map | Freeze/flight/fight-differentiering |
-| HPA / glucocorticoider | ✅/🟡 👤📊 | [HPA/stress-memory](../02_MECHANISMS/HPA_STRESS_MEMORY.md) + kandidater/studiekort | Effektstørrelser og fase-specifik human syntese |
-| NMDA/AMPA | ✅/🟡 👤🐀📊 | [Glutamaterg plasticitetsmodul](../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md) + DCS | Direkte human AMPA-extinction evidens er begrænset |
+| HPA / glucocorticoider | ✅/🟡 👤📊 | [HPA/stress-memory](../../02_MECHANISMS/HPA_STRESS_MEMORY.md) + kandidater/studiekort | Effektstørrelser og fase-specifik human syntese |
+| NMDA/AMPA | ✅/🟡 👤🐀📊 | [Glutamaterg plasticitetsmodul](../../02_MECHANISMS/NMDA_AMPA_GLUTAMATE_PLASTICITY.md) + DCS | Direkte human AMPA-extinction evidens er begrænset |
 | Netværksmodeller (SN/DMN/CEN) | 🟡 | Master map + insula-spor | Systematisk netværkssyntese |
 
 ## Dækningsmatrix — molekylære mekanismer og kandidater
@@ -60,13 +60,13 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 | Amisulprid | 🟡 🔬 | Kandidatmatrix | Dedikeret receptor-/læringsdossier |
 | L-DOPA | 🟡 👤 | Dossier + studier | Kliniske PTSD-outcomes og deltager-overlap-kontrol |
 | Oxytocin | 🟡 👤 | Dossier + positive/negative studier | Større exposure-trials og kontekstmoderatorer |
-| D-cycloserin | ✅/🟡 👤📊 | [DCS-dossier](../04_CANDIDATES/DCS_DOSSIER.md), RCT'er og IPD-meta | Study-level RoB og bedre session-quality replication |
-| Propranolol | ✅/🟡 👤📊 | [Propranolol-dossier](../04_CANDIDATES/PROPRANOLOL_DOSSIER.md) + clinical trials + meta-conflict + RoB/effect-size audit | Flere fuldtekstudtræk og afklaring af review-heterogenitet |
+| D-cycloserin | ✅/🟡 👤📊 | [DCS-dossier](../../04_CANDIDATES/DCS_DOSSIER.md), RCT'er og IPD-meta | Study-level RoB og bedre session-quality replication |
+| Propranolol | ✅/🟡 👤📊 | [Propranolol-dossier](../../04_CANDIDATES/PROPRANOLOL_DOSSIER.md) + clinical trials + meta-conflict + RoB/effect-size audit | Flere fuldtekstudtræk og afklaring af review-heterogenitet |
 | Mifepriston | 🟡 👤 | Negative rekonsolideringsforsøg | Nyere data og samlet syntese |
 | Hydrokortison | ✅/🟡 👤 | HPA-modul + kliniske/eksperimentelle kort | Effektstørrelser og populationsmoderatorer |
 | Ketamin | 🟡 👤 | Kliniske symptomfund | Specifik læringsmekanisme og kombinationsdata |
 | CBD | 🟡 👤 | Lab + klinisk exposure-tillæg | Nyere replikationer |
-| FAAH/CB1 | ✅/🟡 👤🐀📊 | [Endocannabinoid/FAAH/CB1-dossier](../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) + healthy-human experimental-medicine + 2025 N=100 PTSD-RCT | Uafhængig replication af extinction-recall-signalet; klinisk PTSD-transfer er testet direkte og var negativ i det aktuelle RCT |
+| FAAH/CB1 | ✅/🟡 👤🐀📊 | [Endocannabinoid/FAAH/CB1-dossier](../../04_CANDIDATES/ENDOCANNABINOID_FAAH_CB1_DOSSIER.md) + healthy-human experimental-medicine + 2025 N=100 PTSD-RCT | Uafhængig replication af extinction-recall-signalet; klinisk PTSD-transfer er testet direkte og var negativ i det aktuelle RCT |
 | MDMA | 🟡 👤 | Humant extinction-spor | Klinisk transfer adskilt fra psykoterapieffekt |
 | Psilocybin/5-HT2A | 🟡 🐀/🔬 | Præklinisk læringsspor | Human fear/safety translation |
 | NMDA/AMPA | ✅/🟡 | Mekanismemodul + DCS/memantin | Human AMPA-specifik fear-learning translation |
@@ -89,18 +89,18 @@ Et studiekort, en publikation og en deltagergruppe er tre forskellige enheder. D
 
 ## Measurement layer
 Eksisterende:
-- [Måleplan](../06_MEASUREMENT/MEASUREMENT_PLAN.md)
-- [CPTSD measurement / ITQ](../06_MEASUREMENT/CPTSD_MEASUREMENT.md)
-- [Standardiserede learning metrics](../06_MEASUREMENT/LEARNING_METRICS.md)
-- [Sessionsskabelon](../06_MEASUREMENT/SESSION_TEMPLATE.md)
-- [Return-of-fear template](../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
-- [FP-BL-01 testplan](../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
+- [Måleplan](../../06_MEASUREMENT/MEASUREMENT_PLAN.md)
+- [CPTSD measurement / ITQ](../../06_MEASUREMENT/CPTSD_MEASUREMENT.md)
+- [Standardiserede learning metrics](../../06_MEASUREMENT/LEARNING_METRICS.md)
+- [Sessionsskabelon](../../06_MEASUREMENT/SESSION_TEMPLATE.md)
+- [Return-of-fear template](../../03_EXTINCTION/RETURN_OF_FEAR_TEMPLATE.md)
+- [FP-BL-01 testplan](../../06_MEASUREMENT/FP_BL_01_TEST_PLAN.md)
 
 ### Status efter v0.26
 1. ✅ CPTSD/ITQ: PTSD, DSO og funktion holdes separat.
 2. ✅ Learning metrics: expectancy, prediction error, discrimination, acquisition, extinction, recall, generalization og return-of-fear-processer er defineret.
 3. ✅ Reconsolidation: M0–M4 mekanismeinferens holdes separat fra R0–R4 robusthed.
-4. ✅/🟡 RoB/effect-size: fælles [RoB-template](RISK_OF_BIAS_TEMPLATE.md) og første [reconsolidation-audit](RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) findes; study-level udfyldning mangler fortsat bredt.
+4. ✅/🟡 RoB/effect-size: fælles [RoB-template](../RISK_OF_BIAS_TEMPLATE.md) og første [reconsolidation-audit](../RECONSOLIDATION_EFFECT_SIZE_ROB_AUDIT.md) findes; study-level udfyldning mangler fortsat bredt.
 5. 🟡 Fysiologi-standard: modaliteter er adskilt konceptuelt; preprocessing/QC-standard mangler.
 6. ✅ Maskinlæsbar session-schema findes i `/data/session_schema.yaml`.
 7. ✅ Nightmare Measurement Engine + `nightmare_schema.yaml` + nightly CSV-template.
@@ -198,4 +198,4 @@ Manglende verificeret studie betyder ikke, at studiet ikke findes. Kildehuller m
 4. Udtræk observeret standardized effect + CI fra Chalkia 2020 og Wood 2015-delstudierne.
 5. Udvid RoB/certainty og publication-bias/dual-reviewer-status, før nogen claim kan overvejes til HIGH certainty.
 
-Se [v1.0 gap-audit](FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.
+Se [v1.0 gap-audit](../FEARPRIME_V1_GAP_AUDIT.md) for den fulde roadmap.

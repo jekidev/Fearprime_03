@@ -9,3 +9,5 @@ Aktive indgange:
 - [Study Ledger](../../07_STUDIES/STUDY_LEDGER.md)
 - [Source Register](../../07_STUDIES/SOURCE_REGISTER.md)
 - [Changelog](../../CHANGELOG.md)
+
+Relative links i snapshots er rettet 2026-09-22 til deres nuværende placering. Snapshotdato og historiske faglige vurderinger er bevaret; et fungerende link gør ikke en historisk vurdering aktuel.

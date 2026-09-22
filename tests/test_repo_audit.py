@@ -70,6 +70,34 @@ class RepoAuditTests(unittest.TestCase):
             findings = csv_audit(root)
             self.assertTrue(any(f.code == "CSV_DUP_HEADER" for f in findings))
 
+    def test_missing_or_extra_fields_are_errors(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_minimal_repo(root)
+            (root / "data" / "bad.csv").write_text(
+                "a,b\n1\n1,2,3\n", encoding="utf-8"
+            )
+            findings = csv_audit(root)
+            self.assertEqual(sum(f.code == "CSV_ROW_WIDTH" for f in findings), 2)
+
+    def test_quoted_multiline_field_and_empty_cell_are_valid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_minimal_repo(root)
+            (root / "data" / "valid.csv").write_text(
+                'a,b\n"first, line\nsecond line",\n', encoding="utf-8"
+            )
+            self.assertEqual(csv_audit(root), [])
+
+    def test_unclosed_quoted_field_is_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_minimal_repo(root)
+            (root / "data" / "bad.csv").write_text(
+                'a,b\n1,"unclosed\n', encoding="utf-8"
+            )
+            self.assertTrue(any(f.code == "CSV_PARSE" for f in csv_audit(root)))
+
 
 if __name__ == "__main__":
     unittest.main()

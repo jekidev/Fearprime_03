@@ -1,30 +1,28 @@
-# Candidates — index
+# Præparater og forskningskandidater
 
-## Kanonisk indgang
-[Candidate Matrix](CANDIDATE_MATRIX.md)
+[Kandidatmatrixen](CANDIDATE_MATRIX.md) giver overblikket. [Tværgående syntese](CORE_SYNTHESIS.md) sammenligner hovedspor og åbne spørgsmål. Hoveddossieret nedenfor er indgangen til den enkelte kandidats evidens.
 
-## Hoveddossiers
+## Hoveddossierer
+
 - [Butyrat](BUTYRATE_DOSSIER.md)
-- [D-cycloserin](DCS_DOSSIER.md)
-- [FAAH / anandamid / CB1](ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
+- [Lurasidon / Latuda](LURASIDONE_DOSSIER.md)
 - [L-DOPA](LDOPA_DOSSIER.md)
-- [Lurasidon](LURASIDONE_DOSSIER.md)
 - [Oxytocin](OXYTOCIN_DOSSIER.md)
+- [D-cycloserin](DCS_DOSSIER.md)
+- [FAAH, anandamid og CB1](ENDOCANNABINOID_FAAH_CB1_DOSSIER.md)
 - [Propranolol](PROPRANOLOL_DOSSIER.md)
 
-## Specialmoduler
-- [Butyrat: formulation → brain](BUTYRATE_FORMULATION_BRAIN.md)
-- [Butyrat formulation head-to-head](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md)
-- [Lurasidon receptor/learning](LURASIDONE_RECEPTORS_LEARNING.md)
-- [HDAC2-selective inhibitors](HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md)
-- [Human critical-period translation](HUMAN_CRITICAL_PERIOD_TRANSLATION.md)
-- [Butyrat + Latuda hypothesis](BUTYRATE_LATUDA_HYPOTHESIS.md)
+## Fordybelse
 
-## Syntese
-[CORE_SYNTHESIS.md](CORE_SYNTHESIS.md) er et tværgående syntese-dokument, ikke et selvstændigt kandidatdossier.
+| Spørgsmål | Specialmodul |
+|---|---|
+| Hvordan når butyrat relevante væv? | [Formulering og hjerneeksponering](BUTYRATE_FORMULATION_BRAIN.md) |
+| Er natriumbutyrat, tributyrin og SerBut sammenlignelige? | [Sammenligning af formuleringer](BUTYRATE_FORMULATION_HEAD_TO_HEAD.md) |
+| Hvad kan receptorprofilen fortælle om læring? | [Lurasidons receptorer og læring](LURASIDONE_RECEPTORS_LEARNING.md) |
+| Hvilke værktøjer undersøger HDAC2? | [HDAC2-selektive forbindelser](HDAC2_SELECTIVE_INHIBITOR_DOSSIER.md) |
+| Kan prækliniske plasticitetsvinduer overføres til mennesker? | [Human overførbarhed](HUMAN_CRITICAL_PERIOD_TRANSLATION.md) |
+| Er butyrat og lurasidon undersøgt sammen? | [Kombinationshypotesen](BUTYRATE_LATUDA_HYPOTHESIS.md) |
 
-## Certainty
-Aktuel claim-level certainty ligger i [Candidate Certainty Profile](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md).
+[Evidenssikkerhed for centrale påstande](../09_DEBUG/CANDIDATE_CERTAINTY_PROFILE.md) samler metodiske begrænsninger. Et specialmodul skal ikke have en konkurrerende konklusion om klinisk effekt.
 
-## Regel
-Hoveddossieret har den samlede evidensstatus. Specialmoduler må ikke udvikle en konkurrerende efficacy-konklusion.
+[Forstå receptorfarmakologien](../02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md) · [Start her](../START_HER.md)
