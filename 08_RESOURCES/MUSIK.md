@@ -1,8 +1,7 @@
 # Musik
 
-Samlingen er blot en personlig ressource, ikke forskningsgrundlag eller en behandlingsanbefaling.
+Musikterapi kan have relevans ifb. med MDMA/Psykedelisk terapi, og generelt.
 
-(Musikterapi kan have relevans)
 
 ## Neoklassisk playliste 
 
