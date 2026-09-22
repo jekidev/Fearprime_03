@@ -8,7 +8,8 @@
 - [x] Legacy/alias-filer er tydeligt mærket.
 
 ## Evidensintegritet
-- [ ] Samme PMID/DOI tælles ikke dobbelt.
+- [ ] Samme PMID/DOI tælles ikke dobbelt.  
+  Audit-tool rapporterer mulige dubletter som warnings; manuel resolution er stadig nødvendig.
 - [ ] Reanalysis/sample-overlap er markeret.
 - [ ] Negative/null studies bevares.
 - [ ] Evidence type, R-score, M-score og certainty holdes adskilt.
@@ -18,9 +19,12 @@
 - [x] Nye/aktive indeks-links valideret efter v0.27-cleanup.
 - [x] Ingen kontrolleret aktiv indeksfil peger på en manglende sti.
 - [x] Nye archive-links bruges kun til historik.
+- [ ] Repo-wide audit har ingen utriagerede hard errors.  
+  Kør: `python tools/fearprime_repo_audit.py . --strict`
 
 ## Data
-- [ ] CSV-filer har gyldige headers.
+- [ ] CSV-filer har gyldige headers.  
+  Dette kan nu kontrolleres automatisk af repo-audit.
 - [ ] YAML-schemas parser.
 - [ ] Study IDs er stabile.
 - [ ] Study-card paths i data peger på eksisterende filer.
@@ -36,3 +40,4 @@
 - [ ] Coverage Plan opdateret kun ved coverage-ændring.
 - [ ] Gap Audit opdateret kun ved readiness-ændring.
 - [ ] Strukturændringer dokumenteret i Structure Audit/Changelog.
+- [ ] Audit-warnings er manuelt triageret før versionsrelease.
