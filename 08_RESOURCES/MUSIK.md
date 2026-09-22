@@ -4,12 +4,12 @@ Samlingen er blot en personlig ressource, ikke forskningsgrundlag eller en behan
 
 (Musikterapi kan have relevans)
 
-## Neoklassisk playliste
+## Neoklassisk playliste 
 
 [Åbn den neoklassiske playliste på Spotify](https://open.spotify.com/playlist/3XBSW6wZqyeNdbFsCgdvjN)
 
-## FearPrime-playliste
+## FearPrime playliste
 
-TBA
+https://open.spotify.com/playlist/3sd0vcbC8XlExSHiL2QwH3
 
 [Tilbage til ressourcer](README.md)
