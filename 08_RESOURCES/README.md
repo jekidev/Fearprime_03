@@ -25,6 +25,11 @@ Denne mappe samler læringsmateriale, som er nyttigt for FearPrime, men som skal
 - [Bøger](BOOKS.md)
 - [Podcasts](PODCASTS.md)
 - [Foredrag og webinarer](LECTURES.md)
+- [Spotify — personlig musik](SPOTIFY.md)
+
+## Personlige ressourcer
+
+Spotify-laget indeholder musik, der har personlig betydning for Jeppe. Det er bevidst adskilt fra FearPrime-evidens og må ikke behandles som forskningsstøtte, intervention eller klinisk anbefaling.
 
 ## Evidensmærkning
 
