@@ -1,6 +1,6 @@
 # Spotify — personlige musikressourcer
 
-Denne fil samler musik, som har **personlig betydning for Jeppe** i forbindelse med FearPrime-projektet.
+Denne fil samler musik, som har **personlig betydning for projektets ejer** i forbindelse med FearPrime-projektet.
 
 ## Afgrænsning
 
@@ -13,7 +13,7 @@ Musikken her er **ikke** klassificeret som evidens, intervention, behandlingsanb
 - Spotify: https://open.spotify.com/track/0sUh1WJUeDsILDuvT7qKyD?si=HdJf0mSKTRm9gdnS3jhzyg&utm_source=copy-link
 - Rolle i repoet: personlig musikressource
 - Evidensstatus: ikke evidens
-- Fortolkning: ingen yderligere betydning tillægges uden eksplicit note fra Jeppe
+- Fortolkning: ingen yderligere betydning tillægges uden en eksplicit note fra projektets ejer
 
 ---
 
