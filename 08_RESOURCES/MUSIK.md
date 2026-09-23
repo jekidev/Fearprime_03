@@ -1,6 +1,5 @@
 # Musik
 
-Musik kan have personlig betydning og kan indgå i oplevelsen af tryghed eller stemning. Denne side dokumenterer personlige musikressourcer; den er ikke evidens for behandling eller klinisk effekt.
 
 ## Neoklassisk playliste
 
