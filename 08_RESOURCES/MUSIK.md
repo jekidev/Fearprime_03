@@ -1,14 +1,13 @@
 # Musik
 
-Musikterapi kan have relevans ifb. med MDMA/Psykedelisk terapi, og generelt.
+Musik kan have personlig betydning og kan indgå i oplevelsen af tryghed eller stemning. Denne side dokumenterer personlige musikressourcer; den er ikke evidens for behandling eller klinisk effekt.
 
-
-## Neoklassisk playliste 
+## Neoklassisk playliste
 
 [Åbn den neoklassiske playliste på Spotify](https://open.spotify.com/playlist/3XBSW6wZqyeNdbFsCgdvjN)
 
-## FearPrime playliste
+## FearPrime-playliste
 
-https://open.spotify.com/playlist/3sd0vcbC8XlExSHiL2QwH3
+[Åbn FearPrime-playlisten på Spotify](https://open.spotify.com/playlist/3sd0vcbC8XlExSHiL2QwH3)
 
 [Tilbage til ressourcer](README.md)
