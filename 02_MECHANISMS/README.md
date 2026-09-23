@@ -2,7 +2,7 @@
 
 ## Begynd her
 
-1. [Fra signal til hukommelse](BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md): sammenhængende introduktion med eksempler og kilder.
+1. [Fra signal til hukommelse](BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md): sammenhængende introduktion til glutamat, GABA, noradrenalin, acetylcholin, BDNF, HDAC og signalering inde i cellen, med eksempler og primærkilder.
 2. [Receptorer og signalveje](RECEPTORER_OG_SIGNALVEJE.md): binding, aktivering, signalering og nettovirkning.
 3. [Kredsløbskort](FEAR_CIRCUIT_MASTER_MAP.md): regioner og deres samspil.
 

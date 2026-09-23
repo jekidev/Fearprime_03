@@ -10,7 +10,6 @@ Denne fil svarer kun på:
 
 Den er **ikke** changelog, search log eller v1-readiness audit.
 
-- Versionshistorik: [CHANGELOG](../CHANGELOG.md)
 - v1-readiness: [FEARPRIME_V1_GAP_AUDIT.md](FEARPRIME_V1_GAP_AUDIT.md)
 - Historisk v0.26 coverage: [arkiv](ARCHIVE/COVERAGE_PLAN_v0.26_SNAPSHOT.md)
 

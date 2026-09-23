@@ -2,8 +2,7 @@
 
 ## Struktur
 - [x] `VERSION` matcher seneste release.
-- [x] `CHANGELOG.md` har release-entry.
-- [x] Root README er navigation/status, ikke changelog.
+- [x] Root README giver navigation og status.
 - [x] Folder README/index-filer peger på kanoniske indgange.
 - [x] Legacy/alias-filer er tydeligt mærket.
 
@@ -39,5 +38,5 @@
 ## Release
 - [ ] Coverage Plan opdateret kun ved coverage-ændring.
 - [ ] Gap Audit opdateret kun ved readiness-ændring.
-- [ ] Strukturændringer dokumenteret i Structure Audit/Changelog.
+- [ ] Strukturændringer dokumenteret i Structure Audit.
 - [ ] Audit-warnings er manuelt triageret før versionsrelease.

@@ -2,6 +2,8 @@
 
 **Læsemål:** Forstå, hvordan en kort oplevelse kan ændre senere reaktioner, og hvor FearPrimes biologiske hypoteser passer ind. Dokumentet er en undervisningssyntese. De enkelte signalveje er ikke tilsammen en påvist årsagskæde for PTSD eller en bestemt præparatkombination.
 
+**Kort læsevej:** Afsnit 2–5 forklarer synapsen og ændringer inde i cellen. Afsnit 9–12 gennemgår GABA, noradrenalin, acetylcholin og BNST. Afsnit 13 samler begreberne.
+
 ## 1. Fire niveauer, som skal forbindes
 
 | Niveau | Hvad der undersøges | Eksempel på måling |
@@ -82,7 +84,60 @@ Diagrammet er en konceptuel forskningsmodel. Det angiver ikke målte effektstør
 
 Et konkret humant eksempel er Ribbens 2026: hos 180 raske deltagere var natriumbutyrat forbundet med bedre senere forventningsbaseret udslukningsgenkaldelse efter omfattende træning. Der var ikke en tilsvarende samlet effekt på hudledning, og tilbagekomst efter nye ubehagelige stimuli blev ikke forhindret. Hjerneniveauets HDAC/BDNF-led blev ikke direkte målt. [Primærstudie](https://www.nature.com/articles/s41380-026-03802-1) · [fuldt studiekort](../07_STUDIES/VERIFIED/2026_Ribbens_NaBu.md).
 
-## 9. Fem spørgsmål til enhver biokemisk forklaring
+## 9. GABA: hæmning kan være aktiv læring
+
+**GABA** er et signalstof, som i mange modne hjernekredsløb hæmmer modtagercellens aktivitet. Hæmning betyder her, at cellen bliver mindre tilbøjelig til at sende impulser videre. Det er en lokal elektrisk funktion; det betyder ikke automatisk, at hele personen bliver rolig.
+
+En vigtig skelnen er mellem **at dæmpe en reaktion nu** og **at lære, hvornår reaktionen ikke længere er nødvendig**. Udslukning kan involvere, at bestemte hæmmende forbindelser bliver bedre til at regulere frygtens udtryk. Den oprindelige forbindelse mellem signal og fare kan samtidig være bevaret.
+
+Likhtik og kolleger undersøgte i rotter små grupper af GABAerge celler mellem amygdalas kerner, de interkalerede celler. De modtager information fra den basolaterale amygdala og sender hæmmende signaler til den centrale amygdala. Skade på disse celler svækkede udtrykket af tidligere indlært udslukning. Fundet viser betydningen af en bestemt cellepopulation; det viser ikke, at en generel stigning i GABA giver bedre traumebehandling. [Primærstudie, Likhtik 2008](https://pubmed.ncbi.nlm.nih.gov/18615014/).
+
+**Eksempel:** To personer kan begge vise lavere kropslig reaktion. Den ene har lært en mere præcis forventning om situationen; den anden er midlertidigt mindre vågen. Reaktionen alene kan ikke skelne forklaringerne. Senere genkaldelse, forventning og funktion må undersøges hver for sig.
+
+## 10. Noradrenalin: betydning, aktivering og timing
+
+Noradrenalin er et modulerende signalstof. Dets virkning afhænger af receptortype, kredsløb og hukommelsesfase. Det er derfor utilstrækkeligt at beskrive det som enten et skadeligt stressstof eller en nyttig læringsforstærker.
+
+**Reaktivering** betyder, at en tidligere hukommelse bliver hentet frem. **Rekonsolidering** betegner en efterfølgende stabilisering, når hukommelsen under bestemte betingelser er blevet foranderlig. Genkaldelse er ikke i sig selv bevis for, at dette vindue er åbnet.
+
+I et rotteforsøg forstærkede stimulation af beta-adrenerge receptorer i amygdala efter genkaldelse frygthukommelsen og gjorde den mere modstandsdygtig over for senere udslukning. Her styrkede påvirkningen altså den eksisterende frygt frem for ny sikkerhedslæring. Lokal manipulation i rotters amygdala kan ikke direkte omsættes til virkningen af et præparat hos mennesker. [Primærstudie, Dębiec 2011](https://pubmed.ncbi.nlm.nih.gov/21394851/).
+
+For FearPrime er spørgsmålet derfor: **Hvilken hukommelse er aktiv, når et biologisk signal ændres?** Samme overordnede idé om stærkere hukommelse kan give forskellige resultater før læring, efter læring og efter genkaldelse.
+
+## 11. Acetylcholin: forskellige receptorer, forskellige synapser
+
+Acetylcholin virker gennem to receptorfamilier. **Nikotinerge receptorer** er ionkanaler, mens **muskarinerge receptorer** signalerer gennem G-proteiner. Et stofs navn fortæller derfor ikke alene, hvilken cellulær proces der ændres.
+
+Mitsushima og kolleger fandt i et gnaverforsøg, at kontekstuel frygtlæring styrkede excitatoriske synapser på hippocampus' CA1-celler gennem muskarinerge receptorer og indlejring af AMPA-receptorer. Samtidig blev hæmmende synapser styrket via nikotinerge receptorer. Det illustrerer, at læring kan ændre både excitation og hæmning i samme område. [Primærstudie, Mitsushima 2013](https://pubmed.ncbi.nlm.nih.gov/24217681/).
+
+Studiet undersøger indlæring af en aversiv sammenhæng. Det dokumenterer ikke, at øget acetylcholin fremmer udslukning eller behandler PTSD. En mekanisme for bedre indlæring kan også understøtte indlæring af fare.
+
+## 12. BNST: hvordan molekyler bliver til forskellige reaktioner
+
+**BNST**, bed nucleus of the stria terminalis, er en samling kerner i den udvidede amygdala. Regionen er et eksempel på, hvorfor biokemi skal forbindes med bestemte cellepopulationer og deres forbindelser.
+
+Kim og kolleger viste i mus, at forskellige BNST-delområder og udgående forbindelser havde forskellige, til dels modsatrettede virkninger. Nogle påvirkede undgåelsesadfærd, andre vejrtrækning eller positiv valens. Angstrelateret adfærd og kropslige reaktioner var således delvist adskillelige i forsøget. [Primærstudie, Kim 2013](https://pubmed.ncbi.nlm.nih.gov/23515158/).
+
+Man kan derfor ikke udlede én samlet følelsestilstand af, at “BNST er mere aktiv”. Tilsvarende kan en ændring i hudledning ikke alene fortælle, om forventningen om fare er ændret. Fundet er kredsløbsforskning i mus, ikke en biologisk test for CPTSD hos mennesker.
+
+## 13. Inde i cellen: ordene sat i forbindelse
+
+| Led | Enkel forklaring | Hvorfor det er relevant |
+|---|---|---|
+| Receptor | Registrerer et signal uden for cellen | Samme signalstof kan aktivere forskellige receptorer |
+| G-protein | Kobler visse receptorer til cellens indre signalering | Gs, Gi/o og Gq/11 leder signalet ad forskellige veje |
+| cAMP | Et signalmolekyle inde i cellen | Kan aktivere PKA; mængden reguleres løbende |
+| PLC | Et enzym, der kan danne signalmolekylerne IP3 og DAG | Forbinder receptoraktivering med bl.a. calciumsignalering |
+| Calcium | Ion, der også fungerer som intracellulært signal | Tid, sted og signalmønster påvirker, hvilke processer der aktiveres |
+| Kinase | Enzym, der fosforylerer målproteiner | Kan ændre eksisterende proteiners funktion og samspil |
+| Transkriptionsfaktor | Protein, der medvirker til regulering af genudtryk | Kan forbinde kortvarig signalering med længerevarende ændringer |
+| Synaptisk ændring | Ændring af en forbindelses styrke eller egenskaber | Betydningen afhænger af, hvilke celler forbindelsen tilhører |
+
+Tabellen samler begreber fra afsnit 2–5 og [receptorguiden](RECEPTORER_OG_SIGNALVEJE.md). Den er et læsekort, ikke en obligatorisk rækkefølge: signalveje forgrener sig, mødes og regulerer hinanden.
+
+**Et tænkt eksempel:** En aktiv synapse får et calciumsignal. Det ændrer aktiviteten af eksisterende proteiner og kan påvirke receptorernes placering. Ved nogle former for vedvarende plasticitet bidrager ændret genudtryk og proteinsyntese også. For at koble dette til mindre frygt skal man yderligere vise, at netop ændringen understøtter relevant læring og senere funktion. En måling af CREB eller BDNF alene opfylder ikke det krav.
+
+## 14. Fem spørgsmål til enhver biokemisk forklaring
 
 1. **Hvilket led er målt?** Binding, signalering, adfærd eller klinisk funktion?
 2. **Hvor foregår det?** Blod, cellekultur, bestemt hjerneområde eller hele organismen?

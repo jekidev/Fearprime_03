@@ -12,7 +12,6 @@ Opdateret med v0.31 · 2026-09-22.
 
 - [FearPrimes manifest](00_MANIFESTO.md)
 - [Evidensregler](01_EVIDENCE_RULES.md)
-- [FearPrime changelog](CHANGELOG.md)
 - [Danske fagbegreber](DANSK_ORDBOG.md)
 - [FearPrime](README.md)
 - [FearPrime — emnekort](REPO_MAP.md)

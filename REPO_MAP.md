@@ -42,4 +42,3 @@ ViolEx-data kan føres til læringsberegneren eller bruges til sammenligning af 
 - [Kompakt mekanismekort](02_MECHANISMS/MECHANISM_MAP.md): ældre oversigt.
 - [Berceli-kort](07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers.md): samme studie som [pilotkortet](07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md).
 - [Arkiv](09_DEBUG/ARCHIVE/README.md): historiske versioner; de aktuelle hovedindgange ovenfor bruges til projektstatus.
-- [Versionshistorik](CHANGELOG.md): samlet ændringsoversigt.

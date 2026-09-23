@@ -40,6 +40,15 @@ class RepoAuditTests(unittest.TestCase):
             errors = [f for f in findings if f.level == "ERROR"]
             self.assertEqual(errors, [])
 
+    def test_version_sources_work_without_optional_changelog(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_minimal_repo(root)
+            (root / "CHANGELOG.md").unlink()
+            self.assertEqual(version_audit(root), [])
+            (root / "VERSION").unlink()
+            self.assertTrue(any(f.code == "VERSION_FILE_MISSING" for f in version_audit(root)))
+
     def test_broken_link_is_error(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

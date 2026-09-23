@@ -143,7 +143,7 @@ def version_audit(root: Path):
     map_path = root / "REPO_MAP.md"
     changelog_path = root / "CHANGELOG.md"
 
-    required = [version_path, readme_path, map_path, changelog_path]
+    required = [version_path, readme_path, map_path]
     missing = [p for p in required if not p.exists()]
     for path in missing:
         findings.append(
@@ -156,8 +156,9 @@ def version_audit(root: Path):
     sources = {
         "README.md": ROOT_README_VERSION_RE.search(read_text(readme_path)),
         "REPO_MAP.md": REPO_MAP_VERSION_RE.search(read_text(map_path)),
-        "CHANGELOG.md": CHANGELOG_RELEASE_RE.search(read_text(changelog_path)),
     }
+    if changelog_path.exists():
+        sources["CHANGELOG.md"] = CHANGELOG_RELEASE_RE.search(read_text(changelog_path))
     for name, match in sources.items():
         if not match:
             findings.append(
