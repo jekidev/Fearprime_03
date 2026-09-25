@@ -1,6 +1,6 @@
 # FearPrime v1.0 — Gap Audit
 
-**Version 0.33 · 2026-09-25**
+**Version 0.34 · 2026-09-25**
 
 ## Rolle
 
@@ -37,12 +37,12 @@ Det kræver, at frameworket er:
 | Claim-level certainty framework | ✅/🟡 |
 | Study-level RoB på centrale humane claims | 🟡 — foreløbige abstractscreens findes for PE/CPT-RCT, Kooistra- og Ribbens-forsøgene; fuld RoB 2 og bredere kernekorpus mangler |
 | Effect-size/CI på centrale humane claims | 🟡 — PE/CPT-estimater er indkodet; Kooistra- og Ribbens-outcomes er registreret uden opfundne estimater; bredere numerisk udtrækning mangler |
-| Participant-overlap audit | 🟡 — Schnurr, Ribbens og Berceli-aliaset er registreret; Kooistra står som foreløbig separat kohorte; Brunet/Roullet og øvrige mulige overlap mangler kildekontrol |
+| Participant-overlap audit | 🟡 — Schnurr, Ribbens og Berceli's kanoniske pilot/alias er registreret; Kooistra står som foreløbig separat kohorte; Brunet/Roullet og øvrige mulige overlap mangler kildekontrol |
 | Reproducerbare searches for kerneområder | 🟡 — rekonsolidering har en delvis eksport; adfærd og øvrige kerneområder mangler præcise søgninger, screening og deduplikering |
 | Native PubMed hit counts/export for centrale searches | 🟡 — der mangler komplet direkte eksport fra PubMed for de øvrige kerneområder |
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 — adfærdsevidensoversigten angiver sin afgrænsning; systematisk screening med uafhængige reviewere mangler stadig |
-| Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-, Kooistra- og Ribbens-studier er registreret; ikke-udtrukne effekter er eksplicit markeret; samlet data-paritet er fortsat delvis |
+| Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-, Kooistra-, Ribbens- og Berceli-pilotstudier er registreret; ikke-udtrukne værdier er markeret, og Bercelis beregnede within-group-CI er tydeligt ikke-kausale; samlet data-paritet er fortsat delvis |
 | Link/integrity QA efter strukturændringer | ✅ — relative links og referencer valideres i streng CI; kendte gentagne DOI-henvisninger er triageret i reference-registret |
 | Dokumenteret release checklist | ✅ |
 
@@ -95,7 +95,7 @@ Følgende mangler stadig som pålidelige release-gates:
 - studiekortstier og CSV-krydsreferencer kontrolleres nu som CI-fejl; fuld dataparitet mangler stadig,
 - kendte gentagne kildepar er registreret maskinlæsbart og triageret; bredere kontrol af deltageroverlap mangler stadig,
 - en CPR-formatkontrol giver nu en advarsel til manuel gennemgang; fuld kontrol for persondata mangler stadig,
-- triage af audit-advarsler før release; dokumenterede same_original_data-aliaser tælles ikke længere som manglende seed-rækker; resterende seed-dækningsadvarsel kræver afgrænsning, og seneste CI-kørsel skal stadig bekræftes.
+- triage af audit-advarsler før release; dokumenterede same_original_data-kort tælles ikke længere som ekstra seed-rækker; resterende seed-dækningsadvarsel kræver afgrænsning, og seneste CI-kørsel skal stadig bekræftes.
 
 ## Ikke blockers for v1.0
 
