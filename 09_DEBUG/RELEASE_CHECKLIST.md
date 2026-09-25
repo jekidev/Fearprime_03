@@ -10,7 +10,7 @@
 - [ ] Samme PMID/DOI tælles ikke dobbelt i alle synteser.  
   Kendte gentagne dokumenthenvisninger er triageret i `data/duplicate_reference_registry.csv`; ukendte par skal fortsat gennemgås.
 - [ ] Reanalysis/sample-overlap er markeret for alle relevante claims.  
-  Kendte Schiller/Chalkia- og Schnurr-forhold er registreret; flere overlap er stadig uafklarede.
+  Kendte Schiller/Chalkia-, Schnurr-, Berceli- og Ribbens-forhold er registreret; Brunet/Roullet og flere mulige overlap er stadig uafklarede.
 - [ ] Negative/null studies bevares.
 - [ ] Evidence type, R-score, M-score og certainty holdes adskilt.
 - [ ] Dossier-summary kan spores tilbage til konkrete studiekort.
@@ -26,7 +26,7 @@
 - [x] CSV-filer har gyldige headers og rækker; kontrolleres af repo-audit.
 - [x] CSV-værdier kontrolleres semantisk for tilladte evidenskoder, numeriske felter og CI-rækkefølge.
 - [x] YAML-filer parser syntaktisk via PyYAML i CI.  
-  Semantisk validering mod egentlige YAML-schema-regler mangler stadig.
+  Semantisk validering mod egentlige YAML-schema-regler mangler stadig. Dokumenterede same-sample-kort i overlapregistret tælles ikke som ekstra seed-studier.
 - [x] Study IDs er unikke; varig ID-stabilitet kræver fortsat redaktionel kontrol.
 - [x] Study-card paths i data peger på eksisterende filer; studie-ID-referencer kontrolleres i CI.
 - [ ] Personlige/private data er ikke committed.  
