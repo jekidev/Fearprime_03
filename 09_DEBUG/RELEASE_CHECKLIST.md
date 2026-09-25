@@ -19,14 +19,15 @@
 - [x] Nye/aktive indeks-links valideret efter v0.27-cleanup.
 - [x] Ingen kontrolleret aktiv indeksfil peger på en manglende sti.
 - [x] Nye archive-links bruges kun til historik.
-- [x] Seneste GitHub Actions-kørsel havde ingen hard errors i repo-auditten.  
-  Utriagerede warnings blokerer stadig release; kør lokalt: `python tools/fearprime_repo_audit.py . --strict`
+- [ ] GitHub Actions skal bekræfte de seneste audit-ændringer.  
+  Utriagerede warnings blokerer stadig release; auditten køres i CI med `python tools/fearprime_repo_audit.py . --strict`
 
 ## Data
 - [x] CSV-filer har gyldige headers og rækker; kontrolleres af repo-audit.
+- [x] CSV-værdier kontrolleres semantisk for tilladte evidenskoder, numeriske felter og CI-rækkefølge.
 - [x] YAML-filer parser syntaktisk via PyYAML i CI.  
-  Semantisk validering mod egentlige schema-regler mangler stadig.
-- [ ] Study IDs er stabile.
+  Semantisk validering mod egentlige YAML-schema-regler mangler stadig.
+- [x] Study IDs er unikke; varig ID-stabilitet kræver fortsat redaktionel kontrol.
 - [x] Study-card paths i data peger på eksisterende filer; studie-ID-referencer kontrolleres i CI.
 - [ ] Personlige/private data er ikke committed.  
   CPR-format-checken er heuristisk og advarer til manuel kontrol; den er ikke en fuld privatdata-audit.
