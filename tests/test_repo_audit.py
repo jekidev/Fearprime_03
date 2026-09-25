@@ -5,6 +5,7 @@ from pathlib import Path
 from tools.fearprime_repo_audit import (
     csv_audit,
     data_reference_audit,
+    duplicate_identifier_audit,
     personal_data_audit,
     yaml_audit,
     markdown_link_audit,
@@ -132,6 +133,27 @@ class RepoAuditTests(unittest.TestCase):
                 "effect_id,study_id\nE1,UNKNOWN\n", encoding="utf-8"
             )
             self.assertTrue(any(f.code == "STUDY_REFERENCE_MISSING" for f in data_reference_audit(root)))
+
+    def test_documented_duplicate_reference_is_triaged(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cards = root / "07_STUDIES" / "VERIFIED"
+            cards.mkdir(parents=True)
+            a = cards / "a.md"
+            b = cards / "b.md"
+            a.write_text("DOI: 10.1234/example", encoding="utf-8")
+            b.write_text("DOI: 10.1234/example", encoding="utf-8")
+            data = root / "data"
+            data.mkdir()
+            (data / "duplicate_reference_registry.csv").write_text(
+                "identifier,path_a,path_b,review_status\\n"
+                "DOI:10.1234/example,07_STUDIES/VERIFIED/a.md,"
+                "07_STUDIES/VERIFIED/b.md,verified\\n",
+                encoding="utf-8",
+            )
+            findings = duplicate_identifier_audit(root)
+            self.assertTrue(any(f.code == "DUPLICATE_ID_DOCUMENTED" for f in findings))
+            self.assertFalse(any(f.code == "DUPLICATE_ID" for f in findings))
 
     def test_cpr_pattern_is_flagged_for_manual_review(self):
         with tempfile.TemporaryDirectory() as tmp:
