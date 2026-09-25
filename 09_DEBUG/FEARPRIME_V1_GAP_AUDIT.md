@@ -1,6 +1,6 @@
 # FearPrime v1.0 — Gap Audit
 
-**Version 0.35 · 2026-09-25**
+**Version 0.36 · 2026-09-25**
 
 ## Rolle
 
@@ -38,7 +38,7 @@ Det kræver, at frameworket er:
 | Study-level RoB på centrale humane claims | 🟡 — foreløbige abstractscreens findes for PE/CPT-RCT, Kooistra- og Ribbens-forsøgene; fuld RoB 2 og bredere kernekorpus mangler |
 | Effect-size/CI på centrale humane claims | 🟡 — PE/CPT-estimater er indkodet; Kooistra- og Ribbens-outcomes er registreret uden opfundne estimater; bredere numerisk udtrækning mangler |
 | Participant-overlap audit | 🟡 — Schnurr, Ribbens og Berceli's kanoniske pilot/alias er registreret; Kooistra står som foreløbig separat kohorte; Brunet/Roullet og øvrige mulige overlap mangler kildekontrol |
-| Reproducerbare searches for kerneområder | 🟡 — rekonsolidering har en delvis eksport; adfærd har nu målrettede kildeverifikationer i søgeloggen, men mangler stadig en fuld reproducerbar søgning, screening og deduplikering; øvrige kerneområder mangler tilsvarende dækkende forløb |
+| Reproducerbare searches for kerneområder | 🟡 — rekonsolidering har delvis eksport; adfærd har målrettet primærkildekontrol af WHO-DAS-II og en samme-kohorte PCL-5-undgåelsesanalyse i [adfærdstabellen](../03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md). Funktionsmålene var ikke forhåndsregistrerede, og symptomanalysen måler ikke observeret adfærd. En fuld reproducerbar søgning, screening og deduplikering mangler fortsat; øvrige kerneområder mangler tilsvarende dækkende forløb |
 | Native PubMed hit counts/export for centrale searches | 🟡 — native PubMed-hit counts/eksport mangler fortsat; direkte resultat- og E-utilities-URL’er er utilgængelige gennem det aktuelle søgeinterface, så hit counts er ikke udfyldt |
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 — adfærdsevidensoversigten angiver sin afgrænsning; systematisk screening med uafhængige reviewere mangler stadig |
