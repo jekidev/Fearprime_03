@@ -1,10 +1,10 @@
 # FearPrime
 
-**Aktuel framework-version: v0.31 · 2026-09-22**
+**Aktuel framework-version: v0.31 · 2026-09-25**
 
 Et forskningsframework om PTSD/CPTSD, frygtlæring og muligheden for varig forandring. FearPrime forbinder biokemi, hjernekredsløb, eksponering, hukommelse og måling.
 
-Grundideen er funktionel: defensive reaktioner kan beskytte under fare og senere blive for brede eller stive. Målet er bedre skelnen mellem fare og sikkerhed, større fleksibilitet og bedre funktion.
+Grundideen er funktionel: Reaktioner kan beskytte under fare og senere blive for brede eller stive. Målet er bedre skelnen mellem fare og sikkerhed, større fleksibilitet og bedre funktion.
 
 ## Start
 
