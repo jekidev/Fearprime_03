@@ -167,6 +167,27 @@ class RepoAuditTests(unittest.TestCase):
             )
             self.assertTrue(any(f.code == "STUDY_REFERENCE_MISSING" for f in data_reference_audit(root)))
 
+    def test_seed_coverage_ignores_same_sample_alias_cards(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data = root / "data"
+            data.mkdir()
+            cards = root / "07_STUDIES" / "VERIFIED"
+            cards.mkdir(parents=True)
+            (cards / "primary.md").write_text("# Primary sample\n", encoding="utf-8")
+            (cards / "alias.md").write_text("# Same original data\n", encoding="utf-8")
+            (data / "studies.csv").write_text(
+                "study_id,study_card_path\nS1,07_STUDIES/VERIFIED/primary.md\n",
+                encoding="utf-8",
+            )
+            (data / "participant_overlap.csv").write_text(
+                "overlap_group,publication_or_study,year,study_card_path,status,evidence,notes\n"
+                "G1,Alias,2020,07_STUDIES/VERIFIED/alias.md,same_original_data,verified,Same cohort\n",
+                encoding="utf-8",
+            )
+            findings = data_reference_audit(root)
+            self.assertFalse(any(f.code == "STUDY_DATA_SEED_COVERAGE" for f in findings))
+
     def test_documented_duplicate_reference_is_triaged(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
