@@ -37,13 +37,13 @@ Det kræver, at frameworket er:
 | Claim-level certainty framework | ✅/🟡 |
 | Study-level RoB på centrale humane claims | 🟡 — første større PE/CPT-RCT screenet; resten af kernekorpus mangler |
 | Effect-size/CI på centrale humane claims | 🟡 — primært CAPS-5-estimat og responsmål udtrukket for PE/CPT-RCT; bredere dækning mangler |
-| Participant-overlap audit | 🟡 — Schnurr 2022/2024 same-sample link verified; Brunet/Roullet and other possible overlaps still need checking |
-| Reproducerbare searches for kerneområder | 🟡 — reconsolidation has partial export; behavior and remaining domains still need exact queries, screening and dedup |
-| Native PubMed hit counts/export for centrale searches | 🟡 — no complete native export for the remaining core domains |
+| Participant-overlap audit | 🟡 — Schnurr-forbindelsen mellem RCT'et fra 2022 og genanalysen fra 2024 er verificeret; overlap mellem Brunet/Roullet og andre mulige kohorter mangler kontrol |
+| Reproducerbare searches for kerneområder | 🟡 — rekonsolidering har en delvis eksport; adfærd og øvrige kerneområder mangler præcise søgninger, screening og deduplikering |
+| Native PubMed hit counts/export for centrale searches | 🟡 — der mangler komplet direkte eksport fra PubMed for de øvrige kerneområder |
 | Publication-bias vurdering | 🔴/🟡 |
-| Reviewer/screening-status eksplicit | 🟡 — new behavioral evidence table states its scope; systematic reviewer-level screening remains incomplete |
+| Reviewer/screening-status eksplicit | 🟡 — adfærdsevidensoversigten angiver sin afgrænsning; systematisk screening med uafhængige reviewere mangler stadig |
 | Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-studie og fire effektmål tilføjet; samlet data-paritet er fortsat delvis |
-| Link/integrity QA efter strukturændringer | ✅ — relative links rettet, streng CI-kontrol; fire gentagne DOI-henvisninger er dokumenteret i overlapregistret |
+| Link/integrity QA efter strukturændringer | ✅ — relative links og referencer valideres i streng CI; kendte gentagne DOI-henvisninger er triageret i reference-registret |
 | Dokumenteret release checklist | ✅ |
 
 ## Vigtigste blockers
@@ -91,11 +91,11 @@ HIGH kræver:
 - triage af dokumenterede gentagne DOI/PMID-par via `data/duplicate_reference_registry.csv`, mens ikke-registrerede dubletter fortsat advares.
 
 Følgende mangler stadig som pålidelige release-gates:
-- YAML syntax validation now runs in CI; semantic validation against formal schemas is still open,
-- study-card path and CSV cross-reference checks now run as strict CI errors; full data parity remains open,
-- known repeated-source pairs are machine-registered and triaged; broader participant-overlap resolution remains open,
-- a CPR-format scan now raises a manual-review warning; comprehensive personal-data detection is still open,
-- triage af audit-warnings før release; the known seed-coverage warning still requires a deliberate scope decision.
+- YAML-syntaks kontrolleres nu i CI; semantisk kontrol mod formelle skemaer mangler stadig,
+- stikortstier og CSV-krydsreferencer kontrolleres nu som CI-fejl; fuld dataparitet mangler stadig,
+- kendte gentagne kildepar er registreret maskinlæsbart og triageret; bredere kontrol af deltageroverlap mangler stadig,
+- en CPR-formatkontrol giver nu en advarsel til manuel gennemgang; fuld kontrol for persondata mangler stadig,
+- triage af audit-advarsler før release; den kendte advarsel om seed-dækning kræver stadig en beslutning om afgrænsning.
 
 ## Ikke blockers for v1.0
 
