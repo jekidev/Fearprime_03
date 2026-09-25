@@ -129,6 +129,16 @@ Craske et al. (2014) beskrev strategier fra inhibitory-learning-rammen, bl.a. ex
 
 Kooistra et al. (2025) randomiserede 60 behandlingssøgende voksne med PTSD til én 90-minutters eksponeringssession med eller uden eksplicit fokus på forventningsbrud. Begge betingelser viste gennemsnitlige forbedringer ved opfølgning én uge senere, men der var ingen forskel mellem betingelserne. Det lille, kortvarige design tester ikke effekten af et fuldt behandlingsforløb. Fundet begrænser den stærke påstand, at blot at fremhæve forventningsbrud nødvendigvis giver bedre klinisk effekt.
 
+### Klinisk effekt er dokumenteret; den foreslåede læringsmekanisme er et særskilt spørgsmål
+
+VA/DoD's PTSD-retningslinje fra 2023 anbefaler Prolonged Exposure (PE), Cognitive Processing Therapy (CPT) og EMDR blandt de bedst understøttede traumefokuserede psykoterapier. Det er evidens for manualiserede behandlingsforløb som helheder. Det viser ikke, at alle adfærdskomponenter virker isoleret, eller at én bestemt læringsmekanisme forklarer symptomforbedringen.
+
+Et stort multisite-RCT sammenlignede PE og CPT hos 916 amerikanske veteraner med militærrelateret PTSD. Begge grupper fik klinisk meningsfuld symptomforbedring. PE havde statistisk større gennemsnitlig symptomreduktion, men forskellen lå under studiets på forhånd fastsatte tærskel for klinisk betydning; frafald var højere med PE end CPT. Populationen og behandlingsrammen begrænser, hvor direkte tallene kan overføres til andre grupper.
+
+En netværksmetaanalyse af 98 RCT'er med 5.567 deltagere fandt symptomreduktion for flere psykoterapier, herunder CPT, EMDR, PE, kognitiv terapi, NET og PCT. Evidenssikkerheden varierede fra meget lav til høj på tværs af sammenligningerne. Netværksrangeringer er ikke sikre individuelle anbefalinger, og søgningen sluttede i marts 2021.
+
+**Konsekvens for adfærdslaget:** FearPrime kan bruge tilnærmelse, undgåelse, forventninger og funktion som målbare analysefelter. Frameworket må ikke præsentere valgfrihed, expectancy violation, variation eller reduktion af sikkerhedsadfærd som selvstændigt beviste behandlinger. De er mulige procesmål eller hypoteser, der skal testes mod kliniske outcomes og alternative forklaringer. Den dokumenterede kliniske evidens vedrører etablerede, strukturerede terapier.
+
 FearPrime bør derfor:
 - adskille klinisk symptomgevinst fra en foreslået læringsmekanisme,
 - foretrække observeret adfærd og funktion frem for mekanistiske etiketter,
@@ -149,6 +159,9 @@ Adfærdslaget ville blive svækket eller skulle ændres, hvis:
 ## Kilder og interne forbindelser
 
 - Craske, M. G. et al. (2014). [Maximizing exposure therapy: An inhibitory learning approach](https://doi.org/10.1016/j.brat.2014.04.006). *Behaviour Research and Therapy*, 58, 10–23.
+- VA/DoD. (2023). [Clinical Practice Guideline for Management of PTSD and Acute Stress Disorder](https://www.healthquality.va.gov/guidelines/MH/ptsd/).
+- Schnurr, P. P. et al. (2022). [Comparison of Prolonged Exposure vs Cognitive Processing Therapy](https://doi.org/10.1001/jamanetworkopen.2021.36921). *JAMA Network Open*, 5(1), e2136921.
+- Yunitri, N. et al. (2023). [Comparative effectiveness of psychotherapies in adults with PTSD: network meta-analysis](https://doi.org/10.1017/S0033291722003737). *Psychological Medicine*, 53(13), 6376–6388. PMID: 36628572.
 - Kooistra, M. J. et al. (2025). [Maximizing expectancy violation and exposure outcomes in patients with PTSD](https://doi.org/10.1080/20008066.2024.2447183). *European Journal of Psychotraumatology*, 16(1), 2447183. PMID: 39773369.
 - American Psychological Association. [Prolonged Exposure](https://www.apa.org/ptsd-guideline/treatments/prolonged-exposure.html) — klinisk behandlingsoversigt.
 - [FearPrime — adaptiv PTSD-model](../05_MODELS/ADAPTIVE_PTSD_MODEL.md)
