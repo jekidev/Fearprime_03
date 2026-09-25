@@ -37,11 +37,11 @@ Det kræver, at frameworket er:
 | Claim-level certainty framework | ✅/🟡 |
 | Study-level RoB på centrale humane claims | 🟡 — første større PE/CPT-RCT screenet; resten af kernekorpus mangler |
 | Effect-size/CI på centrale humane claims | 🟡 — primært CAPS-5-estimat og responsmål udtrukket for PE/CPT-RCT; bredere dækning mangler |
-| Participant-overlap audit | 🟡 |
-| Reproducerbare searches for kerneområder | 🟡 |
-| Native PubMed hit counts/export for centrale searches | 🟡 |
+| Participant-overlap audit | 🟡 — Schnurr 2022/2024 same-sample link verified; Brunet/Roullet and other possible overlaps still need checking |
+| Reproducerbare searches for kerneområder | 🟡 — reconsolidation has partial export; behavior and remaining domains still need exact queries, screening and dedup |
+| Native PubMed hit counts/export for centrale searches | 🟡 — no complete native export for the remaining core domains |
 | Publication-bias vurdering | 🔴/🟡 |
-| Reviewer/screening-status eksplicit | 🟡 |
+| Reviewer/screening-status eksplicit | 🟡 — new behavioral evidence table states its scope; systematic reviewer-level screening remains incomplete |
 | Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-studie og fire effektmål tilføjet; samlet data-paritet er fortsat delvis |
 | Link/integrity QA efter strukturændringer | ✅ — relative links rettet, streng CI-kontrol; fire gentagne DOI-henvisninger er dokumenteret i overlapregistret |
 | Dokumenteret release checklist | ✅ |
@@ -90,11 +90,11 @@ HIGH kræver:
 - PMID/DOI duplicate diagnostics.
 
 Følgende mangler stadig som pålidelige release-gates:
-- YAML schema validation,
-- study-card path/data consistency,
-- robust duplicate/sample-overlap resolution,
-- no-personal-data check,
-- triage af audit-warnings før release.
+- YAML syntax validation now runs in CI; semantic validation against formal schemas is still open,
+- study-card path and CSV cross-reference checks now run as strict CI errors; full data parity remains open,
+- known repeated-source pairs are machine-registered and triaged; broader participant-overlap resolution remains open,
+- a CPR-format scan now raises a manual-review warning; comprehensive personal-data detection is still open,
+- triage af audit-warnings før release; the known seed-coverage warning still requires a deliberate scope decision.
 
 ## Ikke blockers for v1.0
 
