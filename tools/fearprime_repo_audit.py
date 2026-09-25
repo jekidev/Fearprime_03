@@ -372,18 +372,56 @@ def duplicate_identifier_audit(root: Path):
         for pmid in PMID_RE.findall(text):
             locations[f"PMID:{pmid}"].add(rel)
 
-    for identifier, paths in sorted(locations.items()):
-        if len(paths) > 1:
+    registry_path = root / "data" / "duplicate_reference_registry.csv"
+    documented: set[tuple[str, str, str]] = set()
+    if registry_path.exists():
+        try:
+            with registry_path.open("r", encoding="utf-8-sig", newline="") as handle:
+                reader = csv.DictReader(handle, strict=True)
+                required = {"identifier", "path_a", "path_b", "review_status"}
+                if reader.fieldnames and required <= set(reader.fieldnames):
+                    for row in reader:
+                        if (row.get("review_status") or "").strip().lower() != "verified":
+                            continue
+                        identifier = (row.get("identifier") or "").strip().lower()
+                        path_a = (row.get("path_a") or "").strip()
+                        path_b = (row.get("path_b") or "").strip()
+                        if identifier and path_a and path_b:
+                            documented.add((identifier, *sorted((path_a, path_b))))
+                else:
+                    findings.append(Finding("ERROR", "DUPLICATE_REGISTRY_SCHEMA", str(registry_path.relative_to(root)), "Required duplicate registry columns are missing."))
+        except (OSError, UnicodeError, csv.Error) as exc:
+            findings.append(Finding("ERROR", "DUPLICATE_REGISTRY_PARSE", str(registry_path.relative_to(root)), f"Could not read duplicate registry: {exc}"))
+
+    for identifier, paths_set in sorted(locations.items()):
+        if len(paths_set) <= 1:
+            continue
+        paths = sorted(paths_set)
+        unreviewed_pairs = [
+            (path_a, path_b)
+            for index, path_a in enumerate(paths)
+            for path_b in paths[index + 1 :]
+            if (identifier.lower(), path_a, path_b) not in documented
+        ]
+        if not unreviewed_pairs:
+            findings.append(
+                Finding(
+                    "INFO",
+                    "DUPLICATE_ID_DOCUMENTED",
+                    ", ".join(paths),
+                    f"{identifier} repeats only in pairs documented in duplicate_reference_registry.csv.",
+                )
+            )
+        else:
             findings.append(
                 Finding(
                     "WARN",
                     "DUPLICATE_ID",
-                    ", ".join(sorted(paths)),
-                    f"{identifier} appears in multiple study-card files; verify alias/reanalysis/duplicate status.",
+                    ", ".join(path for pair in unreviewed_pairs for path in pair),
+                    f"{identifier} appears in multiple study-card files; undocumented card pairs require review.",
                 )
             )
     return findings
-
 
 def run_audit(root: Path):
     findings: list[Finding] = []
