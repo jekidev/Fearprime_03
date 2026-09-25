@@ -105,9 +105,9 @@ class RepoAuditTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "data").mkdir()
-            (root / "data" / "valid.yaml").write_text("key: value\\n", encoding="utf-8")
+            (root / "data" / "valid.yaml").write_text("key: value\n", encoding="utf-8")
             self.assertEqual(yaml_audit(root), [])
-            (root / "data" / "invalid.yaml").write_text("key: [unterminated\\n", encoding="utf-8")
+            (root / "data" / "invalid.yaml").write_text("key: [unterminated\n", encoding="utf-8")
             self.assertTrue(any(f.code == "YAML_PARSE" for f in yaml_audit(root)))
 
     def test_study_paths_and_cross_file_ids_are_checked(self):
@@ -116,20 +116,20 @@ class RepoAuditTests(unittest.TestCase):
             (root / "data").mkdir()
             (root / "07_STUDIES" / "VERIFIED").mkdir(parents=True)
             card = root / "07_STUDIES" / "VERIFIED" / "study.md"
-            card.write_text("# Study\\n", encoding="utf-8")
+            card.write_text("# Study\n", encoding="utf-8")
             (root / "data" / "studies.csv").write_text(
-                "study_id,study_card_path\\nS1,07_STUDIES/VERIFIED/study.md\\n",
+                "study_id,study_card_path\nS1,07_STUDIES/VERIFIED/study.md\n",
                 encoding="utf-8",
             )
             (root / "data" / "effects.csv").write_text(
-                "effect_id,study_id\\nE1,S1\\n", encoding="utf-8"
+                "effect_id,study_id\nE1,S1\n", encoding="utf-8"
             )
             (root / "data" / "risk_of_bias.csv").write_text(
-                "study_id,overall\\nS1,LOW\\n", encoding="utf-8"
+                "study_id,overall\nS1,LOW\n", encoding="utf-8"
             )
             self.assertFalse(any(f.level == "ERROR" for f in data_reference_audit(root)))
             (root / "data" / "effects.csv").write_text(
-                "effect_id,study_id\\nE1,UNKNOWN\\n", encoding="utf-8"
+                "effect_id,study_id\nE1,UNKNOWN\n", encoding="utf-8"
             )
             self.assertTrue(any(f.code == "STUDY_REFERENCE_MISSING" for f in data_reference_audit(root)))
 
