@@ -16,7 +16,7 @@ Grundideen er funktionel: defensive reaktioner kan beskytte under fare og senere
 | Forstå biokemien trin for trin | [Fra signal til hukommelse](02_MECHANISMS/BIOKEMI_FRA_SIGNAL_TIL_HUKOMMELSE.md) |
 | Forstå receptorer og præparaters virkning | [Receptorer og signalveje](02_MECHANISMS/RECEPTORER_OG_SIGNALVEJE.md) |
 | Forstå eksponering og ny læring | [Læringsmodulet](03_EXTINCTION/EXTINCTION_ENGINE.md) |
-| Forstå adfærd, undgåelse og klinisk evidens | [Adfærdsguiden](03_EXTINCTION/BEHAVIOURAL_LEARNING_GUIDE.md) |
+| Forstå adfærd, undgåelse og klinisk evidens | [Adfærdsguide](03_EXTINCTION/BEHAVIOURAL_LEARNING_GUIDE.md) · [evidensoversigt](03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md) |
 | Undersøge butyrat, L-DOPA, oxytocin eller lurasidon | [Kandidatoversigten](04_CANDIDATES/README.md) |
 | Beskrive forventninger og ændring | [Måleplan](06_MEASUREMENT/MEASUREMENT_PLAN.md) og [ViolEx-ark](06_MEASUREMENT/VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md) |
 | Finde kilderne | [Studieregister](07_STUDIES/STUDY_LEDGER.md) og [kilderegister](07_STUDIES/SOURCE_REGISTER.md) |
