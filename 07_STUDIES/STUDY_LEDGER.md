@@ -62,6 +62,14 @@ Se [07_STUDIES/README.md](README.md) for navigationsregler.
 ### Clinical behavior
 - [Schnurr et al. (2022): PE vs CPT multisite RCT](VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md) — klinisk symptomændring, behandlingssammenligning og foreløbig RoB-screening.
 - [Ito et al. (2025): CPT og funktion i Japan](VERIFIED/2025_Ito_CPT_Function_Japan_RCT.md) — eksplorativt, selvrapporteret SDS-funktionsoutcome; ikke direkte adfærdsobservation.
+- [Başoğlu et al. (2005): single-session adfærdsbehandling](VERIFIED/2005_Basoglu_SingleSession_Behavioral_PTSD_RCT.md) — venteliste-RCT; senere undgåelsesanalyse er samme kohorte.
+- [Salcioglu et al. (2007): undgåelse som symptom](VERIFIED/2007_Salcioglu_BehavioralAvoidance_Reanalysis.md) — symptomniveau-reanalyse af Başoğlu-kohorten, ikke observeret approach-test.
+- [Peterson et al. (2023): PE-format og funktion](VERIFIED/2023_Peterson_Massed_vs_IOP_PE_Function_RCT.md) — SDS og B-IPF, patientrapporterede funktionsmål.
+- [Shea et al. (2023): IPT vs PE](VERIFIED/2023_Shea_IPT_vs_PE_Function_Veterans_RCT.md) — selvrapporteret interpersonal- og work/social-funktion.
+- [Rauch et al. (2023): IMPACT](VERIFIED/2023_Rauch_IMPACT_Function_RCT.md) — WHODAS-funktion i en primærsektor-RCT.
+- [Davis et al. (2012): IPS-støttet beskæftigelse](VERIFIED/2012_Davis_Supported_Employment_PTSD_RCT.md) — konkret arbejdsdeltagelse; selvstændig pilot-RCT.
+- [Davis et al. (2018): VIP-STAR](VERIFIED/2018_Davis_VIPSTAR_Supported_Employment_PTSD_RCT.md) — konkret beskæftigelse; separat 541-personers RCT.
+- [Davis et al. (2019): PRFI-analyse af VIP-STAR](VERIFIED/2019_Davis_VIPSTAR_Functional_Outcomes_Secondary_Analysis.md) — patientrapporteret funktion i samme kohorte som 2018.
 - [Adfærdsevidensoversigt](../03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md) — RCT og systematiske synteser; reanalyser holdes adskilt fra nye kohorter.
 
 ### Context/interoception/sleep

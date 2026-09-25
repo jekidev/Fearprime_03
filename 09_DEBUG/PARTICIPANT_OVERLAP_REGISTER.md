@@ -1,6 +1,6 @@
 # FearPrime — participant overlap register
 
-Version 0.22 · 2026-09-18
+Version 0.23 · 2026-09-25
 
 ## Formål
 Dette register forhindrer, at samme deltagere tælles flere gange, når én kohorte giver flere publikationer, reanalyser, sekundære outcomes eller follow-ups.
@@ -72,3 +72,14 @@ Dette er kontrol af dokumenternes identitet og rolle, ikke en ny kontrol af delt
 | [Berceli-alias](../07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers.md) og [pilotkort](../07_STUDIES/VERIFIED/2014_Berceli_TRE_Caregivers_Pilot.md) | Samme studie; pilotkortet er hovedkortet |
 
 Filerne bevares. Ved evidensudtræk bruges primærpublikation og kohorte som tælleenhed, aldrig antal dokumenter eller links.
+
+### Klinisk adfærd og funktion — kildekontrol 2026-09-25
+
+[Det målrettede søgememo](BEHAVIOURAL_SEARCH_2026-09-25.md) registrerer de nye prøveforbindelser. Başoğlu 2005 og Salcioglu 2007 bruger samme sample. Davis 2012 (NCT00333801) og Davis 2018 VIP-STAR (NCT01817712) er særskilte randomiserede forsøg. Davis 2019 PRFI er en sekundær analyse af samme VIP-STAR-deltagere. Peterson (NCT03529435), Shea (NCT02586064) og IMPACT (NCT03581981) er selvstændige RCT-kohorter.
+
+| Kohorter/publicationer | Tælleregel |
+|---|---|
+| [Başoğlu 2005](../07_STUDIES/VERIFIED/2005_Basoglu_SingleSession_Behavioral_PTSD_RCT.md) ↔ [Salcioglu 2007](../07_STUDIES/VERIFIED/2007_Salcioglu_BehavioralAvoidance_Reanalysis.md) | Én kohorte; 2007 er symptomniveau-reanalyse, ikke ny sample. |
+| [Davis 2012](../07_STUDIES/VERIFIED/2012_Davis_Supported_Employment_PTSD_RCT.md) ↔ [Davis 2018 VIP-STAR](../07_STUDIES/VERIFIED/2018_Davis_VIPSTAR_Supported_Employment_PTSD_RCT.md) | Separate RCT'er; hver sin ClinicalTrials.gov-registrering og forskellig sample størrelse. |
+| [Davis 2018](../07_STUDIES/VERIFIED/2018_Davis_VIPSTAR_Supported_Employment_PTSD_RCT.md) ↔ [Davis 2019 PRFI](../07_STUDIES/VERIFIED/2019_Davis_VIPSTAR_Functional_Outcomes_Secondary_Analysis.md) | Én VIP-STAR-kohorte; sekundær funktionsanalyse genbruger de 541 deltagere. |
+| [Peterson 2023](../07_STUDIES/VERIFIED/2023_Peterson_Massed_vs_IOP_PE_Function_RCT.md), [Shea 2023](../07_STUDIES/VERIFIED/2023_Shea_IPT_vs_PE_Function_Veterans_RCT.md) og [IMPACT 2023](../07_STUDIES/VERIFIED/2023_Rauch_IMPACT_Function_RCT.md) | Tre separate kohorter med hver sit trial-ID; ingen delt sample identificeret i det målrettede kildecheck. |

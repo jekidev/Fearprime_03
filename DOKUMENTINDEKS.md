@@ -2,7 +2,7 @@
 
 [Start her](START_HER.md) giver en kort læsevej. Dette katalog er til opslag og indeholder også historik; dokumentantal er ikke studieantal.
 
-Opdateret med v0.31 · 2026-09-22.
+Opdateret med v0.31 · 2026-09-25.
 
 ## 00_MANIFESTO
 
@@ -37,6 +37,14 @@ Opdateret med v0.31 · 2026-09-22.
 - [Klinisk adfærdsevidens ved PTSD — studieoversigt](03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md)
 - [Schnurr et al. (2022) — PE vs CPT RCT](07_STUDIES/VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md)
 - [Ito et al. (2025) — CPT og funktion i Japan](07_STUDIES/VERIFIED/2025_Ito_CPT_Function_Japan_RCT.md)
+- [Başoğlu et al. (2005) — single-session adfærdsbehandling](07_STUDIES/VERIFIED/2005_Basoglu_SingleSession_Behavioral_PTSD_RCT.md)
+- [Salcioglu et al. (2007) — undgåelse som symptom](07_STUDIES/VERIFIED/2007_Salcioglu_BehavioralAvoidance_Reanalysis.md)
+- [Peterson et al. (2023) — PE-format og funktion](07_STUDIES/VERIFIED/2023_Peterson_Massed_vs_IOP_PE_Function_RCT.md)
+- [Shea et al. (2023) — IPT vs PE og funktion](07_STUDIES/VERIFIED/2023_Shea_IPT_vs_PE_Function_Veterans_RCT.md)
+- [Rauch et al. (2023) — IMPACT og funktion](07_STUDIES/VERIFIED/2023_Rauch_IMPACT_Function_RCT.md)
+- [Davis et al. (2012) — beskæftigelse ved PTSD](07_STUDIES/VERIFIED/2012_Davis_Supported_Employment_PTSD_RCT.md)
+- [Davis et al. (2018) — VIP-STAR-beskæftigelse](07_STUDIES/VERIFIED/2018_Davis_VIPSTAR_Supported_Employment_PTSD_RCT.md)
+- [Davis et al. (2019) — VIP-STAR PRFI-funktion](07_STUDIES/VERIFIED/2019_Davis_VIPSTAR_Functional_Outcomes_Secondary_Analysis.md)
 - [Klinisk PTSD: rekonsolidering, præparater og alternative forklaringer](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [FearPrimes model for eksponering og frygtudslukning](03_EXTINCTION/EXTINCTION_ENGINE.md)
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
@@ -200,6 +208,8 @@ Opdateret med v0.31 · 2026-09-22.
 
 - [Conley 1998 + Edelman 2003 — human oral tributyrin-PK](07_STUDIES/VERIFIED/1998_2003_Tributyrin_Human_PK.md)
 - [Eksponering for kropslige fornemmelser ved PTSD](07_STUDIES/VERIFIED/2005_2007_2010_Interoceptive_Exposure_PTSD.md)
+- [Başoğlu et al. (2005) — single-session adfærdsbehandling](07_STUDIES/VERIFIED/2005_Basoglu_SingleSession_Behavioral_PTSD_RCT.md)
+- [Salcioglu et al. (2007) — undgåelse som symptom](07_STUDIES/VERIFIED/2007_Salcioglu_BehavioralAvoidance_Reanalysis.md)
 - [Testosteron: akut frygt og varig læring](07_STUDIES/VERIFIED/2005_2018_Testosterone_Human_Fear_Audit.md)
 - [Guanfacin ved kronisk PTSD: to negative forsøg](07_STUDIES/VERIFIED/2006_2008_Guanfacine_PTSD_RCTs.md)
 - [Brunet 2008: propranolol efter genkaldelse](07_STUDIES/VERIFIED/2008_Brunet_Propranolol_Physiology.md)
@@ -212,6 +222,7 @@ Opdateret med v0.31 · 2026-09-22.
 - [Østradiol, progesteron og PTSD-læring](07_STUDIES/VERIFIED/2012_2023_Estradiol_Progesterone_PTSD_Extinction.md)
 - [Naturlige hormonniveauer og akut hormontilførsel](07_STUDIES/VERIFIED/2012_2024_Estradiol_Progesterone_Fear_Extinction.md)
 - [Sevenster 2012 — retrieval alene er ikke nok](07_STUDIES/VERIFIED/2012_Sevenster_Retrieval_Not_Sufficient.md)
+- [Davis et al. (2012) — støttet beskæftigelse ved PTSD](07_STUDIES/VERIFIED/2012_Davis_Supported_Employment_PTSD_RCT.md)
 - [CBD: blandede humane lærings- og terapifund](07_STUDIES/VERIFIED/2013_2023_CBD_Human_Extinction_Exposure.md)
 - [Acheson 2013: oxytocin og senere genkaldelse](07_STUDIES/VERIFIED/2013_Acheson_Oxytocin.md)
 - [Døgnrytme, testosteron/kortisol og udslukning](07_STUDIES/VERIFIED/2013_Circadian_Testosterone_Cortisol_Extinction.md)
@@ -239,9 +250,11 @@ Opdateret med v0.31 · 2026-09-22.
 - [Felmingham 2018: BDNF-genotype og eksperimentel PTSD-læring](07_STUDIES/VERIFIED/2018_Felmingham_BDNF_Val66Met_fear_extinction_PTSD.md)
 - [Harrison, Keating & Morgan 2018 — TRE-lignende øvelser ved restless legs syndrome](07_STUDIES/VERIFIED/2018_Harrison_TRE_RLS_RCT.md)
 - [Kent 2018 — neurogene tremorer ved stress og PTSD](07_STUDIES/VERIFIED/2018_Kent_TRE_PTSD_Controlled_Trial.md)
+- [Davis et al. (2018) — VIP-STAR](07_STUDIES/VERIFIED/2018_Davis_VIPSTAR_Supported_Employment_PTSD_RCT.md)
 - [Bos et al. 2019 — acute but not permanent propranolol effects](07_STUDIES/VERIFIED/2019_Bos_Acute_Not_Permanent_Propranolol.md)
 - [Gerlicher 2019: L-DOPA og vellykket udslukning](07_STUDIES/VERIFIED/2019_Gerlicher_LDOPA.md)
 - [Heath & Beattie 2019 — TRE som PTSD-selvomsorg, case report](07_STUDIES/VERIFIED/2019_Heath_Beattie_TRE_PTSD_Case.md)
+- [Davis et al. (2019) — VIP-STAR funktionsanalyse](07_STUDIES/VERIFIED/2019_Davis_VIPSTAR_Functional_Outcomes_Secondary_Analysis.md)
 - [PTSD, DNA-methylering og epigenetik](07_STUDIES/VERIFIED/2020_2024_PTSD_Epigenome_Evidence.md)
 - [Chalkia 2020 — registreret replikation](07_STUDIES/VERIFIED/2020_Chalkia_Retrieval_Extinction_Replication.md)
 - [Cisler 2020 — L-DOPA hos kvinder med PTSD](07_STUDIES/VERIFIED/2020_Cisler_LDOPA_PTSD.md)
@@ -254,6 +267,9 @@ Opdateret med v0.31 · 2026-09-22.
 - [MDMA og human frygtudslukning](07_STUDIES/VERIFIED/2022_MDMA_Human_Fear_Extinction.md)
 - [Stemerding 2022 — mislykket replikation af reconsolidation boundary conditions](07_STUDIES/VERIFIED/2022_Stemerding_Boundary_Replication_Failure.md)
 - [Akut inflammation og kropslig trusselslæring](07_STUDIES/VERIFIED/2023_Inflammation_Endotoxin_Interoceptive_Extinction.md)
+- [Peterson et al. (2023) — PE-format og funktion](07_STUDIES/VERIFIED/2023_Peterson_Massed_vs_IOP_PE_Function_RCT.md)
+- [Shea et al. (2023) — IPT vs PE og funktion](07_STUDIES/VERIFIED/2023_Shea_IPT_vs_PE_Function_Veterans_RCT.md)
+- [Rauch et al. (2023) — IMPACT og funktion](07_STUDIES/VERIFIED/2023_Rauch_IMPACT_Function_RCT.md)
 - [Andres 2024: registreret L-DOPA-replikation](07_STUDIES/VERIFIED/2024_Andres_LDOPA_replication.md)
 - [Dalile 2024 — kolonfrigivet butyrat](07_STUDIES/VERIFIED/2024_Dalile_Colonic_Butyrate.md)
 - [Mikroglia og neuroimmun funktion ved PTSD](07_STUDIES/VERIFIED/2024_Microglia_Neuroimmune_PTSD.md)
@@ -312,6 +328,7 @@ Opdateret med v0.31 · 2026-09-22.
 - [FearPrime — Coverage Plan](09_DEBUG/COVERAGE_PLAN.md)
 - [FearPrime — effect-size & CI extraction standard](09_DEBUG/EFFECT_SIZE_EXTRACTION_STANDARD.md)
 - [FearPrime v1.0 — Gap Audit](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md)
+- [Målrettet søgning: klinisk adfærd og funktion — 2026-09-25](09_DEBUG/BEHAVIOURAL_SEARCH_2026-09-25.md)
 - [FearPrime — preregistration: interoceptiv augmentation design](09_DEBUG/INTEROCEPTIVE_AUGMENTATION_PREREGISTRATION.md)
 - [FearPrime — participant overlap register](09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md)
 - [FearPrime — PubMed/MEDLINE reconsolidation export status](09_DEBUG/PUBMED_RECONSOLIDATION_EXPORT_2026-09-18.md)
