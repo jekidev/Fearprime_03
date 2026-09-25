@@ -4,6 +4,7 @@ Begynd i [læringsmodulet](EXTINCTION_ENGINE.md). Udslukning, rekonsolidering, s
 
 | Jeg vil forstå … | Dokument |
 |---|---|
+| Adfærd, undgåelse og fleksibel tilnærmelse | [Adfærdsguide](BEHAVIOURAL_LEARNING_GUIDE.md) |
 | Overførsel til nye situationer | [Generalisering og sikkerhedslæring](GENERALIZATION_AND_SAFETY_LEARNING_ENGINE.md) |
 | Forskellen mellem processerne | [Udslukning, rekonsolidering og tilbagekomst](EXTINCTION_RECONSOLIDATION_RETURN.md) |
 | Hvornår genkaldelse kan ændre et minde | [Betingelser for rekonsolidering](RECONSOLIDATION_BOUNDARY_CONDITIONS.md) |
