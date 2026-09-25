@@ -7,6 +7,7 @@ Begynd med [måleplanen](MEASUREMENT_PLAN.md). Symptomer, forventninger, fysiolo
 | Spørgsmål | Dokument |
 |---|---|
 | Hvad observeres i en konkret session? | [Sessionsskabelon](SESSION_TEMPLATE.md) |
+| Hvordan registreres et adfærdseksperiment? | [Adfærdseksperiment — skabelon](BEHAVIOURAL_EXPERIMENT_TEMPLATE.md) |
 | Bliver forventninger faktisk opdateret? | [ViolEx-måleark](VIOLEX_EXPOSURE_MEASUREMENT_SHEET.md) |
 | Fastholdes og generaliseres læringen? | [Læringsmål](LEARNING_METRICS.md) |
 | Hvordan beskrives CPTSD? | [CPTSD-måling](CPTSD_MEASUREMENT.md) |
