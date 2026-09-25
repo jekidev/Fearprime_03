@@ -213,6 +213,146 @@ def csv_audit(root: Path):
     return findings
 
 
+def yaml_audit(root: Path):
+    findings: list[Finding] = []
+    try:
+        import yaml
+    except ImportError:
+        return [
+            Finding(
+                "ERROR",
+                "YAML_VALIDATOR_UNAVAILABLE",
+                "data",
+                "Install PyYAML to validate YAML syntax.",
+            )
+        ]
+
+    for path in [*iter_files(root, ".yaml"), *iter_files(root, ".yml")]:
+        rel = str(path.relative_to(root))
+        try:
+            with path.open("r", encoding="utf-8") as handle:
+                yaml.safe_load(handle)
+        except (OSError, UnicodeError, yaml.YAMLError) as exc:
+            findings.append(Finding("ERROR", "YAML_PARSE", rel, f"YAML parse failed: {exc}"))
+    return findings
+
+
+def data_reference_audit(root: Path):
+    findings: list[Finding] = []
+    data_dir = root / "data"
+    studies_path = data_dir / "studies.csv"
+    if not studies_path.exists():
+        return [Finding("ERROR", "STUDY_DATA_MISSING", "data/studies.csv", "Canonical study index missing.")]
+
+    try:
+        with studies_path.open("r", encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle, strict=True)
+            if not reader.fieldnames or not {"study_id", "study_card_path"} <= set(reader.fieldnames):
+                return [Finding("ERROR", "STUDY_DATA_SCHEMA", "data/studies.csv", "Required columns study_id and study_card_path are missing.")]
+            studies = list(reader)
+    except (OSError, UnicodeError, csv.Error) as exc:
+        return [Finding("ERROR", "STUDY_DATA_PARSE", "data/studies.csv", f"Could not read study index: {exc}")]
+
+    study_ids: set[str] = set()
+    card_paths: set[str] = set()
+    for row in studies:
+        study_id = (row.get("study_id") or "").strip()
+        card_path = (row.get("study_card_path") or "").strip()
+        if not study_id:
+            findings.append(Finding("ERROR", "STUDY_ID_EMPTY", "data/studies.csv", "Study row has no study_id."))
+            continue
+        if study_id in study_ids:
+            findings.append(Finding("ERROR", "STUDY_ID_DUPLICATE", "data/studies.csv", f"Duplicate study_id: {study_id}"))
+        study_ids.add(study_id)
+        if card_path:
+            card_paths.add(card_path)
+            target = (root / card_path).resolve()
+            try:
+                target.relative_to(root.resolve())
+            except ValueError:
+                target = None
+            if target is None or not target.is_file():
+                findings.append(Finding("ERROR", "STUDY_CARD_MISSING", "data/studies.csv", f"{study_id} points to missing or out-of-repository card: {card_path}"))
+        else:
+            findings.append(Finding("WARN", "STUDY_CARD_UNSET", "data/studies.csv", f"{study_id} has no study_card_path."))
+
+    for filename, id_field in (("effects.csv", "effect_id"), ("risk_of_bias.csv", None)):
+        path = data_dir / filename
+        if not path.exists():
+            continue
+        try:
+            with path.open("r", encoding="utf-8-sig", newline="") as handle:
+                reader = csv.DictReader(handle, strict=True)
+                rows = list(reader)
+        except (OSError, UnicodeError, csv.Error) as exc:
+            findings.append(Finding("ERROR", "DATA_REFERENCE_PARSE", str(path.relative_to(root)), f"Could not read references: {exc}"))
+            continue
+        seen: set[str] = set()
+        for row in rows:
+            study_id = (row.get("study_id") or "").strip()
+            if study_id and study_id not in study_ids:
+                findings.append(Finding("ERROR", "STUDY_REFERENCE_MISSING", str(path.relative_to(root)), f"Unknown study_id: {study_id}"))
+            if id_field:
+                value = (row.get(id_field) or "").strip()
+                if value and value in seen:
+                    findings.append(Finding("ERROR", "EFFECT_ID_DUPLICATE", str(path.relative_to(root)), f"Duplicate {id_field}: {value}"))
+                if value:
+                    seen.add(value)
+
+    overlap_path = data_dir / "participant_overlap.csv"
+    if overlap_path.exists():
+        try:
+            with overlap_path.open("r", encoding="utf-8-sig", newline="") as handle:
+                for row in csv.DictReader(handle, strict=True):
+                    card_path = (row.get("study_card_path") or "").strip()
+                    if card_path and not (root / card_path).is_file():
+                        findings.append(Finding("ERROR", "OVERLAP_CARD_MISSING", str(overlap_path.relative_to(root)), f"Missing participant-overlap card: {card_path}"))
+        except (OSError, UnicodeError, csv.Error) as exc:
+            findings.append(Finding("ERROR", "OVERLAP_DATA_PARSE", str(overlap_path.relative_to(root)), f"Could not read overlap register: {exc}"))
+
+    verified_dir = root / "07_STUDIES" / "VERIFIED"
+    if verified_dir.exists():
+        verified_cards = {
+            str(path.relative_to(root))
+            for path in verified_dir.glob("*.md")
+            if path.name != "README.md"
+        }
+        unindexed = sorted(verified_cards - card_paths)
+        if unindexed:
+            findings.append(
+                Finding(
+                    "WARN",
+                    "STUDY_DATA_SEED_COVERAGE",
+                    "data/studies.csv",
+                    f"{len(unindexed)} verified study cards are not mirrored in the seed CSV; this is a coverage warning, not a claim that the cards are invalid.",
+                )
+            )
+    return findings
+
+
+def personal_data_audit(root: Path):
+    findings: list[Finding] = []
+    cpr_pattern = re.compile(r"(?<!\\d)\\d{6}-\\d{4}(?!\\d)")
+    text_suffixes = {".md", ".csv", ".yaml", ".yml", ".json", ".txt"}
+    for path in iter_files(root):
+        if path.suffix.lower() not in text_suffixes:
+            continue
+        try:
+            text = read_text(path)
+        except (OSError, UnicodeError):
+            continue
+        if cpr_pattern.search(text):
+            findings.append(
+                Finding(
+                    "WARN",
+                    "POSSIBLE_DANISH_CPR",
+                    str(path.relative_to(root)),
+                    "A CPR-formatted number was found; manually verify and remove private data if present.",
+                )
+            )
+    return findings
+
+
 def duplicate_identifier_audit(root: Path):
     findings: list[Finding] = []
     studies = root / "07_STUDIES"
@@ -250,6 +390,9 @@ def run_audit(root: Path):
     findings.extend(markdown_link_audit(root))
     findings.extend(version_audit(root))
     findings.extend(csv_audit(root))
+    findings.extend(yaml_audit(root))
+    findings.extend(data_reference_audit(root))
+    findings.extend(personal_data_audit(root))
     findings.extend(duplicate_identifier_audit(root))
     return findings
 
