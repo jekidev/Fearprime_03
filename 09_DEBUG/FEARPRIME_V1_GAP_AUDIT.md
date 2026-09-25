@@ -35,14 +35,14 @@ Det kræver, at frameworket er:
 | Evidence-type rules | ✅ |
 | R0–R4 robusthed adskilt fra M0–M4 mekanisme | ✅ |
 | Claim-level certainty framework | ✅/🟡 |
-| Study-level RoB på centrale humane claims | 🟡 |
-| Effect-size/CI på centrale humane claims | 🟡 |
+| Study-level RoB på centrale humane claims | 🟡 — første større PE/CPT-RCT screenet; resten af kernekorpus mangler |
+| Effect-size/CI på centrale humane claims | 🟡 — primært CAPS-5-estimat og responsmål udtrukket for PE/CPT-RCT; bredere dækning mangler |
 | Participant-overlap audit | 🟡 |
 | Reproducerbare searches for kerneområder | 🟡 |
 | Native PubMed hit counts/export for centrale searches | 🟡 |
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 |
-| Machine-readable study/effect/RoB/certainty data | ✅/🟡 |
+| Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-studie og fire effektmål tilføjet; samlet data-paritet er fortsat delvis |
 | Link/integrity QA efter strukturændringer | ✅ — relative links rettet, streng CI-kontrol; fire gentagne DOI-henvisninger er dokumenteret i overlapregistret |
 | Dokumenteret release checklist | ✅ |
 
