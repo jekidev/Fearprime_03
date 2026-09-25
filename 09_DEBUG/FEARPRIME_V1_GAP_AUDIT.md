@@ -92,7 +92,7 @@ HIGH kræver:
 
 Følgende mangler stadig som pålidelige release-gates:
 - YAML-syntaks kontrolleres nu i CI; semantisk kontrol mod formelle skemaer mangler stadig,
-- stikortstier og CSV-krydsreferencer kontrolleres nu som CI-fejl; fuld dataparitet mangler stadig,
+- studiekortstier og CSV-krydsreferencer kontrolleres nu som CI-fejl; fuld dataparitet mangler stadig,
 - kendte gentagne kildepar er registreret maskinlæsbart og triageret; bredere kontrol af deltageroverlap mangler stadig,
 - en CPR-formatkontrol giver nu en advarsel til manuel gennemgang; fuld kontrol for persondata mangler stadig,
 - triage af audit-advarsler før release; den kendte advarsel om seed-dækning kræver stadig en beslutning om afgrænsning.
