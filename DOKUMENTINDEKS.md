@@ -33,6 +33,7 @@ Opdateret med v0.31 · 2026-09-22.
 
 ## 03_EXTINCTION
 
+- [FearPrime — adfærd, undgåelse og fleksibel tilnærmelse](03_EXTINCTION/BEHAVIOURAL_LEARNING_GUIDE.md)
 - [Klinisk PTSD: rekonsolidering, præparater og alternative forklaringer](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [FearPrimes model for eksponering og frygtudslukning](03_EXTINCTION/EXTINCTION_ENGINE.md)
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
