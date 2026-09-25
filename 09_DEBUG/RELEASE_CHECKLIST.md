@@ -10,7 +10,7 @@
 - [ ] Samme PMID/DOI tælles ikke dobbelt i alle synteser.  
   Kendte gentagne dokumenthenvisninger er triageret i `data/duplicate_reference_registry.csv`; ukendte par skal fortsat gennemgås.
 - [ ] Reanalysis/sample-overlap er markeret for alle relevante claims.  
-  Kendte Schiller/Chalkia-, Schnurr-, Berceli- og Ribbens-forhold er registreret; Brunet/Roullet og flere mulige overlap er stadig uafklarede.
+  Kendte Schiller/Chalkia-, Schnurr-, Berceli-pilot/alias- og Ribbens-forhold er registreret; Brunet/Roullet og flere mulige overlap er stadig uafklarede.
 - [ ] Negative/null studies bevares.
 - [ ] Evidence type, R-score, M-score og certainty holdes adskilt.
 - [ ] Dossier-summary kan spores tilbage til konkrete studiekort.
