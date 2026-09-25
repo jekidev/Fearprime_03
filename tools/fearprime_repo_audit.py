@@ -366,11 +366,14 @@ def data_reference_audit(root: Path):
                     seen.add(value)
 
     overlap_path = data_dir / "participant_overlap.csv"
+    non_independent_card_paths: set[str] = set()
     if overlap_path.exists():
         try:
             with overlap_path.open("r", encoding="utf-8-sig", newline="") as handle:
                 for row in csv.DictReader(handle, strict=True):
                     card_path = (row.get("study_card_path") or "").strip()
+                    if card_path and (row.get("status") or "").strip() == "same_original_data":
+                        non_independent_card_paths.add(card_path)
                     if card_path and not (root / card_path).is_file():
                         findings.append(Finding("ERROR", "OVERLAP_CARD_MISSING", str(overlap_path.relative_to(root)), f"Missing participant-overlap card: {card_path}"))
         except (OSError, UnicodeError, csv.Error) as exc:
@@ -400,7 +403,9 @@ def data_reference_audit(root: Path):
             for path in verified_dir.glob("*.md")
             if path.name != "README.md"
         }
-        unindexed = sorted(verified_cards - card_paths)
+        # A same_original_data card documents a reanalysis/alias of an indexed sample,
+        # not a separate study that must have another row in the seed index.
+        unindexed = sorted(verified_cards - card_paths - non_independent_card_paths)
         if unindexed:
             findings.append(
                 Finding(
