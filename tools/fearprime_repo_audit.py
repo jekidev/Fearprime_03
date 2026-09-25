@@ -250,7 +250,7 @@ def data_semantic_audit(root: Path):
                         f"Line {line}: {column} must be {'an integer' if integer else 'numeric'} or blank; got {value!r}."
                     ))
 
-    allowed("studies.csv", "evidence_type", {"A", "B", "C", "D", "E", "review", "theory"})
+    allowed("studies.csv", "evidence_type", {"A", "B", "C", "D", "E", "F", "review", "theory"})
     allowed("studies.csv", "mechanism_m", {"NA", *(f"M{i}" for i in range(5)), *(f"M{i}-M{j}" for i in range(5) for j in range(i + 1, 5))})
     allowed("studies.csv", "robustness_r", {"NA", "review", *(f"R{i}" for i in range(5)), *(f"R{i}-R{j}" for i in range(5) for j in range(i + 1, 5))})
     allowed("studies.csv", "rob_overall", {"NA", "LOW", "SOME", "HIGH", "UNCLEAR", "LOW-SOME", "SOME-HIGH", "SOME-UNCLEAR"})
