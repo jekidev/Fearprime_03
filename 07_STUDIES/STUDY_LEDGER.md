@@ -59,6 +59,10 @@ Se [07_STUDIES/README.md](README.md) for navigationsregler.
 - [Oxytocin](../04_CANDIDATES/OXYTOCIN_DOSSIER.md)
 - [Lurasidon](../04_CANDIDATES/LURASIDONE_DOSSIER.md)
 
+### Clinical behavior
+- [Schnurr et al. (2022): PE vs CPT multisite RCT](VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md) — klinisk symptomændring, behandlingssammenligning og foreløbig RoB-screening.
+- [Adfærdsevidensoversigt](../03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md) — RCT og systematiske synteser; reanalyser holdes adskilt fra nye kohorter.
+
 ### Context/interoception/sleep
 - [Hippocampus/context](../02_MECHANISMS/HIPPOCAMPUS_CONTEXT_DISCRIMINATION.md)
 - [Insula/interoception](../02_MECHANISMS/INSULA_INTEROCEPTION.md)
