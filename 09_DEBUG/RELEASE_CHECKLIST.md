@@ -7,9 +7,10 @@
 - [x] Legacy/alias-filer er tydeligt mærket.
 
 ## Evidensintegritet
-- [ ] Samme PMID/DOI tælles ikke dobbelt.  
-  Audit-tool rapporterer mulige dubletter som warnings; manuel resolution er stadig nødvendig.
-- [ ] Reanalysis/sample-overlap er markeret.
+- [ ] Samme PMID/DOI tælles ikke dobbelt i alle synteser.  
+  Kendte gentagne dokumenthenvisninger er triageret i `data/duplicate_reference_registry.csv`; ukendte par skal fortsat gennemgås.
+- [ ] Reanalysis/sample-overlap er markeret for alle relevante claims.  
+  Kendte Schiller/Chalkia- og Schnurr-forhold er registreret; flere overlap er stadig uafklarede.
 - [ ] Negative/null studies bevares.
 - [ ] Evidence type, R-score, M-score og certainty holdes adskilt.
 - [ ] Dossier-summary kan spores tilbage til konkrete studiekort.
@@ -18,16 +19,17 @@
 - [x] Nye/aktive indeks-links valideret efter v0.27-cleanup.
 - [x] Ingen kontrolleret aktiv indeksfil peger på en manglende sti.
 - [x] Nye archive-links bruges kun til historik.
-- [ ] Repo-wide audit har ingen utriagerede hard errors.  
-  Kør: `python tools/fearprime_repo_audit.py . --strict`
+- [x] Seneste GitHub Actions-kørsel havde ingen hard errors i repo-auditten.  
+  Utriagerede warnings blokerer stadig release; kør lokalt: `python tools/fearprime_repo_audit.py . --strict`
 
 ## Data
-- [ ] CSV-filer har gyldige headers.  
-  Dette kan nu kontrolleres automatisk af repo-audit.
-- [ ] YAML-schemas parser.
+- [x] CSV-filer har gyldige headers og rækker; kontrolleres af repo-audit.
+- [x] YAML-filer parser syntaktisk via PyYAML i CI.  
+  Semantisk validering mod egentlige schema-regler mangler stadig.
 - [ ] Study IDs er stabile.
-- [ ] Study-card paths i data peger på eksisterende filer.
-- [ ] Personlige/private data er ikke committed.
+- [x] Study-card paths i data peger på eksisterende filer; studie-ID-referencer kontrolleres i CI.
+- [ ] Personlige/private data er ikke committed.  
+  CPR-format-checken er heuristisk og advarer til manuel kontrol; den er ikke en fuld privatdata-audit.
 
 ## Search
 - [ ] Exact query + dato bevaret.
