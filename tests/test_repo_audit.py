@@ -4,6 +4,7 @@ from pathlib import Path
 
 from tools.fearprime_repo_audit import (
     csv_audit,
+    data_semantic_audit,
     data_reference_audit,
     duplicate_identifier_audit,
     personal_data_audit,
@@ -101,6 +102,38 @@ class RepoAuditTests(unittest.TestCase):
                 'a,b\n"first, line\nsecond line",\n', encoding="utf-8"
             )
             self.assertEqual(csv_audit(root), [])
+
+
+    def test_semantic_data_audit_checks_enums_and_numeric_effects(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data = root / "data"
+            data.mkdir()
+            (data / "studies.csv").write_text(
+                "study_id,evidence_type,mechanism_m,robustness_r,rob_overall,year,randomized_n,analyzed_n\n"
+                "S1,A,M1-M2,R2,SOME,2025,60,\n",
+                encoding="utf-8",
+            )
+            (data / "effects.csv").write_text(
+                "effect_id,direction,adjusted,calculated_by_fearprime,estimate,ci95_low,ci95_high\n"
+                "E1,null,false,false,1.2,0.2,2.2\n",
+                encoding="utf-8",
+            )
+            (data / "certainty.csv").write_text(
+                "claim_id,certainty,risk_of_bias,inconsistency,indirectness,imprecision,publication_bias\n"
+                "C1,LOW,SOME,SOME,LOW,SOME,UNCLEAR\n",
+                encoding="utf-8",
+            )
+            self.assertEqual(data_semantic_audit(root), [])
+            (data / "effects.csv").write_text(
+                "effect_id,direction,adjusted,calculated_by_fearprime,estimate,ci95_low,ci95_high\n"
+                "E1,sideways,yes,false,high,3,1\n",
+                encoding="utf-8",
+            )
+            codes = {f.code for f in data_semantic_audit(root)}
+            self.assertIn("DATA_ENUM_INVALID", codes)
+            self.assertIn("DATA_NUMBER_INVALID", codes)
+            self.assertIn("DATA_CI_ORDER", codes)
 
     def test_yaml_syntax_is_checked(self):
         with tempfile.TemporaryDirectory() as tmp:
