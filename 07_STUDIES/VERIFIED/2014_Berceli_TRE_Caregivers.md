@@ -9,7 +9,7 @@
 **DOI:** 10.7453/gahmj.2014.032
 
 ## Design
-Ukontrolleret feasibility/pilotstudie. Alle 21 ansatte ved et SOS Children's Village i Cape Town modtog 10 ugers ugentlig træning/gruppetræning samt anbefalet selvtræning 2–3 gange ugentligt.
+Ukontrolleret feasibility/pilotstudie gennemført i 2012. 23 personer tilmeldte sig; to forlod studiet efter første dag af personlige grunde. De resterende 21 deltagere (personale ved et SOS Children's Village i Cape Town) gennemførte 10 ugers ugentlig træning/gruppetræning og anbefalet selvtræning 2–3 gange ugentligt.
 
 ## Udfald
 Selvrapporteret health-related quality of life og adherence.
