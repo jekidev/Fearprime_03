@@ -61,6 +61,7 @@ Se [07_STUDIES/README.md](README.md) for navigationsregler.
 
 ### Clinical behavior
 - [Schnurr et al. (2022): PE vs CPT multisite RCT](VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md) — klinisk symptomændring, behandlingssammenligning og foreløbig RoB-screening.
+- [Ito et al. (2025): CPT og funktion i Japan](VERIFIED/2025_Ito_CPT_Function_Japan_RCT.md) — eksplorativt, selvrapporteret SDS-funktionsoutcome; ikke direkte adfærdsobservation.
 - [Adfærdsevidensoversigt](../03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md) — RCT og systematiske synteser; reanalyser holdes adskilt fra nye kohorter.
 
 ### Context/interoception/sleep
