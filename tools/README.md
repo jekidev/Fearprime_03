@@ -2,7 +2,7 @@
 
 Værktøjsversion 0.3 · repo v0.31
 
-Python-værktøjerne bruger kun standardbiblioteket. De understøtter beskrivende analyse og kvalitetskontrol.
+Beregningsværktøjerne bruger standardbiblioteket. Repo-auditten bruger desuden PyYAML til syntakskontrol af YAML-filer (`python -m pip install PyYAML`).
 
 ## 1. Beregner for forventningsopdatering
 
@@ -50,13 +50,16 @@ Den kontrollerer:
 
 - om interne Markdown-links peger på eksisterende filer eller mapper,
 - om `VERSION`, forsiden, emnekortet og seneste udgivelse i versionshistorikken stemmer overens,
-- CSV-læsbarhed, entydige kolonnenavne og samme antal felter i alle rækker,
+- CSV-læsbarhed, entydige kolonnenavne, rækkeformater og tværreferencer mellem study-ID'er,
+- om studiekortstier i data peger på eksisterende filer,
+- YAML-syntaks via PyYAML,
+- CPR-formater som advarsel til manuel kontrol,
 - Markdown-filer uden indgående links som advarsler,
-- gentagne PMID-/DOI-henvisninger som advarsler til vurdering.
+- gentagne PMID-/DOI-henvisninger, triageret mod duplicate-reference-registeret.
 
-Gentagne henvisninger kan være aliaser, genanalyser eller bevidste krydsreferencer. De er ikke automatisk ekstra studier. De fire kendte DOI-advarsler er forklaret i [overlapregistret](../09_DEBUG/PARTICIPANT_OVERLAP_REGISTER.md).
+Gentagne henvisninger kan være aliaser, genanalyser eller bevidste krydsreferencer. De er ikke automatisk ekstra studier. Verificerede par ligger i [duplicate-reference-registeret](../data/duplicate_reference_registry.csv); andre gentagelser bliver stående som advarsler.
 
-Kontrollen validerer **ikke** eksterne links, Markdown-ankre, YAML-skemaer eller personoplysninger. Det er fortsat særskilte opgaver i [udgivelseschecklisten](../09_DEBUG/RELEASE_CHECKLIST.md).
+Kontrollen validerer **ikke** eksterne links, Markdown-ankre eller semantiske regler i YAML-skemaerne. CPR-mønstret er kun en målrettet privatdataindikator, ikke en fuld persondata-audit. Se [udgivelseschecklisten](../09_DEBUG/RELEASE_CHECKLIST.md).
 
 ## Test
 
