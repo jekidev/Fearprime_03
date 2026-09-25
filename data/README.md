@@ -12,6 +12,7 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag.
 - `effects.csv` — effect-level seed-data.
 - `risk_of_bias.csv` — study-level RoB seed-kodning.
 - `participant_overlap.csv` — register over kendt/muligt deltager-overlap.
+- `duplicate_reference_registry.csv` — triagerede gentagne DOI/PMID-henvisninger mellem studiekort; adskiller gentagen omtale fra uafhængige evidenskilder.
 - `session_schema.yaml` — maskinlæsbar struktur til FearPrime learning/session-data.
 - `violex_exposure_schema.yaml` — schema til prediction → violation → accommodation/immunization → retention/generalization.
 - `violex_exposure_template.csv` — tom trial/session-template til ViolEx exposure-måling.
