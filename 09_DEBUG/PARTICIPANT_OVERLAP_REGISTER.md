@@ -22,6 +22,9 @@ Chalkia-gruppens verification/reanalysis af originaldata er **ikke et nyt deltag
 
 Den registrerede direkte Chalkia replication fra 2020 er derimod en **ny sample**.
 
+### Schnurr PE/CPT cohort, 2022 ↔ symptom-level reanalysis, 2024
+The 2024 session-level symptom analysis reuses participants from the 2022 RCT registered as NCT01928732 (PMID 35044471). It is a secondary analysis of the same cohort, not an independent trial. The shared group ID `SCHNURR_PE_CPT_NCT01928732` is recorded in `data/participant_overlap.csv`.
+
 ### Wood 2015
 Publikationen indeholder tre små randomiserede PTSD-eksperimenter. Ét paper må derfor heller ikke automatisk behandles som ét homogent studie i kvantitativ syntese.
 
