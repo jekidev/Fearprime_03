@@ -29,13 +29,14 @@ Denne mappe er FearPrimes maskinlæsbare evidens- og målelag.
 ## Regler
 1. Tomme felter betyder **ikke verificeret / ikke udtrukket**, ikke nul.
 2. Én publikation, ét studie og én deltagerkohorte er forskellige enheder.
-3. `R0–R4` = robusthed/replikation; `M0–M4` = mekanistisk reconsolidation-inferens.
-4. Effektstørrelse og 95% CI gemmes kun, når de er rapporteret eller kan beregnes uden tvivlsomme antagelser.
-5. Kliniske outcomes, laboratorielæring, fysiologi og mekanisme holdes adskilt.
-6. Personlige N=1/N=3-data må ikke lægges i det offentlige repo.
-7. Subjective confidence må ikke automatisk fortolkes som computational precision.
-8. Prediction-error felter i ViolEx-schemaet er projektdeskriptive, ikke neurale PE-mål.
-9. Stateful modeller som HGF-like approximation forudsætter korrekt trial-rækkefølge; bland ikke flere deltagere i én sekvens uden eksplicit participant-level håndtering.
+3. Evidenstype `F` betegner humane interventions-/feasibilitystudier uden klinisk målpopulation, fx ikke-kliniske pilotdata; det må ikke læses som PTSD-efficacy.
+4. `R0–R4` = robusthed/replikation; `M0–M4` = mekanistisk reconsolidation-inferens.
+5. Effektstørrelse og 95% CI gemmes kun, når de er rapporteret eller kan beregnes uden tvivlsomme antagelser.
+6. Kliniske outcomes, laboratorielæring, fysiologi og mekanisme holdes adskilt.
+7. Personlige N=1/N=3-data må ikke lægges i det offentlige repo.
+8. Subjective confidence må ikke automatisk fortolkes som computational precision.
+9. Prediction-error felter i ViolEx-schemaet er projektdeskriptive, ikke neurale PE-mål.
+10. Stateful modeller som HGF-like approximation forudsætter korrekt trial-rækkefølge; bland ikke flere deltagere i én sekvens uden eksplicit participant-level håndtering.
 
 ## Computational tools
 - [Tool index](../tools/README.md)
