@@ -36,6 +36,7 @@ Opdateret med v0.31 · 2026-09-22.
 - [FearPrime — adfærd, undgåelse og fleksibel tilnærmelse](03_EXTINCTION/BEHAVIOURAL_LEARNING_GUIDE.md)
 - [Klinisk adfærdsevidens ved PTSD — studieoversigt](03_EXTINCTION/BEHAVIOURAL_EVIDENCE_TABLE.md)
 - [Schnurr et al. (2022) — PE vs CPT RCT](07_STUDIES/VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md)
+- [Ito et al. (2025) — CPT og funktion i Japan](07_STUDIES/VERIFIED/2025_Ito_CPT_Function_Japan_RCT.md)
 - [Klinisk PTSD: rekonsolidering, præparater og alternative forklaringer](03_EXTINCTION/CLINICAL_PTSD_RECONSOLIDATION.md)
 - [FearPrimes model for eksponering og frygtudslukning](03_EXTINCTION/EXTINCTION_ENGINE.md)
 - [Udslukning, rekonsolidering og tilbagevendende frygt](03_EXTINCTION/EXTINCTION_RECONSOLIDATION_RETURN.md)
