@@ -310,6 +310,23 @@ def data_reference_audit(root: Path):
         except (OSError, UnicodeError, csv.Error) as exc:
             findings.append(Finding("ERROR", "OVERLAP_DATA_PARSE", str(overlap_path.relative_to(root)), f"Could not read overlap register: {exc}"))
 
+    duplicate_registry = data_dir / "duplicate_reference_registry.csv"
+    if duplicate_registry.exists():
+        try:
+            with duplicate_registry.open("r", encoding="utf-8-sig", newline="") as handle:
+                reader = csv.DictReader(handle, strict=True)
+                required = {"identifier", "path_a", "path_b", "review_status"}
+                if not reader.fieldnames or not required <= set(reader.fieldnames):
+                    findings.append(Finding("ERROR", "DUPLICATE_REGISTRY_SCHEMA", str(duplicate_registry.relative_to(root)), "Required duplicate registry columns are missing."))
+                else:
+                    for row in reader:
+                        for field in ("path_a", "path_b"):
+                            card_path = (row.get(field) or "").strip()
+                            if not card_path or not (root / card_path).is_file():
+                                findings.append(Finding("ERROR", "DUPLICATE_REGISTRY_CARD_MISSING", str(duplicate_registry.relative_to(root)), f"Missing card in {field}: {card_path}"))
+        except (OSError, UnicodeError, csv.Error) as exc:
+            findings.append(Finding("ERROR", "DUPLICATE_REGISTRY_PARSE", str(duplicate_registry.relative_to(root)), f"Could not read duplicate registry: {exc}"))
+
     verified_dir = root / "07_STUDIES" / "VERIFIED"
     if verified_dir.exists():
         verified_cards = {
