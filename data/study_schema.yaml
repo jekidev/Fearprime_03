@@ -12,7 +12,7 @@ study:
   registration: null
 
 classification:
-  evidence_type: null   # A clinical, B healthy-human learning, C preclinical, D mechanism/biomarker, E hypothesis
+  evidence_type: null   # A clinical intervention, B healthy-human laboratory learning, C preclinical, D mechanism/biomarker, E hypothesis, F non-clinical human intervention/feasibility
   domain: null
   population: null
   design: null
