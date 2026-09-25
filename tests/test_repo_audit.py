@@ -111,7 +111,8 @@ class RepoAuditTests(unittest.TestCase):
             data.mkdir()
             (data / "studies.csv").write_text(
                 "study_id,evidence_type,mechanism_m,robustness_r,rob_overall,year,randomized_n,analyzed_n\n"
-                "S1,A,M1-M2,R2,SOME,2025,60,\n",
+                "S1,A,M1-M2,R2,SOME,2025,60,\n"
+                "S2,F,NA,R1,NA,2014,,21\n",
                 encoding="utf-8",
             )
             (data / "effects.csv").write_text(
