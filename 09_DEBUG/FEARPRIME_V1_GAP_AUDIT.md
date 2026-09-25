@@ -1,6 +1,6 @@
 # FearPrime v1.0 — Gap Audit
 
-**Version 0.32 · 2026-09-25**
+**Version 0.33 · 2026-09-25**
 
 ## Rolle
 
@@ -35,14 +35,14 @@ Det kræver, at frameworket er:
 | Evidence-type rules | ✅ |
 | R0–R4 robusthed adskilt fra M0–M4 mekanisme | ✅ |
 | Claim-level certainty framework | ✅/🟡 |
-| Study-level RoB på centrale humane claims | 🟡 — foreløbige screens findes for PE/CPT-RCT og Kooistra-forsøget; fuld RoB 2 og bredere kernekorpus mangler |
-| Effect-size/CI på centrale humane claims | 🟡 — PE/CPT-estimater er indkodet; Kooistra-studiets numeriske effekter er markeret som ikke udtrukket; bredere dækning mangler |
-| Participant-overlap audit | 🟡 — Schnurr-forbindelsen er verificeret, og Kooistra (N=60) er registreret som foreløbig separat kohorte; Brunet/Roullet og øvrige mulige overlap mangler kontrol |
+| Study-level RoB på centrale humane claims | 🟡 — foreløbige abstractscreens findes for PE/CPT-RCT, Kooistra- og Ribbens-forsøgene; fuld RoB 2 og bredere kernekorpus mangler |
+| Effect-size/CI på centrale humane claims | 🟡 — PE/CPT-estimater er indkodet; Kooistra- og Ribbens-outcomes er registreret uden opfundne estimater; bredere numerisk udtrækning mangler |
+| Participant-overlap audit | 🟡 — Schnurr, Ribbens og Berceli-aliaset er registreret; Kooistra står som foreløbig separat kohorte; Brunet/Roullet og øvrige mulige overlap mangler kildekontrol |
 | Reproducerbare searches for kerneområder | 🟡 — rekonsolidering har en delvis eksport; adfærd og øvrige kerneområder mangler præcise søgninger, screening og deduplikering |
 | Native PubMed hit counts/export for centrale searches | 🟡 — der mangler komplet direkte eksport fra PubMed for de øvrige kerneområder |
 | Publication-bias vurdering | 🔴/🟡 |
 | Reviewer/screening-status eksplicit | 🟡 — adfærdsevidensoversigten angiver sin afgrænsning; systematisk screening med uafhængige reviewere mangler stadig |
-| Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT- og Kooistra-studier samt Kooistra-status for ikke-udtrukne effekter er registreret; samlet data-paritet er fortsat delvis |
+| Machine-readable study/effect/RoB/certainty data | ✅/🟡 — PE/CPT-, Kooistra- og Ribbens-studier er registreret; ikke-udtrukne effekter er eksplicit markeret; samlet data-paritet er fortsat delvis |
 | Link/integrity QA efter strukturændringer | ✅ — relative links og referencer valideres i streng CI; kendte gentagne DOI-henvisninger er triageret i reference-registret |
 | Dokumenteret release checklist | ✅ |
 
@@ -84,7 +84,7 @@ HIGH kræver:
 ### 5. QA/release
 `tools/fearprime_repo_audit.py` automatiserer nu:
 - interne Markdown-linktargets og versionsmatch,
-- CSV-struktur, kontrollerede evidence-værdier, numeriske effect/CI-felter samt study-ID/effect/RoB- og studiekortsti-referencer,
+- CSV-struktur, kontrollerede evidensværdier, numeriske effekt/CI-felter samt study-ID/effect/RoB-, kohorte- og studiekortsti-referencer,
 - YAML-syntaks via PyYAML,
 - CPR-mønstre som advarsler til manuel kontrol,
 - orphan diagnostics,
@@ -95,7 +95,7 @@ Følgende mangler stadig som pålidelige release-gates:
 - studiekortstier og CSV-krydsreferencer kontrolleres nu som CI-fejl; fuld dataparitet mangler stadig,
 - kendte gentagne kildepar er registreret maskinlæsbart og triageret; bredere kontrol af deltageroverlap mangler stadig,
 - en CPR-formatkontrol giver nu en advarsel til manuel gennemgang; fuld kontrol for persondata mangler stadig,
-- triage af audit-advarsler før release; seed-dækningsadvarslen kræver stadig en afgrænsningsbeslutning, og den nye semantiske audit skal bekræftes i GitHub Actions.
+- triage af audit-advarsler før release; dokumenterede same_original_data-aliaser tælles ikke længere som manglende seed-rækker; resterende seed-dækningsadvarsel kræver afgrænsning, og seneste CI-kørsel skal stadig bekræftes.
 
 ## Ikke blockers for v1.0
 
