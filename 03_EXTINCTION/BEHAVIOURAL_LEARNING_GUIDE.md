@@ -4,7 +4,7 @@
 
 Dette modul lægger et adfærdslag oven på FearPrimes modeller for frygtlæring og forventningsopdatering. Det spørger, hvad personen gør før, under og efter en oplevet trussel, hvilken funktion handlingen har, og hvilke erfaringer handlingen gør mulige.
 
-Det er en forsknings- og refleksionsramme, ikke en selvstændig PTSD-behandling eller eksponeringsprotokol. Traumefokuserede behandlinger har klinisk evidens; dette dokument samler ikke en ny behandling og erstatter ikke etablerede protokoller.
+Det er en forsknings- og refleksionsramme, ikke en selvstændig PTSD-behandling eller eksponeringsprotokol. Se også [den kliniske adfærdsevidensoversigt](BEHAVIOURAL_EVIDENCE_TABLE.md) og studiekortet for [Schnurr et al. (2022)](../07_STUDIES/VERIFIED/2022_Schnurr_PE_CPT_Multisite_RCT.md). Traumefokuserede behandlinger har klinisk evidens; dette dokument samler ikke en ny behandling og erstatter ikke etablerede protokoller.
 
 **Adfærdsmålet er større valgfrihed og funktion.** Succes betyder ikke nødvendigvis fravær af frygt, maksimal eksponering eller at gennemføre alt. Det betyder, at handling i højere grad kan vælges ud fra aktuel sikkerhed, personens mål og den konkrete situation.
 
