@@ -146,9 +146,9 @@ class RepoAuditTests(unittest.TestCase):
             data = root / "data"
             data.mkdir()
             (data / "duplicate_reference_registry.csv").write_text(
-                "identifier,path_a,path_b,review_status\\n"
+                "identifier,path_a,path_b,review_status\n"
                 "DOI:10.1234/example,07_STUDIES/VERIFIED/a.md,"
-                "07_STUDIES/VERIFIED/b.md,verified\\n",
+                "07_STUDIES/VERIFIED/b.md,verified\n",
                 encoding="utf-8",
             )
             findings = duplicate_identifier_audit(root)
