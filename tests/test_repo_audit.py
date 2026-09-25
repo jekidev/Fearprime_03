@@ -4,6 +4,9 @@ from pathlib import Path
 
 from tools.fearprime_repo_audit import (
     csv_audit,
+    data_reference_audit,
+    personal_data_audit,
+    yaml_audit,
     markdown_link_audit,
     version_audit,
 )
@@ -97,6 +100,44 @@ class RepoAuditTests(unittest.TestCase):
                 'a,b\n"first, line\nsecond line",\n', encoding="utf-8"
             )
             self.assertEqual(csv_audit(root), [])
+
+    def test_yaml_syntax_is_checked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            (root / "data" / "valid.yaml").write_text("key: value\\n", encoding="utf-8")
+            self.assertEqual(yaml_audit(root), [])
+            (root / "data" / "invalid.yaml").write_text("key: [unterminated\\n", encoding="utf-8")
+            self.assertTrue(any(f.code == "YAML_PARSE" for f in yaml_audit(root)))
+
+    def test_study_paths_and_cross_file_ids_are_checked(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "data").mkdir()
+            (root / "07_STUDIES" / "VERIFIED").mkdir(parents=True)
+            card = root / "07_STUDIES" / "VERIFIED" / "study.md"
+            card.write_text("# Study\\n", encoding="utf-8")
+            (root / "data" / "studies.csv").write_text(
+                "study_id,study_card_path\\nS1,07_STUDIES/VERIFIED/study.md\\n",
+                encoding="utf-8",
+            )
+            (root / "data" / "effects.csv").write_text(
+                "effect_id,study_id\\nE1,S1\\n", encoding="utf-8"
+            )
+            (root / "data" / "risk_of_bias.csv").write_text(
+                "study_id,overall\\nS1,LOW\\n", encoding="utf-8"
+            )
+            self.assertFalse(any(f.level == "ERROR" for f in data_reference_audit(root)))
+            (root / "data" / "effects.csv").write_text(
+                "effect_id,study_id\\nE1,UNKNOWN\\n", encoding="utf-8"
+            )
+            self.assertTrue(any(f.code == "STUDY_REFERENCE_MISSING" for f in data_reference_audit(root)))
+
+    def test_cpr_pattern_is_flagged_for_manual_review(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "notes.md").write_text("Personnummer: 010190-1234", encoding="utf-8")
+            self.assertTrue(any(f.code == "POSSIBLE_DANISH_CPR" for f in personal_data_audit(root)))
 
     def test_unclosed_quoted_field_is_error(self):
         with tempfile.TemporaryDirectory() as tmp:
