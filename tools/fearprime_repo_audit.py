@@ -213,6 +213,72 @@ def csv_audit(root: Path):
     return findings
 
 
+
+def data_semantic_audit(root: Path):
+    """Validate controlled data vocabularies and numeric fields in core evidence CSVs."""
+    findings: list[Finding] = []
+    data_dir = root / "data"
+
+    def load_rows(filename: str):
+        path = data_dir / filename
+        if not path.exists():
+            return []
+        try:
+            with path.open("r", encoding="utf-8-sig", newline="") as handle:
+                return list(csv.DictReader(handle, strict=True))
+        except (OSError, UnicodeError, csv.Error):
+            # Parse errors are reported by csv_audit; avoid duplicate diagnostics.
+            return []
+
+    def allowed(filename: str, column: str, choices: set[str]):
+        for line, row in enumerate(load_rows(filename), start=2):
+            value = (row.get(column) or "").strip()
+            if value and value not in choices:
+                findings.append(Finding(
+                    "ERROR", "DATA_ENUM_INVALID", f"data/{filename}",
+                    f"Line {line}: {column} has unsupported value {value!r}."
+                ))
+
+    def numeric(filename: str, columns: tuple[str, ...], integer: bool = False):
+        pattern = re.compile(r"^[+-]?\d+$") if integer else re.compile(r"^[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?$")
+        for line, row in enumerate(load_rows(filename), start=2):
+            for column in columns:
+                value = (row.get(column) or "").strip()
+                if value and not pattern.fullmatch(value):
+                    findings.append(Finding(
+                        "ERROR", "DATA_NUMBER_INVALID", f"data/{filename}",
+                        f"Line {line}: {column} must be {'an integer' if integer else 'numeric'} or blank; got {value!r}."
+                    ))
+
+    allowed("studies.csv", "evidence_type", {"A", "B", "C", "D", "E", "review", "theory"})
+    allowed("studies.csv", "mechanism_m", {"NA", *(f"M{i}" for i in range(5)), *(f"M{i}-M{j}" for i in range(5) for j in range(i + 1, 5))})
+    allowed("studies.csv", "robustness_r", {"NA", "review", *(f"R{i}" for i in range(5)), *(f"R{i}-R{j}" for i in range(5) for j in range(i + 1, 5))})
+    allowed("studies.csv", "rob_overall", {"NA", "LOW", "SOME", "HIGH", "UNCLEAR", "LOW-SOME", "SOME-HIGH", "SOME-UNCLEAR"})
+    numeric("studies.csv", ("year", "randomized_n", "analyzed_n"), integer=True)
+
+    allowed("effects.csv", "direction", {"favors_intervention", "favors_control", "null", "not_applicable"})
+    allowed("effects.csv", "adjusted", {"true", "false"})
+    allowed("effects.csv", "calculated_by_fearprime", {"true", "false"})
+    numeric("effects.csv", ("estimate", "ci95_low", "ci95_high"))
+    for line, row in enumerate(load_rows("effects.csv"), start=2):
+        try:
+            low = float((row.get("ci95_low") or "").strip())
+            high = float((row.get("ci95_high") or "").strip())
+        except ValueError:
+            continue
+        if low > high:
+            findings.append(Finding(
+                "ERROR", "DATA_CI_ORDER", "data/effects.csv",
+                f"Line {line}: ci95_low exceeds ci95_high."
+            ))
+
+    certainty_levels = {"HIGH", "MODERATE", "LOW", "VERY_LOW"}
+    domain_levels = {"LOW", "SOME", "HIGH", "UNCLEAR", "SERIOUS", "VERY_SERIOUS"}
+    allowed("certainty.csv", "certainty", certainty_levels)
+    for column in ("risk_of_bias", "inconsistency", "indirectness", "imprecision", "publication_bias"):
+        allowed("certainty.csv", column, domain_levels)
+    return findings
+
 def yaml_audit(root: Path):
     findings: list[Finding] = []
     try:
@@ -445,6 +511,7 @@ def run_audit(root: Path):
     findings.extend(markdown_link_audit(root))
     findings.extend(version_audit(root))
     findings.extend(csv_audit(root))
+    findings.extend(data_semantic_audit(root))
     findings.extend(yaml_audit(root))
     findings.extend(data_reference_audit(root))
     findings.extend(personal_data_audit(root))
