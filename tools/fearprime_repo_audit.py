@@ -332,7 +332,7 @@ def data_reference_audit(root: Path):
 
 def personal_data_audit(root: Path):
     findings: list[Finding] = []
-    cpr_pattern = re.compile(r"(?<!\\d)\\d{6}-\\d{4}(?!\\d)")
+    cpr_pattern = re.compile(r"(?<!\d)\d{6}-\d{4}(?!\d)")
     text_suffixes = {".md", ".csv", ".yaml", ".yml", ".json", ".txt"}
     for path in iter_files(root):
         if path.suffix.lower() not in text_suffixes:
