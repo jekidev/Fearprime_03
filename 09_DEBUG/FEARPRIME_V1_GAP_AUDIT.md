@@ -83,11 +83,12 @@ HIGH kræver:
 
 ### 5. QA/release
 `tools/fearprime_repo_audit.py` automatiserer nu:
-- interne Markdown-linktargets,
-- versionsmatch,
-- CSV-header, læsbarhed og korrekt antal felter pr. række,
+- interne Markdown-linktargets og versionsmatch,
+- CSV-struktur samt study-ID/effect/RoB- og studiekortsti-referencer,
+- YAML-syntaks via PyYAML,
+- CPR-mønstre som advarsler til manuel kontrol,
 - orphan diagnostics,
-- PMID/DOI duplicate diagnostics.
+- triage af dokumenterede gentagne DOI/PMID-par via `data/duplicate_reference_registry.csv`, mens ikke-registrerede dubletter fortsat advares.
 
 Følgende mangler stadig som pålidelige release-gates:
 - YAML syntax validation now runs in CI; semantic validation against formal schemas is still open,
