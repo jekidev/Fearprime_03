@@ -46,6 +46,6 @@ Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hver
 
 ## Evidens og projektstatus
 
-[Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder;(09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) viser det resterende arbejde med bl.a. effektstørrelser, systematiske fejlkilder og søgningernes fuldstændighed.
+[Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder.
 
 **Find rundt:** [Dansk ordbog](DANSK_ORDBOG.md) · [Emnekort](REPO_MAP.md) · [Alle dokumenter](DOKUMENTINDEKS.md) ·
