@@ -37,7 +37,7 @@ Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hver
 | [Modeller](05_MODELS/README.md) | Adaptiv PTSD, CPTSD, ViolEx, forventningsopdatering og arbejdshypoteser |
 | [Måling](06_MEASUREMENT/README.md) | Skabeloner og særskilte mål for symptomer, læring og funktion |
 | [Studier](07_STUDIES/README.md) | Humane studier, dyreforsøg, mekanismer, teori og oversigter |
-| [Ressourcer](08_RESOURCES/README.md) | Bøger, foredrag, podcasts og [musik](08_RESOURCES/MUSIK.md) |
+| [Ressourcer](08_RESOURCES/README.md) | Bøger, foredrag, podcasts og 
 | [Metode og kvalitet](09_DEBUG/README.md) | Søgelogs, fejlkilder, evidenssikkerhed og åbne opgaver |
 
 ## Beregningsmodeller
@@ -46,6 +46,6 @@ Ro under en session, ændret kropslig aktivering, bedre hukommelse og bedre hver
 
 ## Evidens og projektstatus
 
-[Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder; [mangellisten](09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) viser det resterende arbejde med bl.a. effektstørrelser, systematiske fejlkilder og søgningernes fuldstændighed.
+[Evidensreglerne](01_EVIDENCE_RULES.md) adskiller mekanismer, laboratorielæring, klinisk effekt og hypoteser. [Dækningsplanen](09_DEBUG/COVERAGE_PLAN.md) viser de behandlede områder;(09_DEBUG/FEARPRIME_V1_GAP_AUDIT.md) viser det resterende arbejde med bl.a. effektstørrelser, systematiske fejlkilder og søgningernes fuldstændighed.
 
 **Find rundt:** [Dansk ordbog](DANSK_ORDBOG.md) · [Emnekort](REPO_MAP.md) · [Alle dokumenter](DOKUMENTINDEKS.md) ·
